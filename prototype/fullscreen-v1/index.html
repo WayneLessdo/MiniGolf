@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FoldPutt · 三套全屏地图方案</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="review-head"><div><span class="eyebrow">FOLD / PUTT · LAYOUT STUDY</span><h1>让球场成为整个屏幕。</h1><p>三套周边 HUD · 单指拖杆 · 选项独立弹窗</p></div><span class="review-tag">可交互方案预览</span></header>
+<main class="review-layout">
+<aside class="review-controls"><h2>选择布局</h2><div class="variants" role="group" aria-label="布局方案">
+<button data-variant="a" aria-pressed="true"><b>A <span>四角悬浮</span></b><small>标题、成绩与操作分散在四角，球场最开阔。</small></button>
+<button data-variant="b" aria-pressed="false"><b>B <span>双侧轻栏</span></b><small>左下拉杆，右侧工具；中心保持安静。</small></button>
+<button data-variant="c" aria-pressed="false"><b>C <span>边缘一体</span></b><small>上下轻薄边条，中间拉杆；信息更规整。</small></button>
+</div><h2>可用空间</h2><select id="viewport" aria-label="预览容器尺寸"><option value="duoOpen">DUO 展开内屏 · 历史采样 951 × 669</option><option value="portrait">紧凑竖屏 · 375 × 812</option><option value="narrow">更窄容器 · 320 × 640</option><option value="landscape">紧凑横屏 · 812 × 375</option><option value="regular">宽屏 · 1024 × 768</option><option value="reserved">宽屏含保留区 · 1024 × 768</option><option value="asymmetric">非对称安全区 · 528 × 678</option></select>
+<label class="review-switch"><input type="checkbox" id="large">较大文字</label><label class="review-switch"><input type="checkbox" id="reduced">减弱动态效果</label>
+<button id="hold-preview" class="secondary">查看拖杆透明状态</button>
+<div class="review-note"><strong>拖一下拉杆试试。</strong><p>拖动时隐藏周边标签和面板，只留很淡的操作轮廓与瞄准线；松手立即恢复。</p><p>预览使用现有草地素材，不含正式物理。安全区和保留区是评审用输入，不是真机 API 读数。</p></div>
+</aside>
+<section class="review-stage"><div class="stage-caption"><strong id="variant-title">A · 四角悬浮</strong><span id="size-label">375 × 812 · compact</span></div><div class="scale-box"><div class="screen" id="screen" data-variant="a"><div class="turf"></div><svg id="course" aria-hidden="true"></svg><div id="reserved-regions" aria-hidden="true"></div><div class="edge-plate top-plate hud" aria-hidden="true"></div><div class="edge-plate bottom-plate hud" aria-hidden="true"></div>
+<div class="system-status" aria-hidden="true"><b>9:41</b><span>◔ ▰</span></div>
+<div class="brand hud"><span>FOLD / PUTT · <i id="level-id">03</i></span><h2 id="level-name">沙地余韵</h2></div>
+<div class="score hud"><b>1 <small>杆</small></b><span>PAR 4</span><span class="stars" aria-label="当前一星">★ ☆ ☆</span></div>
+<div class="tools hud"><button aria-label="重开"><svg viewBox="0 0 24 24"><path d="M4 7v5h5M4.5 11a8 8 0 1 1 1.8 6M4 7l5 1"/></svg></button><button aria-label="小地图"><svg viewBox="0 0 24 24"><path d="m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2zm6-2v16m6-14v16"/></svg></button></div>
+<button class="options hud" aria-label="球场选项"><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/><circle cx="8" cy="6" r="2"/><circle cx="16" cy="12" r="2"/><circle cx="10" cy="18" r="2"/></svg></button>
+<span class="hint hud">拖动拉杆，松手击球</span>
+<button class="pull hud" aria-label="拖动拉杆预览"><span class="pull-track"></span><span class="pull-knob"></span></button><div class="home-indicator" aria-hidden="true"></div>
+</div></div><p class="stage-note" id="check-result" aria-live="polite">适配检查中</p></section>
+</main>
+<dialog id="options-dialog"><header><h2>球场选项</h2><button aria-label="关闭选项">×</button></header><div class="option-list"><button data-level="01">第 1 关 · 青草练习</button><button data-level="02">第 2 关 · 运河回响</button><button data-level="03">第 3 关 · 沙地余韵 <span>当前</span></button><button data-toggle="sound">音效 <span>已开启</span></button><button data-toggle="haptics">触感 <span>已开启</span></button><button data-close>重播开球</button><button data-close>下一关</button></div></dialog>
+<script type="module" src="preview.mjs"></script></body></html>

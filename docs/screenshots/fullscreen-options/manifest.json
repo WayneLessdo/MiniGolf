@@ -1,0 +1,448 @@
+{
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "variant-a.jpg",
+      "kind": "HTML layout concept screenshot",
+      "simulator": false,
+      "variant": "a",
+      "containerFixture": {
+        "traits": "compact / regular",
+        "width": 375,
+        "height": 812,
+        "insets": {
+          "top": 52,
+          "left": 0,
+          "bottom": 34,
+          "right": 0
+        },
+        "regions": []
+      },
+      "logicalSize": [
+        375,
+        812
+      ],
+      "renderedClip": {
+        "height": 812,
+        "width": 375,
+        "x": 474.5,
+        "y": 215.5
+      },
+      "layoutIssues": [],
+      "ballOverlapsRegion": false,
+      "source": "prototype/fullscreen-v1/",
+      "note": "评审输入，非 Apple 系统 traits/regions 读数；宽图在评审容器中缩放展示",
+      "sha256": "da71a22fc8771fc27f0ada634cf8afe749aafca5da778b12abf35d8a9761de77"
+    },
+    {
+      "file": "variant-a-landscape.jpg",
+      "kind": "HTML layout concept screenshot",
+      "simulator": false,
+      "variant": "a",
+      "containerFixture": {
+        "traits": "compact / compact",
+        "width": 812,
+        "height": 375,
+        "insets": {
+          "top": 0,
+          "left": 44,
+          "bottom": 21,
+          "right": 20
+        },
+        "regions": []
+      },
+      "logicalSize": [
+        812,
+        375
+      ],
+      "renderedClip": {
+        "height": 301.1083984375,
+        "width": 652,
+        "x": 336,
+        "y": 215.5
+      },
+      "layoutIssues": [],
+      "ballOverlapsRegion": false,
+      "source": "prototype/fullscreen-v1/",
+      "note": "评审输入，非 Apple 系统 traits/regions 读数；宽图在评审容器中缩放展示",
+      "sha256": "ffc105103b5033be8cadb67dd97d67e92c66020ff570279ecdb47cd0960274be"
+    },
+    {
+      "file": "variant-a-reserved.jpg",
+      "kind": "HTML layout concept screenshot",
+      "simulator": false,
+      "variant": "a",
+      "containerFixture": {
+        "traits": "regular / regular",
+        "width": 1024,
+        "height": 768,
+        "insets": {
+          "top": 24,
+          "left": 0,
+          "bottom": 24,
+          "right": 0
+        },
+        "regions": [
+          {
+            "x": 496,
+            "y": 0,
+            "width": 32,
+            "height": 768,
+            "kind": "division",
+            "active": true
+          },
+          {
+            "x": 550,
+            "y": 28,
+            "width": 26,
+            "height": 44,
+            "kind": "camera",
+            "active": true
+          }
+        ]
+      },
+      "logicalSize": [
+        1024,
+        768
+      ],
+      "renderedClip": {
+        "height": 489,
+        "width": 652,
+        "x": 336,
+        "y": 215.5
+      },
+      "layoutIssues": [],
+      "ballOverlapsRegion": false,
+      "source": "prototype/fullscreen-v1/",
+      "note": "评审输入，非 Apple 系统 traits/regions 读数；宽图在评审容器中缩放展示",
+      "sha256": "fdd2f04b8281838ddb534f6eaa1522b97aef513de5ac34282c18c3de34ef503d"
+    },
+    {
+      "file": "variant-b.jpg",
+      "kind": "HTML layout concept screenshot",
+      "simulator": false,
+      "variant": "b",
+      "containerFixture": {
+        "traits": "compact / regular",
+        "width": 375,
+        "height": 812,
+        "insets": {
+          "top": 52,
+          "left": 0,
+          "bottom": 34,
+          "right": 0
+        },
+        "regions": []
+      },
+      "logicalSize": [
+        375,
+        812
+      ],
+      "renderedClip": {
+        "height": 812,
+        "width": 375,
+        "x": 474.5,
+        "y": 215.5
+      },
+      "layoutIssues": [],
+      "ballOverlapsRegion": false,
+      "source": "prototype/fullscreen-v1/",
+      "note": "评审输入，非 Apple 系统 traits/regions 读数；宽图在评审容器中缩放展示",
+      "sha256": "d94f01fcadb3ad3b2e0cb3a3c4822321d53b9e925a83804dc9238e978bf89dd1"
+    },
+    {
+      "file": "variant-b-landscape.jpg",
+      "kind": "HTML layout concept screenshot",
+      "simulator": false,
+      "variant": "b",
+      "containerFixture": {
+        "traits": "compact / compact",
+        "width": 812,
+        "height": 375,
+        "insets": {
+          "top": 0,
+          "left": 44,
+          "bottom": 21,
+          "right": 20
+        },
+        "regions": []
+      },
+      "logicalSize": [
+        812,
+        375
+      ],
+      "renderedClip": {
+        "height": 301.1083984375,
+        "width": 652,
+        "x": 336,
+        "y": 215.5
+      },
+      "layoutIssues": [],
+      "ballOverlapsRegion": false,
+      "source": "prototype/fullscreen-v1/",
+      "note": "评审输入，非 Apple 系统 traits/regions 读数；宽图在评审容器中缩放展示",
+      "sha256": "42753f92ef8efead9a826dd604e0aa8e03d83529fd00981d5776703abcc09d9e"
+    },
+    {
+      "file": "variant-b-reserved.jpg",
+      "kind": "HTML layout concept screenshot",
+      "simulator": false,
+      "variant": "b",
+      "containerFixture": {
+        "traits": "regular / regular",
+        "width": 1024,
+        "height": 768,
+        "insets": {
+          "top": 24,
+          "left": 0,
+          "bottom": 24,
+          "right": 0
+        },
+        "regions": [
+          {
+            "x": 496,
+            "y": 0,
+            "width": 32,
+            "height": 768,
+            "kind": "division",
+            "active": true
+          },
+          {
+            "x": 550,
+            "y": 28,
+            "width": 26,
+            "height": 44,
+            "kind": "camera",
+            "active": true
+          }
+        ]
+      },
+      "logicalSize": [
+        1024,
+        768
+      ],
+      "renderedClip": {
+        "height": 489,
+        "width": 652,
+        "x": 336,
+        "y": 215.5
+      },
+      "layoutIssues": [],
+      "ballOverlapsRegion": false,
+      "source": "prototype/fullscreen-v1/",
+      "note": "评审输入，非 Apple 系统 traits/regions 读数；宽图在评审容器中缩放展示",
+      "sha256": "6105f0613221960edd7fee4089943d5c1b9f47d2a8c0260ae4e3ff2e8ec5445c"
+    },
+    {
+      "file": "variant-c.jpg",
+      "kind": "HTML layout concept screenshot",
+      "simulator": false,
+      "variant": "c",
+      "containerFixture": {
+        "traits": "compact / regular",
+        "width": 375,
+        "height": 812,
+        "insets": {
+          "top": 52,
+          "left": 0,
+          "bottom": 34,
+          "right": 0
+        },
+        "regions": []
+      },
+      "logicalSize": [
+        375,
+        812
+      ],
+      "renderedClip": {
+        "height": 812,
+        "width": 375,
+        "x": 474.5,
+        "y": 215.5
+      },
+      "layoutIssues": [],
+      "ballOverlapsRegion": false,
+      "source": "prototype/fullscreen-v1/",
+      "note": "评审输入，非 Apple 系统 traits/regions 读数；宽图在评审容器中缩放展示",
+      "sha256": "ead07856d8821e922ed97e4b020e05ba33bbaee41b1080a06b0fb64cddd361d3"
+    },
+    {
+      "file": "variant-c-landscape.jpg",
+      "kind": "HTML layout concept screenshot",
+      "simulator": false,
+      "variant": "c",
+      "containerFixture": {
+        "traits": "compact / compact",
+        "width": 812,
+        "height": 375,
+        "insets": {
+          "top": 0,
+          "left": 44,
+          "bottom": 21,
+          "right": 20
+        },
+        "regions": []
+      },
+      "logicalSize": [
+        812,
+        375
+      ],
+      "renderedClip": {
+        "height": 301.1083679199219,
+        "width": 652,
+        "x": 336,
+        "y": 215.5
+      },
+      "layoutIssues": [],
+      "ballOverlapsRegion": false,
+      "source": "prototype/fullscreen-v1/",
+      "note": "评审输入，非 Apple 系统 traits/regions 读数；宽图在评审容器中缩放展示",
+      "sha256": "9d7d01fd0ac9179c0578077a5400bbc126361bad24a57eacaa7f119bf88ef01f"
+    },
+    {
+      "file": "variant-c-reserved.jpg",
+      "kind": "HTML layout concept screenshot",
+      "simulator": false,
+      "variant": "c",
+      "containerFixture": {
+        "traits": "regular / regular",
+        "width": 1024,
+        "height": 768,
+        "insets": {
+          "top": 24,
+          "left": 0,
+          "bottom": 24,
+          "right": 0
+        },
+        "regions": [
+          {
+            "x": 496,
+            "y": 0,
+            "width": 32,
+            "height": 768,
+            "kind": "division",
+            "active": true
+          },
+          {
+            "x": 550,
+            "y": 28,
+            "width": 26,
+            "height": 44,
+            "kind": "camera",
+            "active": true
+          }
+        ]
+      },
+      "logicalSize": [
+        1024,
+        768
+      ],
+      "renderedClip": {
+        "height": 489,
+        "width": 652,
+        "x": 336,
+        "y": 215.5
+      },
+      "layoutIssues": [],
+      "ballOverlapsRegion": false,
+      "source": "prototype/fullscreen-v1/",
+      "note": "评审输入，非 Apple 系统 traits/regions 读数；宽图在评审容器中缩放展示",
+      "sha256": "6e0a6c1576f830fa0276fc513fe624a1410f7cc5c357fb5937f27fbfdba17e46"
+    },
+    {
+      "file": "variant-a-aiming.jpg",
+      "kind": "HTML layout concept screenshot",
+      "simulator": false,
+      "variant": "a",
+      "containerFixture": {
+        "traits": "compact / regular",
+        "width": 375,
+        "height": 812,
+        "insets": {
+          "top": 52,
+          "left": 0,
+          "bottom": 34,
+          "right": 0
+        },
+        "regions": []
+      },
+      "state": "评审按钮显示拖杆中的静态外观；HUD 0 / 操作轮廓 0.14",
+      "sha256": "4327e8e6c2cf3136bf77983b5f94d7d9912f3200175046ec61e7dbbe0d5253f7"
+    },
+    {
+      "file": "variant-b-aiming.jpg",
+      "kind": "HTML layout concept screenshot",
+      "simulator": false,
+      "variant": "b",
+      "containerFixture": {
+        "traits": "compact / regular",
+        "width": 375,
+        "height": 812,
+        "insets": {
+          "top": 52,
+          "left": 0,
+          "bottom": 34,
+          "right": 0
+        },
+        "regions": []
+      },
+      "state": "评审按钮显示拖杆中的静态外观；HUD 0 / 操作轮廓 0.14",
+      "sha256": "c62d89caca3d77f98afd9cf6fc5fc72b62252076ba9951cf3565d1a60e664976"
+    },
+    {
+      "file": "variant-c-aiming.jpg",
+      "kind": "HTML layout concept screenshot",
+      "simulator": false,
+      "variant": "c",
+      "containerFixture": {
+        "traits": "compact / regular",
+        "width": 375,
+        "height": 812,
+        "insets": {
+          "top": 52,
+          "left": 0,
+          "bottom": 34,
+          "right": 0
+        },
+        "regions": []
+      },
+      "state": "评审按钮显示拖杆中的静态外观；HUD 0 / 操作轮廓 0.14",
+      "sha256": "0b532a2ac63aef9b01c92ef203e7750ef97bedb5789b1e13507c6633595f8656"
+    },
+    {
+      "file": "options-popup.png",
+      "kind": "actual UIKit Simulator screenshot",
+      "simulator": true,
+      "device": "iPhone 16 Pro",
+      "system": "iOS 18.5",
+      "sdk": "iOS Simulator 27.1",
+      "xcode": "27.1 (27A9269)",
+      "fixture": false,
+      "test": "FPPrototypeUITests/testOptionsScrollOutsideDismissAndHapticsToggle",
+      "resultBundle": "work/fullscreen-options/PopupFinal.xcresult",
+      "layoutProof": "options-popup.txt",
+      "layout": "immersive=false;across=false;pullAlpha=1.0;level=01;phase=ready;strokes=0;launch=none;restored=0;sound=true;haptics=true;courseVisible=true;controlsVisible=true;bounds={{0, 0}, {402, 874}};traits=1,2;safeArea=62.0,0.0,34.0,0.0;division=[];occlusion=[];reduceMotion=false",
+      "sha256": "5b4f6705f7c08ff96d9552102caa21930eed756072db4bb5c9a5060ba3b793f1"
+    },
+    {
+      "file": "options-closed-pull-visible.png",
+      "kind": "actual UIKit Simulator screenshot",
+      "simulator": true,
+      "device": "iPhone 16 Pro",
+      "system": "iOS 18.5",
+      "sdk": "iOS Simulator 27.1",
+      "xcode": "27.1 (27A9269)",
+      "fixture": false,
+      "test": "FPPrototypeUITests/testOptionsScrollOutsideDismissAndHapticsToggle",
+      "resultBundle": "work/fullscreen-options/PopupFinal.xcresult",
+      "layoutProof": "options-closed-pull-visible.txt",
+      "layout": "immersive=false;across=false;pullAlpha=1.0;level=02;phase=ready;strokes=0;launch=none;restored=0;sound=true;haptics=true;courseVisible=true;controlsVisible=true;bounds={{0, 0}, {402, 874}};traits=1,2;safeArea=62.0,0.0,34.0,0.0;division=[];occlusion=[];reduceMotion=false",
+      "sha256": "b0f4888a83bce3eb7b8b16149a23eef91ff9e3e623f0209c39dffb14dbc85ba8"
+    }
+  ],
+  "limits": [
+    "12 JPEG 为方案预览，2 PNG 为实际 UIKit 模拟器运行截图。",
+    "没有真实 DUO 保留区、开合或分屏验证；没有实体设备安装。",
+    "全屏/HUD 显隐仅在评审预览中，正式实施待选择。"
+  ]
+}

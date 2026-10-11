@@ -1,0 +1,278 @@
+{
+  "date": "2026-10-09",
+  "selection": {
+    "nonDUO": "B",
+    "DUO": "three separate candidates, unselected"
+  },
+  "images": [
+    {
+      "file": "duo-1.jpg",
+      "title": "DUO 1 · 跨屏沉浸",
+      "kind": "responsive HTML design preview",
+      "actualSimulatorScreenshot": false,
+      "geometrySource": {
+        "traits": "regular / regular",
+        "width": 951.0,
+        "height": 669.0,
+        "insets": {
+          "right": 84,
+          "top": 0,
+          "left": 0,
+          "bottom": 34
+        },
+        "regions": [
+          {
+            "x": 455.5,
+            "y": 0.0,
+            "width": 40.0,
+            "height": 669.0,
+            "kind": "division",
+            "active": false
+          },
+          {
+            "x": 867.0,
+            "y": 0.0,
+            "width": 84.0,
+            "height": 120.0,
+            "kind": "camera",
+            "active": true
+          }
+        ],
+        "source": "docs/screenshots/duo-immersive/duo-open-tee-off.json",
+        "sampleDate": "2026-09-30",
+        "note": "历史 iPhone Duo 模拟器采样；B 已确定用于非 DUO，DUO 三个新布局为设计预览"
+      },
+      "state": "松手/闲置外观",
+      "logicalSize": [
+        951,
+        669
+      ],
+      "sha256": "4a782f4f6d585c288bfb1ea5734d488be01a100498c6997b74a69e83c2865c30"
+    },
+    {
+      "file": "duo-1-aiming.jpg",
+      "title": "DUO 1 · 跨屏沉浸",
+      "kind": "responsive HTML design preview",
+      "actualSimulatorScreenshot": false,
+      "geometrySource": {
+        "traits": "regular / regular",
+        "width": 951.0,
+        "height": 669.0,
+        "insets": {
+          "right": 84,
+          "top": 0,
+          "left": 0,
+          "bottom": 34
+        },
+        "regions": [
+          {
+            "x": 455.5,
+            "y": 0.0,
+            "width": 40.0,
+            "height": 669.0,
+            "kind": "division",
+            "active": false
+          },
+          {
+            "x": 867.0,
+            "y": 0.0,
+            "width": 84.0,
+            "height": 120.0,
+            "kind": "camera",
+            "active": true
+          }
+        ],
+        "source": "docs/screenshots/duo-immersive/duo-open-tee-off.json",
+        "sampleDate": "2026-09-30",
+        "note": "历史 iPhone Duo 模拟器采样；B 已确定用于非 DUO，DUO 三个新布局为设计预览"
+      },
+      "state": "拖杆状态外观评审",
+      "logicalSize": [
+        951,
+        669
+      ],
+      "sha256": "5c30fca682bc8b8ffc48c4b2820bd4faf52c4e9e07bedc48286dadb54762fd80"
+    },
+    {
+      "file": "duo-2.jpg",
+      "title": "DUO 2 · 两翼环抱",
+      "kind": "responsive HTML design preview",
+      "actualSimulatorScreenshot": false,
+      "geometrySource": {
+        "traits": "regular / regular",
+        "width": 951.0,
+        "height": 669.0,
+        "insets": {
+          "right": 84,
+          "top": 0,
+          "left": 0,
+          "bottom": 34
+        },
+        "regions": [
+          {
+            "x": 455.5,
+            "y": 0.0,
+            "width": 40.0,
+            "height": 669.0,
+            "kind": "division",
+            "active": false
+          },
+          {
+            "x": 867.0,
+            "y": 0.0,
+            "width": 84.0,
+            "height": 120.0,
+            "kind": "camera",
+            "active": true
+          }
+        ],
+        "source": "docs/screenshots/duo-immersive/duo-open-tee-off.json",
+        "sampleDate": "2026-09-30",
+        "note": "历史 iPhone Duo 模拟器采样；B 已确定用于非 DUO，DUO 三个新布局为设计预览"
+      },
+      "state": "松手/闲置外观",
+      "logicalSize": [
+        951,
+        669
+      ],
+      "sha256": "b6f5a4df5550e168dbc86d8dcebb011436190857dcdac46b284d7badf9d18514"
+    },
+    {
+      "file": "duo-2-aiming.jpg",
+      "title": "DUO 2 · 两翼环抱",
+      "kind": "responsive HTML design preview",
+      "actualSimulatorScreenshot": false,
+      "geometrySource": {
+        "traits": "regular / regular",
+        "width": 951.0,
+        "height": 669.0,
+        "insets": {
+          "right": 84,
+          "top": 0,
+          "left": 0,
+          "bottom": 34
+        },
+        "regions": [
+          {
+            "x": 455.5,
+            "y": 0.0,
+            "width": 40.0,
+            "height": 669.0,
+            "kind": "division",
+            "active": false
+          },
+          {
+            "x": 867.0,
+            "y": 0.0,
+            "width": 84.0,
+            "height": 120.0,
+            "kind": "camera",
+            "active": true
+          }
+        ],
+        "source": "docs/screenshots/duo-immersive/duo-open-tee-off.json",
+        "sampleDate": "2026-09-30",
+        "note": "历史 iPhone Duo 模拟器采样；B 已确定用于非 DUO，DUO 三个新布局为设计预览"
+      },
+      "state": "拖杆状态外观评审",
+      "logicalSize": [
+        951,
+        669
+      ],
+      "sha256": "28c3cfc7c49e132b775983cf71020787fa3016b0c59b5c2a60f58d2b9a3cfb00"
+    },
+    {
+      "file": "duo-3.jpg",
+      "title": "DUO 3 · 边缘收纳",
+      "kind": "responsive HTML design preview",
+      "actualSimulatorScreenshot": false,
+      "geometrySource": {
+        "traits": "regular / regular",
+        "width": 951.0,
+        "height": 669.0,
+        "insets": {
+          "right": 84,
+          "top": 0,
+          "left": 0,
+          "bottom": 34
+        },
+        "regions": [
+          {
+            "x": 455.5,
+            "y": 0.0,
+            "width": 40.0,
+            "height": 669.0,
+            "kind": "division",
+            "active": false
+          },
+          {
+            "x": 867.0,
+            "y": 0.0,
+            "width": 84.0,
+            "height": 120.0,
+            "kind": "camera",
+            "active": true
+          }
+        ],
+        "source": "docs/screenshots/duo-immersive/duo-open-tee-off.json",
+        "sampleDate": "2026-09-30",
+        "note": "历史 iPhone Duo 模拟器采样；B 已确定用于非 DUO，DUO 三个新布局为设计预览"
+      },
+      "state": "松手/闲置外观",
+      "logicalSize": [
+        951,
+        669
+      ],
+      "sha256": "100d0eee12fb975da9e264bec6a67b7e62038ae9f1e35d79192578c96c28e3b3"
+    },
+    {
+      "file": "duo-3-aiming.jpg",
+      "title": "DUO 3 · 边缘收纳",
+      "kind": "responsive HTML design preview",
+      "actualSimulatorScreenshot": false,
+      "geometrySource": {
+        "traits": "regular / regular",
+        "width": 951.0,
+        "height": 669.0,
+        "insets": {
+          "right": 84,
+          "top": 0,
+          "left": 0,
+          "bottom": 34
+        },
+        "regions": [
+          {
+            "x": 455.5,
+            "y": 0.0,
+            "width": 40.0,
+            "height": 669.0,
+            "kind": "division",
+            "active": false
+          },
+          {
+            "x": 867.0,
+            "y": 0.0,
+            "width": 84.0,
+            "height": 120.0,
+            "kind": "camera",
+            "active": true
+          }
+        ],
+        "source": "docs/screenshots/duo-immersive/duo-open-tee-off.json",
+        "sampleDate": "2026-09-30",
+        "note": "历史 iPhone Duo 模拟器采样；B 已确定用于非 DUO，DUO 三个新布局为设计预览"
+      },
+      "state": "拖杆状态外观评审",
+      "logicalSize": [
+        951,
+        669
+      ],
+      "sha256": "2b96d3d1306a92b24456d017ecab9ef2ea59f82410b864527dcaf39042501bdc"
+    }
+  ],
+  "limits": [
+    "方案图，不是本轮新设备运行截图。",
+    "几何输入来自历史 DUO 模拟器交付记录；正式实现须动态查询系统。",
+    "本轮未改正式游戏或测试实体设备。"
+  ]
+}
