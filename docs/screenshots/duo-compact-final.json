@@ -1,0 +1,31 @@
+{
+  "verticalSizeClass" : 1,
+  "scale" : 3,
+  "phase" : "ready",
+  "horizontalSizeClass" : 1,
+  "courseExclusions" : [
+    "{{611.66666666666663, 399.66666666666669}, {37, 37}}",
+    "{{594, 384}, {84, 82}}"
+  ],
+  "strokes" : 0,
+  "courseFrame" : "{{0, 0}, {678, 466}}",
+  "division" : [
+
+  ],
+  "occlusion" : [
+    "{{611.66666666666663, 399.66666666666669}, {37, 37}}",
+    "{{594, 384}, {84, 82}}"
+  ],
+  "bounds" : "{{0, 0}, {678, 466}}",
+  "insets" : {
+    "left" : 0,
+    "top" : 0,
+    "bottom" : 34,
+    "right" : 84
+  },
+  "activeDivision" : [
+
+  ],
+  "handheldSwitch" : false,
+  "mode" : "compact"
+}

@@ -1,0 +1,74 @@
+{
+  "strokes": 0,
+  "stars": 0,
+  "variant": "easy-v1-A",
+  "fixture": true,
+  "boostSeconds": 0,
+  "velocity": [
+    0,
+    0
+  ],
+  "phase": "ready",
+  "collisions": 0,
+  "boostCounts": {},
+  "level": "01",
+  "events": [
+    {
+      "stroke": "0",
+      "time": "0.000",
+      "event": "tee-off",
+      "level": "01"
+    }
+  ],
+  "canal": "{{0.12, 1.27}, {0.64000000000000001, 0.089999999999999997}}",
+  "scenario": "tee-off",
+  "event": "tee-off",
+  "layout": {
+    "worldVelocity": [
+      0,
+      0
+    ],
+    "occlusion": [
+      "{{535, 0}, {134, 82}}"
+    ],
+    "reservedBanks": [],
+    "mode": "handheld",
+    "horizontalSizeClass": 2,
+    "scale": 3,
+    "courseExclusions": [
+      "{{0, 455.5}, {669, 40}}",
+      "{{535, 0}, {134, 82}}"
+    ],
+    "field": "{{241.10714285714283, 170}, {186.78571428571431, 261.5}}",
+    "controlsVisible": true,
+    "sceneSessionID": "D6CAFCD6-B571-469F-BDEB-4FAB27387667",
+    "ballUnderFold": false,
+    "pullAlpha": 1,
+    "bounds": "{{0, 0}, {669, 951}}",
+    "controlsFrame": "{{0, 503.5}, {669, 413.5}}",
+    "strokes": 0,
+    "phase": "ready",
+    "verticalSizeClass": 2,
+    "courseVisible": true,
+    "insets": {
+      "bottom": 34,
+      "left": 0,
+      "top": 82,
+      "right": 0
+    },
+    "courseFrame": "{{0, 0}, {669, 455.5}}",
+    "across": false,
+    "buttonRegionViolations": [],
+    "ballWorld": "{0.5, 1.1200000000000001}",
+    "division": [
+      "{{0, 455.5}, {669, 40}}"
+    ],
+    "restorationCount": 0,
+    "handheldSwitch": false,
+    "elapsed": 0.7916666666666663,
+    "activeDivision": [
+      "{{0, 455.5}, {669, 40}}"
+    ]
+  },
+  "captureMethod": "Actual Simulator UIWindow rendering; explicit initial-condition fixture"
+}

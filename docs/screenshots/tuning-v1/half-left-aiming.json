@@ -1,0 +1,81 @@
+{
+  "stars": 0,
+  "phase": "charging",
+  "scenario": "aiming",
+  "event": "aiming",
+  "boostCounts": {},
+  "canal": "{{0.88, 0.46000000000000002}, {0.089999999999999997, 0.62}}",
+  "events": [
+    {
+      "stroke": "0",
+      "level": "01",
+      "time": "0.000",
+      "event": "tee-off"
+    }
+  ],
+  "strokes": 0,
+  "boostSeconds": 0,
+  "level": "01",
+  "collisions": 0,
+  "fixture": true,
+  "variant": "easy-v1-A",
+  "velocity": [
+    0,
+    0
+  ],
+  "layout": {
+    "activeDivision": [
+      "{{380.26666666666665, 0}, {18, 605}}"
+    ],
+    "arrangement": "single-pane-handheld-fallback",
+    "ball": "{0.5, 1.1200000000000001}",
+    "boostCounts": {},
+    "boostSeconds": 0,
+    "bounds": "{{0, 0}, {475.33333333333331, 605}}",
+    "buttonRegionViolations": [],
+    "collisionImplemented": true,
+    "collisionReservation": "{{0.88, 0.46000000000000002}, {0.089999999999999997, 0.62}}",
+    "collisions": 0,
+    "container": "UIArrangementViewController",
+    "controlsFrame": "{{7, 322.57999999999993}, {384.33333333333331, 265.42000000000007}}",
+    "courseFrame": "{{0, 0}, {475.33333333333331, 322.57999999999998}}",
+    "division": [
+      "{{380.26666666666665, 0}, {18, 605}}"
+    ],
+    "elapsed": 0.8749999999999993,
+    "event": "tee-off",
+    "events": [
+      {
+        "event": "tee-off",
+        "level": "01",
+        "stroke": "0",
+        "time": "0.000"
+      }
+    ],
+    "handheldSwitch": false,
+    "horizontalSizeClass": 2,
+    "insets": {
+      "bottom": 17,
+      "left": 7,
+      "right": 84,
+      "top": 11
+    },
+    "level": "01",
+    "mode": "regular-overlay",
+    "occlusion": [
+      "{{417.33333333333331, 0}, {40, 64}}"
+    ],
+    "penalty": false,
+    "phase": "charging",
+    "primary": "FPPlayLayoutController",
+    "regionSource": "synthetic-debug-fixture",
+    "scale": 3,
+    "secondary": "none",
+    "stars": 0,
+    "strokes": 0,
+    "variant": "easy-v1-A",
+    "verticalSizeClass": 2,
+    "windowFrame": "{{0, 0}, {475.33333333333331, 605}}"
+  },
+  "captureMethod": "Actual Simulator UIWindow rendering; explicit initial-condition fixture"
+}

@@ -1,0 +1,94 @@
+{
+  "velocity": [
+    0,
+    0
+  ],
+  "stars": 3,
+  "event": "hole-success",
+  "collisions": 0,
+  "level": "01",
+  "boostSeconds": 0,
+  "strokes": 1,
+  "boostCounts": {},
+  "phase": "success",
+  "fixture": true,
+  "scenario": "hole-success",
+  "events": [
+    {
+      "time": "0.000",
+      "event": "tee-off",
+      "level": "01",
+      "stroke": "0"
+    },
+    {
+      "stroke": "1",
+      "event": "shot",
+      "time": "0.042",
+      "level": "01"
+    },
+    {
+      "event": "hole-capture",
+      "stroke": "1",
+      "time": "0.275",
+      "level": "01"
+    },
+    {
+      "stroke": "1",
+      "time": "0.275",
+      "event": "hole-success",
+      "level": "01"
+    }
+  ],
+  "canal": "{{0.040000000000000001, 0.46000000000000002}, {0.055, 0.62}}",
+  "variant": "easy-v1-A",
+  "layout": {
+    "sceneSessionID": "D6CAFCD6-B571-469F-BDEB-4FAB27387667",
+    "pullAlpha": 0.25,
+    "worldVelocity": [
+      0,
+      0
+    ],
+    "phase": "success",
+    "division": [
+      "{{455.5, 0}, {40, 669}}"
+    ],
+    "verticalSizeClass": 2,
+    "courseFrame": "{{0, 0}, {951, 669}}",
+    "handheldSwitch": false,
+    "courseExclusions": [
+      "{{455.5, 0}, {40, 669}}",
+      "{{867, 0}, {84, 120}}"
+    ],
+    "bounds": "{{0, 0}, {951, 669}}",
+    "activeDivision": [],
+    "occlusion": [
+      "{{867, 0}, {84, 120}}"
+    ],
+    "mode": "immersive",
+    "controlsVisible": true,
+    "ballUnderFold": false,
+    "controlsFrame": "{{69.75, 365}, {320, 270}}",
+    "scale": 3,
+    "restorationCount": 0,
+    "ballWorld": "{0.5, 0.25}",
+    "buttonRegionViolations": [],
+    "strokes": 1,
+    "insets": {
+      "right": 84,
+      "top": 0,
+      "left": 0,
+      "bottom": 34
+    },
+    "reservedBanks": [
+      "{{0, 0.66899224806201552}, {0.34000000000000002, 0.062015503875968991}}",
+      "{{0.66000000000000003, 0.66899224806201552}, {0.33999999999999997, 0.062015503875968991}}",
+      "{{0, 0}, {0.16744186046511628, 0.093023255813953432}}"
+    ],
+    "elapsed": 0.275,
+    "field": "{{24.000000000000057, 12}, {902.99999999999989, 645}}",
+    "across": true,
+    "courseVisible": true,
+    "horizontalSizeClass": 2
+  },
+  "captureMethod": "Actual Simulator UIWindow rendering; explicit initial-condition fixture"
+}

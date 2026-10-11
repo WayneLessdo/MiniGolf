@@ -1,0 +1,104 @@
+{
+  "collisions": 0,
+  "velocity": [
+    0,
+    0
+  ],
+  "canal": "{{0.12, 1.27}, {0.64000000000000001, 0.089999999999999997}}",
+  "phase": "resetting",
+  "level": "03",
+  "strokes": 1,
+  "scenario": "out-of-bounds",
+  "fixture": true,
+  "stars": 0,
+  "events": [
+    {
+      "time": "0.000",
+      "event": "tee-off",
+      "stroke": "0",
+      "level": "03"
+    },
+    {
+      "event": "shot",
+      "time": "0.775",
+      "stroke": "1",
+      "level": "03"
+    },
+    {
+      "time": "0.867",
+      "level": "03",
+      "event": "out-of-bounds",
+      "stroke": "1"
+    }
+  ],
+  "event": "out-of-bounds",
+  "pose": "folded",
+  "layout": {
+    "activeDivision": [
+      "{{0, 455.5}, {669, 40}}"
+    ],
+    "ball": "{0.5, 1.1499999999999999}",
+    "bounds": "{{0, 0}, {669, 951}}",
+    "buttonRegionViolations": [],
+    "collisionImplemented": true,
+    "collisionReservation": "{{0.12, 1.27}, {0.64000000000000001, 0.089999999999999997}}",
+    "collisions": 0,
+    "container": "UIArrangementViewController",
+    "controlsFrame": "{{0, 495.66666666666663}, {669, 455.33333333333337}}",
+    "courseFrame": "{{0, 0}, {669, 455.66666666666663}}",
+    "division": [
+      "{{0, 455.5}, {669, 40}}"
+    ],
+    "elapsed": 0.866666666666666,
+    "event": "out-of-bounds",
+    "events": [
+      {
+        "event": "tee-off",
+        "level": "03",
+        "stroke": "0",
+        "time": "0.000"
+      },
+      {
+        "event": "shot",
+        "level": "03",
+        "stroke": "1",
+        "time": "0.775"
+      },
+      {
+        "event": "out-of-bounds",
+        "level": "03",
+        "stroke": "1",
+        "time": "0.867"
+      }
+    ],
+    "handheldSwitch": false,
+    "horizontalSizeClass": 2,
+    "insets": {
+      "bottom": 34,
+      "left": 0,
+      "right": 0,
+      "top": 82
+    },
+    "lastLaunch": {
+      "angleRadians": 0,
+      "id": "71516ACD-EE45-44CF-84B7-85F4406D2667",
+      "power": 0.6,
+      "vx": 0.9299999999999999,
+      "vy": 0
+    },
+    "level": "03",
+    "mode": "regular-arrangement",
+    "occlusion": [
+      "{{535, 0}, {134, 82}}"
+    ],
+    "penalty": false,
+    "phase": "resetting",
+    "primary": "FPCourseController",
+    "scale": 3,
+    "secondary": "FPControlsController",
+    "stars": 0,
+    "strokes": 1,
+    "verticalSizeClass": 2
+  },
+  "captureMethod": "Simulator UIWindow drawHierarchy; real physics; labeled Debug initial conditions"
+}

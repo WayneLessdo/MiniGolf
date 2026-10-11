@@ -1,0 +1,50 @@
+{
+  "friction": 0.42,
+  "sandFriction": 1.05,
+  "restitution": 0.78,
+  "maxSpeed": 1.55,
+  "captureRadius": 0.065,
+  "captureSpeed": 0.52,
+  "timeLimit": 120,
+  "collisionLimit": 12,
+  "canal": {
+    "x": 0.025,
+    "y": 0.1,
+    "width": 0.03,
+    "height": 0.24
+  },
+  "penaltyObstacle": {
+    "x": 0.82,
+    "y": 0.53,
+    "width": 0.12,
+    "height": 0.05
+  },
+  "id": "P03",
+  "name": "穿过窄门",
+  "presentation": "puzzle",
+  "start": {
+    "x": 0.5,
+    "y": 1.16
+  },
+  "hole": {
+    "x": 0.5,
+    "y": 0.25
+  },
+  "par": 3,
+  "obstacles": [
+    {
+      "x": 0.09,
+      "y": 0.7,
+      "width": 0.29,
+      "height": 0.06
+    },
+    {
+      "x": 0.62,
+      "y": 0.7,
+      "width": 0.29,
+      "height": 0.06
+    }
+  ],
+  "hazards": [],
+  "sand": []
+}

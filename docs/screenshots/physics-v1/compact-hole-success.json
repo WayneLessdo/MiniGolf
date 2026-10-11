@@ -1,0 +1,113 @@
+{
+  "canal": "{{0.040000000000000001, 0.46000000000000002}, {0.055, 0.62}}",
+  "collisions": 0,
+  "event": "hole-success",
+  "level": "01",
+  "velocity": [
+    0,
+    0
+  ],
+  "scenario": "hole-success",
+  "events": [
+    {
+      "event": "tee-off",
+      "time": "0.000",
+      "stroke": "0",
+      "level": "01"
+    },
+    {
+      "stroke": "1",
+      "event": "shot",
+      "time": "0.758",
+      "level": "01"
+    },
+    {
+      "stroke": "1",
+      "level": "01",
+      "time": "0.950",
+      "event": "hole-capture"
+    },
+    {
+      "level": "01",
+      "event": "hole-success",
+      "time": "0.950",
+      "stroke": "1"
+    }
+  ],
+  "stars": 3,
+  "fixture": true,
+  "phase": "success",
+  "strokes": 1,
+  "pose": "compact",
+  "layout": {
+    "activeDivision": [],
+    "ball": "{0.5, 0.25}",
+    "bounds": "{{0, 0}, {466, 678}}",
+    "buttonRegionViolations": [],
+    "collisionImplemented": true,
+    "collisionReservation": "{{0.040000000000000001, 0.46000000000000002}, {0.055, 0.62}}",
+    "collisions": 0,
+    "container": "UIArrangementViewController",
+    "controlsFrame": "{{12, 364}, {358, 280}}",
+    "courseFrame": "{{0, 0}, {466, 678}}",
+    "division": [],
+    "elapsed": 0.9499999999999991,
+    "event": "hole-success",
+    "events": [
+      {
+        "event": "tee-off",
+        "level": "01",
+        "stroke": "0",
+        "time": "0.000"
+      },
+      {
+        "event": "shot",
+        "level": "01",
+        "stroke": "1",
+        "time": "0.758"
+      },
+      {
+        "event": "hole-capture",
+        "level": "01",
+        "stroke": "1",
+        "time": "0.950"
+      },
+      {
+        "event": "hole-success",
+        "level": "01",
+        "stroke": "1",
+        "time": "0.950"
+      }
+    ],
+    "handheldSwitch": false,
+    "horizontalSizeClass": 1,
+    "insets": {
+      "bottom": 34,
+      "left": 0,
+      "right": 84,
+      "top": 0
+    },
+    "lastLaunch": {
+      "angleRadians": 1.5707963267948966,
+      "id": "0CB1E7A3-C131-42B6-8A0B-D6D04C6B5F1B",
+      "power": 0.28,
+      "vx": 0,
+      "vy": 0.43400000000000005
+    },
+    "level": "01",
+    "mode": "compact",
+    "occlusion": [
+      "{{399.66666666666669, 29.333333333333332}, {37, 37}}",
+      "{{382, 0}, {84, 170}}"
+    ],
+    "penalty": false,
+    "phase": "success",
+    "primary": "FPPlayLayoutController",
+    "scale": 3,
+    "secondary": "none",
+    "stars": 3,
+    "strokes": 1,
+    "verticalSizeClass": 2
+  },
+  "captureMethod": "Simulator UIWindow drawHierarchy; real physics; labeled Debug initial conditions"
+}

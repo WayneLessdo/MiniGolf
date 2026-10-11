@@ -1,0 +1,16 @@
+{
+  "file": "universal-scene-restored.png",
+  "device": "iPhone 16 Pro simulator",
+  "os": "18.5",
+  "fixture": false,
+  "test": "FPPrototypeUITests/testSceneRelaunchPreservesShotAndVisibleCourse()",
+  "attachment": {
+    "configurationName": "Test Scheme Action",
+    "deviceId": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+    "deviceName": "iPhone 16 Pro",
+    "exportedFileName": "D60194CE-B4EF-4796-AC2F-939FD8E3319E.png",
+    "isAssociatedWithFailure": false,
+    "suggestedHumanReadableName": "scene-relaunch-same-shot_0_AC8CD988-21DC-4DCE-ACE7-E4AE305D8403.png",
+    "timestamp": 1790736876.37
+  }
+}

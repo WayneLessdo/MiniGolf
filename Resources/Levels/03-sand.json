@@ -1,0 +1,58 @@
+{
+  "friction": 0.42,
+  "sandFriction": 1.05,
+  "restitution": 0.78,
+  "maxSpeed": 1.55,
+  "captureRadius": 0.065,
+  "captureSpeed": 0.52,
+  "timeLimit": 60,
+  "collisionLimit": 5,
+  "canal": {
+    "x": 0.04,
+    "y": 0.46,
+    "width": 0.055,
+    "height": 0.62
+  },
+  "penaltyObstacle": {
+    "x": 0.16,
+    "y": 0.32,
+    "width": 0.2,
+    "height": 0.06
+  },
+  "id": "03",
+  "name": "沙地余韵",
+  "presentation": "folded",
+  "start": {
+    "x": 0.5,
+    "y": 1.15
+  },
+  "hole": {
+    "x": 0.5,
+    "y": 0.23
+  },
+  "par": 4,
+  "obstacles": [
+    {
+      "x": 0.72,
+      "y": 0.5,
+      "width": 0.18,
+      "height": 0.07
+    }
+  ],
+  "hazards": [
+    {
+      "x": 0.88,
+      "y": 0.85,
+      "width": 0.12,
+      "height": 0.28
+    }
+  ],
+  "sand": [
+    {
+      "x": 0.36,
+      "y": 0.74,
+      "width": 0.28,
+      "height": 0.15
+    }
+  ]
+}

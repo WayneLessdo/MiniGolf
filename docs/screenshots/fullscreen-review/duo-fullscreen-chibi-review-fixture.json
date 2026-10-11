@@ -1,0 +1,28 @@
+{
+  "collisions" : 0,
+  "level" : "03",
+  "variant" : "easy-v1-A",
+  "velocity" : [
+    0,
+    0
+  ],
+  "scenario" : "tee-off",
+  "canal" : "{{0.040000000000000001, 0.46000000000000002}, {0.055, 0.62}}",
+  "events" : [
+    {
+      "event" : "tee-off",
+      "time" : "0.000",
+      "level" : "03",
+      "stroke" : "0"
+    }
+  ],
+  "fixture" : true,
+  "boostCounts" : {
+
+  },
+  "boostSeconds" : 0,
+  "stars" : 0,
+  "event" : "tee-off",
+  "phase" : "ready",
+  "strokes" : 0
+}

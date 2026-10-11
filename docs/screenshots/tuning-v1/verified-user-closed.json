@@ -1,0 +1,142 @@
+{
+  "fixture": false,
+  "layout": {
+    "activeDivision": [],
+    "arrangement": "single-pane-overlay",
+    "ball": "{0.5, 0.25}",
+    "boostCounts": {
+      "triggers": 1
+    },
+    "boostSeconds": 0,
+    "bounds": "{{0, 0}, {466, 678}}",
+    "buttonRegionViolations": [],
+    "collisionImplemented": true,
+    "collisionReservation": "{{0.88, 0.46000000000000002}, {0.083259911894273134, 0.62}}",
+    "collisions": 1,
+    "container": "UIArrangementViewController",
+    "controlsFrame": "{{12, 364}, {358, 280}}",
+    "courseFrame": "{{0, 0}, {466, 678}}",
+    "division": [],
+    "elapsed": 390.7999999998089,
+    "event": "hole-success",
+    "events": [
+      {
+        "event": "tee-off",
+        "level": "01",
+        "stroke": "0",
+        "time": "0.000"
+      },
+      {
+        "event": "shot",
+        "level": "01",
+        "stroke": "1",
+        "time": "0.525"
+      },
+      {
+        "event": "hole-capture",
+        "level": "01",
+        "stroke": "1",
+        "time": "0.758"
+      },
+      {
+        "event": "hole-success",
+        "level": "01",
+        "stroke": "1",
+        "time": "0.758"
+      },
+      {
+        "event": "tee-off",
+        "level": "01",
+        "stroke": "0",
+        "time": "0.000"
+      },
+      {
+        "event": "boost-granted",
+        "level": "01",
+        "stroke": "0",
+        "time": "0.000"
+      },
+      {
+        "event": "tee-off",
+        "level": "01",
+        "stroke": "0",
+        "time": "0.000"
+      },
+      {
+        "event": "shot",
+        "level": "01",
+        "stroke": "1",
+        "time": "0.100"
+      },
+      {
+        "event": "stopped",
+        "level": "01",
+        "stroke": "1",
+        "time": "5.375"
+      },
+      {
+        "event": "penalty",
+        "level": "01",
+        "stroke": "1",
+        "time": "60.008"
+      },
+      {
+        "event": "shot",
+        "level": "01",
+        "stroke": "2",
+        "time": "388.525"
+      },
+      {
+        "event": "collision",
+        "level": "01",
+        "stroke": "2",
+        "time": "389.600"
+      },
+      {
+        "event": "hole-capture",
+        "level": "01",
+        "stroke": "2",
+        "time": "390.800"
+      },
+      {
+        "event": "hole-success",
+        "level": "01",
+        "stroke": "2",
+        "time": "390.800"
+      }
+    ],
+    "fallbackContainer": "FPPlayLayoutController",
+    "handheldSwitch": false,
+    "horizontalSizeClass": 1,
+    "insets": {
+      "bottom": 34,
+      "left": 0,
+      "right": 84,
+      "top": 0
+    },
+    "lastLaunch": {
+      "angleRadians": 2.265534602991598,
+      "id": "80E5E40C-1434-4590-8A7E-8C22A02DA5B4",
+      "power": 0.1727047777998231,
+      "vx": -0.17137250196719875,
+      "vy": 0.2056470023606392
+    },
+    "level": "01",
+    "mode": "compact",
+    "occlusion": [
+      "{{399.66666666666669, 29.333333333333332}, {37, 37}}",
+      "{{382, 0}, {84, 170}}"
+    ],
+    "penalty": true,
+    "phase": "success",
+    "primary": "FPPlayLayoutController",
+    "regionSource": "system",
+    "scale": 3,
+    "secondary": "none",
+    "stars": 3,
+    "strokes": 2,
+    "variant": "easy-v1-A",
+    "verticalSizeClass": 2,
+    "windowFrame": "{{0, 0}, {466, 678}}"
+  }
+}

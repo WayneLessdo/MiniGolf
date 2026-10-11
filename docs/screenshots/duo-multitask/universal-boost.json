@@ -1,0 +1,16 @@
+{
+  "file": "universal-boost.png",
+  "device": "iPhone 16 Pro simulator",
+  "os": "18.5",
+  "fixture": false,
+  "test": "FPPrototypeUITests/testTuningWinBoostPenaltyFlow()",
+  "attachment": {
+    "configurationName": "Test Scheme Action",
+    "deviceId": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+    "deviceName": "iPhone 16 Pro",
+    "exportedFileName": "B96339BE-B336-42C0-AB4D-90B6CB279DDC.png",
+    "isAssociatedWithFailure": false,
+    "suggestedHumanReadableName": "boost-earned-retry_0_A014E33D-3D0A-424C-A40F-28C9B46563F9.png",
+    "timestamp": 1790736887.656
+  }
+}

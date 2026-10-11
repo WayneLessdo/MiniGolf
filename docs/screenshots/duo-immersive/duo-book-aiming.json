@@ -1,0 +1,78 @@
+{
+  "level": "01",
+  "stars": 0,
+  "event": "aiming",
+  "events": [
+    {
+      "event": "tee-off",
+      "stroke": "0",
+      "level": "01",
+      "time": "0.000"
+    }
+  ],
+  "fixture": true,
+  "boostCounts": {},
+  "scenario": "aiming",
+  "phase": "charging",
+  "velocity": [
+    0,
+    0
+  ],
+  "collisions": 0,
+  "strokes": 0,
+  "boostSeconds": 0,
+  "variant": "easy-v1-A",
+  "canal": "{{0.040000000000000001, 0.46000000000000002}, {0.055, 0.62}}",
+  "layout": {
+    "controlsFrame": "{{69.75, 365}, {320, 270}}",
+    "insets": {
+      "left": 0,
+      "bottom": 34,
+      "top": 0,
+      "right": 84
+    },
+    "courseVisible": true,
+    "mode": "immersive",
+    "verticalSizeClass": 2,
+    "ballWorld": "{0.5, 1.1200000000000001}",
+    "reservedBanks": [
+      "{{0, 0.66899224806201552}, {0.34000000000000002, 0.062015503875968991}}",
+      "{{0.66000000000000003, 0.66899224806201552}, {0.33999999999999997, 0.062015503875968991}}",
+      "{{0, 0}, {0.16744186046511628, 0.093023255813953432}}"
+    ],
+    "sceneSessionID": "D6CAFCD6-B571-469F-BDEB-4FAB27387667",
+    "occlusion": [
+      "{{867, 0}, {84, 120}}"
+    ],
+    "phase": "charging",
+    "ballUnderFold": false,
+    "courseExclusions": [
+      "{{455.5, 0}, {40, 669}}",
+      "{{867, 0}, {84, 120}}"
+    ],
+    "elapsed": 0.09999999999999999,
+    "pullAlpha": 1,
+    "field": "{{24.000000000000057, 12}, {902.99999999999989, 645}}",
+    "worldVelocity": [
+      0,
+      0
+    ],
+    "across": true,
+    "handheldSwitch": false,
+    "division": [
+      "{{455.5, 0}, {40, 669}}"
+    ],
+    "bounds": "{{0, 0}, {951, 669}}",
+    "activeDivision": [
+      "{{455.5, 0}, {40, 669}}"
+    ],
+    "buttonRegionViolations": [],
+    "restorationCount": 0,
+    "scale": 3,
+    "controlsVisible": true,
+    "strokes": 0,
+    "horizontalSizeClass": 2,
+    "courseFrame": "{{0, 0}, {951, 669}}"
+  },
+  "captureMethod": "Actual Simulator UIWindow rendering; explicit initial-condition fixture"
+}

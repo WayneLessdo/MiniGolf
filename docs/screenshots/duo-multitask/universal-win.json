@@ -1,0 +1,16 @@
+{
+  "file": "universal-win.png",
+  "device": "iPhone 16 Pro simulator",
+  "os": "18.5",
+  "fixture": false,
+  "test": "FPPrototypeUITests/testFirstHoleWithRealPull()",
+  "attachment": {
+    "configurationName": "Test Scheme Action",
+    "deviceId": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+    "deviceName": "iPhone 16 Pro",
+    "exportedFileName": "7C6BC0BE-8BC6-4DE7-A0D1-331070005513.png",
+    "isAssociatedWithFailure": false,
+    "suggestedHumanReadableName": "normal-play-first-hole_0_0FC4C9DF-15E4-4091-B975-7D3E51620666.png",
+    "timestamp": 1790736840.69
+  }
+}

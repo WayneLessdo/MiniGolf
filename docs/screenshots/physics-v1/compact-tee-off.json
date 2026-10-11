@@ -1,0 +1,70 @@
+{
+  "strokes": 0,
+  "event": "tee-off",
+  "level": "01",
+  "events": [
+    {
+      "event": "tee-off",
+      "level": "01",
+      "stroke": "0",
+      "time": "0.000"
+    }
+  ],
+  "collisions": 0,
+  "fixture": true,
+  "canal": "{{0.040000000000000001, 0.46000000000000002}, {0.055, 0.62}}",
+  "velocity": [
+    0,
+    0
+  ],
+  "scenario": "tee-off",
+  "phase": "ready",
+  "stars": 0,
+  "pose": "compact",
+  "layout": {
+    "activeDivision": [],
+    "ball": "{0.5, 1.1200000000000001}",
+    "bounds": "{{0, 0}, {466, 678}}",
+    "buttonRegionViolations": [],
+    "collisionImplemented": true,
+    "collisionReservation": "{{0.040000000000000001, 0.46000000000000002}, {0.055, 0.62}}",
+    "collisions": 0,
+    "container": "UIArrangementViewController",
+    "controlsFrame": "{{12, 364}, {358, 280}}",
+    "courseFrame": "{{0, 0}, {466, 678}}",
+    "division": [],
+    "elapsed": 0.8916666666666659,
+    "event": "tee-off",
+    "events": [
+      {
+        "event": "tee-off",
+        "level": "01",
+        "stroke": "0",
+        "time": "0.000"
+      }
+    ],
+    "handheldSwitch": false,
+    "horizontalSizeClass": 1,
+    "insets": {
+      "bottom": 34,
+      "left": 0,
+      "right": 84,
+      "top": 0
+    },
+    "level": "01",
+    "mode": "compact",
+    "occlusion": [
+      "{{399.66666666666669, 29.333333333333332}, {37, 37}}",
+      "{{382, 0}, {84, 170}}"
+    ],
+    "penalty": false,
+    "phase": "ready",
+    "primary": "FPPlayLayoutController",
+    "scale": 3,
+    "secondary": "none",
+    "stars": 0,
+    "strokes": 0,
+    "verticalSizeClass": 2
+  },
+  "captureMethod": "Simulator UIWindow drawHierarchy; real physics; labeled Debug initial conditions"
+}

@@ -1,0 +1,57 @@
+{
+  "friction": 0.42,
+  "sandFriction": 1.05,
+  "restitution": 0.78,
+  "maxSpeed": 1.55,
+  "captureRadius": 0.065,
+  "captureSpeed": 0.52,
+  "timeLimit": 120,
+  "collisionLimit": 12,
+  "canal": {
+    "x": 0.025,
+    "y": 0.1,
+    "width": 0.03,
+    "height": 0.24
+  },
+  "penaltyObstacle": {
+    "x": 0.82,
+    "y": 0.53,
+    "width": 0.12,
+    "height": 0.05
+  },
+  "id": "P05",
+  "name": "回廊两侧",
+  "presentation": "puzzle",
+  "start": {
+    "x": 0.2,
+    "y": 1.18
+  },
+  "hole": {
+    "x": 0.78,
+    "y": 0.22
+  },
+  "par": 4,
+  "obstacles": [
+    {
+      "x": 0.37,
+      "y": 0.66,
+      "width": 0.06,
+      "height": 0.44
+    },
+    {
+      "x": 0.57,
+      "y": 0.27,
+      "width": 0.06,
+      "height": 0.43
+    }
+  ],
+  "hazards": [
+    {
+      "x": 0.72,
+      "y": 0.88,
+      "width": 0.14,
+      "height": 0.18
+    }
+  ],
+  "sand": []
+}

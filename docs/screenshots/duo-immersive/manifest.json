@@ -1,0 +1,83 @@
+[
+  {
+    "file": "duo-book-aiming.png",
+    "proof": "duo-book-aiming.json",
+    "fixture": true,
+    "device": "iPhone Duo simulator / iOS 27.1",
+    "mode": "immersive",
+    "pullAlpha": 1,
+    "crossing": false
+  },
+  {
+    "file": "duo-fullscreen-live.png",
+    "proof": "duo-fullscreen-live.json",
+    "fixture": false,
+    "device": "iPhone Duo simulator / iOS 27.1",
+    "mode": "immersive",
+    "pullAlpha": 0.25,
+    "crossing": false
+  },
+  {
+    "file": "duo-open-aiming.png",
+    "proof": "duo-open-aiming.json",
+    "fixture": true,
+    "device": "iPhone Duo simulator / iOS 27.1",
+    "mode": "immersive",
+    "pullAlpha": 1,
+    "crossing": false
+  },
+  {
+    "file": "duo-open-tee-off.png",
+    "proof": "duo-open-tee-off.json",
+    "fixture": true,
+    "device": "iPhone Duo simulator / iOS 27.1",
+    "mode": "immersive",
+    "pullAlpha": 0.25,
+    "crossing": false
+  },
+  {
+    "file": "duo-portrait-final-aiming.png",
+    "proof": "duo-portrait-final-aiming.json",
+    "fixture": true,
+    "device": "iPhone Duo simulator / iOS 27.1",
+    "mode": "immersive",
+    "pullAlpha": 1,
+    "crossing": false
+  },
+  {
+    "file": "duo-seam-collision.png",
+    "proof": "duo-seam-collision.json",
+    "fixture": true,
+    "device": "iPhone Duo simulator / iOS 27.1",
+    "mode": "immersive",
+    "pullAlpha": 0.25,
+    "crossing": false
+  },
+  {
+    "file": "duo-seam-crossing.png",
+    "proof": "duo-seam-crossing.json",
+    "fixture": true,
+    "device": "iPhone Duo simulator / iOS 27.1",
+    "mode": "immersive",
+    "pullAlpha": 0.25,
+    "crossing": true
+  },
+  {
+    "file": "duo-table-tee-off.png",
+    "proof": "duo-table-tee-off.json",
+    "fixture": true,
+    "device": "iPhone Duo simulator / iOS 27.1",
+    "mode": "handheld",
+    "pullAlpha": 1,
+    "crossing": false
+  },
+  {
+    "file": "duo-win-final-hole-success.png",
+    "proof": "duo-win-final-hole-success.json",
+    "fixture": true,
+    "device": "iPhone Duo simulator / iOS 27.1",
+    "mode": "immersive",
+    "pullAlpha": 0.25,
+    "crossing": false
+  }
+]

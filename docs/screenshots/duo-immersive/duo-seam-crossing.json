@@ -1,0 +1,82 @@
+{
+  "canal": "{{0.040000000000000001, 0.46000000000000002}, {0.055, 0.62}}",
+  "fixture": true,
+  "strokes": 1,
+  "collisions": 0,
+  "boostCounts": {},
+  "events": [
+    {
+      "level": "01",
+      "time": "0.000",
+      "event": "tee-off",
+      "stroke": "0"
+    },
+    {
+      "event": "shot",
+      "level": "01",
+      "stroke": "1",
+      "time": "0.525"
+    }
+  ],
+  "phase": "rolling",
+  "scenario": "seam-crossing",
+  "event": "seam-crossing",
+  "level": "01",
+  "stars": 0,
+  "variant": "easy-v1-A",
+  "velocity": [
+    0,
+    -0.6756486613181282
+  ],
+  "boostSeconds": 0,
+  "layout": {
+    "sceneSessionID": "D6CAFCD6-B571-469F-BDEB-4FAB27387667",
+    "courseVisible": true,
+    "controlsFrame": "{{69.75, 365}, {320, 270}}",
+    "across": true,
+    "insets": {
+      "bottom": 34,
+      "left": 0,
+      "top": 0,
+      "right": 84
+    },
+    "courseExclusions": [
+      "{{455.5, 0}, {40, 669}}",
+      "{{867, 0}, {84, 120}}"
+    ],
+    "field": "{{24.000000000000057, 12}, {902.99999999999989, 645}}",
+    "courseFrame": "{{0, 0}, {951, 669}}",
+    "ballUnderFold": true,
+    "occlusion": [
+      "{{867, 0}, {84, 120}}"
+    ],
+    "controlsVisible": true,
+    "buttonRegionViolations": [],
+    "bounds": "{{0, 0}, {951, 669}}",
+    "phase": "rolling",
+    "pullAlpha": 0.25,
+    "worldVelocity": [
+      0,
+      -0.7120678552281093
+    ],
+    "strokes": 1,
+    "ballWorld": "{0.5, 0.71438617017148842}",
+    "activeDivision": [],
+    "horizontalSizeClass": 2,
+    "restorationCount": 0,
+    "verticalSizeClass": 2,
+    "mode": "immersive",
+    "handheldSwitch": false,
+    "reservedBanks": [
+      "{{0, 0.66899224806201552}, {0.34000000000000002, 0.062015503875968991}}",
+      "{{0.66000000000000003, 0.66899224806201552}, {0.33999999999999997, 0.062015503875968991}}",
+      "{{0, 0}, {0.16744186046511628, 0.093023255813953432}}"
+    ],
+    "division": [
+      "{{455.5, 0}, {40, 669}}"
+    ],
+    "scale": 3,
+    "elapsed": 0.7249999999999999
+  },
+  "captureMethod": "Actual Simulator UIWindow rendering; explicit initial-condition fixture"
+}

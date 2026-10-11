@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0C010000000000000000001 /* FPGamePresentation in Sources */ = {isa = PBXBuildFile; fileRef = F0C010000000000000000011; };
+		F0C010000000000000000002 /* FPModeSelectionController in Sources */ = {isa = PBXBuildFile; fileRef = F0C010000000000000000012; };
+		F0C010000000000000000003 /* FPChibiArt in Sources */ = {isa = PBXBuildFile; fileRef = F0C010000000000000000013; };
+		02D82F740A79321B9C7848A0 /* Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DABAE7B9269B285D97D343 /* Resources/Assets.xcassets */; };
+		06F199D80D88CDC278A3ABBC /* Tests/FPPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DFD2FD5D3308457E0861C0 /* Tests/FPPrototypeTests.swift */; };
+		185272EACEDFF87A7D94FAC4 /* Resources/Levels/02-canal.json in Resources */ = {isa = PBXBuildFile; fileRef = B4AE30D0E612108D5FFC2F08 /* Resources/Levels/02-canal.json */; };
+		249773E177F14D8E5049D765 /* Models/FPTuning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2253B33893C2550A3A2F8 /* Models/FPTuning.swift */; };
+		2A203551C29A50B6BA011F4B /* Views/FPPullControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6272CFD2A56E91DD83F9422C /* Views/FPPullControl.swift */; };
+		2F9F93B0EED44084BCA2F6DD /* Systems/Input/FPPullMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BBAC8FA92F9D21B1CE8506 /* Systems/Input/FPPullMath.swift */; };
+		372C2B5D327247BE41E8D347 /* Models/FPDemoSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D0E4CE07AF7D401ED16F57 /* Models/FPDemoSession.swift */; };
+		6C22A55275DC3A4F809A781F /* Systems/Physics/FPPhysicsPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6E96DA358D84AA8C0FD12 /* Systems/Physics/FPPhysicsPort.swift */; };
+		6FD57CD2A8FE81A60DA31EB2 /* App/AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769D5E90C932D0E09039BE4C /* App/AppDelegate.swift */; };
+		702D8CE50BB30A96D1A68361 /* Tests/FPTuningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBED78D2E732F703C2F1E2 /* Tests/FPTuningTests.swift */; };
+		78CE73FD2D546532DFCAF502 /* Views/FPControlsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAED7F4FEC031B4E198E99E3 /* Views/FPControlsController.swift */; };
+		8D19102AF5A6D5F27C1F7EC7 /* App/SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF3E52DE8553E94315880B /* App/SceneDelegate.swift */; };
+		8DD9179FEFB4FF3B9AADED4E /* Views/FPArrangementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98337423B836464903903ED1 /* Views/FPArrangementController.swift */; };
+		9210B4C3EEBDB2F799FBDC43 /* Resources/tuning.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C7410FF9339057A752616B6 /* Resources/tuning.json */; };
+		9DC29A9C143B0D41D6E67B76 /* UITests/FPPrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8907B974BB1C97AE9D25D6BF /* UITests/FPPrototypeUITests.swift */; };
+		A1A4423CA09A00E6AA780406 /* Resources/Levels/01-meadow.json in Resources */ = {isa = PBXBuildFile; fileRef = AD3EEAC21FB1D5C86DDE8D30 /* Resources/Levels/01-meadow.json */; };
+		A676B105CD63D34AF7EBBA52 /* Resources/Levels/03-sand.json in Resources */ = {isa = PBXBuildFile; fileRef = 77E42BD45014D43A3085923D /* Resources/Levels/03-sand.json */; };
+		A86F30A93938D75D6C69F690 /* Views/FPAdaptiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0083DE8578962D6DD37C904 /* Views/FPAdaptiveController.swift */; };
+		AEDB91961D6FA2034E3147AB /* Tests/FPPhysicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962F3A2BFE4E2DD9FD81CED3 /* Tests/FPPhysicsTests.swift */; };
+		D49B061DBAC27033FD0CCC53 /* Systems/Physics/FPPhysicsWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24163AB13C3DB815EBA28B67 /* Systems/Physics/FPPhysicsWorld.swift */; };
+		DC076E85C5D88DD0667887F1 /* Views/FPCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D3C87AC965C02AA772905B /* Views/FPCourseView.swift */; };
+		ED834F4F92E352DED5733CB3 /* Systems/FoldAdaptation/FPRegions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C76A35BDAE05968FB2EC79 /* Systems/FoldAdaptation/FPRegions.swift */; };
+		F046FB8CC47BE9122DD1973D /* Resources/Motion/FPTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B915D33675AE604410A237D8 /* Resources/Motion/FPTheme.swift */; };
+		F348314D9BDEBB682E9C5551 /* Models/FPLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259DFA43F125170145B4F21 /* Models/FPLevel.swift */; };
+		46723290A6AEA36558F46AC1 /* Systems/Rewards/FPSound.swift */ = {isa = PBXBuildFile; fileRef = 60E8023DF635CB57CDD78E0D; };
+		53B4A37E8FA498D3D99D20F2 /* Resources/Sounds/putt.wav */ = {isa = PBXBuildFile; fileRef = C67F016340CD1393270E6ECC; };
+		54AC3A60D1A87F500E5A36DE /* Resources/Sounds/hole.wav */ = {isa = PBXBuildFile; fileRef = 73F76FB12B2C6C6E48ABD14B; };
+		22460324F9D42DC3875952A8 /* Models/FPClubProgress.swift */ = {isa = PBXBuildFile; fileRef = D8210E8AA51B2C88654018F1; };
+		CF7B67FC6D46D989743A3143 /* Views/FPClubController.swift */ = {isa = PBXBuildFile; fileRef = 86F6B7354DFF4C5B284606DC; };
+		4994364944D4825873901D5E /* Resources/Levels/puzzle-01.json */ = {isa = PBXBuildFile; fileRef = 1A7692F5969114E6FFF6FC3D; };
+		B1C0AD60FB5996FDAA56F97A /* Resources/Levels/puzzle-02.json */ = {isa = PBXBuildFile; fileRef = 8535BE62379A1787ABE2A86E; };
+		668680901CBBC048CC7E90DF /* Resources/Levels/puzzle-03.json */ = {isa = PBXBuildFile; fileRef = 688E8CC1F23802D394974E43; };
+		4A543358CED5C247668DC1E9 /* Resources/Levels/puzzle-04.json */ = {isa = PBXBuildFile; fileRef = 206039CEA7AA2EBFCFFE82F3; };
+		7F151A160D49D3A0C8DB1254 /* Resources/Levels/puzzle-05.json */ = {isa = PBXBuildFile; fileRef = 0BCD4C184AEC76056B647ECE; };
+		732E4DBD9EAFD334A1014CC2 /* Resources/Levels/puzzle-06.json */ = {isa = PBXBuildFile; fileRef = A73AD3C2C112EC17985D7C1B; };
+		42D43F9DD4BBD7CFB17A9409 /* Tests/FPClubTests.swift */ = {isa = PBXBuildFile; fileRef = 0A5598ADB014052951DC4710; };
+		FF01C439594B02C52E2506FD /* UITests/FPClubUITests.swift */ = {isa = PBXBuildFile; fileRef = E5D2C5DB6803F41501BE0F77; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59FB3363CB61654129C02F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D1043473D55BFA90E8530D3;
+			remoteInfo = FoldPutt;
+		};
+		D68D9F4FDF18FEA3ABEACD2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D1043473D55BFA90E8530D3;
+			remoteInfo = FoldPutt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0C010000000000000000011 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/FPGamePresentation.swift; sourceTree = "<group>"; };
+		F0C010000000000000000012 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/FPModeSelectionController.swift; sourceTree = "<group>"; };
+		F0C010000000000000000013 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/FPChibiArt.swift; sourceTree = "<group>"; };
+		14D3C87AC965C02AA772905B /* Views/FPCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/FPCourseView.swift; sourceTree = "<group>"; };
+		24163AB13C3DB815EBA28B67 /* Systems/Physics/FPPhysicsWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Systems/Physics/FPPhysicsWorld.swift; sourceTree = "<group>"; };
+		24C2253B33893C2550A3A2F8 /* Models/FPTuning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/FPTuning.swift; sourceTree = "<group>"; };
+		2AADEEF9B9FB90ADFE511EFD /* FoldPuttTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = FoldPuttTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBF3E52DE8553E94315880B /* App/SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/SceneDelegate.swift; sourceTree = "<group>"; };
+		41DABAE7B9269B285D97D343 /* Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		47D0E4CE07AF7D401ED16F57 /* Models/FPDemoSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/FPDemoSession.swift; sourceTree = "<group>"; };
+		6259DFA43F125170145B4F21 /* Models/FPLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/FPLevel.swift; sourceTree = "<group>"; };
+		6272CFD2A56E91DD83F9422C /* Views/FPPullControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/FPPullControl.swift; sourceTree = "<group>"; };
+		6C7410FF9339057A752616B6 /* Resources/tuning.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Resources/tuning.json; sourceTree = "<group>"; };
+		769D5E90C932D0E09039BE4C /* App/AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppDelegate.swift; sourceTree = "<group>"; };
+		77E42BD45014D43A3085923D /* Resources/Levels/03-sand.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/03-sand.json"; sourceTree = "<group>"; };
+		7DC6E96DA358D84AA8C0FD12 /* Systems/Physics/FPPhysicsPort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Systems/Physics/FPPhysicsPort.swift; sourceTree = "<group>"; };
+		8907B974BB1C97AE9D25D6BF /* UITests/FPPrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests/FPPrototypeUITests.swift; sourceTree = "<group>"; };
+		8BCD5BC4CDFDF0918087C782 /* FoldPutt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = FoldPutt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		962F3A2BFE4E2DD9FD81CED3 /* Tests/FPPhysicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/FPPhysicsTests.swift; sourceTree = "<group>"; };
+		98337423B836464903903ED1 /* Views/FPArrangementController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/FPArrangementController.swift; sourceTree = "<group>"; };
+		AD3EEAC21FB1D5C86DDE8D30 /* Resources/Levels/01-meadow.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/01-meadow.json"; sourceTree = "<group>"; };
+		B0083DE8578962D6DD37C904 /* Views/FPAdaptiveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/FPAdaptiveController.swift; sourceTree = "<group>"; };
+		B1C76A35BDAE05968FB2EC79 /* Systems/FoldAdaptation/FPRegions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Systems/FoldAdaptation/FPRegions.swift; sourceTree = "<group>"; };
+		B4AE30D0E612108D5FFC2F08 /* Resources/Levels/02-canal.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/02-canal.json"; sourceTree = "<group>"; };
+		B915D33675AE604410A237D8 /* Resources/Motion/FPTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources/Motion/FPTheme.swift; sourceTree = "<group>"; };
+		BDBBED78D2E732F703C2F1E2 /* Tests/FPTuningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/FPTuningTests.swift; sourceTree = "<group>"; };
+		C39BF4DC748076F3EE90A399 /* FoldPuttUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = FoldPuttUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAED7F4FEC031B4E198E99E3 /* Views/FPControlsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/FPControlsController.swift; sourceTree = "<group>"; };
+		E6DFD2FD5D3308457E0861C0 /* Tests/FPPrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/FPPrototypeTests.swift; sourceTree = "<group>"; };
+		E9BBAC8FA92F9D21B1CE8506 /* Systems/Input/FPPullMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Systems/Input/FPPullMath.swift; sourceTree = "<group>"; };
+		60E8023DF635CB57CDD78E0D /* Systems/Rewards/FPSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Systems/Rewards/FPSound.swift; sourceTree = "<group>"; };
+		C67F016340CD1393270E6ECC /* Resources/Sounds/putt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Resources/Sounds/putt.wav; sourceTree = "<group>"; };
+		73F76FB12B2C6C6E48ABD14B /* Resources/Sounds/hole.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Resources/Sounds/hole.wav; sourceTree = "<group>"; };
+		D8210E8AA51B2C88654018F1 /* Models/FPClubProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/FPClubProgress.swift"; sourceTree = "<group>"; };
+		86F6B7354DFF4C5B284606DC /* Views/FPClubController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/FPClubController.swift"; sourceTree = "<group>"; };
+		1A7692F5969114E6FFF6FC3D /* Resources/Levels/puzzle-01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/puzzle-01.json"; sourceTree = "<group>"; };
+		8535BE62379A1787ABE2A86E /* Resources/Levels/puzzle-02.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/puzzle-02.json"; sourceTree = "<group>"; };
+		688E8CC1F23802D394974E43 /* Resources/Levels/puzzle-03.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/puzzle-03.json"; sourceTree = "<group>"; };
+		206039CEA7AA2EBFCFFE82F3 /* Resources/Levels/puzzle-04.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/puzzle-04.json"; sourceTree = "<group>"; };
+		0BCD4C184AEC76056B647ECE /* Resources/Levels/puzzle-05.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/puzzle-05.json"; sourceTree = "<group>"; };
+		A73AD3C2C112EC17985D7C1B /* Resources/Levels/puzzle-06.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/puzzle-06.json"; sourceTree = "<group>"; };
+		0A5598ADB014052951DC4710 /* Tests/FPClubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tests/FPClubTests.swift"; sourceTree = "<group>"; };
+		E5D2C5DB6803F41501BE0F77 /* UITests/FPClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITests/FPClubUITests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E50290A24C49A459B43487C5 = {
+			isa = PBXGroup;
+			children = (
+				E5D2C5DB6803F41501BE0F77,
+				0A5598ADB014052951DC4710,
+				A73AD3C2C112EC17985D7C1B,
+				0BCD4C184AEC76056B647ECE,
+				206039CEA7AA2EBFCFFE82F3,
+				688E8CC1F23802D394974E43,
+				8535BE62379A1787ABE2A86E,
+				1A7692F5969114E6FFF6FC3D,
+				86F6B7354DFF4C5B284606DC,
+				D8210E8AA51B2C88654018F1,
+				F0C010000000000000000011,
+				F0C010000000000000000012,
+				F0C010000000000000000013,
+				73F76FB12B2C6C6E48ABD14B /* Resources/Sounds/hole.wav */,
+				C67F016340CD1393270E6ECC /* Resources/Sounds/putt.wav */,
+				60E8023DF635CB57CDD78E0D /* Systems/Rewards/FPSound.swift */,
+				769D5E90C932D0E09039BE4C /* App/AppDelegate.swift */,
+				3BBF3E52DE8553E94315880B /* App/SceneDelegate.swift */,
+				47D0E4CE07AF7D401ED16F57 /* Models/FPDemoSession.swift */,
+				B0083DE8578962D6DD37C904 /* Views/FPAdaptiveController.swift */,
+				DAED7F4FEC031B4E198E99E3 /* Views/FPControlsController.swift */,
+				14D3C87AC965C02AA772905B /* Views/FPCourseView.swift */,
+				6272CFD2A56E91DD83F9422C /* Views/FPPullControl.swift */,
+				B1C76A35BDAE05968FB2EC79 /* Systems/FoldAdaptation/FPRegions.swift */,
+				E9BBAC8FA92F9D21B1CE8506 /* Systems/Input/FPPullMath.swift */,
+				B915D33675AE604410A237D8 /* Resources/Motion/FPTheme.swift */,
+				41DABAE7B9269B285D97D343 /* Resources/Assets.xcassets */,
+				E6DFD2FD5D3308457E0861C0 /* Tests/FPPrototypeTests.swift */,
+				8907B974BB1C97AE9D25D6BF /* UITests/FPPrototypeUITests.swift */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+				98337423B836464903903ED1 /* Views/FPArrangementController.swift */,
+				7DC6E96DA358D84AA8C0FD12 /* Systems/Physics/FPPhysicsPort.swift */,
+				6259DFA43F125170145B4F21 /* Models/FPLevel.swift */,
+				24163AB13C3DB815EBA28B67 /* Systems/Physics/FPPhysicsWorld.swift */,
+				962F3A2BFE4E2DD9FD81CED3 /* Tests/FPPhysicsTests.swift */,
+				B4AE30D0E612108D5FFC2F08 /* Resources/Levels/02-canal.json */,
+				AD3EEAC21FB1D5C86DDE8D30 /* Resources/Levels/01-meadow.json */,
+				77E42BD45014D43A3085923D /* Resources/Levels/03-sand.json */,
+				24C2253B33893C2550A3A2F8 /* Models/FPTuning.swift */,
+				6C7410FF9339057A752616B6 /* Resources/tuning.json */,
+				BDBBED78D2E732F703C2F1E2 /* Tests/FPTuningTests.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BCD5BC4CDFDF0918087C782 /* FoldPutt.app */,
+				2AADEEF9B9FB90ADFE511EFD /* FoldPuttTests.xctest */,
+				C39BF4DC748076F3EE90A399 /* FoldPuttUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33AD17B412F537DB773DED90 /* FoldPuttUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 600AB28332DE4047D59337B5 /* Build configuration list for PBXNativeTarget "FoldPuttUITests" */;
+			buildPhases = (
+				7B5386306DCE305DEEE0CBA6 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F8149A9FA8241772F6785C9 /* PBXTargetDependency */,
+			);
+			name = FoldPuttUITests;
+			productName = FoldPuttUITests;
+			productReference = C39BF4DC748076F3EE90A399 /* FoldPuttUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4481CB12EF43F7FD90F29F02 /* FoldPuttTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98AC20003E26E5A2E020FA84 /* Build configuration list for PBXNativeTarget "FoldPuttTests" */;
+			buildPhases = (
+				D6C3AC51218EFA167D032E3C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AF3AB1A4B60001E16CC54E6 /* PBXTargetDependency */,
+			);
+			name = FoldPuttTests;
+			productName = FoldPuttTests;
+			productReference = 2AADEEF9B9FB90ADFE511EFD /* FoldPuttTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D1043473D55BFA90E8530D3 /* FoldPutt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37922C48DA5978D02C9E50E /* Build configuration list for PBXNativeTarget "FoldPutt" */;
+			buildPhases = (
+				78A528B9AA947B36446252B9 /* Sources */,
+				99F77BA36C5389AA8070E355 /* Resources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoldPutt;
+			productName = FoldPutt;
+			productReference = 8BCD5BC4CDFDF0918087C782 /* FoldPutt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2710;
+			};
+			buildConfigurationList = 862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "FoldPutt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				Base,
+			);
+			mainGroup = E50290A24C49A459B43487C5;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D1043473D55BFA90E8530D3 /* FoldPutt */,
+				4481CB12EF43F7FD90F29F02 /* FoldPuttTests */,
+				33AD17B412F537DB773DED90 /* FoldPuttUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99F77BA36C5389AA8070E355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732E4DBD9EAFD334A1014CC2,
+				7F151A160D49D3A0C8DB1254,
+				4A543358CED5C247668DC1E9,
+				668680901CBBC048CC7E90DF,
+				B1C0AD60FB5996FDAA56F97A,
+				4994364944D4825873901D5E,
+				54AC3A60D1A87F500E5A36DE /* Resources/Sounds/hole.wav */,
+				53B4A37E8FA498D3D99D20F2 /* Resources/Sounds/putt.wav */,
+				02D82F740A79321B9C7848A0 /* Resources/Assets.xcassets in Resources */,
+				185272EACEDFF87A7D94FAC4 /* Resources/Levels/02-canal.json in Resources */,
+				A1A4423CA09A00E6AA780406 /* Resources/Levels/01-meadow.json in Resources */,
+				A676B105CD63D34AF7EBBA52 /* Resources/Levels/03-sand.json in Resources */,
+				9210B4C3EEBDB2F799FBDC43 /* Resources/tuning.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78A528B9AA947B36446252B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7B67FC6D46D989743A3143,
+				22460324F9D42DC3875952A8,
+				F0C010000000000000000001,
+				F0C010000000000000000002,
+				F0C010000000000000000003,
+				46723290A6AEA36558F46AC1 /* Systems/Rewards/FPSound.swift */,
+				6FD57CD2A8FE81A60DA31EB2 /* App/AppDelegate.swift in Sources */,
+				8D19102AF5A6D5F27C1F7EC7 /* App/SceneDelegate.swift in Sources */,
+				372C2B5D327247BE41E8D347 /* Models/FPDemoSession.swift in Sources */,
+				A86F30A93938D75D6C69F690 /* Views/FPAdaptiveController.swift in Sources */,
+				78CE73FD2D546532DFCAF502 /* Views/FPControlsController.swift in Sources */,
+				DC076E85C5D88DD0667887F1 /* Views/FPCourseView.swift in Sources */,
+				2A203551C29A50B6BA011F4B /* Views/FPPullControl.swift in Sources */,
+				ED834F4F92E352DED5733CB3 /* Systems/FoldAdaptation/FPRegions.swift in Sources */,
+				2F9F93B0EED44084BCA2F6DD /* Systems/Input/FPPullMath.swift in Sources */,
+				F046FB8CC47BE9122DD1973D /* Resources/Motion/FPTheme.swift in Sources */,
+				8DD9179FEFB4FF3B9AADED4E /* Views/FPArrangementController.swift in Sources */,
+				6C22A55275DC3A4F809A781F /* Systems/Physics/FPPhysicsPort.swift in Sources */,
+				F348314D9BDEBB682E9C5551 /* Models/FPLevel.swift in Sources */,
+				D49B061DBAC27033FD0CCC53 /* Systems/Physics/FPPhysicsWorld.swift in Sources */,
+				249773E177F14D8E5049D765 /* Models/FPTuning.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5386306DCE305DEEE0CBA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF01C439594B02C52E2506FD,
+				9DC29A9C143B0D41D6E67B76 /* UITests/FPPrototypeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C3AC51218EFA167D032E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D43F9DD4BBD7CFB17A9409,
+				06F199D80D88CDC278A3ABBC /* Tests/FPPrototypeTests.swift in Sources */,
+				AEDB91961D6FA2034E3147AB /* Tests/FPPhysicsTests.swift in Sources */,
+				702D8CE50BB30A96D1A68361 /* Tests/FPTuningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AF3AB1A4B60001E16CC54E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D1043473D55BFA90E8530D3 /* FoldPutt */;
+			targetProxy = 59FB3363CB61654129C02F16 /* PBXContainerItemProxy */;
+		};
+		4F8149A9FA8241772F6785C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D1043473D55BFA90E8530D3 /* FoldPutt */;
+			targetProxy = D68D9F4FDF18FEA3ABEACD2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37000B0978DAE1EDBB3D28CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.foldputt.FoldPuttUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoldPutt;
+			};
+			name = Release;
+		};
+		5A8C91857F674E16E2724F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62FH5J6694;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mavericklab.foldputt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EFCA00782DB0335CBA59AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.foldputt.FoldPuttTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoldPutt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoldPutt";
+			};
+			name = Release;
+		};
+		89DB58FB142C340723C994E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.foldputt.FoldPuttTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoldPutt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoldPutt";
+			};
+			name = Debug;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A45AAC5C6E6F9A0CFD7CBD91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.foldputt.FoldPuttUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoldPutt;
+			};
+			name = Debug;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E9B2E96ABC5F6856F2BE79CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62FH5J6694;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mavericklab.foldputt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		600AB28332DE4047D59337B5 /* Build configuration list for PBXNativeTarget "FoldPuttUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45AAC5C6E6F9A0CFD7CBD91 /* Debug */,
+				37000B0978DAE1EDBB3D28CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "FoldPutt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98AC20003E26E5A2E020FA84 /* Build configuration list for PBXNativeTarget "FoldPuttTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DB58FB142C340723C994E8 /* Debug */,
+				5EFCA00782DB0335CBA59AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37922C48DA5978D02C9E50E /* Build configuration list for PBXNativeTarget "FoldPutt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B2E96ABC5F6856F2BE79CF /* Debug */,
+				5A8C91857F674E16E2724F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

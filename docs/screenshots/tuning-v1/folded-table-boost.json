@@ -1,0 +1,143 @@
+{
+  "event": "boost",
+  "boostCounts": {
+    "triggers": 1
+  },
+  "events": [
+    {
+      "event": "tee-off",
+      "time": "0.000",
+      "level": "01",
+      "stroke": "0"
+    },
+    {
+      "event": "shot",
+      "level": "01",
+      "stroke": "1",
+      "time": "0.767"
+    },
+    {
+      "stroke": "1",
+      "time": "1.000",
+      "level": "01",
+      "event": "hole-capture"
+    },
+    {
+      "level": "01",
+      "stroke": "1",
+      "event": "hole-success",
+      "time": "1.000"
+    },
+    {
+      "level": "01",
+      "stroke": "0",
+      "event": "tee-off",
+      "time": "0.000"
+    },
+    {
+      "stroke": "0",
+      "event": "boost-granted",
+      "level": "01",
+      "time": "0.000"
+    }
+  ],
+  "phase": "charging",
+  "canal": "{{0.12, 1.27}, {0.64000000000000001, 0.089999999999999997}}",
+  "strokes": 0,
+  "boostSeconds": 14.233333333333377,
+  "scenario": "boost",
+  "collisions": 0,
+  "velocity": [
+    0,
+    0
+  ],
+  "variant": "easy-v1-A",
+  "fixture": true,
+  "stars": 0,
+  "level": "01",
+  "layout": {
+    "activeDivision": [
+      "{{0, 455.5}, {669, 40}}"
+    ],
+    "arrangement": "overlay",
+    "ball": "{0.5, 1.1200000000000001}",
+    "boostCounts": {
+      "triggers": 1
+    },
+    "boostSeconds": 14.233333333333377,
+    "bounds": "{{0, 0}, {669, 951}}",
+    "buttonRegionViolations": [],
+    "collisionImplemented": true,
+    "collisionReservation": "{{0.12, 1.27}, {0.64000000000000001, 0.089999999999999997}}",
+    "collisions": 0,
+    "container": "UIArrangementViewController",
+    "controlsFrame": "{{0, 495.66666666666663}, {669, 455.33333333333337}}",
+    "courseFrame": "{{0, 0}, {669, 455.66666666666663}}",
+    "division": [
+      "{{0, 455.5}, {669, 40}}"
+    ],
+    "elapsed": 0.7666666666666664,
+    "event": "boost-granted",
+    "events": [
+      {
+        "event": "tee-off",
+        "level": "01",
+        "stroke": "0",
+        "time": "0.000"
+      },
+      {
+        "event": "shot",
+        "level": "01",
+        "stroke": "1",
+        "time": "0.767"
+      },
+      {
+        "event": "hole-capture",
+        "level": "01",
+        "stroke": "1",
+        "time": "1.000"
+      },
+      {
+        "event": "hole-success",
+        "level": "01",
+        "stroke": "1",
+        "time": "1.000"
+      },
+      {
+        "event": "tee-off",
+        "level": "01",
+        "stroke": "0",
+        "time": "0.000"
+      },
+      {
+        "event": "boost-granted",
+        "level": "01",
+        "stroke": "0",
+        "time": "0.000"
+      }
+    ],
+    "handheldSwitch": false,
+    "horizontalSizeClass": 2,
+    "insets": {
+      "bottom": 34,
+      "left": 0,
+      "right": 0,
+      "top": 82
+    },
+    "level": "01",
+    "mode": "regular-arrangement",
+    "occlusion": [
+      "{{535, 0}, {134, 82}}"
+    ],
+    "penalty": false,
+    "phase": "charging",
+    "primary": "FPCourseController",
+    "scale": 3,
+    "secondary": "FPControlsController",
+    "stars": 0,
+    "strokes": 0,
+    "variant": "easy-v1-A",
+    "verticalSizeClass": 2
+  },
+  "captureMethod": "Actual Simulator UIWindow rendering; explicit initial-condition fixture"
+}

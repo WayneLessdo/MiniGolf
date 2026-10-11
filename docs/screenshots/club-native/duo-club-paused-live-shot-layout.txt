@@ -1,0 +1,1 @@
+section=我的花园;bounds=(0.0, 0.0, 466.0, 678.0);traits=1,2;safeArea=82.0,0.0,34.0,84.0;division=[];occlusion=[(399.6666666666667, 29.333333333333332, 37.0, 37.0), (382.0, 0.0, 84.0, 170.0)];seeds=1;flowers=0;quotes=3;reduceMotion=false

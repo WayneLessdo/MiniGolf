@@ -1,0 +1,91 @@
+{
+  "fixture": false,
+  "layout": {
+    "activeDivision": [
+      "{{455.5, 0}, {40, 669}}"
+    ],
+    "arrangement": "split-horizontal",
+    "ball": "{0.5, 0.74893887031645123}",
+    "boostCounts": {
+      "expired": 1,
+      "triggers": 1
+    },
+    "boostSeconds": 0,
+    "bounds": "{{0, 0}, {951, 669}}",
+    "buttonRegionViolations": [],
+    "collisionImplemented": true,
+    "collisionReservation": "{{0.035000000000000003, 0.46000000000000002}, {0.089999999999999997, 0.62}}",
+    "collisions": 0,
+    "container": "UIArrangementViewController",
+    "controlsFrame": "{{0, 0}, {455.66666666666663, 669}}",
+    "courseFrame": "{{495.66666666666663, 0}, {455.33333333333337, 669}}",
+    "division": [
+      "{{455.5, 0}, {40, 669}}"
+    ],
+    "elapsed": 137.12500000003962,
+    "event": "penalty",
+    "events": [
+      {
+        "event": "penalty",
+        "level": "01",
+        "stroke": "0",
+        "time": "60.008"
+      },
+      {
+        "event": "tee-off",
+        "level": "01",
+        "stroke": "0",
+        "time": "0.000"
+      },
+      {
+        "event": "shot",
+        "level": "01",
+        "stroke": "1",
+        "time": "0.000"
+      },
+      {
+        "event": "stopped",
+        "level": "01",
+        "stroke": "1",
+        "time": "4.658"
+      },
+      {
+        "event": "penalty",
+        "level": "01",
+        "stroke": "1",
+        "time": "60.008"
+      }
+    ],
+    "handheldSwitch": false,
+    "horizontalSizeClass": 2,
+    "insets": {
+      "bottom": 34,
+      "left": 0,
+      "right": 84,
+      "top": 0
+    },
+    "lastLaunch": {
+      "angleRadians": 1.5707963267948966,
+      "id": "EC6261EC-78C9-4BE5-A134-1ED59A57DC40",
+      "power": 0.2179416743920601,
+      "vx": 0,
+      "vy": 0.33780959530769317
+    },
+    "level": "01",
+    "mode": "regular-arrangement",
+    "occlusion": [
+      "{{867, 0}, {84, 120}}"
+    ],
+    "penalty": true,
+    "phase": "penalty",
+    "primary": "FPCourseController",
+    "regionSource": "system",
+    "scale": 3,
+    "secondary": "FPControlsController",
+    "stars": 0,
+    "strokes": 1,
+    "variant": "easy-v1-A",
+    "verticalSizeClass": 2,
+    "windowFrame": "{{0, 0}, {951, 669}}"
+  }
+}

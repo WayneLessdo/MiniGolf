@@ -1,0 +1,111 @@
+{
+  "fixture": false,
+  "layout": {
+    "activeDivision": [],
+    "arrangement": "single-pane-overlay",
+    "ball": "{0.5, 0.47136426279699817}",
+    "boostCounts": {
+      "triggers": 1
+    },
+    "boostSeconds": 0,
+    "bounds": "{{0, 0}, {469, 669}}",
+    "buttonRegionViolations": [],
+    "collisionImplemented": true,
+    "collisionReservation": "{{0.88, 0.46000000000000002}, {0.083259911894273134, 0.62}}",
+    "collisions": 0,
+    "container": "UIArrangementViewController",
+    "controlsFrame": "{{96, 355}, {351.5, 280}}",
+    "courseFrame": "{{0, 0}, {469, 669}}",
+    "division": [
+      "{{455.5, 0}, {13.5, 669}}"
+    ],
+    "elapsed": 24.90833333333256,
+    "event": "stopped",
+    "events": [
+      {
+        "event": "tee-off",
+        "level": "01",
+        "stroke": "0",
+        "time": "0.000"
+      },
+      {
+        "event": "shot",
+        "level": "01",
+        "stroke": "1",
+        "time": "0.525"
+      },
+      {
+        "event": "hole-capture",
+        "level": "01",
+        "stroke": "1",
+        "time": "0.758"
+      },
+      {
+        "event": "hole-success",
+        "level": "01",
+        "stroke": "1",
+        "time": "0.758"
+      },
+      {
+        "event": "tee-off",
+        "level": "01",
+        "stroke": "0",
+        "time": "0.000"
+      },
+      {
+        "event": "boost-granted",
+        "level": "01",
+        "stroke": "0",
+        "time": "0.000"
+      },
+      {
+        "event": "tee-off",
+        "level": "01",
+        "stroke": "0",
+        "time": "0.000"
+      },
+      {
+        "event": "shot",
+        "level": "01",
+        "stroke": "1",
+        "time": "0.100"
+      },
+      {
+        "event": "stopped",
+        "level": "01",
+        "stroke": "1",
+        "time": "5.375"
+      }
+    ],
+    "fallbackContainer": "FPPlayLayoutController",
+    "handheldSwitch": false,
+    "horizontalSizeClass": 1,
+    "insets": {
+      "bottom": 34,
+      "left": 84,
+      "right": 0,
+      "top": 0
+    },
+    "lastLaunch": {
+      "angleRadians": 1.5707963267948946,
+      "id": "8B083FD8-C11F-4795-A6B1-F72BDAD50F72",
+      "power": 0.3785012488828525,
+      "vx": 1.2351378813281384e-15,
+      "vy": 0.5866769357684214
+    },
+    "level": "01",
+    "mode": "compact",
+    "occlusion": [],
+    "penalty": false,
+    "phase": "ready",
+    "primary": "FPPlayLayoutController",
+    "regionSource": "system",
+    "scale": 3,
+    "secondary": "none",
+    "stars": 0,
+    "strokes": 1,
+    "variant": "easy-v1-A",
+    "verticalSizeClass": 2,
+    "windowFrame": "{{0, 0}, {469, 669}}"
+  }
+}

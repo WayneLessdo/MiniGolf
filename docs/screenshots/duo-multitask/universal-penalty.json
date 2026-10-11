@@ -1,0 +1,16 @@
+{
+  "file": "universal-penalty.png",
+  "device": "iPhone 16 Pro simulator",
+  "os": "18.5",
+  "fixture": false,
+  "test": "FPPrototypeUITests/testTuningWinBoostPenaltyFlow()",
+  "attachment": {
+    "configurationName": "Test Scheme Action",
+    "deviceId": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+    "deviceName": "iPhone 16 Pro",
+    "exportedFileName": "8762D853-02FB-4557-BDFF-BEBFFBC241C1.png",
+    "isAssociatedWithFailure": false,
+    "suggestedHumanReadableName": "actual-timeout-penalty_0_F5D6A5B8-B797-4493-BDDA-FB8E48D2D84C.png",
+    "timestamp": 1790736947.068
+  }
+}

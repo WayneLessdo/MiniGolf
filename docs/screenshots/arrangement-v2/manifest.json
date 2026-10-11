@@ -1,0 +1,136 @@
+{
+  "xcode": "27.1 (27A9269)",
+  "sdk": "iOS 27.1",
+  "runtime": "iOS 27.1 Duo",
+  "implementation": "Swift + UIKit",
+  "captures": [
+    {
+      "image": "compact-final.png",
+      "diagnostics": {
+        "activeDivision": [],
+        "bounds": "{{0, 0}, {466, 678}}",
+        "buttonRegionViolations": [],
+        "collisionImplemented": false,
+        "collisionReservation": "{{0, 0.45000000000000001}, {1, 0.10000000000000001}}",
+        "container": "UIArrangementViewController",
+        "controlsFrame": "{{12, 364}, {358, 280}}",
+        "courseFrame": "{{0, 0}, {466, 678}}",
+        "division": [],
+        "handheldSwitch": false,
+        "horizontalSizeClass": 1,
+        "insets": {
+          "bottom": 34,
+          "left": 0,
+          "right": 84,
+          "top": 0
+        },
+        "mode": "compact",
+        "occlusion": [
+          "{{399.66666666666669, 29.333333333333332}, {37, 37}}",
+          "{{382, 0}, {84, 170}}"
+        ],
+        "phase": "ready",
+        "primary": "FPPlayLayoutController",
+        "scale": 3,
+        "secondary": "none",
+        "strokes": 0,
+        "verticalSizeClass": 2
+      }
+    },
+    {
+      "image": "regular.png",
+      "diagnostics": {
+        "activeDivision": [],
+        "bounds": "{{0, 0}, {951, 669}}",
+        "buttonRegionViolations": [],
+        "collisionImplemented": false,
+        "collisionReservation": "{{0, 0.45000000000000001}, {1, 0.10000000000000001}}",
+        "container": "UIArrangementViewController",
+        "controlsFrame": "{{0, 0}, {475.66666666666663, 669}}",
+        "courseFrame": "{{475.66666666666663, 0}, {475.33333333333337, 669}}",
+        "division": [
+          "{{455.5, 0}, {40, 669}}"
+        ],
+        "handheldSwitch": false,
+        "horizontalSizeClass": 2,
+        "insets": {
+          "bottom": 34,
+          "left": 0,
+          "right": 84,
+          "top": 0
+        },
+        "mode": "regular-arrangement",
+        "occlusion": [
+          "{{867, 0}, {84, 120}}"
+        ],
+        "phase": "ready",
+        "primary": "FPCourseController",
+        "scale": 3,
+        "secondary": "FPControlsController",
+        "strokes": 0,
+        "verticalSizeClass": 2
+      }
+    },
+    {
+      "image": "folded.png",
+      "diagnostics": {
+        "activeDivision": [
+          "{{0, 455.5}, {669, 40}}"
+        ],
+        "bounds": "{{0, 0}, {669, 951}}",
+        "buttonRegionViolations": [],
+        "collisionImplemented": false,
+        "collisionReservation": "{{0, 0.45000000000000001}, {1, 0.10000000000000001}}",
+        "container": "UIArrangementViewController",
+        "controlsFrame": "{{0, 495.66666666666663}, {669, 455.33333333333337}}",
+        "courseFrame": "{{0, 0}, {669, 455.66666666666663}}",
+        "division": [
+          "{{0, 455.5}, {669, 40}}"
+        ],
+        "handheldSwitch": false,
+        "horizontalSizeClass": 2,
+        "insets": {
+          "bottom": 34,
+          "left": 0,
+          "right": 0,
+          "top": 82
+        },
+        "mode": "regular-arrangement",
+        "occlusion": [
+          "{{535, 0}, {134, 82}}"
+        ],
+        "phase": "ready",
+        "primary": "FPCourseController",
+        "scale": 3,
+        "secondary": "FPControlsController",
+        "strokes": 0,
+        "verticalSizeClass": 2
+      }
+    },
+    {
+      "image": "iphone18-fallback.png",
+      "diagnostics": {
+        "courseFrame": "{{0, 0}, {402, 874}}",
+        "handheldSwitch": false,
+        "mode": "compact",
+        "horizontalSizeClass": 1,
+        "activeDivision": [],
+        "occlusion": [],
+        "verticalSizeClass": 2,
+        "phase": "ready",
+        "courseExclusions": [],
+        "division": [],
+        "bounds": "{{0, 0}, {402, 874}}",
+        "insets": {
+          "bottom": 34,
+          "right": 0,
+          "top": 62,
+          "left": 0
+        },
+        "scale": 3,
+        "strokes": 0
+      }
+    }
+  ],
+  "scope": "Mock launch only; no collision or complete level system"
+}

@@ -1,0 +1,35 @@
+{
+  "activeDivision" : [
+    "{{0, 455.5}, {669, 40}}"
+  ],
+  "bounds" : "{{0, 0}, {669, 951}}",
+  "buttonRegionViolations" : [
+
+  ],
+  "collisionImplemented" : false,
+  "collisionReservation" : "{{0, 0.45000000000000001}, {1, 0.10000000000000001}}",
+  "container" : "UIArrangementViewController",
+  "controlsFrame" : "{{0, 495.66666666666663}, {669, 455.33333333333337}}",
+  "courseFrame" : "{{0, 0}, {669, 455.66666666666663}}",
+  "division" : [
+    "{{0, 455.5}, {669, 40}}"
+  ],
+  "handheldSwitch" : false,
+  "horizontalSizeClass" : 2,
+  "insets" : {
+    "bottom" : 34,
+    "left" : 0,
+    "right" : 0,
+    "top" : 82
+  },
+  "mode" : "regular-arrangement",
+  "occlusion" : [
+    "{{535, 0}, {134, 82}}"
+  ],
+  "phase" : "ready",
+  "primary" : "FPCourseController",
+  "scale" : 3,
+  "secondary" : "FPControlsController",
+  "strokes" : 0,
+  "verticalSizeClass" : 2
+}

@@ -1,0 +1,179 @@
+{
+  "environment": {
+    "xcode": "27.1 (27A9269)",
+    "sdk": "iOS 27.1",
+    "minimumOS": "18.0"
+  },
+  "tests": {
+    "unit": 3,
+    "ui": 1,
+    "result": "passed",
+    "resultBundle": "work/FinalTests.xcresult",
+    "note": "Final overlay-clearance adjustment was subsequently rebuilt and verified in actual screenshots."
+  },
+  "captures": [
+    {
+      "file": "duo-compact-delivery.png",
+      "description": "DUO Closed portrait, final delivery build",
+      "diagnostics": {
+        "bounds": "{{0, 0}, {466, 678}}",
+        "activeDivision": [],
+        "courseFrame": "{{0, 0}, {466, 678}}",
+        "scale": 3,
+        "verticalSizeClass": 2,
+        "division": [],
+        "mode": "compact",
+        "insets": {
+          "top": 0,
+          "right": 84,
+          "left": 0,
+          "bottom": 34
+        },
+        "horizontalSizeClass": 1,
+        "phase": "ready",
+        "courseExclusions": [
+          "{{399.66666666666669, 29.333333333333332}, {37, 37}}",
+          "{{382, 0}, {84, 170}}"
+        ],
+        "handheldSwitch": false,
+        "occlusion": [
+          "{{399.66666666666669, 29.333333333333332}, {37, 37}}",
+          "{{382, 0}, {84, 170}}"
+        ],
+        "strokes": 0
+      }
+    },
+    {
+      "file": "duo-regular.png",
+      "description": "DUO Open, actual regular",
+      "diagnostics": {
+        "horizontalSizeClass": 2,
+        "insets": {
+          "bottom": 34,
+          "right": 84,
+          "left": 0,
+          "top": 0
+        },
+        "courseFrame": "{{448, 0}, {503, 669}}",
+        "verticalSizeClass": 2,
+        "mode": "regular",
+        "activeDivision": [],
+        "scale": 3,
+        "phase": "ready",
+        "handheldSwitch": false,
+        "occlusion": [
+          "{{867, 0}, {84, 120}}"
+        ],
+        "division": [
+          "{{455.5, 0}, {40, 669}}"
+        ],
+        "bounds": "{{0, 0}, {951, 669}}",
+        "courseExclusions": [
+          "{{7.5, 0}, {40, 669}}",
+          "{{419, 0}, {84, 120}}"
+        ],
+        "strokes": 0
+      }
+    },
+    {
+      "file": "duo-book.png",
+      "description": "DUO Book, active vertical division",
+      "diagnostics": {
+        "insets": {
+          "top": 0,
+          "left": 0,
+          "bottom": 34,
+          "right": 84
+        },
+        "occlusion": [
+          "{{867, 0}, {84, 120}}"
+        ],
+        "handheldSwitch": false,
+        "scale": 3,
+        "phase": "ready",
+        "strokes": 0,
+        "courseFrame": "{{475.33333333333326, 0}, {475.66666666666663, 669}}",
+        "mode": "regular",
+        "courseExclusions": [
+          "{{-19.833333333333258, 0}, {40, 669}}",
+          "{{391.66666666666674, 0}, {84, 120}}"
+        ],
+        "activeDivision": [
+          "{{455.5, 0}, {40, 669}}"
+        ],
+        "division": [
+          "{{455.5, 0}, {40, 669}}"
+        ],
+        "horizontalSizeClass": 2,
+        "verticalSizeClass": 2,
+        "bounds": "{{0, 0}, {951, 669}}"
+      }
+    },
+    {
+      "file": "duo-folded.png",
+      "description": "DUO Book rotated, active horizontal division; automatic handheld, no manual override",
+      "diagnostics": {
+        "occlusion": [
+          "{{535, 0}, {134, 82}}"
+        ],
+        "courseExclusions": [
+          "{{0, 455.5}, {669, 40}}",
+          "{{535, 0}, {134, 82}}"
+        ],
+        "insets": {
+          "left": 0,
+          "bottom": 34,
+          "top": 82,
+          "right": 0
+        },
+        "handheldSwitch": false,
+        "activeDivision": [
+          "{{0, 455.5}, {669, 40}}"
+        ],
+        "mode": "handheld",
+        "phase": "ready",
+        "division": [
+          "{{0, 455.5}, {669, 40}}"
+        ],
+        "verticalSizeClass": 2,
+        "horizontalSizeClass": 2,
+        "courseFrame": "{{0, 0}, {669, 455.5}}",
+        "bounds": "{{0, 0}, {669, 951}}",
+        "strokes": 0,
+        "scale": 3
+      }
+    },
+    {
+      "file": "iphone16pro-ios18-final.png",
+      "description": "iPhone 16 Pro iOS 18.5, compact fallback, dark appearance",
+      "diagnostics": {
+        "strokes": 0,
+        "courseFrame": "{{0, 0}, {402, 874}}",
+        "mode": "compact",
+        "horizontalSizeClass": 1,
+        "activeDivision": [],
+        "occlusion": [],
+        "bounds": "{{0, 0}, {402, 874}}",
+        "insets": {
+          "left": 0,
+          "bottom": 34,
+          "right": 0,
+          "top": 62
+        },
+        "scale": 3,
+        "handheldSwitch": false,
+        "verticalSizeClass": 2,
+        "phase": "ready",
+        "courseExclusions": [],
+        "division": []
+      }
+    }
+  ],
+  "limitations": [
+    "Mock motion; no collision/complete physics/level system",
+    "AI generation unavailable; prompts provided",
+    "No device thermal/haptic/optical validation",
+    "Reduce Motion implemented; system-toggle visual verification not performed",
+    "Multitasking Split View and maximum Dynamic Type not exhaustively tested"
+  ]
+}

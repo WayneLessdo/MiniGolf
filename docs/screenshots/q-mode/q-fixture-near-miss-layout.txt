@@ -1,0 +1,1 @@
+immersive=false;across=false;pullAlpha=1.0;hudAlpha=1.0;level=01;phase=rolling;strokes=1;launch=55DCFAEB-00BF-4C6C-922D-298D0CC9355F;restored=0;sound=true;haptics=true;courseVisible=true;controlsVisible=true;gameMode=chibi;chibiMood=cozy;ballSkin=rice;cue=nearMiss;bounds={{0, 0}, {402, 874}};traits=1,2;safeArea=62.0,0.0,34.0,0.0;division=[];occlusion=[];reduceMotion=false

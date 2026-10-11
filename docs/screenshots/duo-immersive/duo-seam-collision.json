@@ -1,0 +1,88 @@
+{
+  "strokes": 1,
+  "level": "01",
+  "collisions": 1,
+  "event": "seam-collision",
+  "boostCounts": {},
+  "events": [
+    {
+      "level": "01",
+      "time": "0.000",
+      "event": "tee-off",
+      "stroke": "0"
+    },
+    {
+      "level": "01",
+      "time": "0.317",
+      "stroke": "1",
+      "event": "shot"
+    },
+    {
+      "event": "canal-collision",
+      "level": "01",
+      "stroke": "1",
+      "time": "0.467"
+    }
+  ],
+  "fixture": true,
+  "boostSeconds": 0,
+  "variant": "easy-v1-A",
+  "phase": "rolling",
+  "stars": 0,
+  "canal": "{{0.040000000000000001, 0.46000000000000002}, {0.055, 0.62}}",
+  "scenario": "seam-collision",
+  "velocity": [
+    0,
+    0.5274227850158965
+  ],
+  "layout": {
+    "handheldSwitch": false,
+    "controlsFrame": "{{69.75, 365}, {320, 270}}",
+    "horizontalSizeClass": 2,
+    "pullAlpha": 0.25,
+    "phase": "rolling",
+    "ballWorld": "{0.17000000000000001, 0.75301775193798448}",
+    "insets": {
+      "bottom": 34,
+      "top": 0,
+      "left": 0,
+      "right": 84
+    },
+    "sceneSessionID": "D6CAFCD6-B571-469F-BDEB-4FAB27387667",
+    "division": [
+      "{{455.5, 0}, {40, 669}}"
+    ],
+    "mode": "immersive",
+    "activeDivision": [],
+    "occlusion": [
+      "{{867, 0}, {84, 120}}"
+    ],
+    "across": true,
+    "courseExclusions": [
+      "{{455.5, 0}, {40, 669}}",
+      "{{867, 0}, {84, 120}}"
+    ],
+    "strokes": 1,
+    "scale": 3,
+    "buttonRegionViolations": [],
+    "restorationCount": 0,
+    "bounds": "{{0, 0}, {951, 669}}",
+    "courseFrame": "{{0, 0}, {951, 669}}",
+    "reservedBanks": [
+      "{{0, 0.66899224806201552}, {0.34000000000000002, 0.062015503875968991}}",
+      "{{0.66000000000000003, 0.66899224806201552}, {0.33999999999999997, 0.062015503875968991}}",
+      "{{0, 0}, {0.16744186046511628, 0.093023255813953432}}"
+    ],
+    "verticalSizeClass": 2,
+    "elapsed": 0.4666666666666673,
+    "courseVisible": true,
+    "field": "{{24.000000000000057, 12}, {902.99999999999989, 645}}",
+    "ballUnderFold": false,
+    "controlsVisible": true,
+    "worldVelocity": [
+      0,
+      0.5274227850158965
+    ]
+  },
+  "captureMethod": "Actual Simulator UIWindow rendering; explicit initial-condition fixture"
+}

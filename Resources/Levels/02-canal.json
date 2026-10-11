@@ -1,0 +1,58 @@
+{
+  "friction": 0.42,
+  "sandFriction": 1.05,
+  "restitution": 0.78,
+  "maxSpeed": 1.55,
+  "captureRadius": 0.065,
+  "captureSpeed": 0.52,
+  "timeLimit": 60,
+  "collisionLimit": 5,
+  "canal": {
+    "x": 0.04,
+    "y": 0.46,
+    "width": 0.055,
+    "height": 0.62
+  },
+  "penaltyObstacle": {
+    "x": 0.16,
+    "y": 0.32,
+    "width": 0.2,
+    "height": 0.06
+  },
+  "id": "02",
+  "name": "运河回响",
+  "presentation": "regular",
+  "start": {
+    "x": 0.64,
+    "y": 1.12
+  },
+  "hole": {
+    "x": 0.64,
+    "y": 0.25
+  },
+  "par": 3,
+  "obstacles": [
+    {
+      "x": 0.25,
+      "y": 0.62,
+      "width": 0.2,
+      "height": 0.065
+    }
+  ],
+  "hazards": [
+    {
+      "x": 0.88,
+      "y": 0.82,
+      "width": 0.12,
+      "height": 0.32
+    }
+  ],
+  "sand": [
+    {
+      "x": 0.12,
+      "y": 1.1,
+      "width": 0.2,
+      "height": 0.13
+    }
+  ]
+}

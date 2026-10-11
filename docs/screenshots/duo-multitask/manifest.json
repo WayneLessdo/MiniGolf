@@ -1,0 +1,89 @@
+[
+  {
+    "file": "iphone12-native.png",
+    "device": "physical iPhone 12",
+    "os": "26.6.1",
+    "fixture": false,
+    "method": "devicectl screenshot after successful app launch; user-played level 03, 2 strokes, 3 stars"
+  },
+  {
+    "file": "universal-win.png",
+    "device": "iPhone 16 Pro simulator",
+    "os": "18.5",
+    "fixture": false,
+    "test": "FPPrototypeUITests/testFirstHoleWithRealPull()",
+    "attachment": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+      "deviceName": "iPhone 16 Pro",
+      "exportedFileName": "7C6BC0BE-8BC6-4DE7-A0D1-331070005513.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "normal-play-first-hole_0_0FC4C9DF-15E4-4091-B975-7D3E51620666.png",
+      "timestamp": 1790736840.69
+    }
+  },
+  {
+    "file": "universal-handheld.png",
+    "device": "iPhone 16 Pro simulator",
+    "os": "18.5",
+    "fixture": false,
+    "test": "FPPrototypeUITests/testPullAndHandheldMenu()",
+    "attachment": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+      "deviceName": "iPhone 16 Pro",
+      "exportedFileName": "2B4FE208-860D-47F1-BF56-D053233F9EB3.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "Screenshot of Target Application 'com.mavericklab.foldputt'_0_1BADC68B-314D-4A7E-9339-7268A9979F49.png",
+      "timestamp": 1790736860.076
+    }
+  },
+  {
+    "file": "universal-scene-restored.png",
+    "device": "iPhone 16 Pro simulator",
+    "os": "18.5",
+    "fixture": false,
+    "test": "FPPrototypeUITests/testSceneRelaunchPreservesShotAndVisibleCourse()",
+    "attachment": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+      "deviceName": "iPhone 16 Pro",
+      "exportedFileName": "D60194CE-B4EF-4796-AC2F-939FD8E3319E.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "scene-relaunch-same-shot_0_AC8CD988-21DC-4DCE-ACE7-E4AE305D8403.png",
+      "timestamp": 1790736876.37
+    }
+  },
+  {
+    "file": "universal-penalty.png",
+    "device": "iPhone 16 Pro simulator",
+    "os": "18.5",
+    "fixture": false,
+    "test": "FPPrototypeUITests/testTuningWinBoostPenaltyFlow()",
+    "attachment": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+      "deviceName": "iPhone 16 Pro",
+      "exportedFileName": "8762D853-02FB-4557-BDFF-BEBFFBC241C1.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "actual-timeout-penalty_0_F5D6A5B8-B797-4493-BDDA-FB8E48D2D84C.png",
+      "timestamp": 1790736947.068
+    }
+  },
+  {
+    "file": "universal-boost.png",
+    "device": "iPhone 16 Pro simulator",
+    "os": "18.5",
+    "fixture": false,
+    "test": "FPPrototypeUITests/testTuningWinBoostPenaltyFlow()",
+    "attachment": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+      "deviceName": "iPhone 16 Pro",
+      "exportedFileName": "B96339BE-B336-42C0-AB4D-90B6CB279DDC.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "boost-earned-retry_0_A014E33D-3D0A-424C-A40F-28C9B46563F9.png",
+      "timestamp": 1790736887.656
+    }
+  }
+]

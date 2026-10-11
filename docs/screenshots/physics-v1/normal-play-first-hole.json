@@ -1,0 +1,15 @@
+{
+  "fixture": false,
+  "test": "testFirstHoleWithRealPull",
+  "method": "XCTest actual touch drag from starting tee through real simulation",
+  "result": "1 stroke, 3 stars and speed-line reward",
+  "attachment": {
+    "configurationName": "Test Scheme Action",
+    "deviceId": "2B7D0712-AB02-4854-86C5-7FC76DD406F5",
+    "deviceName": "iPhone Duo",
+    "exportedFileName": "2D530C1C-A4CD-4E5C-9B57-92FF2C656DAF.png",
+    "isAssociatedWithFailure": false,
+    "suggestedHumanReadableName": "normal-play-first-hole_0_76F4F48C-86BD-4A84-9F00-4291AC72A363.png",
+    "timestamp": 1790675595.853
+  }
+}

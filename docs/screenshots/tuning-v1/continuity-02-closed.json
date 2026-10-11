@@ -1,0 +1,82 @@
+{
+  "fixture": false,
+  "layout": {
+    "activeDivision": [],
+    "arrangement": "split-horizontal",
+    "ball": "{0.5, 0.74893887031645123}",
+    "boostCounts": {
+      "expired": 1,
+      "triggers": 1
+    },
+    "boostSeconds": 0,
+    "bounds": "{{0, 0}, {466, 678}}",
+    "buttonRegionViolations": [],
+    "collisionImplemented": true,
+    "collisionReservation": "{{0.040000000000000001, 0.46000000000000002}, {0.055, 0.62}}",
+    "collisions": 0,
+    "container": "UIArrangementViewController",
+    "controlsFrame": "{{12, 364}, {358, 280}}",
+    "courseFrame": "{{0, 0}, {466, 678}}",
+    "division": [],
+    "elapsed": 32.833333333332114,
+    "event": "stopped",
+    "events": [
+      {
+        "event": "penalty",
+        "level": "01",
+        "stroke": "0",
+        "time": "60.008"
+      },
+      {
+        "event": "tee-off",
+        "level": "01",
+        "stroke": "0",
+        "time": "0.000"
+      },
+      {
+        "event": "shot",
+        "level": "01",
+        "stroke": "1",
+        "time": "0.000"
+      },
+      {
+        "event": "stopped",
+        "level": "01",
+        "stroke": "1",
+        "time": "4.658"
+      }
+    ],
+    "handheldSwitch": false,
+    "horizontalSizeClass": 1,
+    "insets": {
+      "bottom": 34,
+      "left": 0,
+      "right": 84,
+      "top": 0
+    },
+    "lastLaunch": {
+      "angleRadians": 1.5707963267948966,
+      "id": "EC6261EC-78C9-4BE5-A134-1ED59A57DC40",
+      "power": 0.2179416743920601,
+      "vx": 0,
+      "vy": 0.33780959530769317
+    },
+    "level": "01",
+    "mode": "compact",
+    "occlusion": [
+      "{{399.66666666666669, 29.333333333333332}, {37, 37}}",
+      "{{382, 0}, {84, 170}}"
+    ],
+    "penalty": false,
+    "phase": "ready",
+    "primary": "FPPlayLayoutController",
+    "regionSource": "system",
+    "scale": 3,
+    "secondary": "none",
+    "stars": 0,
+    "strokes": 1,
+    "variant": "easy-v1-A",
+    "verticalSizeClass": 2,
+    "windowFrame": "{{0, 0}, {466, 678}}"
+  }
+}

@@ -1,0 +1,45 @@
+Attributes: Application, 0x105b1d740, pid: 63494, label: 'FoldPutt'
+Element subtree:
+ →Application, 0x105b1d740, pid: 63494, label: 'FoldPutt'
+    Window (Main), 0x105b0c400, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105b3b760, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105b3ec60, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x105b27b10, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x105b25e90, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'gameArrangement', value: immersive=true;acr...
+              Other, 0x105b3ed80, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x105b3eea0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x105b3efc0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x105b3f0e0, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'immersiveCanvas'
+                      Other, 0x105b3f3c0, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x105b3f4e0, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'courseView', label: '迷你高尔夫球道'
+                        Other, 0x105b3f600, {{24.0, 78.0}, {260.0, 44.7}}
+                          StaticText, 0x105b3f720, {{24.0, 78.0}, {260.0, 14.3}}, label: 'FOLD / PUTT · 01'
+                          StaticText, 0x105b3f840, {{24.0, 96.3}, {260.0, 26.3}}, label: '青草练习'
+                        Other, 0x105b3f960, {{45.2, 344.5}, {311.5, 213.0}}, identifier: 'winFeedback', label: 'WIN! 1 杆，3 星。点击屏幕进入下一关'
+                          Image, 0x105b3fa80, {{190.9, 364.5}, {20.3, 40.0}}, identifier: 'trophy.fill', label: 'trophy.fill'
+                          StaticText, 0x105b3fba0, {{161.6, 412.5}, {78.7, 40.7}}, label: 'WIN!'
+                          StaticText, 0x105b3fcc0, {{162.2, 461.2}, {77.7, 20.3}}, label: '1 杆 · 3 星'
+                          Button, 0x105b3fde0, {{133.9, 489.5}, {134.0, 48.0}}, identifier: 'continueAfterWin', label: '点击屏幕进入下一关'
+                            StaticText, 0x105b3ff00, {{133.9, 504.5}, {134.0, 18.0}}, label: '点击屏幕进入下一关'
+                      Other, 0x105b40020, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x105b40140, {{340.0, 76.0}, {48.0, 160.0}}
+                          Button, 0x105b40260, {{340.0, 76.0}, {48.0, 48.0}}, identifier: '重开', label: '重开'
+                          Button, 0x105b40380, {{340.0, 132.0}, {48.0, 48.0}}, identifier: '选择地图', label: '选择地图'
+                          Button, 0x105b404a0, {{340.0, 188.0}, {48.0, 48.0}}, identifier: '设置与演示', label: '设置与演示'
+                        StaticText, 0x105b405c0, {{208.5, 705.3}, {179.5, 30.3}}, label: '漂亮入洞！ · 3 星 · 点击屏幕进入下一关'
+                        Other, 0x105b406e0, {{14.0, 718.0}, {108.0, 108.0}}, identifier: 'pullControl', label: '拉杆', value: max=45.36;dead=6.0..., Disabled
+                          Image, 0x105b40800, {{59.0, 795.0}, {18.0, 18.0}}, identifier: 'lock.fill', label: 'lock'
+                        Other, 0x105b40920, {{252.0, 743.7}, {136.0, 82.3}}, identifier: 'scoreCard'
+                          StaticText, 0x105b40a40, {{303.3, 753.7}, {33.3, 24.0}}, label: '1 杆  /  PAR 3', value: 3 星
+                          StaticText, 0x105b40b60, {{302.3, 781.7}, {35.3, 14.3}}, label: 'PAR 3'
+                          Other, 0x105b40c80, {{290.0, 800.0}, {60.0, 16.0}}
+                            Image, 0x105b40da0, {{290.0, 799.7}, {16.0, 15.7}}, identifier: 'star.fill', label: 'favorite'
+                            Image, 0x105b40ec0, {{312.0, 799.7}, {16.0, 15.7}}, identifier: 'star.fill', label: 'favorite'
+                            Image, 0x105b40fe0, {{334.0, 799.7}, {16.0, 15.7}}, identifier: 'star.fill', label: 'favorite'
+Path to element:
+ →Application, 0x105b1d740, pid: 63494, label: 'FoldPutt'
+Query chain:
+ →Find: Target Application 'com.mavericklab.foldputt'
+  Output: {
+    Application, 0x105d38570, pid: 63494, label: 'FoldPutt'
+  }

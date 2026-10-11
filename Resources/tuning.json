@@ -1,0 +1,19 @@
+{
+  "variant": "easy-v1-A",
+  "compact": { "deadZone": 6, "maximumDrag": 100, "availableFraction": 0.42, "exponent": 1.45, "lowBand": 0.33, "highBand": 0.72 },
+  "regular": { "deadZone": 5, "maximumDrag": 130, "availableFraction": 0.42, "exponent": 1.35, "lowBand": 0.33, "highBand": 0.72 },
+  "physics": {
+    "maximumSpeed": 1.55,
+    "grass": { "drag": 0.9, "restitution": 0.82 },
+    "sand": { "drag": 2.5, "restitution": 0.45 },
+    "bank": { "drag": 1.3, "restitution": 0.72 },
+    "wallRestitution": 0.82,
+    "stopSpeed": 0.006,
+    "settleDuration": 0.18,
+    "bankMargin": 0.028,
+    "captureRadius": 0.085,
+    "captureEdgeSpeed": 0.24,
+    "captureCenterSpeed": 0.52
+  },
+  "boost": { "requiredStars": 2, "duration": 15, "predictionSeconds": 2.5, "predictionStep": 0.0333333333 }
+}

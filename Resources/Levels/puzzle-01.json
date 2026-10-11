@@ -1,0 +1,44 @@
+{
+  "friction": 0.42,
+  "sandFriction": 1.05,
+  "restitution": 0.78,
+  "maxSpeed": 1.55,
+  "captureRadius": 0.065,
+  "captureSpeed": 0.52,
+  "timeLimit": 120,
+  "collisionLimit": 12,
+  "canal": {
+    "x": 0.025,
+    "y": 0.1,
+    "width": 0.03,
+    "height": 0.24
+  },
+  "penaltyObstacle": {
+    "x": 0.82,
+    "y": 0.53,
+    "width": 0.12,
+    "height": 0.05
+  },
+  "id": "P01",
+  "name": "借左墙的力",
+  "presentation": "puzzle",
+  "start": {
+    "x": 0.68,
+    "y": 1.12
+  },
+  "hole": {
+    "x": 0.68,
+    "y": 0.28
+  },
+  "par": 3,
+  "obstacles": [
+    {
+      "x": 0.48,
+      "y": 0.65,
+      "width": 0.34,
+      "height": 0.07
+    }
+  ],
+  "hazards": [],
+  "sand": []
+}

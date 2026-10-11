@@ -1,0 +1,16 @@
+# Local build products, verification logs and working backups
+/work/
+/DerivedData/
+/build/
+*.xcresult
+*.xcarchive
+
+# Per-user IDE and operating-system state
+.DS_Store
+xcuserdata/
+*.xcuserstate
+
+# Local tooling caches
+__pycache__/
+*.py[cod]
+node_modules/

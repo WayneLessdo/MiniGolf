@@ -1,0 +1,71 @@
+{
+  "fixture": true,
+  "event": "tee-off",
+  "canal": "{{0.035000000000000003, 0.46000000000000002}, {0.089999999999999997, 0.62}}",
+  "stars": 0,
+  "velocity": [
+    0,
+    0
+  ],
+  "scenario": "tee-off",
+  "phase": "ready",
+  "level": "02",
+  "events": [
+    {
+      "event": "tee-off",
+      "stroke": "0",
+      "time": "0.000",
+      "level": "02"
+    }
+  ],
+  "strokes": 0,
+  "collisions": 0,
+  "pose": "regular",
+  "layout": {
+    "activeDivision": [],
+    "ball": "{0.64000000000000001, 1.1200000000000001}",
+    "bounds": "{{0, 0}, {951, 669}}",
+    "buttonRegionViolations": [],
+    "collisionImplemented": true,
+    "collisionReservation": "{{0.035000000000000003, 0.46000000000000002}, {0.089999999999999997, 0.62}}",
+    "collisions": 0,
+    "container": "UIArrangementViewController",
+    "controlsFrame": "{{0, 0}, {475.66666666666663, 669}}",
+    "courseFrame": "{{475.66666666666663, 0}, {475.33333333333337, 669}}",
+    "division": [
+      "{{455.5, 0}, {40, 669}}"
+    ],
+    "elapsed": 0.8416666666666661,
+    "event": "tee-off",
+    "events": [
+      {
+        "event": "tee-off",
+        "level": "02",
+        "stroke": "0",
+        "time": "0.000"
+      }
+    ],
+    "handheldSwitch": false,
+    "horizontalSizeClass": 2,
+    "insets": {
+      "bottom": 34,
+      "left": 0,
+      "right": 84,
+      "top": 0
+    },
+    "level": "02",
+    "mode": "regular-arrangement",
+    "occlusion": [
+      "{{867, 0}, {84, 120}}"
+    ],
+    "penalty": false,
+    "phase": "ready",
+    "primary": "FPCourseController",
+    "scale": 3,
+    "secondary": "FPControlsController",
+    "stars": 0,
+    "strokes": 0,
+    "verticalSizeClass": 2
+  },
+  "captureMethod": "Simulator UIWindow drawHierarchy; real physics; labeled Debug initial conditions"
+}

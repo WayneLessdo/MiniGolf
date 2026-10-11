@@ -1,0 +1,13 @@
+{
+  "fixture": false,
+  "method": "Actual 60s UI win-boost-penalty flow",
+  "attachment": {
+    "configurationName": "Test Scheme Action",
+    "deviceId": "2B7D0712-AB02-4854-86C5-7FC76DD406F5",
+    "deviceName": "iPhone Duo",
+    "exportedFileName": "4D02A48C-C295-422A-8483-7C4A485700B9.png",
+    "isAssociatedWithFailure": false,
+    "suggestedHumanReadableName": "actual-timeout-penalty_0_071C39D8-2E31-426B-B5FE-452B65C3D022.png",
+    "timestamp": 1790680726.263
+  }
+}

@@ -1,0 +1,1 @@
+immersive=false;across=false;pullAlpha=1.0;level=01;phase=success;strokes=1;launch=179960FD-E3A4-4A5A-89FF-93D7676B4B6A;restored=0;sound=true;haptics=true;courseVisible=true;controlsVisible=true;bounds={{0, 0}, {402, 874}};traits=1,2;safeArea=62.0,0.0,34.0,0.0;division=[];occlusion=[];reduceMotion=false

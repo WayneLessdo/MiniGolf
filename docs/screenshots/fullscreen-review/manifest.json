@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-10",
+  "images": [
+    {
+      "file": "fullscreen-classic-review.png",
+      "kind": "actual UIKit Simulator screenshot",
+      "conceptImage": false,
+      "device": "iPhone 16 Pro",
+      "system": "iOS 18.5",
+      "sdk": "iOS Simulator 27.1",
+      "xcode": "27.1 (27A9269)",
+      "gameMode": "classic",
+      "fixture": "tee-off / level 03 starting state; no injected terminal result",
+      "layoutProof": "fullscreen-classic-review.txt",
+      "layout": "immersive=true;across=false;pullAlpha=1.0;hudAlpha=1.0;level=03;phase=ready;strokes=0;launch=none;restored=0;sound=true;haptics=true;courseVisible=true;controlsVisible=true;gameMode=classic;chibiMood=cozy;ballSkin=rice;cue=none;bounds={{0, 0}, {402, 874}};traits=1,2;safeArea=62.0,0.0,34.0,0.0;division=[];occlusion=[];reduceMotion=true",
+      "sha256": "b8ecf15ebf1b7a8df32820dd9dc0dc138e636ce6809db37fd446293b42e5150f",
+      "resultBundle": "work/fullscreen-review-20261010/FinalPhone.xcresult"
+    },
+    {
+      "file": "fullscreen-chibi-review.png",
+      "kind": "actual UIKit Simulator screenshot",
+      "conceptImage": false,
+      "device": "iPhone 16 Pro",
+      "system": "iOS 18.5",
+      "sdk": "iOS Simulator 27.1",
+      "xcode": "27.1 (27A9269)",
+      "gameMode": "chibi",
+      "fixture": "tee-off / level 03 starting state; no injected terminal result",
+      "layoutProof": "fullscreen-chibi-review.txt",
+      "layout": "immersive=true;across=false;pullAlpha=1.0;hudAlpha=1.0;level=03;phase=ready;strokes=0;launch=none;restored=0;sound=true;haptics=true;courseVisible=true;controlsVisible=true;gameMode=chibi;chibiMood=cozy;ballSkin=rice;cue=none;bounds={{0, 0}, {402, 874}};traits=1,2;safeArea=62.0,0.0,34.0,0.0;division=[];occlusion=[];reduceMotion=true",
+      "sha256": "e88036e79c1c3f80ba3a8499cd942aa9e6d01f0279a4fd7b025228d9a112e615",
+      "resultBundle": "work/fullscreen-review-20261010/FinalPhone.xcresult"
+    },
+    {
+      "file": "duo-fullscreen-classic-review.png",
+      "kind": "actual UIKit Simulator framebuffer screenshot / simctl display 3",
+      "conceptImage": false,
+      "device": "iPhone Duo — Open",
+      "system": "iOS 27.1",
+      "sdk": "iOS Simulator 27.1",
+      "xcode": "27.1 (27A9269)",
+      "gameMode": "classic",
+      "fixture": "tee-off / level 03 starting state; no injected terminal result",
+      "layoutProof": "duo-fullscreen-classic-review.json",
+      "layout": {
+        "verticalSizeClass": 2,
+        "field": "{{24.000000000000057, 12}, {902.99999999999989, 645}}",
+        "cue": "none",
+        "nearMissCount": 0,
+        "hudAlpha": 1,
+        "handheldSwitch": false,
+        "strokes": 0,
+        "restorationCount": 0,
+        "across": true,
+        "ballWorld": "{0.5, 1.1499999999999999}",
+        "activeDivision": [],
+        "scoreFrame": "{{717, 538.66666666666663}, {136, 82.333333333333371}}",
+        "toolFrame": "{{805, 14}, {48, 160}}",
+        "courseVisible": true,
+        "reduceMotion": false,
+        "buttonRegionViolations": [],
+        "sceneSessionID": "C8D52EC7-3C0A-475C-B0F3-DCA3126ACC46",
+        "insets": {
+          "right": 84,
+          "top": 0,
+          "left": 0,
+          "bottom": 34
+        },
+        "courseFrame": "{{0, 0}, {951, 669}}",
+        "division": [
+          "{{455.5, 0}, {40, 669}}"
+        ],
+        "reservedBanks": [
+          "{{0, 0.66899224806201552}, {0.34000000000000002, 0.062015503875968991}}",
+          "{{0.66000000000000003, 0.66899224806201552}, {0.33999999999999997, 0.062015503875968991}}",
+          "{{0, 0}, {0.16744186046511628, 0.093023255813953432}}"
+        ],
+        "controlsVisible": true,
+        "chibiMood": "cozy",
+        "celebrationCount": 0,
+        "gameMode": "classic",
+        "bounds": "{{0, 0}, {951, 669}}",
+        "phase": "ready",
+        "screenTapMaximumDuration": 0.3,
+        "mode": "immersive",
+        "horizontalSizeClass": 2,
+        "ballSkin": "rice",
+        "pullAlpha": 1,
+        "courseExclusions": [
+          "{{455.5, 0}, {40, 669}}",
+          "{{867, 0}, {84, 120}}"
+        ],
+        "pullFrame": "{{14, 513}, {108, 108}}",
+        "ballUnderFold": false,
+        "worldVelocity": [
+          0,
+          0
+        ],
+        "scale": 3,
+        "controlsFrame": "{{0, 0}, {951, 669}}",
+        "occlusion": [
+          "{{867, 0}, {84, 120}}"
+        ],
+        "elapsed": 0.4666666666666673
+      },
+      "sha256": "c3b417ec87d3c798bc17374ee6d29b2d71bf9c56fde6ad4feff7e50fc48066b5"
+    },
+    {
+      "file": "duo-fullscreen-chibi-review.png",
+      "kind": "actual UIKit Simulator framebuffer screenshot / simctl display 3",
+      "conceptImage": false,
+      "device": "iPhone Duo — Open",
+      "system": "iOS 27.1",
+      "sdk": "iOS Simulator 27.1",
+      "xcode": "27.1 (27A9269)",
+      "gameMode": "chibi",
+      "fixture": "tee-off / level 03 starting state; no injected terminal result",
+      "layoutProof": "duo-fullscreen-chibi-review.json",
+      "layout": {
+        "celebrationCount": 0,
+        "elapsed": 0.8749999999999993,
+        "occlusion": [
+          "{{867, 0}, {84, 120}}"
+        ],
+        "activeDivision": [],
+        "courseExclusions": [
+          "{{455.5, 0}, {40, 669}}",
+          "{{867, 0}, {84, 120}}"
+        ],
+        "buttonRegionViolations": [],
+        "controlsVisible": true,
+        "field": "{{24.000000000000057, 12}, {902.99999999999989, 645}}",
+        "courseFrame": "{{0, 0}, {951, 669}}",
+        "hudAlpha": 1,
+        "pullFrame": "{{14, 513}, {108, 108}}",
+        "scoreFrame": "{{717, 538.66666666666663}, {136, 82.333333333333371}}",
+        "pullAlpha": 1,
+        "toolFrame": "{{805, 14}, {48, 160}}",
+        "reduceMotion": false,
+        "chibiMood": "cozy",
+        "ballWorld": "{0.5, 1.1499999999999999}",
+        "nearMissCount": 0,
+        "controlsFrame": "{{0, 0}, {951, 669}}",
+        "horizontalSizeClass": 2,
+        "courseVisible": true,
+        "across": true,
+        "gameMode": "chibi",
+        "mode": "immersive",
+        "ballSkin": "rice",
+        "sceneSessionID": "C8D52EC7-3C0A-475C-B0F3-DCA3126ACC46",
+        "reservedBanks": [
+          "{{0, 0.66899224806201552}, {0.34000000000000002, 0.062015503875968991}}",
+          "{{0.66000000000000003, 0.66899224806201552}, {0.33999999999999997, 0.062015503875968991}}",
+          "{{0, 0}, {0.16744186046511628, 0.093023255813953432}}"
+        ],
+        "division": [
+          "{{455.5, 0}, {40, 669}}"
+        ],
+        "worldVelocity": [
+          0,
+          0
+        ],
+        "cue": "none",
+        "ballUnderFold": false,
+        "insets": {
+          "left": 0,
+          "top": 0,
+          "right": 84,
+          "bottom": 34
+        },
+        "screenTapMaximumDuration": 0.3,
+        "bounds": "{{0, 0}, {951, 669}}",
+        "scale": 3,
+        "strokes": 0,
+        "phase": "ready",
+        "restorationCount": 0,
+        "handheldSwitch": false,
+        "verticalSizeClass": 2
+      },
+      "sha256": "e7a6a7d5b483e254b329f4d08ee87be1e83444e75ed7ac2adf5d86313837cd68"
+    }
+  ],
+  "limits": [
+    "地图画布覆盖 view bounds；物理世界维持原等比投影，未改关卡或物理规则。",
+    "本轮验证普通手机和 DUO 展开内屏；真机触觉、光学、温度及完整 VoiceOver 未测。",
+    "没有提交、推送或发布。"
+  ]
+}

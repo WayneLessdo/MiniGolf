@@ -1,0 +1,29 @@
+{
+  "courseFrame" : "{{0, 0}, {402, 874}}",
+  "handheldSwitch" : false,
+  "mode" : "compact",
+  "horizontalSizeClass" : 1,
+  "activeDivision" : [
+
+  ],
+  "occlusion" : [
+
+  ],
+  "verticalSizeClass" : 2,
+  "phase" : "ready",
+  "courseExclusions" : [
+
+  ],
+  "division" : [
+
+  ],
+  "bounds" : "{{0, 0}, {402, 874}}",
+  "insets" : {
+    "bottom" : 34,
+    "right" : 0,
+    "top" : 62,
+    "left" : 0
+  },
+  "scale" : 3,
+  "strokes" : 0
+}

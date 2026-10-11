@@ -1,0 +1,149 @@
+[
+  {
+    "file": "compact-ui-boost-earned.png",
+    "fixture": false,
+    "stage": "before-final-narrow-pane-fix",
+    "proof": "compact-ui-boost-earned.json"
+  },
+  {
+    "file": "compact-ui-penalty.png",
+    "fixture": false,
+    "stage": "before-final-narrow-pane-fix",
+    "proof": "compact-ui-penalty.json"
+  },
+  {
+    "file": "folded-book-boost.png",
+    "fixture": true,
+    "stage": "before-final-narrow-pane-fix",
+    "proof": "folded-book-boost.json"
+  },
+  {
+    "file": "folded-table-boost.png",
+    "fixture": true,
+    "stage": "before-final-narrow-pane-fix",
+    "proof": "folded-table-boost.json"
+  },
+  {
+    "file": "half-left-aiming.png",
+    "fixture": true,
+    "stage": "final",
+    "proof": "half-left-aiming.json"
+  },
+  {
+    "file": "half-right-aiming.png",
+    "fixture": true,
+    "stage": "final",
+    "proof": "half-right-aiming.json"
+  },
+  {
+    "file": "handheld-final-boost.png",
+    "fixture": true,
+    "stage": "final",
+    "proof": "handheld-final-boost.json"
+  },
+  {
+    "file": "inner-landscape-boost.png",
+    "fixture": true,
+    "stage": "before-final-narrow-pane-fix",
+    "proof": "inner-landscape-boost.json"
+  },
+  {
+    "file": "inner-portrait-aiming.png",
+    "fixture": true,
+    "stage": "before-final-narrow-pane-fix",
+    "proof": "inner-portrait-aiming.json"
+  },
+  {
+    "file": "regular-final-boost.png",
+    "fixture": true,
+    "stage": "final",
+    "proof": "regular-final-boost.json"
+  },
+  {
+    "file": "actual-split-left.png",
+    "fixture": true,
+    "stage": "unlocked-before-cold-start-fix",
+    "proof": "actual-split-left.json"
+  },
+  {
+    "file": "continuity-01-open.png",
+    "fixture": false,
+    "stage": "unlocked-before-cold-start-fix",
+    "proof": "continuity-01-open.json"
+  },
+  {
+    "file": "continuity-02-closed.png",
+    "fixture": false,
+    "stage": "unlocked-before-cold-start-fix",
+    "proof": "continuity-02-closed.json"
+  },
+  {
+    "file": "continuity-03-reopened.png",
+    "fixture": false,
+    "stage": "unlocked-before-cold-start-fix",
+    "proof": "continuity-03-reopened.json"
+  },
+  {
+    "file": "continuity-04-portrait.png",
+    "fixture": false,
+    "stage": "unlocked-before-cold-start-fix",
+    "proof": "continuity-04-portrait.json"
+  },
+  {
+    "file": "continuity-05-table.png",
+    "fixture": false,
+    "stage": "unlocked-before-cold-start-fix",
+    "proof": "continuity-05-table.json",
+    "result": "failed",
+    "reason": "Historical single-pane arrangement was hidden by its parent despite nonzero frames; only the root canal remained visible.",
+    "supersededBy": "verified-table-boost.png"
+  },
+  {
+    "file": "continuity-06-book.png",
+    "fixture": false,
+    "stage": "unlocked-before-cold-start-fix",
+    "proof": "continuity-06-book.json"
+  },
+  {
+    "file": "verified-split-left-shot.png",
+    "fixture": false,
+    "stage": "unlocked-regression-final",
+    "proof": "verified-split-left-shot.json"
+  },
+  {
+    "file": "verified-table-boost.png",
+    "fixture": true,
+    "stage": "unlocked-regression-final",
+    "proof": "verified-table-boost.json"
+  },
+  {
+    "file": "verified-user-book.png",
+    "fixture": false,
+    "stage": "unlocked-regression-final",
+    "proof": "verified-user-book.json"
+  },
+  {
+    "file": "verified-user-closed.png",
+    "fixture": false,
+    "stage": "unlocked-regression-final",
+    "proof": "verified-user-closed.json"
+  },
+  {
+    "file": "verified-user-open.png",
+    "fixture": false,
+    "stage": "unlocked-regression-final",
+    "proof": "verified-user-open.json"
+  },
+  {
+    "file": "verified-user-table.png",
+    "fixture": false,
+    "stage": "unlocked-regression-final",
+    "proof": "verified-user-table.json"
+  },
+  {
+    "file": "verified-portrait-final-boost.png",
+    "fixture": true,
+    "stage": "unlocked-regression-final",
+    "proof": "verified-portrait-final-boost.json"
+  }
+]

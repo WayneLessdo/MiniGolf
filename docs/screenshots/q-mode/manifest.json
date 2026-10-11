@@ -1,0 +1,168 @@
+{
+  "environment": {
+    "xcode": "27.1 (27A9269)",
+    "sdk": "27.1",
+    "phone": "iPhone 16 Pro / iOS 18.5 Simulator",
+    "duo": "iPhone Duo / iOS 27.1 Simulator in Device Hub"
+  },
+  "notes": [
+    "q-mode-* are native running screenshots; q-fixture-* use test-only starting conditions and real physics/presentation events.",
+    "overview.png is a collage of four native screenshots; its third panel is a capture fixture.",
+    "Duo close validation was interrupted by host lock. No real-device optical/haptic/thermal claims."
+  ],
+  "files": [
+    {
+      "file": "duo-book.png",
+      "pixels": [
+        2007,
+        2853
+      ],
+      "fixture": false,
+      "layout": "duo-book-layout.json"
+    },
+    {
+      "file": "duo-open.png",
+      "pixels": [
+        2853,
+        2007
+      ],
+      "fixture": false,
+      "layout": "duo-open-layout.json"
+    },
+    {
+      "file": "duo-rotated.png",
+      "pixels": [
+        2007,
+        2853
+      ],
+      "fixture": false,
+      "layout": "duo-rotated-layout.json"
+    },
+    {
+      "file": "ordinary-mode-preserved.png",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "fixture": false,
+      "layout": "ordinary-mode-preserved-layout.txt"
+    },
+    {
+      "file": "overview.png",
+      "pixels": [
+        1560,
+        881
+      ],
+      "fixture": false,
+      "layout": null
+    },
+    {
+      "file": "q-fixture-canal-collision.png",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "fixture": true,
+      "layout": "q-fixture-canal-collision-layout.txt"
+    },
+    {
+      "file": "q-fixture-near-miss.png",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "fixture": true,
+      "layout": "q-fixture-near-miss-layout.txt"
+    },
+    {
+      "file": "q-fixture-sand.png",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "fixture": true,
+      "layout": "q-fixture-sand-layout.txt"
+    },
+    {
+      "file": "q-fixture-strong-pull.png",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "fixture": true,
+      "layout": "q-fixture-strong-pull-layout.txt"
+    },
+    {
+      "file": "q-fixture-swing.png",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "fixture": true,
+      "layout": "q-fixture-swing-layout.txt"
+    },
+    {
+      "file": "q-mode-large-text-picker.png",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "fixture": false,
+      "layout": "q-mode-large-text-picker-layout.txt"
+    },
+    {
+      "file": "q-mode-large-text.png",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "fixture": false,
+      "layout": "q-mode-large-text-layout.txt"
+    },
+    {
+      "file": "q-mode-next-level.png",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "fixture": false,
+      "layout": "q-mode-next-level-layout.txt"
+    },
+    {
+      "file": "q-mode-peach-silly.png",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "fixture": false,
+      "layout": "q-mode-peach-silly-layout.txt"
+    },
+    {
+      "file": "q-mode-picker.png",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "fixture": false,
+      "layout": "q-mode-picker-layout.txt"
+    },
+    {
+      "file": "q-mode-ready.png",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "fixture": false,
+      "layout": "q-mode-ready-layout.txt"
+    },
+    {
+      "file": "q-mode-real-win.png",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "fixture": false,
+      "layout": "q-mode-real-win-layout.txt"
+    }
+  ]
+}

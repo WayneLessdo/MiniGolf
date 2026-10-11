@@ -1,0 +1,154 @@
+{
+  "xcode": "27.1 (27A9269)",
+  "sdk": "iOS 27.1",
+  "device": "iPhone Duo",
+  "captureMethod": "Rendered Simulator UIWindow snapshots, Debug initial conditions labeled in UI; outcomes from real engine",
+  "eventCaptures": [
+    {
+      "file": "compact-tee-off.png",
+      "proof": "compact-tee-off.json",
+      "sha256": "9e0dfead0ae18df9cf2e184e9e3dfeada0908ccd4034fc775876f6caacda6004",
+      "fixture": true,
+      "event": "tee-off",
+      "level": "01"
+    },
+    {
+      "file": "compact-aiming.png",
+      "proof": "compact-aiming.json",
+      "sha256": "709d746e9516e12282469e66666fe8d4be2998ffadf8add811c7cd4786706944",
+      "fixture": true,
+      "event": "aiming",
+      "level": "01"
+    },
+    {
+      "file": "compact-hole-success.png",
+      "proof": "compact-hole-success.json",
+      "sha256": "68c4ed7823f50351f764d97fb261774074e382abc6cc00f45494de49cc567e26",
+      "fixture": true,
+      "event": "hole-success",
+      "level": "01"
+    },
+    {
+      "file": "compact-out-of-bounds.png",
+      "proof": "compact-out-of-bounds.json",
+      "sha256": "7cde0467c648730c4b09c18c51031a71e22ce6a504973c4f13c8a8361fdf5fb5",
+      "fixture": true,
+      "event": "out-of-bounds",
+      "level": "01"
+    },
+    {
+      "file": "compact-canal-collision.png",
+      "proof": "compact-canal-collision.json",
+      "sha256": "1a2c90aaa9f0a995c38c751837ceda0e10eee7e072902e3cf5382485a97fbf5e",
+      "fixture": true,
+      "event": "canal-collision",
+      "level": "01"
+    },
+    {
+      "file": "compact-penalty.png",
+      "proof": "compact-penalty.json",
+      "sha256": "ca2baec419525b9dcac35b07c2be9c945064a0a5932ba5daf3a33a203b417f3b",
+      "fixture": true,
+      "event": "penalty",
+      "level": "01"
+    },
+    {
+      "file": "regular-tee-off.png",
+      "proof": "regular-tee-off.json",
+      "sha256": "d8d8cd37b7c1424e3118831e59bb20e615f0a496628ceca5ace21a4e5bf04349",
+      "fixture": true,
+      "event": "tee-off",
+      "level": "02"
+    },
+    {
+      "file": "regular-aiming.png",
+      "proof": "regular-aiming.json",
+      "sha256": "30ccecc0315c5022bdafe6bf911456b126ba803236372ce55bc8cd1c6ec9efd6",
+      "fixture": true,
+      "event": "aiming",
+      "level": "02"
+    },
+    {
+      "file": "regular-hole-success.png",
+      "proof": "regular-hole-success.json",
+      "sha256": "30e0ffb9225fe9f9c459c91aa68ec091211fa231212339a2d6c55a03a54c7838",
+      "fixture": true,
+      "event": "hole-success",
+      "level": "02"
+    },
+    {
+      "file": "regular-out-of-bounds.png",
+      "proof": "regular-out-of-bounds.json",
+      "sha256": "341ec9e9ac8f2edce9d054a6eb014fc56f8ab1f9e5c7c39fdc84ae922e37e4eb",
+      "fixture": true,
+      "event": "out-of-bounds",
+      "level": "02"
+    },
+    {
+      "file": "regular-canal-collision.png",
+      "proof": "regular-canal-collision.json",
+      "sha256": "aeac400bdc74b3ed4c55e1d593259d7e6cf225d7055346ad763e0c3d0410c294",
+      "fixture": true,
+      "event": "canal-collision",
+      "level": "02"
+    },
+    {
+      "file": "regular-penalty.png",
+      "proof": "regular-penalty.json",
+      "sha256": "8475f95d66d006757e58ec082299024c91ec30176f150d43c5f8de2928ac3b91",
+      "fixture": true,
+      "event": "penalty",
+      "level": "02"
+    },
+    {
+      "file": "folded-tee-off.png",
+      "proof": "folded-tee-off.json",
+      "sha256": "99057757feddd20216a2820e5703cb9daff48db783fa0afa1fb55f3109671a02",
+      "fixture": true,
+      "event": "tee-off",
+      "level": "03"
+    },
+    {
+      "file": "folded-aiming.png",
+      "proof": "folded-aiming.json",
+      "sha256": "30dd43689eb139cb5fd6ab5004bef72457bdb839d28a8df770b83aeb688967a6",
+      "fixture": true,
+      "event": "aiming",
+      "level": "03"
+    },
+    {
+      "file": "folded-hole-success.png",
+      "proof": "folded-hole-success.json",
+      "sha256": "c6115330d7d16e1603c148a196ed921429e059929109a086c000d5146103b87a",
+      "fixture": true,
+      "event": "hole-success",
+      "level": "03"
+    },
+    {
+      "file": "folded-out-of-bounds.png",
+      "proof": "folded-out-of-bounds.json",
+      "sha256": "f3866db0e15d8ecf4f835b49515b809b7ad38799e38e2c8a4fcea6392356992e",
+      "fixture": true,
+      "event": "out-of-bounds",
+      "level": "03"
+    },
+    {
+      "file": "folded-canal-collision.png",
+      "proof": "folded-canal-collision.json",
+      "sha256": "d6672bb048128d2bf1da86acd11901c716e6fe55a54e19b78f13197c62161faa",
+      "fixture": true,
+      "event": "canal-collision",
+      "level": "03"
+    },
+    {
+      "file": "folded-penalty.png",
+      "proof": "folded-penalty.json",
+      "sha256": "1c36fc243958bd06e0358eb7040a6b424995f719f277eac85a7251ec153de26c",
+      "fixture": true,
+      "event": "penalty",
+      "level": "03"
+    }
+  ],
+  "normalPlay": "normal-play-first-hole.png",
+  "normalPlayFixture": false
+}

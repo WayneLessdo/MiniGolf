@@ -1,0 +1,16 @@
+{
+  "file": "universal-handheld.png",
+  "device": "iPhone 16 Pro simulator",
+  "os": "18.5",
+  "fixture": false,
+  "test": "FPPrototypeUITests/testPullAndHandheldMenu()",
+  "attachment": {
+    "configurationName": "Test Scheme Action",
+    "deviceId": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+    "deviceName": "iPhone 16 Pro",
+    "exportedFileName": "2B4FE208-860D-47F1-BF56-D053233F9EB3.png",
+    "isAssociatedWithFailure": false,
+    "suggestedHumanReadableName": "Screenshot of Target Application 'com.mavericklab.foldputt'_0_1BADC68B-314D-4A7E-9339-7268A9979F49.png",
+    "timestamp": 1790736860.076
+  }
+}

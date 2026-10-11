@@ -1,0 +1,30 @@
+{
+  "occlusion" : [
+    "{{535, 0}, {134, 82}}"
+  ],
+  "courseExclusions" : [
+    "{{0, 455.5}, {669, 40}}",
+    "{{535, 0}, {134, 82}}"
+  ],
+  "insets" : {
+    "left" : 0,
+    "bottom" : 34,
+    "top" : 82,
+    "right" : 0
+  },
+  "handheldSwitch" : false,
+  "activeDivision" : [
+    "{{0, 455.5}, {669, 40}}"
+  ],
+  "mode" : "handheld",
+  "phase" : "ready",
+  "division" : [
+    "{{0, 455.5}, {669, 40}}"
+  ],
+  "verticalSizeClass" : 2,
+  "horizontalSizeClass" : 2,
+  "courseFrame" : "{{0, 0}, {669, 455.5}}",
+  "bounds" : "{{0, 0}, {669, 951}}",
+  "strokes" : 0,
+  "scale" : 3
+}
