@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-09",
+  "source": "Real browser renders of the standalone FoldPutt HTML interaction concept",
+  "os": "macOS 26.6",
+  "browser": "Google Chrome 155.0.8059.39",
+  "capture": "Playwright headless Chromium, deviceScaleFactor=1, fullPage=true",
+  "url": "http://127.0.0.1:4186/prototype/cozy-putt/",
+  "nativeSDK": null,
+  "nativeTraits": null,
+  "nativeSafeArea": null,
+  "nativeReservedRegions": null,
+  "limitation": "Browser concept only. Not UIKit, Simulator, Device Hub or native DUO evidence. Shot paths are presentation choreography, not production physics.",
+  "images": [
+    { "file": "desktop-cozy.png", "viewport": [1440,1100], "state": "initial, cozy, rice ball" },
+    { "file": "desktop-charging.png", "viewport": [1440,1100], "state": "real mouse drag, charging" },
+    { "file": "desktop-win.png", "viewport": [1440,1100], "state": "completed real mouse drag, win card" },
+    { "file": "desktop-silly-near.png", "viewport": [1440,1100], "state": "silly near-miss vignette" },
+    { "file": "mobile-cozy.png", "viewport": [375,1000], "state": "cozy, peach ball, all ideas visited" },
+    { "file": "mobile-win.png", "viewport": [390,844], "state": "touch-enabled viewport, real touch drag, win card" }
+  ]
+}

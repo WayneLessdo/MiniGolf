@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f5f1e6">
+  <title>FoldPutt · 小草坪俱乐部</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-mood="cozy">
+<svg class="symbols" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+  <symbol id="i-flag" viewBox="0 0 24 24"><path d="M6 21V3c5-3 8 4 13 1v10c-5 3-8-4-13-1M3 21h7"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+  <symbol id="i-replay" viewBox="0 0 24 24"><path d="M4 9a8 8 0 1 1 0 6M4 3v6h6"/></symbol>
+  <symbol id="i-sound" viewBox="0 0 24 24"><path d="m3 9 4 0 5-5v16l-5-5H3zm13-2c4 3 4 7 0 10m3-13c6 5 6 11 0 16"/></symbol>
+  <symbol id="i-flower" viewBox="0 0 24 24"><path d="M12 8c-8-9-12 4-4 4-9 8 4 12 4 4 8 9 12-4 4-4 9-8-4-12-4-4Z"/><circle cx="12" cy="12" r="2"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 3 7 7 1-5 5 1 7-6-4-6 4 1-7-5-5 7-1Z"/></symbol>
+</defs></svg>
+
+<div class="page">
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="FoldPutt 小草坪俱乐部首页">
+      <span class="brand-mark"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M28 33V6l12 5-12 5" fill="#e99b76" stroke="#344d3e" stroke-width="2.5" stroke-linejoin="round"/><ellipse cx="25" cy="37" rx="19" ry="6" fill="#a6bb80"/><circle cx="17" cy="28" r="10" fill="#fffbed" stroke="#344d3e" stroke-width="2"/><path d="M14 27v2m6-2v2m-6 4q3 3 6 0" fill="none" stroke="#344d3e" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+      <span>FoldPutt<small>小草坪俱乐部</small></span>
+    </a>
+    <nav class="mood-switch" aria-label="选择氛围">
+      <button type="button" class="selected" data-mood="cozy" aria-pressed="true"><span class="mood-dot"></span>软乎乎</button>
+      <button type="button" data-mood="silly" aria-pressed="false"><span class="mood-spark">✳</span>有点皮</button>
+    </nav>
+    <span class="edition">可交互概念 <span>VOL. 01</span></span>
+  </header>
+
+  <main>
+    <div class="studio">
+      <section class="intro" aria-labelledby="intro-title">
+        <div class="eyebrow"><span></span> A LITTLE PUTT, A LITTLE JOY</div>
+        <h1 id="intro-title">今天，打个<br><span>小小的好球。</span></h1>
+        <p class="intro-copy" id="intro-copy">让小球慢慢滚，<br>把今天的烦恼留在草地上。</p>
+        <div class="scribble-note"><svg viewBox="0 0 90 43" aria-hidden="true"><path d="M3 8c38-9 22 31 77 21m-9-8 12 8-12 10"/></svg><span>不赶时间，开心就好</span></div>
+
+        <div class="ball-profile">
+          <span class="tape" aria-hidden="true"></span>
+          <div class="profile-top"><span class="tiny-label">认识今天的球友</span><span class="profile-no">NO. 001</span></div>
+          <svg class="portrait" viewBox="0 0 210 132" aria-label="圆滚滚的糯米球插画" role="img">
+            <ellipse cx="103" cy="113" rx="44" ry="8" fill="#ddd9c2"/>
+            <path d="M156 35l8-7m-4 20 10 1m-22-28 2-9" fill="none" stroke="#b6854e" stroke-width="2.5" stroke-linecap="round"/>
+            <circle class="skin-fill" cx="103" cy="64" r="45" fill="#fffbea" stroke="#526149" stroke-width="2"/>
+            <path d="M67 43q8-18 23-17" stroke="white" stroke-width="7" stroke-linecap="round" fill="none"/>
+            <ellipse cx="78" cy="77" rx="8" ry="5" fill="#efb6a4"/><ellipse cx="127" cy="77" rx="8" ry="5" fill="#efb6a4"/>
+            <path d="M91 63v7m23-7v7m-21 12q10 10 20 0" fill="none" stroke="#48523e" stroke-width="3.2" stroke-linecap="round"/>
+            <circle cx="124" cy="37" r="2" fill="#d9d4be"/><circle cx="133" cy="45" r="2" fill="#d9d4be"/>
+            <text x="29" y="112" transform="rotate(-12 29 112)" class="hand" font-size="16" fill="#697755">hi!</text>
+          </svg>
+          <div class="profile-name"><strong id="ball-name">糯米团子</strong><span class="hand" id="ball-caption">圆，是一种生活态度。</span></div>
+          <div class="skin-options" aria-label="小球外观">
+            <button type="button" class="skin selected" data-skin="rice" aria-label="糯米团子" aria-pressed="true"><i style="--skin:#fffbea"></i></button>
+            <button type="button" class="skin" data-skin="peach" aria-label="桃桃丸子" aria-pressed="false"><i style="--skin:#f6c6b6"></i></button>
+            <button type="button" class="skin" data-skin="sesame" aria-label="芝麻小圆" aria-pressed="false"><i style="--skin:#d3d7c4"></i></button>
+            <span>换一位球友</span>
+          </div>
+        </div>
+        <p class="margin-note hand">小小一杆，<br>也是今天的小小成就。</p>
+      </section>
+
+      <section class="play-column" aria-label="小草坪互动球场">
+        <div class="course-frame" id="course-frame">
+          <div class="course-hud"><div><span class="course-number">01</span><span><strong>云朵练习场</strong><small>THE SLOW MEADOW · PAR 3</small></span></div><button class="icon-button" id="reset" type="button" aria-label="重新开始这一杆"><svg><use href="#i-replay"/></svg></button></div>
+          <span class="weather hand">今天宜：慢慢来</span>
+          <svg id="course" viewBox="0 0 600 660" role="img" aria-label="手绘草地球场，小球位于下方，旗杆与球洞位于上方">
+            <defs>
+              <pattern id="paper-dots" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".55" fill="#6c8050" opacity=".12"/><circle cx="7" cy="8" r=".4" fill="#fff" opacity=".5"/></pattern>
+              <pattern id="grass-stripes" width="76" height="76" patternUnits="userSpaceOnUse" patternTransform="rotate(-28)"><rect width="38" height="76" fill="#ffffff" opacity=".075"/></pattern>
+              <radialGradient id="ball-grad" cx="35%" cy="25%" r="80%"><stop offset="0" stop-color="#fffef6"/><stop id="ball-gradient-stop" offset="1" stop-color="#f2edcc"/></radialGradient>
+              <filter id="soft-shadow" x="-70%" y="-70%" width="240%" height="240%"><feDropShadow dx="0" dy="5" stdDeviation="2.5" flood-color="#455a39" flood-opacity=".16"/></filter>
+              <path id="fairway" d="M272 113C381 84 472 128 466 226C461 280 451 294 466 348C499 459 420 535 319 542C211 551 123 511 135 414C140 363 126 317 143 265C161 210 168 141 272 113Z"/>
+              <clipPath id="fairway-clip"><use href="#fairway"/></clipPath>
+              <g id="flower"><path d="M0 1v12m0-3q-8-7-9-2" fill="none" stroke="#6d8655" stroke-width="1.6"/><path d="M0-4c-8-11-14 4-5 5-8 10 7 14 7 5 12 4 12-10 3-9 4-10-8-13-5-1" fill="#fffbed"/><circle r="3" fill="#d9b467"/></g>
+              <g id="tuft" fill="none" stroke="#6f8951" stroke-width="1.8" stroke-linecap="round"><path d="m-4 3-2-5m6 5 1-8m3 8 3-4"/></g>
+            </defs>
+            <rect width="600" height="660" class="meadow-base" fill="#dbe4ba"/>
+            <path d="M-35 472C57 403 60 411 86 304S137 177 160 132" fill="none" stroke="#cad6a8" stroke-width="140" opacity=".65"/>
+            <path d="M492 673C575 576 562 492 604 427" fill="none" stroke="#c1d8cc" stroke-width="79"/>
+            <path d="M492 673C575 576 562 492 604 427" fill="none" stroke="#e9f2df" stroke-width="4" opacity=".8"/>
+            <g stroke="#f1f5e9" stroke-width="2" fill="none" opacity=".8"><path d="M532 564q15-8 26-2m-34 24 17-3m27-87 16-6m-33 93 20-2"/></g>
+            <g id="ground-doodles"></g>
+            <use href="#fairway" transform="translate(0 9)" fill="#899c6c" stroke="#839361" stroke-width="3"/>
+            <use href="#fairway" fill="#baca91" stroke="#7c9060" stroke-width="2.2"/>
+            <use href="#fairway" fill="url(#grass-stripes)"/>
+            <path d="M270 127C374 101 449 140 450 221" stroke="#e6edc9" stroke-width="4" stroke-linecap="round" fill="none"/>
+            <path d="M164 398C151 477 218 516 296 518" stroke="#e6edc9" stroke-width="3" stroke-linecap="round" fill="none"/>
+            <rect width="600" height="660" fill="url(#paper-dots)" pointer-events="none"/>
+            <g id="sand-patch" transform="translate(193 286) rotate(-16)"><path d="M-27-32C-2-52 36-18 30 9S-23 51-36 26-50-7-27-32" fill="#e7d6a1" stroke="#b7a976" stroke-width="2"/><path d="M-25-28C-13-35 8-32 18-19" fill="none" stroke="#fcf0c7" stroke-width="3"/><g fill="#b9a26e" opacity=".6"><circle cx="-13" cy="-10" r="1.5"/><circle cx="10" cy="7" r="1"/><circle cx="-20" cy="15" r="1"/><circle cx="-12" cy="26" r="1.5"/><circle cx="4" cy="-8" r="1"/></g></g>
+            <g transform="translate(400 389) rotate(12)"><ellipse cy="9" rx="29" ry="13" fill="#809364" opacity=".25"/><path d="M-27 2q-5-26 17-27Q9-34 25-7l-4 16h-43Z" fill="#b6b9a3" stroke="#84917c" stroke-width="2"/><path d="m-17-15 9-4 12 1" stroke="#dde0c8" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M-8-3v2m15-4v2" stroke="#647061" stroke-width="2" stroke-linecap="round"/></g>
+            <g id="cloud" transform="translate(111 130)"><path d="M-36 4c-19-4-13-29 5-24 0-28 40-31 44-5 26-13 43 29 16 30Z" fill="#f8f8e9" stroke="#adb898" stroke-width="1.5"/><path d="M-8-8v3m15-3v3m-11 7q4 3 8 0" stroke="#7e8d70" stroke-width="1.8" stroke-linecap="round" fill="none"/></g>
+            <g transform="translate(488 155)"><circle r="24" fill="#f3d899"/><g stroke="#c3a66a" stroke-width="2" stroke-linecap="round"><path d="M0-32v-7m0 71v7m32-39h7m-71 0h-7m64-25 5-5m-55 55-5 5m60 0-5-5m-50-50 5 5"/></g><path d="M-8-2v3m16-3v3M-5 9q5 4 10 0" stroke="#9b7d48" stroke-width="2" fill="none" stroke-linecap="round"/></g>
+            <g id="mushrooms" transform="translate(103 468)"><ellipse cy="30" rx="34" ry="8" fill="#9bae7c" opacity=".35"/><path d="M-8 2v22q0 12 15 4l1-25" fill="#fff4d7" stroke="#9f8967" stroke-width="1.7"/><path d="M-25 3q3-42 31-28 18 8 18 26Q3 14-25 3" fill="#d69b79" stroke="#9f8967" stroke-width="1.7"/><g fill="#f8e2bd"><circle cx="-9" cy="-10" r="4"/><circle cx="8" cy="-17" r="3"/><circle cx="17" cy="-4" r="3"/></g><path d="M-2 15v2m5-2v2" stroke="#6e654d" stroke-width="1.5"/><g transform="translate(-24 20) scale(.6)"><path d="M-5-2v20h12V-2" fill="#fff4d7" stroke="#9f8967" stroke-width="2"/><path d="M-21 1q2-34 22-27Q23-19 22 1Z" fill="#d9b985" stroke="#9f8967" stroke-width="2"/></g></g>
+            <g id="bird" transform="translate(476 487)"><ellipse cy="20" rx="21" ry="5" fill="#91a771" opacity=".4"/><path d="m-5 12-2 9m12-9 2 9" stroke="#937c4c" stroke-width="2"/><path d="M-19 7q-5-35 23-29Q28-15 22 6 0 27-19 7" fill="#f1dea4" stroke="#b6a371" stroke-width="1.8"/><path d="m-18-5-10 4 11 3" fill="#d39d6c"/><circle cx="-10" cy="-8" r="2" fill="#675e40"/><path d="M2 0q10 13 16-1" stroke="#c4ad72" stroke-width="2" fill="none"/><path d="M0-23q-4-10 4-10" stroke="#a58f5c" fill="none" stroke-width="2"/></g>
+            <g transform="translate(101 573) rotate(-10)"><rect x="-4" y="-15" width="9" height="58" rx="2" fill="#b6996f"/><path d="M-39-21 30-25l14 18-13 21-68-4Z" fill="#efe1b9" stroke="#af986f" stroke-width="1.7"/><text x="1" y="-1" text-anchor="middle" class="hand" font-size="15" fill="#736748">慢 慢 来</text></g>
+            <g id="hole" transform="translate(320 221)"><ellipse cy="4" rx="25" ry="13" fill="#9aac76"/><ellipse rx="21" ry="11" fill="#4e6043" stroke="#70865b" stroke-width="3"/><ellipse cy="2" rx="15" ry="6" fill="#354b39"/><g id="hole-eyes" opacity="0" fill="#fff7da"><circle cx="-7" cy="-1" r="2"/><circle cx="7" cy="-1" r="2"/></g></g>
+            <g id="flag" transform="translate(320 221)"><path d="M1-3v-85" stroke="#667655" stroke-width="4" stroke-linecap="round"/><path id="flag-cloth" d="M2-88q26-12 50 4l-6 31Q25-70 2-58Z" fill="#eeaa86" stroke="#a77855" stroke-width="1.8"/><text x="25" y="-65" text-anchor="middle" fill="#684f3e" font-size="17" font-weight="700">01</text></g>
+            <path id="aim-path" d="" fill="none" stroke="#fffbe8" stroke-width="4" stroke-dasharray="6 10" stroke-linecap="round"/>
+            <path id="pull-path" d="" fill="none" stroke="#6e8359" stroke-width="2" stroke-dasharray="3 5"/>
+            <circle id="pull-end" r="7" fill="#f5dfaa" stroke="#718357" stroke-width="2" opacity="0"/>
+            <g id="club-position" transform="translate(295 467)"><g id="club" transform="rotate(-23)"><path d="M13 70 0 0" stroke="#526748" stroke-width="6" stroke-linecap="round"/><path d="m13 70-5-26" stroke="#be9271" stroke-width="9" stroke-linecap="round"/><path d="M-12-5Q-16-15-4-18l27-4q9 3 8 13L6 2Z" fill="#f3e6bd" stroke="#776f51" stroke-width="2.2"/><path d="m-7-9 30-8" stroke="#fff7d9" stroke-width="2"/></g></g>
+            <g id="ball" transform="translate(304 470)">
+              <ellipse id="ball-shadow" cy="22" rx="22" ry="6" fill="#718854" opacity=".3"/>
+              <g id="ball-body" filter="url(#soft-shadow)"><circle r="23" fill="url(#ball-grad)" stroke="#71805d" stroke-width="1.6"/><path d="M-17-9q4-9 12-10" stroke="#fffef6" stroke-width="4" fill="none" stroke-linecap="round"/><g id="dimples" fill="#bcbfa5" opacity=".6"><circle cx="13" cy="-13" r="1.4"/><circle cx="17" cy="-8" r="1.2"/><circle cx="9" cy="-17" r="1.2"/></g><g id="ball-face" stroke="#4e5940" stroke-width="2.4" stroke-linecap="round" fill="none"><path id="eyes" d="M-7-3v3M7-3v3"/><path id="mouth" d="M-4 7q4 4 8 0"/></g><g fill="#eaaa97" opacity=".65"><ellipse cx="-14" cy="5" rx="4" ry="2.8"/><ellipse cx="14" cy="5" rx="4" ry="2.8"/></g><path id="sweat" d="M24-14q-9 14 0 14t0-14" fill="#a4cfc5" stroke="#6b9e98" stroke-width="1" opacity="0"/></g>
+            </g>
+            <g id="effects" pointer-events="none"></g>
+            <g id="particles" pointer-events="none"></g>
+          </svg>
+          <div class="course-bottom"><span class="stroke-counter"><b id="strokes">0</b> 杆<span>·</span>慢慢来就很好</span><span class="live-dot" id="phase-label">准备好啦</span></div>
+          <div class="result" id="result" hidden><span class="result-stars" aria-label="完成纪念星星">✦ ✦ ✦</span><p class="hand" id="result-title">到家啦。</p><span id="result-copy">今天的小小成就，收好。</span><button id="again" type="button">再来一杆 <svg><use href="#i-arrow"/></svg></button></div>
+        </div>
+        <div class="interaction-help"><span class="drag-glyph" aria-hidden="true">↙</span><p><strong>按住小球，向后拖，松手挥杆。</strong><span id="gesture-hint">方向和力度，都交给这一次拉杆。</span></p><button id="auto-play" type="button">帮我打一杆 <svg><use href="#i-arrow"/></svg></button></div>
+      </section>
+
+      <aside class="ideas" aria-label="五个小心思演示">
+        <div class="ideas-heading"><span class="eyebrow">THE LITTLE THINGS</span><h2>五个小心思<span class="hand">点点看 ↓</span></h2><p>把不起眼的一瞬间，变可爱。</p></div>
+        <div class="idea-list">
+          <button type="button" class="idea" data-idea="face"><span class="idea-num">01</span><span><strong>一颗有表情的小球</strong><small>认真、憋气、得意，都写在脸上</small></span><span class="idea-check" aria-hidden="true">↗</span></button>
+          <button type="button" class="idea" data-idea="swing"><span class="idea-num">02</span><span><strong>小球杆，大架势</strong><small>向后蓄力，干脆利落地挥一下</small></span><span class="idea-check" aria-hidden="true">↗</span></button>
+          <button type="button" class="idea" data-idea="letters"><span class="idea-num">03</span><span><strong>画出来的声音</strong><small>啵、沙沙、咕噜，都是手写的</small></span><span class="idea-check" aria-hidden="true">↗</span></button>
+          <button type="button" class="idea" data-idea="near"><span class="idea-num">04</span><span><strong>刚刚，我们对视了？</strong><small>擦洞而过时，一场尴尬的沉默</small></span><span class="idea-check" aria-hidden="true">↗</span></button>
+          <button type="button" class="idea" data-idea="win"><span class="idea-num">05</span><span><strong>进洞也有小剧场</strong><small>到家啦，或者……终于下班了</small></span><span class="idea-check" aria-hidden="true">↗</span></button>
+        </div>
+        <div class="director-note"><span class="tiny-label">刚刚发生的小事</span><p id="story" class="hand" aria-live="polite">小球已经就位。<br>它说，它一点都不紧张。</p><div><span id="seen-count">0 / 5</span><span>个小心思已发现</span></div></div>
+        <div class="preferences"><button type="button" id="sound" aria-pressed="false"><svg><use href="#i-sound"/></svg><span>声音关</span></button><button type="button" id="motion" aria-pressed="false"><svg><use href="#i-flower"/></svg><span>减少动效</span></button></div>
+      </aside>
+    </div>
+
+    <section class="moments" aria-labelledby="moments-title">
+      <div class="moments-title"><div><span class="eyebrow">LITTLE MOMENTS, BIG FEELINGS</span><h2 id="moments-title">每一杆，都有一点小情绪。</h2></div><p class="hand">球技可以一般，可爱必须满分。</p></div>
+      <div class="moment-grid">
+        <button class="moment moment-ready" data-idea="swing" type="button"><span class="moment-index">01 / BEFORE</span><svg viewBox="0 0 290 145" aria-hidden="true"><path d="M20 124q117-27 246 0" stroke="#aebc8a" stroke-width="2" fill="none"/><ellipse cx="142" cy="120" rx="30" ry="5" fill="#b4c295"/><circle cx="142" cy="83" r="33" fill="#fffbea" stroke="#657652" stroke-width="2"/><path d="m130 77 5 3m17-3-5 3m-14 15q9-5 17 0" fill="none" stroke="#515f45" stroke-width="2.5" stroke-linecap="round"/><path d="m84 125-12-56" stroke="#70805c" stroke-width="5"/><rect x="54" y="56" width="40" height="13" rx="5" fill="#eddcaa" stroke="#7b7f5f" stroke-width="2" transform="rotate(-15 54 56)"/><text x="177" y="42" class="hand" font-size="23" fill="#55674a" transform="rotate(8 177 42)">认真了！</text><path d="m178 49-14 14" stroke="#89976a" stroke-width="1.8"/></svg><span class="moment-copy"><strong>小小身体，大大决心</strong><span>看蓄力与挥杆 <b>↗</b></span></span></button>
+        <button class="moment moment-near" data-idea="near" type="button"><span class="moment-index">02 / ALMOST</span><svg viewBox="0 0 290 145" aria-hidden="true"><ellipse cx="100" cy="109" rx="25" ry="10" fill="#566b4d"/><circle cx="94" cy="107" r="2" fill="#fff"/><circle cx="105" cy="107" r="2" fill="#fff"/><path d="M144 98h23" stroke="#9eab88" stroke-width="2" stroke-dasharray="3 5"/><circle cx="209" cy="87" r="29" fill="#fffbed" stroke="#6a7758" stroke-width="2"/><path d="M195 82v2m12-2v2m-14 14h8" stroke="#54614a" stroke-width="2.5" stroke-linecap="round"/><text x="85" y="70" class="hand" font-size="32" fill="#8f7452">?</text><text x="165" y="39" class="hand" font-size="21" fill="#846e55" transform="rotate(-6 165 39)">你礼貌吗？</text></svg><span class="moment-copy"><strong>差一点，也有戏</strong><span>看擦洞小剧场 <b>↗</b></span></span></button>
+        <button class="moment moment-win" data-idea="win" type="button"><span class="moment-index">03 / FINALLY</span><svg viewBox="0 0 290 145" aria-hidden="true"><ellipse cx="146" cy="115" rx="30" ry="12" fill="#7b8f69"/><path d="M121 110q-5-47 25-45t28 45" fill="#fffbed" stroke="#708162" stroke-width="2"/><path d="m131 91 5-3 4 3m13 0 5-3 4 3m-21 8q6 8 12 0" fill="none" stroke="#566548" stroke-width="2.5" stroke-linecap="round"/><g fill="#d6aa5f"><path d="m81 52 3 10 10 3-10 4-3 10-4-10-9-4 9-3Z"/><path d="m204 78 3 8 8 3-8 3-3 8-3-8-8-3 8-3Z"/></g><text x="117" y="42" class="hand" font-size="24" fill="#61764e" transform="rotate(-4 117 42)">到家啦～</text></svg><span class="moment-copy"><strong>值得盖个好球章</strong><span>看入洞与纪念卡 <b>↗</b></span></span></button>
+      </div>
+    </section>
+  </main>
+  <footer><span>FoldPutt <span class="footer-flower">✳</span> MADE FOR A SOFTER DAY.</span><p>网页交互概念 · 球路与动效为演示，未接入正式关卡物理</p><span>手绘概念 / 2026</span></footer>
+</div>
+</body>
+</html>
