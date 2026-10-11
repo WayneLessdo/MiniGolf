@@ -1,0 +1,35 @@
+<svg width="720" height="160" viewBox="0 0 720 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D6FF9A"/><stop offset="1" stop-color="#54C79A"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFE7A3"/><stop offset="1" stop-color="#D79738"/></linearGradient>
+  </defs>
+  <g transform="translate(16 16)">
+    <circle cx="64" cy="64" r="56" fill="#18282D" stroke="#40626A" stroke-width="2"/>
+    <path d="M38 84C46 65 63 52 87 45C89 65 78 81 58 90C49 94 42 92 38 84Z" fill="url(#mint)"/>
+    <path d="M52 80L82 51" stroke="#F4FFDA" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="36" cy="87" r="7" fill="#F5F1DF"/>
+  </g>
+  <g transform="translate(160 16)">
+    <circle cx="64" cy="64" r="56" fill="#18282D" stroke="#40626A" stroke-width="2"/>
+    <path d="M31 88C47 70 53 51 52 32" stroke="#A6E5B1" stroke-width="5" stroke-linecap="round"/>
+    <path d="M49 37C66 42 80 52 91 67" stroke="#EBD078" stroke-width="4" stroke-linecap="round" stroke-dasharray="5 8"/>
+    <path d="M44 78C61 74 79 77 92 88" stroke="#5FD2A2" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(304 16)">
+    <circle cx="64" cy="64" r="56" fill="#18282D" stroke="#40626A" stroke-width="2"/>
+    <path d="M30 96C44 71 52 48 64 31C76 48 84 71 98 96" stroke="#5BD1B2" stroke-width="5" stroke-linecap="round"/>
+    <path d="M37 89L91 89" stroke="#EBD078" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="64" cy="74" r="11" fill="url(#gold)"/>
+  </g>
+  <g transform="translate(448 16)">
+    <circle cx="64" cy="64" r="56" fill="#18282D" stroke="#40626A" stroke-width="2"/>
+    <rect x="34" y="37" width="60" height="55" rx="9" stroke="#8EEFC2" stroke-width="4"/>
+    <path d="M45 61H83M64 47V83" stroke="#EBD078" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(592 16)">
+    <circle cx="64" cy="64" r="56" fill="#18282D" stroke="#40626A" stroke-width="2"/>
+    <path d="M37 39C53 54 75 76 92 91" stroke="#EBD078" stroke-width="5" stroke-linecap="round"/>
+    <path d="M92 39C76 54 53 76 37 91" stroke="#8EEFC2" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="64" cy="64" r="9" fill="#F5F1DF"/>
+  </g>
+</svg>

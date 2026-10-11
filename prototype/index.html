@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#081317" />
+  <title>FoldPutt · DUO Lab</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+  <main class="app-shell">
+    <header class="topbar">
+      <div class="brand-lockup">
+        <div class="brand-mark" aria-hidden="true"><span></span><span></span></div>
+        <div>
+          <div class="brand-name">FOLD<span>PUTT</span></div>
+          <div class="brand-sub">DUO LAB / PLAYTEST 01</div>
+        </div>
+      </div>
+      <div class="topbar-meta">
+        <span class="live-dot"></span>
+        <span>LOCAL INTERACTIVE PROTOTYPE</span>
+        <button class="icon-button" id="reduceMotion" aria-label="切换减少动效" title="减少动效"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16M7 7l10 10M17 7 7 17"/></svg></button>
+      </div>
+    </header>
+
+    <section class="intro-row">
+      <div>
+        <p class="eyebrow">5 WAYS TO MAKE THE HINGE PLAYABLE</p>
+        <h1>把中缝变成<br><em>第二个球场。</em></h1>
+        <p class="intro-copy">一个拉杆，五种 DUO 玩法方向。拖动左侧概念，点击舞台里的控件，快速感受哪一种最像 FoldPutt。</p>
+      </div>
+      <div class="signal-card">
+        <div class="signal-top"><span>DESIGN SIGNAL</span><span class="signal-score">08/10</span></div>
+        <div class="signal-bar"><i></i></div>
+        <p>沉浸感来自可玩规则，而不是设备姿态。每个方案都保留单屏等价入口。</p>
+      </div>
+    </section>
+
+    <section class="lab-grid">
+      <aside class="concept-rail" aria-label="玩法概念列表">
+        <div class="rail-heading"><span>CONCEPTS</span><span class="rail-count">05</span></div>
+        <div id="conceptList" class="concept-list"></div>
+        <div class="rail-footer">
+          <div class="mini-orbit"><div class="mini-ball"></div><div class="mini-ring"></div></div>
+          <div><strong>共用核心</strong><span>单指拖拽拉杆 → 松手击球</span></div>
+        </div>
+      </aside>
+
+      <section class="stage-column">
+        <div class="stage-heading">
+          <div>
+            <div class="kicker-row"><span id="conceptKicker">A / DUAL WIND</span><span class="status-chip"><i></i> PLAYABLE</span></div>
+            <h2 id="conceptTitle">双屏物理解谜</h2>
+            <p id="conceptDesc">上屏读懂风场，下屏完成击球。信息和动作各自有一个落点。</p>
+          </div>
+          <div class="stage-actions"><button class="ghost-button" id="resetStage"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.3-5.6L4 8.7M4 4v4.7h4.7"/></svg>重置舞台</button></div>
+        </div>
+
+        <div class="duo-stage" id="duoStage">
+          <div class="stage-noise"></div>
+          <div class="stage-topline"><span id="stageMode">REGULAR / OPEN</span><span id="stageHint">拖动风场节点，再拉杆击球</span></div>
+          <div class="device-wrap" id="deviceWrap"></div>
+          <div class="stage-footline"><div class="foot-stat"><span>ACTIVE SURFACE</span><strong id="activeSurface">UPPER + LOWER</strong></div><div class="foot-stat"><span>INPUT MODEL</span><strong>SINGLE DRAG</strong></div><div class="foot-stat"><span>REWARD LOOP</span><strong id="rewardLoop">PRECISION STAR</strong></div></div>
+        </div>
+        <div class="interaction-log" aria-live="polite"><span class="log-pulse"></span><span id="interactionLog">等待你的第一次击球……</span><span class="log-time" id="logTime">00:00</span></div>
+      </section>
+
+      <aside class="insight-panel">
+        <div class="panel-label">WHY IT COULD WORK</div>
+        <div class="insight-score"><span id="fitScore">9.2</span><small>/ 10</small></div>
+        <p id="fitSummary">最符合“折叠 = 新规则”的方向，把预判和执行拆成两个屏幕动作，教学感清晰。</p>
+        <div class="insight-section"><div class="section-title">PLAY LOOP</div><div id="playLoop" class="loop-row"></div></div>
+        <div class="insight-section"><div class="section-title">DESIGN GUARDRAILS</div><ul id="guardrails" class="guardrail-list"></ul></div>
+        <div class="insight-section"><div class="section-title">PROTOTYPE SIGNALS</div><div id="signalTags" class="tag-cloud"></div></div>
+        <div class="panel-note"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M3 12h18"/></svg><span>建议先做 1 个教学洞验证“规则是否比姿态更有趣”。</span></div>
+      </aside>
+    </section>
+
+    <footer class="footer-bar"><span>FOLDPUTT / DUO CONCEPT REVIEW</span><span>SVG ASSETS GENERATED LOCALLY · NO EXTERNAL ENGINE</span><span id="footerDate">2026.09.30</span></footer>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>
