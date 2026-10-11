@@ -1,0 +1,243 @@
+{
+  "capturedAt": "2026-10-10T15:39:22.517Z",
+  "platform": "macOS 26.6 (25G72)",
+  "browser": "Headless Google Chrome 155.0.8059.39",
+  "automation": "Playwright; real mouse drags and CDP touch input, no win/score injection",
+  "artifact": "Independent HTML/Canvas prototype, not native UIKit screenshots",
+  "sdk": null,
+  "traits": "Browser responsive viewport; native horizontal/vertical size classes not applicable",
+  "safeArea": "CSS env safe-area-inset-top/right/bottom/left independently applied; desktop browser reports zero",
+  "reservedRegions": "Not applicable to browser preview; Duo hardware/SDK reserved regions not tested",
+  "checks": {
+    "main": 93,
+    "supplemental": 18,
+    "actualMouseShots": 31,
+    "consoleErrors": 0
+  },
+  "viewports": [
+    "320×740",
+    "375×812 / 375×844",
+    "390×844",
+    "768×1000 / 768×1024",
+    "844×390",
+    "1024×1000",
+    "1440×1000"
+  ],
+  "limitations": [
+    "Safari compatibility not validated",
+    "Full VoiceOver not validated",
+    "No native iPhone/Duo device validation in this prototype turn",
+    "No market/user-retention experiment conducted"
+  ],
+  "files": [
+    {
+      "file": "daily-result.png",
+      "width": 1440,
+      "height": 1000,
+      "type": "actual browser screenshot",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "fullPage": false
+    },
+    {
+      "file": "duel-score.png",
+      "width": 1440,
+      "height": 1000,
+      "type": "actual browser screenshot",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "fullPage": false
+    },
+    {
+      "file": "editor-desktop.png",
+      "width": 1440,
+      "height": 1285,
+      "type": "actual browser screenshot",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "fullPage": true
+    },
+    {
+      "file": "food-result.png",
+      "width": 1440,
+      "height": 1000,
+      "type": "actual browser screenshot",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "fullPage": false
+    },
+    {
+      "file": "gallery-desktop.png",
+      "width": 1440,
+      "height": 2381,
+      "type": "actual browser screenshot",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "fullPage": true
+    },
+    {
+      "file": "garden-collection.png",
+      "width": 1440,
+      "height": 1000,
+      "type": "actual browser screenshot",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "fullPage": false
+    },
+    {
+      "file": "garden-play.png",
+      "width": 1440,
+      "height": 1307,
+      "type": "actual browser screenshot",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "fullPage": true
+    },
+    {
+      "file": "garden-result.png",
+      "width": 1440,
+      "height": 1000,
+      "type": "actual browser screenshot",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "fullPage": false
+    },
+    {
+      "file": "ghost-play.png",
+      "width": 1440,
+      "height": 1307,
+      "type": "actual browser screenshot",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "fullPage": true
+    },
+    {
+      "file": "ghost-result.png",
+      "width": 1440,
+      "height": 1000,
+      "type": "actual browser screenshot",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "fullPage": false
+    },
+    {
+      "file": "mobile-gallery.png",
+      "width": 390,
+      "height": 2774,
+      "type": "actual browser screenshot",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": true
+    },
+    {
+      "file": "mobile-play.png",
+      "width": 390,
+      "height": 1798,
+      "type": "actual browser screenshot",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": true
+    },
+    {
+      "file": "mouth-result.png",
+      "width": 1440,
+      "height": 1000,
+      "type": "actual browser screenshot",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "fullPage": false
+    },
+    {
+      "file": "office-result.png",
+      "width": 1440,
+      "height": 1000,
+      "type": "actual browser screenshot",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "fullPage": false
+    },
+    {
+      "file": "preview-overview.jpg",
+      "width": 1440,
+      "height": 1080,
+      "type": "montage of actual browser screenshots",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "fullPage": true
+    },
+    {
+      "file": "puzzle-result.png",
+      "width": 1440,
+      "height": 1000,
+      "type": "actual browser screenshot",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "fullPage": false
+    },
+    {
+      "file": "shortlist.png",
+      "width": 1440,
+      "height": 1000,
+      "type": "actual browser screenshot",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "fullPage": false
+    },
+    {
+      "file": "sleep-result.png",
+      "width": 1440,
+      "height": 1000,
+      "type": "actual browser screenshot",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "fullPage": false
+    },
+    {
+      "file": "travel-result.png",
+      "width": 1440,
+      "height": 1000,
+      "type": "actual browser screenshot",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "fullPage": false
+    }
+  ]
+}
