@@ -1,0 +1,128 @@
+[
+  {
+    "file": "release/app-store/screenshots/iphone/01-classic-course.jpg",
+    "original": "docs/screenshots/release-20261022/iphone/store-02-classic-course.png",
+    "layout": "docs/screenshots/release-20261022/iphone/store-02-classic-course-layout.txt",
+    "pixels": [
+      1206,
+      2622
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone 16 Pro",
+    "device_id": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+    "timestamp": 1792645306.07,
+    "source_sha256": "16f846aeb4a93484dda9206866410c7df9c9e679bd9e653b819edd75f9eea602",
+    "sha256": "d9f71462adc8f47d1beb0c8ad643a3bf83f712b5596c2ee74f29f17d93e0b785",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/iphone/02-chibi-course.jpg",
+    "original": "docs/screenshots/release-20261022/iphone/store-03-chibi-course.png",
+    "layout": "docs/screenshots/release-20261022/iphone/store-03-chibi-course-layout.txt",
+    "pixels": [
+      1206,
+      2622
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone 16 Pro",
+    "device_id": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+    "timestamp": 1792645314.524,
+    "source_sha256": "873305f192bd94bff1ab2d2c0ecbefb39e203bda7c79f31d0efaf4ca79828765",
+    "sha256": "d39130722b7ff072dd304a3681c267c42de75024b79710b191b334eccb82816f",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/iphone/03-puzzles.jpg",
+    "original": "docs/screenshots/release-20261022/iphone/store-04-puzzles.png",
+    "layout": "docs/screenshots/release-20261022/iphone/store-04-puzzles-layout.txt",
+    "pixels": [
+      1206,
+      2622
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone 16 Pro",
+    "device_id": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+    "timestamp": 1792645316.164,
+    "source_sha256": "31e872b166ca6503c4be4c699bba97ecabac2a0efdf9f98d32b608702dadffbc",
+    "sha256": "6101c4064bb864dd25b59e9ad7d85d248247241049b6a1688ca4157c70ed9d1f",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/iphone/04-garden.jpg",
+    "original": "docs/screenshots/release-20261022/iphone/store-05-garden.png",
+    "layout": "docs/screenshots/release-20261022/iphone/store-05-garden-layout.txt",
+    "pixels": [
+      1206,
+      2622
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone 16 Pro",
+    "device_id": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+    "timestamp": 1792645317.201,
+    "source_sha256": "c5e173d068ef94cd1877ed458f37ee67b3a898bae50d341a86301059f3ba4ebf",
+    "sha256": "7bb8f3239bebd8b21873e3f8777a064c70f754b50179f9bdf0e684e97e65bbec",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/iphone/05-quotes.jpg",
+    "original": "docs/screenshots/release-20261022/iphone/store-06-quotes.png",
+    "layout": "docs/screenshots/release-20261022/iphone/store-06-quotes-layout.txt",
+    "pixels": [
+      1206,
+      2622
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone 16 Pro",
+    "device_id": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+    "timestamp": 1792645317.897,
+    "source_sha256": "9ec0f48f5c0bf97c6efdfeb04469a83fda3bd42847c0ee0aa2f7c9c33571c90e",
+    "sha256": "c9426f7680653c61ca283093e9790be007c884080ac5ae6ed4378d9c68e198ac",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/iphone/06-real-win.jpg",
+    "original": "docs/screenshots/release-20261022/iphone/store-07-real-win.png",
+    "layout": "docs/screenshots/release-20261022/iphone/store-07-real-win-layout.txt",
+    "pixels": [
+      1206,
+      2622
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone 16 Pro",
+    "device_id": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+    "timestamp": 1792645310.733,
+    "source_sha256": "d28a79f686f47f1fa6916c5ff4495196e801d97addcb00e83c460c6675fc1404",
+    "sha256": "10be8ae6323b732479405ce228a487603461d8b9b99430a53aebdfaff48cec82",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  }
+]

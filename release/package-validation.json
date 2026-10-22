@@ -1,0 +1,285 @@
+{
+  "metadata": [
+    {
+      "locale": "zh-Hans",
+      "field": "subtitle",
+      "count": 10,
+      "limit": 30,
+      "unit": "characters"
+    },
+    {
+      "locale": "zh-Hans",
+      "field": "keywords",
+      "count": 65,
+      "limit": 100,
+      "unit": "UTF-8 bytes"
+    },
+    {
+      "locale": "zh-Hans",
+      "field": "promotional_text",
+      "count": 66,
+      "limit": 170,
+      "unit": "characters"
+    },
+    {
+      "locale": "zh-Hans",
+      "field": "name",
+      "count": 8,
+      "limit": 30,
+      "unit": "characters"
+    },
+    {
+      "locale": "zh-Hans",
+      "field": "description",
+      "count": 490,
+      "limit": 4000,
+      "unit": "characters"
+    },
+    {
+      "locale": "en-US",
+      "field": "subtitle",
+      "count": 30,
+      "limit": 30,
+      "unit": "characters"
+    },
+    {
+      "locale": "en-US",
+      "field": "keywords",
+      "count": 59,
+      "limit": 100,
+      "unit": "UTF-8 bytes"
+    },
+    {
+      "locale": "en-US",
+      "field": "promotional_text",
+      "count": 170,
+      "limit": 170,
+      "unit": "characters"
+    },
+    {
+      "locale": "en-US",
+      "field": "name",
+      "count": 8,
+      "limit": 30,
+      "unit": "characters"
+    },
+    {
+      "locale": "en-US",
+      "field": "description",
+      "count": 917,
+      "limit": 4000,
+      "unit": "characters"
+    }
+  ],
+  "review_notes_bytes": 1752,
+  "screenshots": [
+    {
+      "file": "release/app-store/screenshots/duo-inner/01-classic-course.jpg",
+      "pixels": [
+        2007,
+        2853
+      ],
+      "alpha": false
+    },
+    {
+      "file": "release/app-store/screenshots/duo-inner/02-chibi-course.jpg",
+      "pixels": [
+        2007,
+        2853
+      ],
+      "alpha": false
+    },
+    {
+      "file": "release/app-store/screenshots/duo-inner/03-puzzles.jpg",
+      "pixels": [
+        2007,
+        2853
+      ],
+      "alpha": false
+    },
+    {
+      "file": "release/app-store/screenshots/duo-inner/04-garden.jpg",
+      "pixels": [
+        2007,
+        2853
+      ],
+      "alpha": false
+    },
+    {
+      "file": "release/app-store/screenshots/duo-inner/05-quotes.jpg",
+      "pixels": [
+        2007,
+        2853
+      ],
+      "alpha": false
+    },
+    {
+      "file": "release/app-store/screenshots/duo-inner/06-real-win.jpg",
+      "pixels": [
+        2007,
+        2853
+      ],
+      "alpha": false
+    },
+    {
+      "file": "release/app-store/screenshots/duo-outer/01-chibi-course.jpg",
+      "pixels": [
+        1398,
+        2034
+      ],
+      "alpha": false
+    },
+    {
+      "file": "release/app-store/screenshots/ipad/01-classic-course.jpg",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "alpha": false
+    },
+    {
+      "file": "release/app-store/screenshots/ipad/02-chibi-course.jpg",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "alpha": false
+    },
+    {
+      "file": "release/app-store/screenshots/ipad/03-puzzles.jpg",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "alpha": false
+    },
+    {
+      "file": "release/app-store/screenshots/ipad/04-garden.jpg",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "alpha": false
+    },
+    {
+      "file": "release/app-store/screenshots/ipad/05-quotes.jpg",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "alpha": false
+    },
+    {
+      "file": "release/app-store/screenshots/ipad/06-real-win.jpg",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "alpha": false
+    },
+    {
+      "file": "release/app-store/screenshots/iphone/01-classic-course.jpg",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "alpha": false
+    },
+    {
+      "file": "release/app-store/screenshots/iphone/02-chibi-course.jpg",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "alpha": false
+    },
+    {
+      "file": "release/app-store/screenshots/iphone/03-puzzles.jpg",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "alpha": false
+    },
+    {
+      "file": "release/app-store/screenshots/iphone/04-garden.jpg",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "alpha": false
+    },
+    {
+      "file": "release/app-store/screenshots/iphone/05-quotes.jpg",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "alpha": false
+    },
+    {
+      "file": "release/app-store/screenshots/iphone/06-real-win.jpg",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "alpha": false
+    }
+  ],
+  "icon": "1024x1024, no alpha",
+  "web": "5 public HTTPS 200 pages, no sign-in/cookies/auth headers. Visible content matches source; canonical redirects and hosting-added Cloudflare security script recorded in web/public-url-check.json. Public browser preview timed out; local mobile preview and navigation verified.",
+  "archive": "Earlier unsigned archive is historical. Current localization candidate has a verified unsigned Release device build; formal distribution archive remains pending.",
+  "asset_inventory": "All recorded file hashes match; no claim of legal clearance.",
+  "limits": [
+    "Current App languages: zh-Hans,tr,ar,pt,fr,es; English App UI is not implemented.",
+    "Duo continuous-pose tests were not repeated for this localization build.",
+    "Beta unsigned Release build; no upload or TestFlight.",
+    "Mother-tongue human review and physical-device/complete VoiceOver checks not performed."
+  ],
+  "public_urls": {
+    "privacy_policy_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/privacy",
+    "support_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/support",
+    "privacy_policy_zh_Hans_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/privacy-zh-Hans",
+    "support_zh_Hans_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/support-zh-Hans"
+  },
+  "focused_test_after_email_change": 1,
+  "reused_results": "Prior 80/80 iPhone and scoped iPad/Duo results retained for unchanged game code; the whole suite was not rerun for this contact-only change.",
+  "app_localization": {
+    "configuration": "Release",
+    "signed": false,
+    "xcode_build": "27A9269",
+    "sdk": "iphoneos27.1",
+    "device_families": [
+      1,
+      2
+    ],
+    "localizations": [
+      "zh-Hans",
+      "tr",
+      "ar",
+      "pt",
+      "fr",
+      "es"
+    ],
+    "compiled_keys_per_language": {
+      "zh-Hans": 195,
+      "tr": 195,
+      "ar": 195,
+      "pt": 195,
+      "fr": 195,
+      "es": 195
+    },
+    "limits": "Beta unsigned build, not an App Store submission validation.",
+    "resource_format": "Localizable.strings",
+    "source_sha256": {
+      "zh-Hans": "2dcdcb901f692fe3dbb063c1ca1b7aed16e9c53e94639533094d2199b78ba17b",
+      "tr": "00ebdf73a8a5b996fea6a804b762d01694f2b57d33f816ab64bbd12f8c57a2d5",
+      "ar": "a090492769e007261de51df29f69aac3ce1426df45e46ceae1238337daf067ee",
+      "pt": "a883f7390e0c3e0792022d161b7200098b5ad785a75afc359cb158983c90ed4f",
+      "fr": "6474c6818bfa4b7f85a9ba520acf855f7d6d1693298b0ed149f78dd8ac660730",
+      "es": "c2353fdd63da56411b6774ec1b9ffd14a04ca92c1ae647679a44d2940afdef91"
+    },
+    "in_app_language_switch": true,
+    "current_build_log": "work/language-switch-20261022/release.log"
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "file": "release/app-store/screenshots/duo-outer/01-chibi-course.jpg",
+    "original": "docs/screenshots/release-20261022/duo-continuity/07-closed-portrait.png",
+    "layout": "docs/screenshots/release-20261022/duo-continuity/07-closed-portrait.json",
+    "pixels": [
+      1398,
+      2034
+    ],
+    "system": "iOS 27.1 Simulator",
+    "sdk": "iOS 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "simctl io screenshot, active outer framebuffer display 1; manual real drag",
+    "source_sha256": "5729dc707626dab52077ef8782fadacf2ba52d3f821fac1cdfacd72e5a3b12fd",
+    "sha256": "a100aa2fefb5187ca0081bded2d9be52abe0706cd4baf65bad094f0146a9b8ad",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  }
+]

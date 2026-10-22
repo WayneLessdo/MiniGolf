@@ -1,0 +1,64 @@
+{
+  "fixture": false,
+  "layout": {
+    "controlsFrame": "{{0, 0}, {466, 678}}",
+    "ballWorld": "{0.81706307257864874, 1.1200000000000001}",
+    "screenTapMaximumDuration": 0.3,
+    "field": "{{16, 77.000000000000028}, {350, 489.99999999999994}}",
+    "hudAlpha": 1,
+    "scoreFrame": "{{232, 547.66666666666663}, {136, 82.333333333333371}}",
+    "buttonRegionViolations": [],
+    "phase": "ready",
+    "worldVelocity": [
+      0,
+      0
+    ],
+    "reduceMotion": false,
+    "elapsed": 27.34999999999909,
+    "reservedBanks": [],
+    "scale": 3,
+    "occlusion": [
+      "{{399.66666666666669, 29.333333333333332}, {37, 37}}",
+      "{{382, 0}, {84, 170}}"
+    ],
+    "handheldSwitch": false,
+    "launchID": "ADD5631F-B410-419C-AEA1-E2CE6AB26994",
+    "roundID": "52B86BBA-4BE0-4E67-8067-735CA29CCC33",
+    "courseExclusions": [
+      "{{399.66666666666669, 29.333333333333332}, {37, 37}}",
+      "{{382, 0}, {84, 170}}"
+    ],
+    "mode": "immersive",
+    "replaying": false,
+    "pullFrame": "{{14, 522}, {108, 108}}",
+    "insets": {
+      "right": 84,
+      "bottom": 34,
+      "top": 0,
+      "left": 0
+    },
+    "cue": "none",
+    "restorationCount": 0,
+    "nearMissCount": 0,
+    "strokes": 1,
+    "pullAlpha": 1,
+    "courseFrame": "{{0, 0}, {466, 678}}",
+    "gameMode": "chibi",
+    "division": [],
+    "sceneSessionID": "C8D52EC7-3C0A-475C-B0F3-DCA3126ACC46",
+    "bounds": "{{0, 0}, {466, 678}}",
+    "courseVisible": true,
+    "toolFrame": "{{320, 14}, {48, 216}}",
+    "pullEnabled": true,
+    "activeDivision": [],
+    "chibiMood": "cozy",
+    "ballSkin": "rice",
+    "replaySamples": 155,
+    "verticalSizeClass": 2,
+    "controlsVisible": true,
+    "horizontalSizeClass": 1,
+    "ballUnderFold": false,
+    "celebrationCount": 0,
+    "across": false
+  }
+}

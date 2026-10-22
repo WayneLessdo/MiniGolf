@@ -1,0 +1,134 @@
+[
+  {
+    "file": "release/app-store/screenshots/duo-inner/01-classic-course.jpg",
+    "original": "docs/screenshots/release-20261022/duo-inner/store-02-classic-course.png",
+    "layout": "docs/screenshots/release-20261022/duo-inner/store-02-classic-course-layout.txt",
+    "pixels": [
+      2007,
+      2853
+    ],
+    "system": "iOS 27.1",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "simctl io screenshot, active inner framebuffer display 3",
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone Duo",
+    "device_id": "2B7D0712-AB02-4854-86C5-7FC76DD406F5",
+    "timestamp": 1792646892.884592,
+    "source_sha256": "9522715e6e91f465b5870ae51d379c771ec2fb272fc1b807bdc5b0deca9276cb",
+    "sha256": "08dce17a0451ac062d7cc09e0b2945671cd3eed2cbcec7d59f703c90f3f35468",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/duo-inner/02-chibi-course.jpg",
+    "original": "docs/screenshots/release-20261022/duo-inner/store-03-chibi-course.png",
+    "layout": "docs/screenshots/release-20261022/duo-inner/store-03-chibi-course-layout.txt",
+    "pixels": [
+      2007,
+      2853
+    ],
+    "system": "iOS 27.1",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "simctl io screenshot, active inner framebuffer display 3",
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone Duo",
+    "device_id": "2B7D0712-AB02-4854-86C5-7FC76DD406F5",
+    "timestamp": 1792647036.7734988,
+    "source_sha256": "e4a352fee6e2a86ff7bf97ae65d31f11a5ed1545eaeba0701b8dfe8a4585e1af",
+    "sha256": "94662415ffa1c18a1a7c8b737b2f8a8dd08df1e3e18c41ef81476c3f02af4598",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/duo-inner/03-puzzles.jpg",
+    "original": "docs/screenshots/release-20261022/duo-inner/store-04-puzzles.png",
+    "layout": "docs/screenshots/release-20261022/duo-inner/store-04-puzzles-layout.txt",
+    "pixels": [
+      2007,
+      2853
+    ],
+    "system": "iOS 27.1",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "simctl io screenshot, active inner framebuffer display 3",
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone Duo",
+    "device_id": "2B7D0712-AB02-4854-86C5-7FC76DD406F5",
+    "timestamp": 1792647044.126341,
+    "source_sha256": "7af6f70fda46314cc31fd4fa462dff642512de461a2a322bae137fe8d7753d47",
+    "sha256": "4c1a95fc32db3fafc2f53e6778f59f6a0b158c8e7a7354c2ff06c6115f99491b",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/duo-inner/04-garden.jpg",
+    "original": "docs/screenshots/release-20261022/duo-inner/store-05-garden.png",
+    "layout": "docs/screenshots/release-20261022/duo-inner/store-05-garden-layout.txt",
+    "pixels": [
+      2007,
+      2853
+    ],
+    "system": "iOS 27.1",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "simctl io screenshot, active inner framebuffer display 3",
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone Duo",
+    "device_id": "2B7D0712-AB02-4854-86C5-7FC76DD406F5",
+    "timestamp": 1792647051.970356,
+    "source_sha256": "1114948611a0b257065a78db9fdc0f12432bfc3c7de5143a8555220a3d2ce2bb",
+    "sha256": "f3de2ff1d4600d1d66be0bf07e2c8e3fcd9c91401732be0840e2f33ed5fb8b08",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/duo-inner/05-quotes.jpg",
+    "original": "docs/screenshots/release-20261022/duo-inner/store-06-quotes.png",
+    "layout": "docs/screenshots/release-20261022/duo-inner/store-06-quotes-layout.txt",
+    "pixels": [
+      2007,
+      2853
+    ],
+    "system": "iOS 27.1",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "simctl io screenshot, active inner framebuffer display 3",
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone Duo",
+    "device_id": "2B7D0712-AB02-4854-86C5-7FC76DD406F5",
+    "timestamp": 1792647059.555663,
+    "source_sha256": "e79ce14cc7683272a9d239d26039a83498f0606c4a68fd512c9850c499462999",
+    "sha256": "869f0eb2a58d2af7d1aa7e54bb85c5f7846eaa7f6a6bbea7a001c96d70e38db2",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/duo-inner/06-real-win.jpg",
+    "original": "docs/screenshots/release-20261022/duo-inner/store-07-real-win.png",
+    "layout": "docs/screenshots/release-20261022/duo-inner/store-07-real-win-layout.txt",
+    "pixels": [
+      2007,
+      2853
+    ],
+    "system": "iOS 27.1",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "simctl io screenshot, active inner framebuffer display 3",
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone Duo",
+    "device_id": "2B7D0712-AB02-4854-86C5-7FC76DD406F5",
+    "timestamp": 1792646903.317002,
+    "source_sha256": "fbfc12a692a2f05980b1cdfc7b21cb5d3f774629f1fea438c29134ed319ffaf5",
+    "sha256": "63f7b8475aa0311e56522a5cb0fdca60be93da0aab4023768391c556826aa802",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  }
+]

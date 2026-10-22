@@ -1,0 +1,70 @@
+{
+  "fixture": false,
+  "layout": {
+    "ballWorld": "{0.5, 0.54451680077537012}",
+    "celebrationCount": 0,
+    "roundID": "D091BE22-2287-45B6-80E6-B09946D91045",
+    "verticalSizeClass": 2,
+    "nearMissCount": 0,
+    "handheldSwitch": false,
+    "phase": "penalty",
+    "launchID": "7A57512E-3929-41E2-93A6-D21A874B428D",
+    "strokes": 1,
+    "field": "{{47.714285714285722, 98.000000000000057}, {573.57142857142856, 802.99999999999989}}",
+    "pullAlpha": 1,
+    "controlsFrame": "{{0, 0}, {669, 951}}",
+    "courseVisible": true,
+    "courseFrame": "{{0, 0}, {669, 951}}",
+    "elapsed": 195.86666666665286,
+    "scale": 3,
+    "screenTapMaximumDuration": 0.3,
+    "insets": {
+      "right": 0,
+      "left": 0,
+      "bottom": 34,
+      "top": 82
+    },
+    "pullFrame": "{{14, 795}, {108, 108}}",
+    "worldVelocity": [
+      0,
+      0
+    ],
+    "chibiMood": "cozy",
+    "replaySamples": 134,
+    "buttonRegionViolations": [],
+    "ballSkin": "rice",
+    "activeDivision": [
+      "{{0, 455.5}, {669, 40}}"
+    ],
+    "bounds": "{{0, 0}, {669, 951}}",
+    "courseExclusions": [
+      "{{0, 455.5}, {669, 40}}",
+      "{{535, 0}, {134, 82}}"
+    ],
+    "pullEnabled": true,
+    "horizontalSizeClass": 2,
+    "scoreFrame": "{{519, 820.66666666666663}, {136, 82.333333333333371}}",
+    "reservedBanks": [
+      "{{0, 0.62328767123287665}, {0.34000000000000002, 0.069738480697384753}}",
+      "{{0.66000000000000003, 0.62328767123287665}, {0.33999999999999997, 0.069738480697384753}}"
+    ],
+    "restorationCount": 0,
+    "sceneSessionID": "C8D52EC7-3C0A-475C-B0F3-DCA3126ACC46",
+    "toolFrame": "{{607, 96}, {48, 216}}",
+    "mode": "immersive",
+    "across": false,
+    "reduceMotion": false,
+    "occlusion": [
+      "{{535, 0}, {134, 82}}"
+    ],
+    "replaying": false,
+    "controlsVisible": true,
+    "division": [
+      "{{0, 455.5}, {669, 40}}"
+    ],
+    "gameMode": "chibi",
+    "cue": "none",
+    "hudAlpha": 1,
+    "ballUnderFold": false
+  }
+}

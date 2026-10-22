@@ -1,0 +1,2 @@
+bounds=(0.0, 0.0, 669.0, 951.0);traits=2,2;safeArea=UIEdgeInsets(top: 82.0, left: 0.0, bottom: 34.0, right: 0.0);division=[(0.0, 455.5, 669.0, 40.0)];occlusion=[(535.0, 0.0, 134.0, 82.0)]
+appFrame=(0.0, 0.0, 669.0, 951.0)

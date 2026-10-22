@@ -1,0 +1,128 @@
+[
+  {
+    "file": "release/app-store/screenshots/ipad/01-classic-course.jpg",
+    "original": "docs/screenshots/release-20261022/ipad/store-02-classic-course.png",
+    "layout": "docs/screenshots/release-20261022/ipad/store-02-classic-course-layout.txt",
+    "pixels": [
+      2064,
+      2752
+    ],
+    "system": "iPadOS 27.0",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPad Pro 13-inch (M5)",
+    "device_id": "4AF6BD49-97B7-4676-9C38-0529A55E28A0",
+    "timestamp": 1792646014.702,
+    "source_sha256": "eacb2df1bd421c07996f9977b31c193cf16d19800d7bd3e82cc27a9385324737",
+    "sha256": "c08d3f3798f85457ee3d9a0c3e6357053c208f6836f811e5e38499e7a22d293c",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/ipad/02-chibi-course.jpg",
+    "original": "docs/screenshots/release-20261022/ipad/store-03-chibi-course.png",
+    "layout": "docs/screenshots/release-20261022/ipad/store-03-chibi-course-layout.txt",
+    "pixels": [
+      2064,
+      2752
+    ],
+    "system": "iPadOS 27.0",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPad Pro 13-inch (M5)",
+    "device_id": "4AF6BD49-97B7-4676-9C38-0529A55E28A0",
+    "timestamp": 1792646026.253,
+    "source_sha256": "2e0fdade7bcf6efb01e5cbcec0d0d1c7ac3d70edaaea22b1dccadab5947bdc59",
+    "sha256": "195a5eed8766a686e687cee02073794869aa8022bffe855d6e07a2d6758389bc",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/ipad/03-puzzles.jpg",
+    "original": "docs/screenshots/release-20261022/ipad/store-04-puzzles.png",
+    "layout": "docs/screenshots/release-20261022/ipad/store-04-puzzles-layout.txt",
+    "pixels": [
+      2064,
+      2752
+    ],
+    "system": "iPadOS 27.0",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPad Pro 13-inch (M5)",
+    "device_id": "4AF6BD49-97B7-4676-9C38-0529A55E28A0",
+    "timestamp": 1792646028.7,
+    "source_sha256": "4af880883454daa9c58c45d13c51a012c20857e6ffd14a09d826aa2850db868a",
+    "sha256": "f73e63b76fd76fb5d5243a1105e438e9426e15560d2da2dd68f4145ca80d5e08",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/ipad/04-garden.jpg",
+    "original": "docs/screenshots/release-20261022/ipad/store-05-garden.png",
+    "layout": "docs/screenshots/release-20261022/ipad/store-05-garden-layout.txt",
+    "pixels": [
+      2064,
+      2752
+    ],
+    "system": "iPadOS 27.0",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPad Pro 13-inch (M5)",
+    "device_id": "4AF6BD49-97B7-4676-9C38-0529A55E28A0",
+    "timestamp": 1792646031.548,
+    "source_sha256": "149568682caff6b9d5e1ffecb0c9ece001ba14e2530ad0cccaa2609741f31997",
+    "sha256": "f0e642301bd5308157e398e8db59f5cecab8c2a7f3a4ccc0126adb82dbee1eb3",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/ipad/05-quotes.jpg",
+    "original": "docs/screenshots/release-20261022/ipad/store-06-quotes.png",
+    "layout": "docs/screenshots/release-20261022/ipad/store-06-quotes-layout.txt",
+    "pixels": [
+      2064,
+      2752
+    ],
+    "system": "iPadOS 27.0",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPad Pro 13-inch (M5)",
+    "device_id": "4AF6BD49-97B7-4676-9C38-0529A55E28A0",
+    "timestamp": 1792646034.015,
+    "source_sha256": "8f57b8f70702e33dfe157ab1d291edddd4afd3e99e1d70338ed6b2ebce0c4ea1",
+    "sha256": "be437548f6bdd3d0bd478960d81e6c4581053bfe470ac98d22abcd5d0c1239cf",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/ipad/06-real-win.jpg",
+    "original": "docs/screenshots/release-20261022/ipad/store-07-real-win.png",
+    "layout": "docs/screenshots/release-20261022/ipad/store-07-real-win-layout.txt",
+    "pixels": [
+      2064,
+      2752
+    ],
+    "system": "iPadOS 27.0",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPad Pro 13-inch (M5)",
+    "device_id": "4AF6BD49-97B7-4676-9C38-0529A55E28A0",
+    "timestamp": 1792646020.008,
+    "source_sha256": "ff60d970aecd467ad022be244979cfccc11ac55c864760e004f9889855ea4c6f",
+    "sha256": "b7adaeab6d7eb8e49bd71dbfe02b2c606051eee7ac1f0b006a1683676d67d222",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  }
+]

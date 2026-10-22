@@ -1,5 +1,7 @@
 # 原型切图与资产清单
 
+> 本文是初始原型阶段记录；后续已加入 AI 草地与概念资产，“全部无 AI”和“AIConcepts 空目录”不再代表当前工程。2026-10-22 发布用来源清单见 [asset-provenance.md](../release/app-store/asset-provenance.md)，图像生成历史见 [ai-generation-record.md](ai-generation-record.md)。
+
 全部由 Tools/generate_assets.swift 使用 macOS 系统 AppKit/Core Graphics 生成，无 AI 图、无下载素材、无第三方运行依赖。
 
 | 资源 | 位置 | 用途/格式 |

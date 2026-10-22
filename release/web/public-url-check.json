@@ -1,0 +1,52 @@
+[
+  {
+    "requested_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/privacy.html",
+    "final_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/privacy",
+    "http_status": 200,
+    "redirects": 1,
+    "visible_content_matches_source": true,
+    "response_sha256": "1caf00883b172d097b687e6e567e51f345a23caf1a892faed9ccd73b0294779d",
+    "hosting_added_security_script": true,
+    "authentication": "No cookies, authentication headers, bypass tokens or sign-in used. TLS certificates verified normally."
+  },
+  {
+    "requested_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/support.html",
+    "final_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/support",
+    "http_status": 200,
+    "redirects": 1,
+    "visible_content_matches_source": true,
+    "response_sha256": "5c41214a9040a81c47a7c5b082fa79fabdc0b49bca6c9f36d5cae4b9a38376bd",
+    "hosting_added_security_script": true,
+    "authentication": "No cookies, authentication headers, bypass tokens or sign-in used. TLS certificates verified normally."
+  },
+  {
+    "requested_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/privacy-zh-Hans.html",
+    "final_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/privacy-zh-Hans",
+    "http_status": 200,
+    "redirects": 1,
+    "visible_content_matches_source": true,
+    "response_sha256": "3fe2c9f2db8ce68a864f27fcda44e50f33932c357f119229a3fd487065be2f18",
+    "hosting_added_security_script": true,
+    "authentication": "No cookies, authentication headers, bypass tokens or sign-in used. TLS certificates verified normally."
+  },
+  {
+    "requested_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/support-zh-Hans.html",
+    "final_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/support-zh-Hans",
+    "http_status": 200,
+    "redirects": 1,
+    "visible_content_matches_source": true,
+    "response_sha256": "5dba9bbdeca6178ac4ae437ad5b03e0941414191212df4dea37b8f45ce82ade3",
+    "hosting_added_security_script": true,
+    "authentication": "No cookies, authentication headers, bypass tokens or sign-in used. TLS certificates verified normally."
+  },
+  {
+    "requested_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/index.html",
+    "final_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/",
+    "http_status": 200,
+    "redirects": 1,
+    "visible_content_matches_source": true,
+    "response_sha256": "fc446866cb04d816aadc735869dfa54a0c60770bb95d95d630c58bc6a2dc6fb6",
+    "hosting_added_security_script": true,
+    "authentication": "No cookies, authentication headers, bypass tokens or sign-in used. TLS certificates verified normally."
+  }
+]

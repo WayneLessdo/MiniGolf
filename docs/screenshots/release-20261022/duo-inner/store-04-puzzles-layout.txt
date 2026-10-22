@@ -1,0 +1,2 @@
+section=反弹课题;bounds=(0.0, 0.0, 669.0, 951.0);traits=2,2;safeArea=82.0,0.0,34.0,0.0;division=[(0.0, 455.5, 669.0, 40.0)];activeDivision=[];occlusion=[(535.0, 0.0, 134.0, 82.0)];seeds=1;flowers=0;quotes=2;reduceMotion=false
+appFrame=(0.0, 0.0, 669.0, 951.0)

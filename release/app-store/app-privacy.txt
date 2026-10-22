@@ -1,0 +1,15 @@
+App Privacy
+
+数据收集：No, we do not collect data from this app
+跟踪：No
+数据类型：不添加（最终包保持当前无运行时上传、广告和第三方统计的行为时适用）
+隐私政策 URL：https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/privacy（英文默认；另有简体中文切换，无需登录）。
+
+游戏进度、收藏和偏好仅保存在设备本地。App 不主动将游戏数据发送给开发者服务器。用户主动发送支持邮件以及网页托管方、Apple 的独立处理，按政策分别说明。
+
+包内 PrivacyInfo.xcprivacy 已声明：
+NSPrivacyAccessedAPICategoryUserDefaults / CA92.1：保存 App 自身偏好与收藏。
+NSPrivacyAccessedAPICategorySystemBootTime / 35F9.1：计算 App 内操作间隔。
+NSPrivacyTracking=false；跟踪域名与收集数据类型列表为空。
+
+后台隐私标签和归档内 Required Reason 声明都要完成，二者不能互相替代。

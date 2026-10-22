@@ -1,0 +1,107 @@
+[
+  {
+    "path": "Resources/Assets.xcassets/.DS_Store",
+    "sha256": "89dd6226f681441acc8898c1d1fcafa75e15db7a0c71e98d5ced9710d4b12df7",
+    "recorded_origin": "本地程序化资产；见生成脚本与历史清单"
+  },
+  {
+    "path": "Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+    "sha256": "c5c20f7c7810466cfda922a0803a5f4bd27ba8425ac15abfa99ceaacfce6754a",
+    "recorded_origin": "本地程序化资产；见生成脚本与历史清单"
+  },
+  {
+    "path": "Resources/Assets.xcassets/CanalTile.imageset/canal-tile.png",
+    "sha256": "9e1814d2bf04123710c0e67f7257380ea426d353768f31405f8783f4e96fd136",
+    "recorded_origin": "本地程序化资产；见生成脚本与历史清单"
+  },
+  {
+    "path": "Resources/Assets.xcassets/ConceptCompact.imageset/art.png",
+    "sha256": "b755499df4471f3c2ea92947e745370b10b6883bb20b306bb69e67af1dda90db",
+    "recorded_origin": "AI imagegen，2026-09-29本地生成记录"
+  },
+  {
+    "path": "Resources/Assets.xcassets/ConceptFolded.imageset/art.png",
+    "sha256": "95c93adf57a81e1f2854dc3cc59a7581896bfbf0f077fcf773014e4aaca59e74",
+    "recorded_origin": "AI imagegen，2026-09-29本地生成记录"
+  },
+  {
+    "path": "Resources/Assets.xcassets/ConceptRegular.imageset/art.png",
+    "sha256": "b876eddb4d8f6282a4786f96b0b0088b7565948415e24be0af1544f7fd532618",
+    "recorded_origin": "AI imagegen，2026-09-29本地生成记录"
+  },
+  {
+    "path": "Resources/Assets.xcassets/Cup.imageset/Cup.pdf",
+    "sha256": "1f9d4df8d86d6ce280dded68ad43db15743c8b2d9e55838a657d57831a624a3c",
+    "recorded_origin": "本地程序化资产；见生成脚本与历史清单"
+  },
+  {
+    "path": "Resources/Assets.xcassets/DirectionArrow.imageset/DirectionArrow.pdf",
+    "sha256": "27b7c322a024c54d0a8634eeab1762aaaecf78b3638edb8c25a857287e74c775",
+    "recorded_origin": "本地程序化资产；见生成脚本与历史清单"
+  },
+  {
+    "path": "Resources/Assets.xcassets/Flag.imageset/Flag.pdf",
+    "sha256": "ae511a08d0c834442b0070289d7135af2e03f2e3b97279c14ce352b523f913c1",
+    "recorded_origin": "本地程序化资产；见生成脚本与历史清单"
+  },
+  {
+    "path": "Resources/Assets.xcassets/GolfBall.imageset/GolfBall.pdf",
+    "sha256": "2293add6fc3256e0673f0d843d4ca8c315e07ed966b05b7627b551dd736a7591",
+    "recorded_origin": "本地程序化资产；见生成脚本与历史清单"
+  },
+  {
+    "path": "Resources/Assets.xcassets/GrassCompact.imageset/grass.jpg",
+    "sha256": "c31c8a501da24f9a8abf0ef6387be91ce8abdcfc47e03dfb833a821f0f1f0c91",
+    "recorded_origin": "AI imagegen，2026-09-29本地生成记录"
+  },
+  {
+    "path": "Resources/Assets.xcassets/GrassEdgeTile.imageset/grass-edge-tile.png",
+    "sha256": "c6d4bdde6b55e5cc22e7205b26341404e35b539da334d839022f0201133e5b0d",
+    "recorded_origin": "本地程序化资产；见生成脚本与历史清单"
+  },
+  {
+    "path": "Resources/Assets.xcassets/GrassRegular.imageset/grass.jpg",
+    "sha256": "d595b7ee0d7ac07a1c278d38c354b838f0089296e8bd280304613617c7f7088e",
+    "recorded_origin": "AI imagegen，2026-09-29本地生成记录"
+  },
+  {
+    "path": "Resources/Assets.xcassets/PenaltyBorder.imageset/PenaltyBorder.pdf",
+    "sha256": "5a86a6350eb05ec58e8d229caf8dc9ef56c4c4ff68803c04c45ffd176ac0bb8b",
+    "recorded_origin": "本地程序化资产；见生成脚本与历史清单"
+  },
+  {
+    "path": "Resources/Assets.xcassets/PowerRing.imageset/PowerRing.pdf",
+    "sha256": "282c8132c74f6c766dc11efa06bf632ba6e874f995cff52c7cb1754f2b7c8d75",
+    "recorded_origin": "本地程序化资产；见生成脚本与历史清单"
+  },
+  {
+    "path": "Resources/Assets.xcassets/RewardStarSprite.imageset/art.png",
+    "sha256": "6202ec7954bc49d51b9aad68ef2eb486c9e7ccaec4a23d31a3643488a7da86b0",
+    "recorded_origin": "本地程序化资产；见生成脚本与历史清单"
+  },
+  {
+    "path": "Resources/Assets.xcassets/SandEdge.imageset/SandEdge.pdf",
+    "sha256": "363326dee45bc0504d41563a80d0554129b24e801b007a9970092494ae7225a4",
+    "recorded_origin": "本地程序化资产；见生成脚本与历史清单"
+  },
+  {
+    "path": "Resources/Assets.xcassets/SpeedLine.imageset/SpeedLine.pdf",
+    "sha256": "b34132fad0edd7bf91ef258662d8fecc39a200aa155ae381e737611e422121d7",
+    "recorded_origin": "本地程序化资产；见生成脚本与历史清单"
+  },
+  {
+    "path": "Resources/Assets.xcassets/Star.imageset/Star.pdf",
+    "sha256": "69571960126ead56cd8824c6536c4dfd43873f79ff9b98d55e0cf822e47130d5",
+    "recorded_origin": "本地程序化资产；见生成脚本与历史清单"
+  },
+  {
+    "path": "Resources/Sounds/hole.wav",
+    "sha256": "f6168911b90ea220d74cbc26b8acc73ce3b7114b28b770706568e4dd2c685e6c",
+    "recorded_origin": "Tools/generate_feedback_sounds.py，程序化PCM"
+  },
+  {
+    "path": "Resources/Sounds/putt.wav",
+    "sha256": "2531944893552a94a68c26bb4c71b8fe690cdd9adcbf864e3cabc2f7103f1bf8",
+    "recorded_origin": "Tools/generate_feedback_sounds.py，程序化PCM"
+  }
+]

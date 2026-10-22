@@ -1,0 +1,27 @@
+FoldPutt Privacy Policy
+Updated: October 22, 2026
+Provider: Wayne
+Support and privacy contact: waynelessdo@gmail.com
+
+1. Play offline without an account
+FoldPutt is a single-player mini golf game. No registration or sign-in is required, and core gameplay works offline. The app does not provide advertising, in-app purchases, third-party analytics, or advertising tracking. It does not proactively send game data to a developer server.
+
+2. Data stored on your device
+The app stores the ball position, stroke count, and round progress locally so you can continue playing. It also stores personal scores, seeds and the garden, collected quotes, and preferences such as visual style, sound, and haptics. These data support game features. They are not used to identify you, build an advertising profile, or track you across apps.
+
+3. System information and permissions
+The app uses the available window space, safe areas, and display reserved regions supplied by the operating system to adapt its layout. It uses local timing for in-app operation intervals. The app does not use this information to identify users or proactively send it to the developer. The current version does not request access to contacts, location, photos, the camera, or the microphone.
+
+4. Retention, deletion, and system backups
+Local game data are retained while you use the app. Deleting the app removes its local data; offloading the app while retaining documents and data does not erase the save. Before deletion, make sure you are willing to lose local progress. System backup, device migration, and restoration may process app data according to your Apple settings and are provided by Apple. The developer does not provide cross-device cloud sync or a server service for recovering local progress.
+
+5. Contacting us
+For support or privacy questions, email waynelessdo@gmail.com. If you contact us, the email address, problem description, and attachments you choose to send are used to reply to and handle your request. Please do not send passwords, verification codes, or unrelated sensitive information. Support correspondence is retained for as long as needed to handle the request. You may request deletion through the same email address; requests will be handled to the extent permitted by applicable law.
+
+6. External services
+When you visit support pages or send email, your browser, hosting provider, email service, or Apple may process access, communication, backup, or diagnostic data under their own policies. This does not mean the game proactively uploads your game progress.
+
+7. Children and policy updates
+The app does not require age or registration information and is not designed to collect children's personal information. Contact us if you believe information sent to the developer involves a child's personal information that needs attention. This policy and its date will be updated if features or data processing change.
+
+The policy is also bundled with the app and can be read offline from the launch screen or course options. The current in-app interface, including the bundled policy, is in Simplified Chinese. This English page describes the same current data practices.

@@ -1,0 +1,19 @@
+FoldPutt is a single-player mini golf game. No account, sign-in, subscription, in-app purchase, or advertising is required. Core gameplay works offline. In-app languages: Simplified Chinese, Turkish, Arabic, Portuguese, French and Spanish. English UI is not included.
+
+How to play:
+1. On launch, choose the classic mode or the character mode (Q version).
+2. Drag the pull control to set both direction and power. Release to putt; there is no separate confirmation button.
+3. Wait for the ball to stop before taking another shot. After the win result appears, tap to continue.
+4. Use the course-selection control to choose any of the three practice courses.
+5. Tap the leaf button labeled "玩法与收藏" to open six bank-shot puzzles, the nine-plot garden, and the quote collection. Completing a course earns a seed. These rewards have no monetary value and cannot be purchased or exchanged for money.
+
+iPhone Duo:
+The game adapts to the available window space. A manual "掌机模式" option is available from the options menu for separated course and control areas. All courses can also be played on a standard iPhone; folding is not required to unlock or complete content.
+
+Progress, collections, and preferences are stored locally. No developer account or remote game server is needed. Sound and haptics can be switched off independently. Reduced Motion is respected.
+
+The bundled privacy policy can be read offline from the mode-selection screen ("隐私政策") or from the course options menu ("隐私政策"). Reading it pauses the current round; returning resumes the same round.
+
+Public privacy policy: https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/privacy
+Support: https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/support
+Support and review contact email: waynelessdo@gmail.com

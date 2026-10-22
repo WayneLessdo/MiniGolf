@@ -1,0 +1,14 @@
+{
+  "system": "iOS 18.5 Simulator",
+  "sdk": "iOS Simulator 27.1",
+  "toolchain_build": "27A9269 beta",
+  "test": "FPReleaseUITests/testPrivacyFromLaunchAndGamePreservesShot",
+  "result": "passed",
+  "change": "Only the public contact email changed; actual launch/game privacy entries and same-shot resume verified.",
+  "attachments": [
+    "store-privacy-landscape.png",
+    "store-privacy.png",
+    "store-privacy-layout.txt",
+    "store-privacy-landscape-layout.txt"
+  ]
+}

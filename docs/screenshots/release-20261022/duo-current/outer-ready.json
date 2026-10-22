@@ -1,0 +1,67 @@
+{
+  "ballSkin" : "rice",
+  "mode" : "immersive",
+  "pullEnabled" : true,
+  "strokes" : 0,
+  "pullAlpha" : 1,
+  "cue" : "none",
+  "ballUnderFold" : false,
+  "buttonRegionViolations" : [
+
+  ],
+  "ballWorld" : "{0.5, 1.1200000000000001}",
+  "occlusion" : [
+    "{{399.66666666666669, 29.333333333333332}, {37, 37}}",
+    "{{382, 0}, {84, 170}}"
+  ],
+  "controlsFrame" : "{{0, 0}, {466, 678}}",
+  "nearMissCount" : 0,
+  "restorationCount" : 0,
+  "horizontalSizeClass" : 1,
+  "courseExclusions" : [
+    "{{399.66666666666669, 29.333333333333332}, {37, 37}}",
+    "{{382, 0}, {84, 170}}"
+  ],
+  "field" : "{{16, 77.000000000000028}, {350, 489.99999999999994}}",
+  "elapsed" : 42.141666666664918,
+  "controlsVisible" : true,
+  "phase" : "ready",
+  "hudAlpha" : 1,
+  "replaySamples" : 0,
+  "gameMode" : "chibi",
+  "chibiMood" : "cozy",
+  "celebrationCount" : 0,
+  "screenTapMaximumDuration" : 0.29999999999999999,
+  "reservedBanks" : [
+
+  ],
+  "sceneSessionID" : "C8D52EC7-3C0A-475C-B0F3-DCA3126ACC46",
+  "courseFrame" : "{{0, 0}, {466, 678}}",
+  "reduceMotion" : false,
+  "across" : false,
+  "worldVelocity" : [
+    0,
+    0
+  ],
+  "scoreFrame" : "{{232, 547.66666666666663}, {136, 82.333333333333371}}",
+  "replaying" : false,
+  "bounds" : "{{0, 0}, {466, 678}}",
+  "handheldSwitch" : false,
+  "scale" : 3,
+  "verticalSizeClass" : 2,
+  "insets" : {
+    "left" : 0,
+    "top" : 0,
+    "bottom" : 34,
+    "right" : 84
+  },
+  "pullFrame" : "{{14, 522}, {108, 108}}",
+  "toolFrame" : "{{320, 14}, {48, 216}}",
+  "activeDivision" : [
+
+  ],
+  "division" : [
+
+  ],
+  "courseVisible" : true
+}

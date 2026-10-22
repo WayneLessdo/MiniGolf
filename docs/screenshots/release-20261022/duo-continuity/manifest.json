@@ -1,0 +1,269 @@
+{
+  "system": "iOS 27.1 Simulator",
+  "sdk": "iOS 27.1",
+  "toolchain": "Xcode 27.1 / 27A9269 beta",
+  "capture_source": "simctl native active framebuffer; actual Device Hub Open/Closed/Book/Rotate Right actions",
+  "poses": [
+    {
+      "name": "01-closed-after-real-shot",
+      "screenshot": "docs/screenshots/release-20261022/duo-continuity/01-closed-after-real-shot.png",
+      "layout": "docs/screenshots/release-20261022/duo-continuity/01-closed-after-real-shot.json",
+      "fixture": false,
+      "roundID": "D091BE22-2287-45B6-80E6-B09946D91045",
+      "launchID": "7A57512E-3929-41E2-93A6-D21A874B428D",
+      "strokes": 1,
+      "phase": "penalty",
+      "bounds": "{{0, 0}, {678, 466}}",
+      "traits": [
+        1,
+        1
+      ],
+      "safe_area": {
+        "right": 84,
+        "bottom": 34,
+        "top": 0,
+        "left": 0
+      },
+      "division": [],
+      "activeDivision": [],
+      "occlusion": [
+        "{{611.66666666666663, 399.66666666666669}, {37, 37}}",
+        "{{594, 384}, {84, 82}}"
+      ],
+      "buttonRegionViolations": [],
+      "visible": true
+    },
+    {
+      "name": "02-open",
+      "screenshot": "docs/screenshots/release-20261022/duo-continuity/02-open.png",
+      "layout": "docs/screenshots/release-20261022/duo-continuity/02-open.json",
+      "fixture": false,
+      "roundID": "D091BE22-2287-45B6-80E6-B09946D91045",
+      "launchID": "7A57512E-3929-41E2-93A6-D21A874B428D",
+      "strokes": 1,
+      "phase": "penalty",
+      "bounds": "{{0, 0}, {669, 951}}",
+      "traits": [
+        2,
+        2
+      ],
+      "safe_area": {
+        "top": 82,
+        "left": 0,
+        "bottom": 34,
+        "right": 0
+      },
+      "division": [
+        "{{0, 455.5}, {669, 40}}"
+      ],
+      "activeDivision": [],
+      "occlusion": [
+        "{{535, 0}, {134, 82}}"
+      ],
+      "buttonRegionViolations": [],
+      "visible": true
+    },
+    {
+      "name": "03-open-rotated",
+      "screenshot": "docs/screenshots/release-20261022/duo-continuity/03-open-rotated.png",
+      "layout": "docs/screenshots/release-20261022/duo-continuity/03-open-rotated.json",
+      "fixture": false,
+      "roundID": "D091BE22-2287-45B6-80E6-B09946D91045",
+      "launchID": "7A57512E-3929-41E2-93A6-D21A874B428D",
+      "strokes": 1,
+      "phase": "penalty",
+      "bounds": "{{0, 0}, {951, 669}}",
+      "traits": [
+        2,
+        2
+      ],
+      "safe_area": {
+        "right": 84,
+        "left": 0,
+        "top": 0,
+        "bottom": 34
+      },
+      "division": [
+        "{{455.5, 0}, {40, 669}}"
+      ],
+      "activeDivision": [],
+      "occlusion": [
+        "{{867, 0}, {84, 120}}"
+      ],
+      "buttonRegionViolations": [],
+      "visible": true
+    },
+    {
+      "name": "04-half-fold",
+      "screenshot": "docs/screenshots/release-20261022/duo-continuity/04-half-fold.png",
+      "layout": "docs/screenshots/release-20261022/duo-continuity/04-half-fold.json",
+      "fixture": false,
+      "roundID": "D091BE22-2287-45B6-80E6-B09946D91045",
+      "launchID": "7A57512E-3929-41E2-93A6-D21A874B428D",
+      "strokes": 1,
+      "phase": "penalty",
+      "bounds": "{{0, 0}, {951, 669}}",
+      "traits": [
+        2,
+        2
+      ],
+      "safe_area": {
+        "left": 0,
+        "right": 84,
+        "top": 0,
+        "bottom": 34
+      },
+      "division": [
+        "{{455.5, 0}, {40, 669}}"
+      ],
+      "activeDivision": [
+        "{{455.5, 0}, {40, 669}}"
+      ],
+      "occlusion": [
+        "{{867, 0}, {84, 120}}"
+      ],
+      "buttonRegionViolations": [],
+      "visible": true
+    },
+    {
+      "name": "05-half-fold-rotated",
+      "screenshot": "docs/screenshots/release-20261022/duo-continuity/05-half-fold-rotated.png",
+      "layout": "docs/screenshots/release-20261022/duo-continuity/05-half-fold-rotated.json",
+      "fixture": false,
+      "roundID": "D091BE22-2287-45B6-80E6-B09946D91045",
+      "launchID": "7A57512E-3929-41E2-93A6-D21A874B428D",
+      "strokes": 1,
+      "phase": "penalty",
+      "bounds": "{{0, 0}, {669, 951}}",
+      "traits": [
+        2,
+        2
+      ],
+      "safe_area": {
+        "right": 0,
+        "left": 0,
+        "bottom": 34,
+        "top": 82
+      },
+      "division": [
+        "{{0, 455.5}, {669, 40}}"
+      ],
+      "activeDivision": [
+        "{{0, 455.5}, {669, 40}}"
+      ],
+      "occlusion": [
+        "{{535, 0}, {134, 82}}"
+      ],
+      "buttonRegionViolations": [],
+      "visible": true
+    },
+    {
+      "name": "06-reopened",
+      "screenshot": "docs/screenshots/release-20261022/duo-continuity/06-reopened.png",
+      "layout": "docs/screenshots/release-20261022/duo-continuity/06-reopened.json",
+      "fixture": false,
+      "roundID": "D091BE22-2287-45B6-80E6-B09946D91045",
+      "launchID": "7A57512E-3929-41E2-93A6-D21A874B428D",
+      "strokes": 1,
+      "phase": "penalty",
+      "bounds": "{{0, 0}, {669, 951}}",
+      "traits": [
+        2,
+        2
+      ],
+      "safe_area": {
+        "right": 0,
+        "left": 0,
+        "bottom": 34,
+        "top": 82
+      },
+      "division": [
+        "{{0, 455.5}, {669, 40}}"
+      ],
+      "activeDivision": [],
+      "occlusion": [
+        "{{535, 0}, {134, 82}}"
+      ],
+      "buttonRegionViolations": [],
+      "visible": true
+    },
+    {
+      "name": "07-closed-portrait",
+      "screenshot": "docs/screenshots/release-20261022/duo-continuity/07-closed-portrait.png",
+      "layout": "docs/screenshots/release-20261022/duo-continuity/07-closed-portrait.json",
+      "fixture": false,
+      "roundID": "52B86BBA-4BE0-4E67-8067-735CA29CCC33",
+      "launchID": "ADD5631F-B410-419C-AEA1-E2CE6AB26994",
+      "strokes": 1,
+      "phase": "ready",
+      "bounds": "{{0, 0}, {466, 678}}",
+      "traits": [
+        1,
+        2
+      ],
+      "safe_area": {
+        "right": 84,
+        "bottom": 34,
+        "top": 0,
+        "left": 0
+      },
+      "division": [],
+      "activeDivision": [],
+      "occlusion": [
+        "{{399.66666666666669, 29.333333333333332}, {37, 37}}",
+        "{{382, 0}, {84, 170}}"
+      ],
+      "buttonRegionViolations": [],
+      "visible": true
+    }
+  ],
+  "rolling_transition": {
+    "source": "work/release-20261022/duo-inflight-samples.json",
+    "sampling_interval_seconds": 0.025,
+    "diagnostic_interval_seconds": 0.25,
+    "launchID": "ADD5631F-B410-419C-AEA1-E2CE6AB26994",
+    "roundID": "52B86BBA-4BE0-4E67-8067-735CA29CCC33",
+    "strokes": 1,
+    "actual_action": "原生 Device Hub：重开、水平真实拖杆、立即 Closed；只读取诊断，不注入状态。",
+    "rolling_samples_by_bounds": {
+      "{{0, 0}, {669, 951}}": 6,
+      "{{0, 0}, {678, 466}}": 21
+    },
+    "first": {
+      "sampledAt": 1792647669.59325,
+      "roundID": "52B86BBA-4BE0-4E67-8067-735CA29CCC33",
+      "launchID": "ADD5631F-B410-419C-AEA1-E2CE6AB26994",
+      "strokes": 1,
+      "phase": "rolling",
+      "bounds": "{{0, 0}, {669, 951}}",
+      "ballWorld": "{0.5, 1.1200000000000001}",
+      "worldVelocity": [
+        -1.55,
+        0
+      ],
+      "elapsed": 0.40833333333333377,
+      "buttonRegionViolations": [],
+      "courseVisible": true,
+      "controlsVisible": true
+    },
+    "last": {
+      "sampledAt": 1792647675.6414132,
+      "roundID": "52B86BBA-4BE0-4E67-8067-735CA29CCC33",
+      "launchID": "ADD5631F-B410-419C-AEA1-E2CE6AB26994",
+      "strokes": 1,
+      "phase": "rolling",
+      "bounds": "{{0, 0}, {678, 466}}",
+      "ballWorld": "{0.81648108675551145, 1.1200000000000001}",
+      "worldVelocity": [
+        0.0056172345861207375,
+        0
+      ],
+      "elapsed": 6.158333333333429,
+      "buttonRegionViolations": [],
+      "courseVisible": true,
+      "controlsVisible": true
+    },
+    "diagnostic_interval_note": "状态签名变化或布局回调可立即写入；否则显示回调超过0.25秒写入。"
+  },
+  "limits": "模拟器验收；不是物理真机或光学/触感/温度验证。前六姿态在球停稳后采集，超时轻残局来自实际经过60秒，与折叠动作无关；运动连续性单独记录。"
+}
