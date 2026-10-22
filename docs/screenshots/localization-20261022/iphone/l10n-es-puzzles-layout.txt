@@ -1,0 +1,2 @@
+section=Retos;bounds=(0.0, 0.0, 402.0, 874.0);traits=1,2;safeArea=100.33333333333333,0.0,34.0,0.0;division=[];activeDivision=[];occlusion=[];seeds=1;flowers=0;quotes=2;reduceMotion=false
+appFrame=(0.0, 0.0, 402.0, 874.0)

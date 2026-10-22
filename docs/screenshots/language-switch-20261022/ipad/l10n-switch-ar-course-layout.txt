@@ -1,0 +1,2 @@
+immersive=true;across=false;pullAlpha=1.0;hudAlpha=1.0;level=01;phase=ready;strokes=0;launch=none;restored=0;sound=true;haptics=true;courseVisible=true;controlsVisible=true;language=ar;direction=ltr;replaying=false;pullEnabled=true;gameMode=classic;chibiMood=cozy;ballSkin=rice;cue=none;bounds={{0, 0}, {1032, 1376}};traits=2,2;safeArea=32.0,0.0,20.0,0.0;division=[];occlusion=[];reduceMotion=false
+appFrame=(0.0, 0.0, 1032.0, 1376.0)

@@ -1,0 +1,1 @@
+section=嘴硬语录;bounds=(0.0, 0.0, 951.0, 669.0);traits=2,2;safeArea=82.0,0.0,34.0,84.0;division=[(455.5, 0.0, 40.0, 669.0)];activeDivision=[(455.5, 0.0, 40.0, 669.0)];occlusion=[(867.0, 0.0, 84.0, 120.0)];seeds=0;flowers=0;quotes=0;reduceMotion=false

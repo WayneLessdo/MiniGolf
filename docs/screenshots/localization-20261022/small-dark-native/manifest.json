@@ -1,0 +1,12 @@
+{
+  "ar-largest-landscape": {
+    "timestamp": 1792661141.9587479,
+    "display": "1",
+    "source": "simctl io screenshot, native framebuffer; no image edits"
+  },
+  "fr-largest-landscape": {
+    "timestamp": 1792661183.189847,
+    "display": "1",
+    "source": "simctl io screenshot, native framebuffer; no image edits"
+  }
+}

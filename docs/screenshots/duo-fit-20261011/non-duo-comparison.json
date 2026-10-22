@@ -1,0 +1,40 @@
+[
+  {
+    "mode": "classic",
+    "before": "immersive=true;across=false;pullAlpha=1.0;hudAlpha=1.0;level=03;phase=ready;strokes=0;launch=none;restored=0;sound=true;haptics=true;courseVisible=true;controlsVisible=true;replaying=false;pullEnabled=true;gameMode=classic;chibiMood=cozy;ballSkin=rice;cue=none;bounds={{0, 0}, {402, 874}};traits=1,2;safeArea=62.0,0.0,34.0,0.0;division=[];occlusion=[];reduceMotion=true",
+    "after": "immersive=true;across=false;pullAlpha=1.0;hudAlpha=1.0;level=03;phase=ready;strokes=0;launch=none;restored=0;sound=true;haptics=true;courseVisible=true;controlsVisible=true;replaying=false;pullEnabled=true;gameMode=classic;chibiMood=cozy;ballSkin=rice;cue=none;bounds={{0, 0}, {402, 874}};traits=1,2;safeArea=62.0,0.0,34.0,0.0;division=[];occlusion=[];reduceMotion=true",
+    "identicalLayout": true,
+    "dimensions": {
+      "format": "raw",
+      "width": 1206,
+      "height": 2622,
+      "channels": 3,
+      "depth": "uchar",
+      "premultiplied": false,
+      "hasAlpha": false,
+      "size": 9486396
+    },
+    "excludedTopPixels": 186,
+    "changedChannelFraction": 0,
+    "maxChannelDifference": 0
+  },
+  {
+    "mode": "chibi",
+    "before": "immersive=true;across=false;pullAlpha=1.0;hudAlpha=1.0;level=03;phase=ready;strokes=0;launch=none;restored=0;sound=true;haptics=true;courseVisible=true;controlsVisible=true;replaying=false;pullEnabled=true;gameMode=chibi;chibiMood=cozy;ballSkin=rice;cue=none;bounds={{0, 0}, {402, 874}};traits=1,2;safeArea=62.0,0.0,34.0,0.0;division=[];occlusion=[];reduceMotion=true",
+    "after": "immersive=true;across=false;pullAlpha=1.0;hudAlpha=1.0;level=03;phase=ready;strokes=0;launch=none;restored=0;sound=true;haptics=true;courseVisible=true;controlsVisible=true;replaying=false;pullEnabled=true;gameMode=chibi;chibiMood=cozy;ballSkin=rice;cue=none;bounds={{0, 0}, {402, 874}};traits=1,2;safeArea=62.0,0.0,34.0,0.0;division=[];occlusion=[];reduceMotion=true",
+    "identicalLayout": true,
+    "dimensions": {
+      "format": "raw",
+      "width": 1206,
+      "height": 2622,
+      "channels": 3,
+      "depth": "uchar",
+      "premultiplied": false,
+      "hasAlpha": false,
+      "size": 9486396
+    },
+    "excludedTopPixels": 186,
+    "changedChannelFraction": 0,
+    "maxChannelDifference": 0
+  }
+]

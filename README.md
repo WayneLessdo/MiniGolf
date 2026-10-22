@@ -1,3 +1,37 @@
+# FoldPutt 项目结构
+
+Swift/UIKit 工程按业务功能分目录，功能内按 MVC 职责放置。Gameplay 和 Club 各自包含 Model、View 或 Controller；公共设备适配、输入、反馈和主题收在 Core；单测和 UI 测试按功能归档。Xcode 导航器与磁盘目录保持一致。
+
+[目录结构和文件职责](docs/code-organization.md)
+
+---
+
+# App 内五语适配（2026-10-22）
+
+已接入 tr、ar、pt、fr、es，保留简体中文；包含195项文案、离线政策、RTL与长文本适配。iPhone92条不同用例均有通过证据，iPad4条、小屏深色3条及导航修复补测2条通过，最终Release构建成功。
+
+[实现、真实截图与验证边界](docs/localization-20261022.md) · [本地化资源](Resources/Localization/) · [切换与维护说明](docs/language-switch-20261022.md)
+
+---
+
+# 发布准备（2026-10-22）
+
+政策与支持页已公开部署，联系方式统一为 `waynelessdo@gmail.com`。[隐私政策](https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/privacy) · [用户支持](https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/support) · [国际上架语言规则与操作步骤](release/国际上架语言与操作步骤.md)。商店语言不等于 App 内语言，现已加入五语与简体中文切换。
+
+已补齐隐私清单与离线政策入口，修复发布回归失败，保留 iPhone、iPad 与 Duo。iPhone 全量 80 项通过；iPad 关键流程、Duo 实际开合/旋转/两种半折及滚动中合拢续球已验证。提供 19 张商店实图、中英文文案和可托管的政策/支持页。
+
+[后台逐项填写清单](release/App-Store-Connect-填写清单.md) · [完整物料 ZIP](release/FoldPutt-AppStore-20261022.zip) · [实施、验证与剩余阻塞](docs/release-prep-20261022.md)
+
+正式 Xcode 分发签名/上传验证和后台真实资料仍需完成，当前不承诺明天公开上架。以下为历史交付。
+
+---
+
+# DUO 适配更新（2026-10-11）
+
+修复未激活折痕挤压内容、系统区域重复留白，以及窗口变化后收藏阅读位置丢失。非 DUO 两种画风基准截图保持像素一致，54 单测、普通 iPhone 5 条课题/收藏流程与 DUO 展开内屏 5 条流程通过。[适配报告与验证边界](docs/duo-fit-20261011.md)
+
+---
+
 > 仓库目录已更名为 `MiniGolf`；Xcode 工程与 Scheme 仍为 `FoldPutt`。历史记录中的旧绝对路径需替换为当前项目根目录。
 
 # 三个新玩法已接入原生 App（2026-10-11）

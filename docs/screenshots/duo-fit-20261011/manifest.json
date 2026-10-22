@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-11",
+  "sdk": "iOS Simulator 27.1",
+  "xcode": "27.1 (27A9269)",
+  "screenshots": [
+    {
+      "file": "baseline-fullscreen-chibi-review.png",
+      "diagnostic": "baseline-fullscreen-chibi-review-layout.txt",
+      "device": "iPhone 16 Pro",
+      "os": "iOS 18.5",
+      "source": "XCUIScreen screenshot attachment",
+      "pixelSize": [
+        1206,
+        2622
+      ],
+      "layout": "immersive=true;across=false;pullAlpha=1.0;hudAlpha=1.0;level=03;phase=ready;strokes=0;launch=none;restored=0;sound=true;haptics=true;courseVisible=true;controlsVisible=true;replaying=false;pullEnabled=true;gameMode=chibi;chibiMood=cozy;ballSkin=rice;cue=none;bounds={{0, 0}, {402, 874}};traits=1,2;safeArea=62.0,0.0,34.0,0.0;division=[];occlusion=[];reduceMotion=true"
+    },
+    {
+      "file": "baseline-fullscreen-classic-review.png",
+      "diagnostic": "baseline-fullscreen-classic-review-layout.txt",
+      "device": "iPhone 16 Pro",
+      "os": "iOS 18.5",
+      "source": "XCUIScreen screenshot attachment",
+      "pixelSize": [
+        1206,
+        2622
+      ],
+      "layout": "immersive=true;across=false;pullAlpha=1.0;hudAlpha=1.0;level=03;phase=ready;strokes=0;launch=none;restored=0;sound=true;haptics=true;courseVisible=true;controlsVisible=true;replaying=false;pullEnabled=true;gameMode=classic;chibiMood=cozy;ballSkin=rice;cue=none;bounds={{0, 0}, {402, 874}};traits=1,2;safeArea=62.0,0.0,34.0,0.0;division=[];occlusion=[];reduceMotion=true"
+    },
+    {
+      "file": "duo-club-bank-shot-mastery.png",
+      "diagnostic": "duo-club-bank-shot-mastery-layout.txt",
+      "device": "iPhone Duo",
+      "os": "iOS 27.1",
+      "source": "XCUIScreen screenshot attachment",
+      "pixelSize": [
+        1398,
+        2034
+      ],
+      "layout": "immersive=true;across=false;pullAlpha=0.3499999940395355;hudAlpha=1.0;level=P01;phase=success;strokes=1;launch=EB4D664C-175B-4872-A206-EF468793D280;restored=0;sound=true;haptics=true;courseVisible=true;controlsVisible=true;replaying=false;pullEnabled=false;gameMode=chibi;chibiMood=cozy;ballSkin=rice;cue=none;bounds={{0, 0}, {466, 678}};traits=1,2;safeArea=0.0,0.0,34.0,84.0;division=[];occlusion=[(399.6666666666667, 29.333333333333332, 37.0, 37.0), (382.0, 0.0, 84.0, 170.0)];reduceMotion=false"
+    },
+    {
+      "file": "duo-club-large-tall-last-plot.png",
+      "diagnostic": "duo-club-large-tall-last-plot-layout.txt",
+      "device": "iPhone Duo",
+      "os": "iOS 27.1",
+      "source": "XCUIScreen screenshot attachment",
+      "pixelSize": [
+        1398,
+        2034
+      ],
+      "layout": "section=我的花园;bounds=(0.0, 0.0, 466.0, 678.0);traits=1,2;safeArea=82.0,0.0,34.0,84.0;division=[];activeDivision=[];occlusion=[(399.6666666666667, 29.333333333333332, 37.0, 37.0), (382.0, 0.0, 84.0, 170.0)];seeds=0;flowers=0;quotes=0;reduceMotion=false"
+    },
+    {
+      "file": "duo-club-puzzle-completed.png",
+      "diagnostic": "duo-club-puzzle-completed-layout.txt",
+      "device": "iPhone Duo",
+      "os": "iOS 27.1",
+      "source": "XCUIScreen screenshot attachment",
+      "pixelSize": [
+        1398,
+        2034
+      ],
+      "layout": "section=反弹课题;bounds=(0.0, 0.0, 466.0, 678.0);traits=1,2;safeArea=82.0,0.0,34.0,84.0;division=[];activeDivision=[];occlusion=[(399.6666666666667, 29.333333333333332, 37.0, 37.0), (382.0, 0.0, 84.0, 170.0)];seeds=1;flowers=0;quotes=3;reduceMotion=false"
+    },
+    {
+      "file": "duo-inner-反弹课题.png",
+      "diagnostic": "duo-inner-反弹课题-layout.txt",
+      "device": "iPhone Duo",
+      "os": "iOS 27.1",
+      "source": "simctl framebuffer display 3 during DuoFramebuffer.xcresult",
+      "pixelSize": [
+        2853,
+        2007
+      ],
+      "layout": "section=反弹课题;bounds=(0.0, 0.0, 951.0, 669.0);traits=2,2;safeArea=82.0,0.0,34.0,84.0;division=[(455.5, 0.0, 40.0, 669.0)];activeDivision=[(455.5, 0.0, 40.0, 669.0)];occlusion=[(867.0, 0.0, 84.0, 120.0)];seeds=0;flowers=0;quotes=0;reduceMotion=false"
+    },
+    {
+      "file": "duo-inner-嘴硬语录.png",
+      "diagnostic": "duo-inner-嘴硬语录-layout.txt",
+      "device": "iPhone Duo",
+      "os": "iOS 27.1",
+      "source": "simctl framebuffer display 3 during DuoFramebuffer.xcresult",
+      "pixelSize": [
+        2853,
+        2007
+      ],
+      "layout": "section=嘴硬语录;bounds=(0.0, 0.0, 951.0, 669.0);traits=2,2;safeArea=82.0,0.0,34.0,84.0;division=[(455.5, 0.0, 40.0, 669.0)];activeDivision=[(455.5, 0.0, 40.0, 669.0)];occlusion=[(867.0, 0.0, 84.0, 120.0)];seeds=0;flowers=0;quotes=0;reduceMotion=false"
+    },
+    {
+      "file": "duo-inner-我的花园.png",
+      "diagnostic": "duo-inner-我的花园-layout.txt",
+      "device": "iPhone Duo",
+      "os": "iOS 27.1",
+      "source": "simctl framebuffer display 3 during DuoFramebuffer.xcresult",
+      "pixelSize": [
+        2853,
+        2007
+      ],
+      "layout": "section=我的花园;bounds=(0.0, 0.0, 951.0, 669.0);traits=2,2;safeArea=82.0,0.0,34.0,84.0;division=[(455.5, 0.0, 40.0, 669.0)];activeDivision=[(455.5, 0.0, 40.0, 669.0)];occlusion=[(867.0, 0.0, 84.0, 120.0)];seeds=0;flowers=0;quotes=0;reduceMotion=false"
+    },
+    {
+      "file": "phone-club-large-tall-last-plot.png",
+      "diagnostic": "phone-club-large-tall-last-plot-layout.txt",
+      "device": "iPhone 16 Pro",
+      "os": "iOS 18.5",
+      "source": "XCUIScreen screenshot attachment",
+      "pixelSize": [
+        1206,
+        2622
+      ],
+      "layout": "section=我的花园;bounds=(0.0, 0.0, 402.0, 874.0);traits=1,2;safeArea=100.33333333333333,0.0,34.0,0.0;division=[];activeDivision=[];occlusion=[];seeds=0;flowers=0;quotes=0;reduceMotion=true"
+    },
+    {
+      "file": "phone-club-large-wide-last-plot.png",
+      "diagnostic": "phone-club-large-wide-last-plot-layout.txt",
+      "device": "iPhone 16 Pro",
+      "os": "iOS 18.5",
+      "source": "XCUIScreen screenshot attachment",
+      "pixelSize": [
+        1206,
+        2622
+      ],
+      "layout": "section=我的花园;bounds=(0.0, 0.0, 874.0, 402.0);traits=1,1;safeArea=44.0,62.0,21.0,62.0;division=[];activeDivision=[];occlusion=[];seeds=0;flowers=0;quotes=0;reduceMotion=true"
+    },
+    {
+      "file": "phone-fullscreen-chibi-review.png",
+      "diagnostic": "phone-fullscreen-chibi-review-layout.txt",
+      "device": "iPhone 16 Pro",
+      "os": "iOS 18.5",
+      "source": "XCUIScreen screenshot attachment",
+      "pixelSize": [
+        1206,
+        2622
+      ],
+      "layout": "immersive=true;across=false;pullAlpha=1.0;hudAlpha=1.0;level=03;phase=ready;strokes=0;launch=none;restored=0;sound=true;haptics=true;courseVisible=true;controlsVisible=true;replaying=false;pullEnabled=true;gameMode=chibi;chibiMood=cozy;ballSkin=rice;cue=none;bounds={{0, 0}, {402, 874}};traits=1,2;safeArea=62.0,0.0,34.0,0.0;division=[];occlusion=[];reduceMotion=true"
+    },
+    {
+      "file": "phone-fullscreen-classic-review.png",
+      "diagnostic": "phone-fullscreen-classic-review-layout.txt",
+      "device": "iPhone 16 Pro",
+      "os": "iOS 18.5",
+      "source": "XCUIScreen screenshot attachment",
+      "pixelSize": [
+        1206,
+        2622
+      ],
+      "layout": "immersive=true;across=false;pullAlpha=1.0;hudAlpha=1.0;level=03;phase=ready;strokes=0;launch=none;restored=0;sound=true;haptics=true;courseVisible=true;controlsVisible=true;replaying=false;pullEnabled=true;gameMode=classic;chibiMood=cozy;ballSkin=rice;cue=none;bounds={{0, 0}, {402, 874}};traits=1,2;safeArea=62.0,0.0,34.0,0.0;division=[];occlusion=[];reduceMotion=true"
+    },
+    {
+      "file": "phone-rotation-duofit-collection-after-rotation.png",
+      "diagnostic": "phone-rotation-duofit-collection-after-rotation-layout.txt",
+      "device": "iPhone 16 Pro",
+      "os": "iOS 18.5",
+      "source": "XCUIScreen screenshot attachment",
+      "pixelSize": [
+        1206,
+        2622
+      ],
+      "layout": "section=反弹课题;bounds=(0.0, 0.0, 874.0, 402.0);traits=1,1;safeArea=44.0,62.0,21.0,62.0;division=[];activeDivision=[];occlusion=[];seeds=0;flowers=0;quotes=1;reduceMotion=true"
+    },
+    {
+      "file": "phone-rotation-duofit-collection-before-rotation.png",
+      "diagnostic": "phone-rotation-duofit-collection-before-rotation-layout.txt",
+      "device": "iPhone 16 Pro",
+      "os": "iOS 18.5",
+      "source": "XCUIScreen screenshot attachment",
+      "pixelSize": [
+        1206,
+        2622
+      ],
+      "layout": "section=反弹课题;bounds=(0.0, 0.0, 402.0, 874.0);traits=1,2;safeArea=100.33333333333333,0.0,34.0,0.0;division=[];activeDivision=[];occlusion=[];seeds=0;flowers=0;quotes=1;reduceMotion=true"
+    },
+    {
+      "file": "phone-rotation-duofit-round-after-rotation.png",
+      "diagnostic": "phone-rotation-duofit-round-after-rotation-layout.txt",
+      "device": "iPhone 16 Pro",
+      "os": "iOS 18.5",
+      "source": "XCUIScreen screenshot attachment",
+      "pixelSize": [
+        1206,
+        2622
+      ],
+      "layout": "immersive=true;across=true;pullAlpha=0.3499999940395355;hudAlpha=1.0;level=01;phase=rolling;strokes=1;launch=BD16F40D-A24C-4563-9C88-A468D9E9740D;restored=0;sound=true;haptics=true;courseVisible=true;controlsVisible=true;replaying=false;pullEnabled=false;gameMode=chibi;chibiMood=cozy;ballSkin=rice;cue=none;bounds={{0, 0}, {874, 402}};traits=1,1;safeArea=0.0,62.0,21.0,62.0;division=[];occlusion=[];reduceMotion=true"
+    }
+  ],
+  "nonDuoComparison": "non-duo-comparison.json",
+  "notes": [
+    "No black-screen or SpringBoard captures are accepted as app evidence.",
+    "Duo orientation command does not necessarily rotate or fold the active display; inspect actual bounds/traits/regions.",
+    "Inner framebuffers show active vertical division; uncontrolled posture changes do not certify a complete fold cycle."
+  ]
+}

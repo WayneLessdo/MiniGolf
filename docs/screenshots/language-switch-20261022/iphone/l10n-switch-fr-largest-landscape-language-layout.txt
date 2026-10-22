@@ -1,0 +1,2 @@
+language=fr;direction=ltr;bounds=(0.0, 0.0, 874.0, 402.0);traits=1,1;safeArea=UIEdgeInsets(top: 44.0, left: 62.0, bottom: 21.0, right: 62.0);division=[];occlusion=[]
+appFrame=(0.0, 0.0, 874.0, 402.0)

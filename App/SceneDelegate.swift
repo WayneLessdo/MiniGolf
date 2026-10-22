@@ -11,6 +11,9 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     func scene(_ scene: UIScene, willConnectTo connection: UISceneSession, options: UIScene.ConnectionOptions) {
         guard let scene = scene as? UIWindowScene else { return }
+        #if DEBUG
+        if ProcessInfo.processInfo.arguments.contains("--reset-language") { FPLanguageManager.shared.select(nil) }
+        #endif
         let window = UIWindow(windowScene: scene)
         let session: FPDemoSession
         do {
@@ -40,7 +43,7 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let root=FPGameRootController(session:session,showPicker:showPicker)
         window.rootViewController=root
         #if DEBUG
-        if #available(iOS 27.1, *),let flag=launchArgs.firstIndex(of:"--half-window"),launchArgs.count>flag+1 {
+        if let flag=launchArgs.firstIndex(of:"--half-window"),launchArgs.count>flag+1 {
             window.rootViewController=FPTuningWindowFixture(child:root,side:launchArgs[flag+1])
         }
         #endif
@@ -93,7 +96,7 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             if let data=activity.userInfo?["snapshot"] as? Data,data.count<=65_536 {
                 var info=scene.session.userInfo ?? [:];info["rejectedFoldPuttSnapshot"]=data;scene.session.userInfo=info
             }
-            session.restorationNotice="旧进度无法恢复，已安全开新局"
+            session.restorationNotice=FPL10n.text("progress_restore_failed")
             NSLog("FoldPutt restore rejected: %@",error.localizedDescription)
             return false
         }
@@ -131,7 +134,6 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 #if DEBUG
 /// Explicit test harness, not a claim that the OS created Split View.
-@available(iOS 27.1, *)
 private final class FPTuningWindowFixture: UIViewController {
     let child:UIViewController
     var side:String
@@ -146,7 +148,7 @@ private final class FPTuningWindowFixture: UIViewController {
         child.additionalSafeAreaInsets=UIEdgeInsets(top:11,left:7,bottom:17,right:23)
         child.view.clipsToBounds=true
         bar.axis = .horizontal;bar.distribution = .fillEqually
-        for (id,title) in [("left","夹具：左半窗"),("right","夹具：右半窗"),("full","夹具：全窗")] {
+        for (id,title) in [("left",FPL10n.text("fixture_left")),("right",FPL10n.text("fixture_right")),("full",FPL10n.text("fixture_full"))] {
             let button=UIButton(type:.system);button.setTitle(title,for:.normal)
             button.addAction(UIAction { [weak self] _ in self?.side=id;self?.view.setNeedsLayout() },for:.touchUpInside)
             bar.addArrangedSubview(button)

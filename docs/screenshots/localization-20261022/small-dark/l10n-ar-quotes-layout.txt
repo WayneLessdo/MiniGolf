@@ -1,0 +1,2 @@
+section=التعليقات;bounds=(0.0, 0.0, 375.0, 667.0);traits=1,2;safeArea=64.0,0.0,0.0,0.0;division=[];activeDivision=[];occlusion=[];seeds=0;flowers=1;quotes=2;reduceMotion=false
+appFrame=(0.0, 0.0, 375.0, 667.0)
