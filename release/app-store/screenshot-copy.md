@@ -1,3 +1,20 @@
+# Duo 首发玩法说明图 · 2026-10-24
+
+本轮已把英文说明实际排入图片，并上传英文主商店 Duo 槽位。普通 iPhone/iPad 继续使用真实英文界面图；下方旧配文表只保留历史，不再代表 Duo 成品。
+
+| 顺序 | 英文标题 | 对应玩法证据 |
+| --- | --- | --- |
+| 01 | Unfold a bigger green. | 实际展开内屏，保留第 02 图同一球局 |
+| 02 | Close it. Keep your round. | 实际外屏 1 杆、同局同球位 |
+| 03 | Your view. Your control. | 实际部分展开，手动 Handheld 分离球场与操控 |
+| 04 | Pull back. Release. Smile. | 实际单指拉杆，一杆进洞 |
+| 05 | Your round. Your mood. | 实际 Q 版球场，普通/Q 两种风格 |
+| 06 | Let your little wins bloom. | 实际通关获种子，九格花园种下雏菊 |
+
+[成品、规格与来源](screenshots/duo-campaign/README.md) · [完整 ZIP](../MiniGolf-Duo商店图-20261024.zip) · [六图总览](../../docs/screenshots/duo-launch-20261024/marketing/overview.jpg)。真实模拟器画面，不冒充物理真机。没有“Apple 官方推荐”“独家”或未实现兑换承诺。
+
+---
+
 # 商店截图配文（可选）
 
 图片本身为真实运行截图，未添加这些文字。后台没有必填的逐图说明栏；以下供后续制作宣传叠字或推广材料时直接复制，不表示需把文字填入后台某个字段。

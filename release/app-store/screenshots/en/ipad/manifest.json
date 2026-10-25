@@ -1,0 +1,140 @@
+[
+  {
+    "file": "release/app-store/screenshots/en/ipad/01-classic-course.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/ipad/store-02-classic-course.png",
+    "layout": "docs/screenshots/player-update-20261024/en/ipad/store-02-classic-course-layout.txt",
+    "pixels": [
+      2064,
+      2752
+    ],
+    "system": "iPadOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPad Pro 13-inch (M4)",
+    "device_id": "F79CA5D2-0617-4CA3-8C73-6C363E2D3494",
+    "timestamp": 1792812418.357,
+    "source_sha256": "20a21e30732616dddcdc6663ec6767c1f8477bff70efdfa8c6fd2e685d30b945",
+    "sha256": "30493cb50d64acd36e09ec24b16ba50e16534f076138a2a31792911cdcc7b5a4",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/en/ipad/02-chibi-course.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/ipad/store-03-chibi-course.png",
+    "layout": "docs/screenshots/player-update-20261024/en/ipad/store-03-chibi-course-layout.txt",
+    "pixels": [
+      2064,
+      2752
+    ],
+    "system": "iPadOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPad Pro 13-inch (M4)",
+    "device_id": "F79CA5D2-0617-4CA3-8C73-6C363E2D3494",
+    "timestamp": 1792812442.991,
+    "source_sha256": "ecf319013a734cc4c85fbd541276f386361c025a66b8fabff2b14ad29e3088db",
+    "sha256": "d3a0f3bc9e1f9f44bfc7d52289b2dc0a24f7fda48d603afde219ee918f7db551",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/en/ipad/03-puzzles.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/ipad/store-04-puzzles.png",
+    "layout": "docs/screenshots/player-update-20261024/en/ipad/store-04-puzzles-layout.txt",
+    "pixels": [
+      2064,
+      2752
+    ],
+    "system": "iPadOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPad Pro 13-inch (M4)",
+    "device_id": "F79CA5D2-0617-4CA3-8C73-6C363E2D3494",
+    "timestamp": 1792812448.338,
+    "source_sha256": "90ed4d03e522191f63cd0c4a4bd36bb873d7736540809cc18ed777c86e1d546d",
+    "sha256": "4184428e60734308da191f18c96aa69fc96d68b217b49bde2db3a888073cbabd",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/en/ipad/04-garden.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/ipad/store-05-garden.png",
+    "layout": "docs/screenshots/player-update-20261024/en/ipad/store-05-garden-layout.txt",
+    "pixels": [
+      2064,
+      2752
+    ],
+    "system": "iPadOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPad Pro 13-inch (M4)",
+    "device_id": "F79CA5D2-0617-4CA3-8C73-6C363E2D3494",
+    "timestamp": 1792812452.396,
+    "source_sha256": "29a180e93f2f1901f2f1147856ac31ebe531716cf00b020f72b32efe8d104e26",
+    "sha256": "083ac420529ffd83f13637eb47c8d38b039a664758bb321c0b6b6b0d43967ee4",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/en/ipad/05-quotes.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/ipad/store-06-quotes.png",
+    "layout": "docs/screenshots/player-update-20261024/en/ipad/store-06-quotes-layout.txt",
+    "pixels": [
+      2064,
+      2752
+    ],
+    "system": "iPadOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPad Pro 13-inch (M4)",
+    "device_id": "F79CA5D2-0617-4CA3-8C73-6C363E2D3494",
+    "timestamp": 1792812455.342,
+    "source_sha256": "97e6baf95ec05877e8113fe12acad1a555e93994b0f17bdf68304a092872c07a",
+    "sha256": "eece03959c64654a1f435004541111f862b98566969120c75b785a54bd251176",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/en/ipad/06-real-win.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/ipad/store-07-real-win.png",
+    "layout": "docs/screenshots/player-update-20261024/en/ipad/store-07-real-win-layout.txt",
+    "pixels": [
+      2064,
+      2752
+    ],
+    "system": "iPadOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPad Pro 13-inch (M4)",
+    "device_id": "F79CA5D2-0617-4CA3-8C73-6C363E2D3494",
+    "timestamp": 1792812434.599,
+    "source_sha256": "1b5d954296106dfb148e6dce73bccdee96a2a40cf63d29823eb184dde9a74324",
+    "sha256": "408342a7cb0a911ff80c487191a290df482b8d13b818838a862ef067852d593a",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  }
+]

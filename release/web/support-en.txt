@@ -1,12 +1,15 @@
-FoldPutt Support
+MiniGolf: Putt & Bloom Support
 Developer: Wayne
 Email: waynelessdo@gmail.com
+
+A little more room to play on iPhone Duo
+Open a roomier green on the inner display, or close your Duo for a quick round on the outer screen. Your ball position and stroke count stay with the same round. Handheld mode separates the course and pull control; no special pose unlocks content. Standard iPhone and iPad can play every course too.
 
 How do I play?
 Drag the pull control with one finger to set direction and power together. Release to putt. Wait for the ball to stop before taking another shot. When the win result appears, tap to continue.
 
 Which devices and languages are supported?
-FoldPutt supports iPhone and iPad running iOS or iPadOS 18 or later, including window and reserved-region adaptation for iPhone Duo. All courses can be completed on standard devices without a particular folding posture. The current in-app interface is in Simplified Chinese. Store descriptions and this help page in English do not mean the app interface has been translated.
+MiniGolf: Putt & Bloom supports iPhone and iPad running iOS or iPadOS 18 or later, including window and reserved-region adaptation for iPhone Duo. All courses can be completed on standard devices without a particular folding posture. The app supports English, Simplified Chinese, Turkish, Arabic, Portuguese, French and Spanish. It follows the system language when supported and otherwise uses English. Change language using the language button on the mode-selection screen or Settings > Language (语言). English is also available in the app.
 
 Where are courses and collections?
 Use the map button on the course to choose a practice course. Tap the leaf button labeled “玩法与收藏” to open six bank-shot puzzles, the garden, and the quote collection.
@@ -18,7 +21,7 @@ How do I turn off sound, haptics, or motion?
 Sound and haptics have separate switches in the course options. The game respects the system Reduce Motion setting.
 
 How do I delete data or recover progress?
-Progress and collections are stored locally. Deleting the app removes local data; offloading it while retaining documents does not clear the save. System backups and migration follow your Apple settings. The developer does not provide a cloud recovery service for game progress.
+Points and collections are stored in this device’s Keychain, with a local recovery copy. Keychain records may remain after deleting and reinstalling the app; deletion does not guarantee clearing points. These records do not sync through iCloud or migrate to another device from a backup. Erasing or replacing the device can lose them. The developer does not provide cloud recovery or guarantee permanent storage.
 
 How do I report a problem?
 Email waynelessdo@gmail.com with your app version, device model, system version, steps to reproduce the problem, and any necessary screenshot. For layout issues, describe the active display, window size, and text-size setting. Do not send passwords, verification codes, or unrelated private information.

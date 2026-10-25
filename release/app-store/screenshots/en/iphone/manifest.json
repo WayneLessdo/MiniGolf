@@ -1,0 +1,140 @@
+[
+  {
+    "file": "release/app-store/screenshots/en/iphone/01-classic-course.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/iphone/store-02-classic-course.png",
+    "layout": "docs/screenshots/player-update-20261024/en/iphone/store-02-classic-course-layout.txt",
+    "pixels": [
+      1206,
+      2622
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone 16 Pro",
+    "device_id": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+    "timestamp": 1792812184.993,
+    "source_sha256": "f79034fcb3fb3a5f0265151e98f79a50ff87cdbaac890e5a732247d4d7c6eb21",
+    "sha256": "beb8479cc4bae8a9c67fa2879a18fffaf3b6d520fff9a2b6bc644336f3f8d5ff",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/en/iphone/02-chibi-course.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/iphone/store-03-chibi-course.png",
+    "layout": "docs/screenshots/player-update-20261024/en/iphone/store-03-chibi-course-layout.txt",
+    "pixels": [
+      1206,
+      2622
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone 16 Pro",
+    "device_id": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+    "timestamp": 1792812195.203,
+    "source_sha256": "439df9e2f013b23785be1dc3a00f16455ac2e531d4b131ec83b27ad6b90baf9a",
+    "sha256": "075d4d139b7c97153ed2d13f3a2b9e5f380d0efecc3fce391e28330a8c24edd6",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/en/iphone/03-puzzles.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/iphone/store-04-puzzles.png",
+    "layout": "docs/screenshots/player-update-20261024/en/iphone/store-04-puzzles-layout.txt",
+    "pixels": [
+      1206,
+      2622
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone 16 Pro",
+    "device_id": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+    "timestamp": 1792812197.272,
+    "source_sha256": "813132e6d93f708d0ad2650ff164f4fec2ef7b2e640b07704269305b55f7c08b",
+    "sha256": "97eb30457503a5db816997e86fe5d8bbe3cd3f9ca20435f195172f325fbcc125",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/en/iphone/04-garden.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/iphone/store-05-garden.png",
+    "layout": "docs/screenshots/player-update-20261024/en/iphone/store-05-garden-layout.txt",
+    "pixels": [
+      1206,
+      2622
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone 16 Pro",
+    "device_id": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+    "timestamp": 1792812199.464,
+    "source_sha256": "7fb548c9bf5d465838afc5f4ae29af57e50ad70fd6568a11b773d20aab3adc5b",
+    "sha256": "9626cc3da7d13ac39b30366d369cf5ab9f762afe78d3967a3696050ceab843eb",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/en/iphone/05-quotes.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/iphone/store-06-quotes.png",
+    "layout": "docs/screenshots/player-update-20261024/en/iphone/store-06-quotes-layout.txt",
+    "pixels": [
+      1206,
+      2622
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone 16 Pro",
+    "device_id": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+    "timestamp": 1792812200.373,
+    "source_sha256": "18f949f742deb6eab9dad51365afc4cbdc7b6a5b4ba2cd8f95d56b7b7cb12ebb",
+    "sha256": "84cffad9aecb149ed65bee2127b2d7b5f90dcf548c48c505f415182995e3b236",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/en/iphone/06-real-win.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/iphone/store-07-real-win.png",
+    "layout": "docs/screenshots/player-update-20261024/en/iphone/store-07-real-win-layout.txt",
+    "pixels": [
+      1206,
+      2622
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone 16 Pro",
+    "device_id": "3996447A-B8B5-4A58-BFC8-8C3B879E3AB9",
+    "timestamp": 1792812190.39,
+    "source_sha256": "3b19083d4606639df9bc51ec31ab66f447fe92a6ac31a0d131a949c8348d62d6",
+    "sha256": "c6fa79d0fc1e52ae3c3fc7a920d7991f47e20fb9c19d8f997f37d029c4e3c641",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  }
+]

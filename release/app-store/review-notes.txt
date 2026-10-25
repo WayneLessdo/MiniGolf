@@ -1,19 +1,23 @@
-FoldPutt is a single-player mini golf game. No account, sign-in, subscription, in-app purchase, or advertising is required. Core gameplay works offline. In-app languages: Simplified Chinese, Turkish, Arabic, Portuguese, French and Spanish. English UI is not included.
+Version 1.0.0 (build 11) is the first public release.
 
-How to play:
-1. On launch, choose the classic mode or the character mode (Q version).
-2. Drag the pull control to set both direction and power. Release to putt; there is no separate confirmation button.
-3. Wait for the ball to stop before taking another shot. After the win result appears, tap to continue.
-4. Use the course-selection control to choose any of the three practice courses.
-5. Tap the leaf button labeled "玩法与收藏" to open six bank-shot puzzles, the nine-plot garden, and the quote collection. Completing a course earns a seed. These rewards have no monetary value and cannot be purchased or exchanged for money.
+MiniGolf: Putt & Bloom is an offline, single-player mini golf game. No account, sign-in, advertising, in-app purchase or subscription is required.
 
-iPhone Duo:
-The game adapts to the available window space. A manual "掌机模式" option is available from the options menu for separated course and control areas. All courses can also be played on a standard iPhone; folding is not required to unlock or complete content.
+Languages: English, Simplified Chinese, Turkish, Arabic, Portuguese, French and Spanish. The initial language follows the supported system preference, falling back to English. Use the globe icon in the same top row as the club brand on the start screen or in the course options to switch without losing the current round.
 
-Progress, collections, and preferences are stored locally. No developer account or remote game server is needed. Sound and haptics can be switched off independently. Reduced Motion is respected.
+Review route:
+1. Choose Classic mode. Drag the pull control to set direction and power together; release to putt. No extra confirmation is required. Classic mode shows the putter beside the ball while pulling and a short follow-through on release; this is presentation only. Classic mode arcs over obstacles without rebounds. Out-of-bounds shots return to the last safe point.
+2. Wait for the ball to stop before the next shot. After holing out, tap to continue. A hole-in-one replay can be skipped.
+3. The map button opens all three practice courses. The leaf button, Play & collect, opens six bank-shot challenges, My garden and the quote collection. All six challenges are immediately selectable and retain their bounce rules. Cozy mode also retains the existing bounce gameplay.
+4. Completing a hole grants one seed and 1–3 points from the earned stars. Seeds plant flowers in the nine-plot garden. Points and seeds cannot be bought, transferred or redeemed for money. There is no points marketplace in this release.
+5. Sound effects and Haptics are independent settings, enabled by default. Putting plays a soft sound and a light impact haptic. A retained, view-associated generator prepares at the start of each pull and fires once on a valid shot. Haptics use their own switch; Reduce Motion disables animated follow-through and other motion, while leaving the independent haptics preference active.
+6. Privacy policy opens an offline policy and a clickable public HTTPS policy link from the hand icon in the same top row as the club brand on the start screen and from course options. It pauses the same round while open.
 
-The bundled privacy policy can be read offline from the mode-selection screen ("隐私政策") or from the course options menu ("隐私政策"). Reading it pauses the current round; returning resumes the same round.
+Storage: Points and collections are saved in this device’s system Keychain with a local recovery copy. Existing local collections migrate automatically. A receipt prevents awarding the same restored win twice. The records do not sync through iCloud or migrate to another device from backup; no permanent-storage or server-recovery promise is made. The app does not actively upload game data.
+
+iPhone Duo is the main experience highlighted in this release. On Duo, open the inner display for a roomier course, close to continue the same round on the outer display, and use Handheld mode for separated course and control areas. The app preserves ball position and stroke count across display and window changes. Important controls avoid active reserved regions; an inactive decorative seam no longer covers handheld-mode results or controls. The compact stroke card uses a clear numeric count with a complete accessibility label. Layout adapts to available window space and reserved regions. Handheld mode is a manual separated-control equivalent, available from course options. All courses are playable on standard iPhone and iPad; no folding pose is required to unlock content.
 
 Public privacy policy: https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/privacy
 Support: https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/support
-Support and review contact email: waynelessdo@gmail.com
+Contact: waynelessdo@gmail.com
+
+Duo review route: choose Classic, make a drag-and-release putt, then open/close or rotate Duo without restarting the app. In course options choose Handheld mode. All functions have manual equivalents on a standard device. Store images use real Duo simulator captures with explanatory English captions; they do not depict an official Apple endorsement or exclusive device-locked content.

@@ -1,8 +1,8 @@
 {
   "provider": "Sites",
   "project_id": "appgprj_6ad9ad999ebc8191a27a041ee8e25b2f",
-  "version_id": "appgprj_6ad9ad999ebc8191a27a041ee8e25b2f~appgver_753c61d7b6448191ba3485ec0ec31aca",
-  "deployment_id": "appgdep_6ad9ae975a808191a01e8762eaf93eee",
+  "version_id": "appgprj_6ad9ad999ebc8191a27a041ee8e25b2f~appgver_734feb67aefc8191ba165c4a89e50886",
+  "deployment_id": "appgdep_6adc438242848191922e59fb523fc695",
   "status": "succeeded",
   "origin": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site",
   "access_mode": "public",
@@ -10,9 +10,13 @@
   "support_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/support",
   "privacy_policy_zh_Hans_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/privacy-zh-Hans",
   "support_zh_Hans_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/support-zh-Hans",
-  "source_commit": "b5f7a5c2bca192ec004a1226d54b8a5c312e613d",
+  "source_commit": "b460793c408076aaf7fecef5b1502857d8361157",
   "source_checkout": "work/sites/foldputt-help",
-  "published_at": "2026-10-22T06:35:17.139654+00:00",
+  "published_at": "2026-10-24T05:35:17.476681+00:00",
   "billing_note": "Used the connected Sites hosting service; no domain purchase or additional paid plan was enabled. No promise of unlimited or perpetual free service.",
-  "public_url_verification": "5 pages: HTTPS 200 without sign-in/cookies/auth headers; visible content matches source; normal canonical redirects; Cloudflare hosting security script added."
+  "public_url_verification": "2026-10-24 preflight: English/Chinese privacy and support URLs returned HTTP200; all four .html navigation targets returned HTTP200. Main content equals current v3 source. Initial privacy TLS handshake error resolved on retry; prior failure evidence retained.",
+  "public_brand": "MiniGolf: Putt & Bloom",
+  "reachability_evidence": "docs/screenshots/duo-launch-20261024/site-connection-check.jpg",
+  "public_url_check": "work/submission-preflight-20261024/public-content-check.json",
+  "navigation_check": "work/submission-preflight-20261024/public-navigation-check.json"
 }

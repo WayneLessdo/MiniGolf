@@ -1,3 +1,9 @@
+> 2026-10-24 当前候选 **1.0.0（7）** 已处理、关联“可供审核”草稿并在 TestFlight“正在测试”。Duo 主商店改为 6 张英文玩法说明图，英文总计 24 张；中英文文案以 metadata 当前文件为准。Sites v3 部署成功，公开链接本机连接验证受阻。下面是 10/22 历史表，不能照旧版本/截图路径重复提交。当前待办和入口见[上架进度](上架进度-2026-10-24.md)。
+
+> 2026-10-23：[最新执行进度](上架进度-2026-10-23.md)。商店名已改MiniGolf: Putt & Bloom；App ID/记录、英文资料、审核联系人和免费价格已完成。复制文案优先使用当前独立txt。
+
+> 最新执行入口：[提交前差距与后台逐步操作](App-Store-Connect-提交操作手册-2026-10-22.md)。已实查账号/协议/Bundle ID，并补齐大屏 iPhone 截图。
+
 > 当前语言与实操补充：[国际上架语言与操作步骤](国际上架语言与操作步骤.md)。对外邮箱统一waynelessdo@gmail.com；苹果登录账号与公开联系邮箱分开。
 
 # FoldPutt · App Store Connect 逐项填写清单
@@ -13,7 +19,7 @@
 | 后台项目 | 可复制值 / 可复制记录模板 | 状态与用法 |
 | --- | --- | --- |
 | Platform | `iOS` | iPhone/iPad 由最终构建设备家族决定 |
-| Name | `FoldPutt` | 后台检查名称可用性与权利，已有记录则核对 |
+| Name | `MiniGolf: Putt & Bloom` | 后台检查名称可用性与权利，已有记录则核对 |
 | Primary Language | `English (U.S.)`（新建记录建议） | 海外商店默认建议；已有记录先核对变更条件。App内已支持中文及tr/ar/pt/fr/es，英文界面尚未提供 |
 | Bundle ID | `com.mavericklab.foldputt` | 选择该 Team 下同名显式 App ID；需核验账号归属 |
 | SKU | `foldputt-ios-202610` | 新记录建议；已有 SKU 沿用原值 |
@@ -55,7 +61,7 @@
 ### 名称 / Name
 
 ```text
-FoldPutt
+MiniGolf: Putt & Bloom
 ```
 
 独立文件：[复制文本](app-store/metadata/zh-Hans/name.txt)。
@@ -81,7 +87,7 @@ FoldPutt
 ```text
 一片小草坪，一次小小出发。
 
-FoldPutt 是一款轻松的迷你高尔夫游戏。单指拖拽拉杆，同时决定方向与力度，松手就能击球。绕过沙地，借一面墙的力，把球送进球洞。
+MiniGolf: Putt & Bloom 是一款轻松的迷你高尔夫游戏。单指拖拽拉杆，同时决定方向与力度，松手就能击球。绕过沙地，借一面墙的力，把球送进球洞。
 
 【九张地图，按自己的节奏挑战】
 三张练习地图与六道反弹课题，随时选择想玩的球场。所有课题直接开放，失手可以继续，不需要等待解锁。
@@ -103,7 +109,7 @@ FoldPutt 是一款轻松的迷你高尔夫游戏。单指拖拽拉杆，同时�
 
 需要帮助？请通过 App Store 的“App 支持”联系开发者。
 
-界面支持简体中文、土耳其语、阿拉伯语、葡萄牙语、法语和西班牙语，跟随系统 App 语言设置。
+界面支持简体中文、土耳其语、阿拉伯语、葡萄牙语、法语和西班牙语，可跟随系统，也可在 App 内切换。
 ```
 
 独立文件：[复制文本](app-store/metadata/zh-Hans/description.txt)。
@@ -123,7 +129,7 @@ FoldPutt 是一款轻松的迷你高尔夫游戏。单指拖拽拉杆，同时�
 ### 名称 / Name
 
 ```text
-FoldPutt
+MiniGolf: Putt & Bloom
 ```
 
 独立文件：[复制文本](app-store/metadata/en-US/name.txt)。
@@ -149,7 +155,7 @@ Pull back and release. Explore nine courses, tackle six bank-shot puzzles and gr
 ```text
 A small green. A little moment of joy.
 
-FoldPutt is a relaxed mini golf game. Drag the pull control to set direction and power, then release to take your shot.
+MiniGolf: Putt & Bloom is a relaxed mini golf game. Drag the pull control to set direction and power, then release to take your shot.
 
 Explore three practice courses and six bank-shot puzzles. All puzzles are available from the start. Switch between classic and expressive character visuals while keeping the same round.
 
@@ -178,7 +184,8 @@ golf,putting,casual,puzzle,offline,garden,relaxing,bankshot
 | 物料 | 当前文件 / 规格 | 可复制的内容说明 |
 | --- | --- | --- |
 | App Icon | app-store/AppIcon-1024.png；1024×1024，无 alpha | `FoldPutt 高尔夫主题应用图标母图，由 Xcode 资产编译随分发构建提交。` |
-| iPhone 截图 | app-store/screenshots/iphone/；6张1206×2622 JPEG | `普通 iPhone 实际游戏画面：普通球场、Q版、反弹课题、花园、语录和真实通关。` |
+| iPhone 大屏截图（优先） | app-store/screenshots/iphone-large/；6张1320×2868 JPEG | `本轮真实模拟器采集，覆盖大屏必需槽位。` |
+| iPhone 中屏截图（补充） | app-store/screenshots/iphone/；6张1206×2622 JPEG | `普通 iPhone 实际游戏画面：普通球场、Q版、反弹课题、花园、语录和真实通关。` |
 | iPad 截图 | app-store/screenshots/ipad/；6张2064×2752 JPEG | `13英寸 iPad 实际游戏画面，使用同一套拖杆操作与本地收藏。` |
 | Duo 内屏截图 | app-store/screenshots/duo-inner/；6张2007×2853 JPEG | `Duo 展开内屏原生运行画面，球场和操作控件按实际可用空间显示。` |
 | Duo 外屏截图 | app-store/screenshots/duo-outer/；1张1398×2034 JPEG | `合拢外屏实际运行画面，真实击球后保持同一杆，完整玩法无需展开设备。` |
@@ -267,7 +274,7 @@ golf,putting,casual,puzzle,offline,garden,relaxing,bankshot
 ### Review Notes（复制下框，独立文件在 app-store/review-notes.txt）
 
 ```text
-FoldPutt is a single-player mini golf game. No account, sign-in, subscription, in-app purchase, or advertising is required. Core gameplay works offline. The current in-app interface is in Simplified Chinese.
+MiniGolf: Putt & Bloom is a single-player mini golf game. No account, sign-in, subscription, in-app purchase, or advertising is required. Core gameplay works offline. In-app languages: Simplified Chinese, Turkish, Arabic, Portuguese, French and Spanish. English UI is not included. The initial language follows the system; unsupported languages fall back to Simplified Chinese. Change language from the language button on the mode-selection screen or Settings > Language (语言). This keeps the current round. Chinese labels below identify the controls when Chinese is selected; labels are translated in the other supported languages.
 
 How to play:
 1. On launch, choose the classic mode or the character mode (Q version).
@@ -282,6 +289,10 @@ The game adapts to the available window space. A manual "掌机模式" option is
 Progress, collections, and preferences are stored locally. No developer account or remote game server is needed. Sound and haptics can be switched off independently. Reduced Motion is respected.
 
 The bundled privacy policy can be read offline from the mode-selection screen ("隐私政策") or from the course options menu ("隐私政策"). Reading it pauses the current round; returning resumes the same round.
+
+Public privacy policy: https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/privacy
+Support: https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/support
+Support and review contact email: waynelessdo@gmail.com
 ```
 
 ### 加急申请（可选；只有最终构建与元数据都就绪才可使用）
@@ -305,7 +316,7 @@ FoldPutt 隐私政策
 支持与隐私联系：waynelessdo@gmail.com
 
 一、无需注册，离线打球
-FoldPutt 是单人迷你高尔夫游戏，无需注册或登录。核心玩法可离线进行。App 不提供广告、内购、第三方统计或广告追踪，不主动将游戏数据传送至开发者服务器。
+MiniGolf: Putt & Bloom 是单人迷你高尔夫游戏，无需注册或登录。核心玩法可离线进行。App 不提供广告、内购、第三方统计或广告追踪，不主动将游戏数据传送至开发者服务器。
 
 二、保存在设备上的数据
 为了继续对局，App 在本地保存球位、杆数与对局进度；为了保留你的收藏和选择，App 在本地保存个人成绩、种子与花园、语录收藏，以及画风、声音和触感等偏好。这些数据仅用于提供游戏功能，不用于识别你、建立广告画像或跨 App 追踪。

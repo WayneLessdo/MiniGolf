@@ -1,14 +1,22 @@
-A small green. A little moment of joy.
+Your iPhone Duo. A little more room to play.
 
-FoldPutt is a relaxed mini golf game. Drag the pull control to set direction and power, then release to take your shot.
+Unfold MiniGolf: Putt & Bloom and turn a spare moment into a quiet escape. Enjoy a roomier green on the inner display, or close your Duo for a quick round on the outer screen. One finger is all you need: pull back to choose direction and power, then release to putt.
 
-Explore three practice courses and six bank-shot puzzles. All puzzles are available from the start. Switch between classic and expressive character visuals while keeping the same round.
+A ROUND THAT MOVES WITH YOU
+Open, close or turn your Duo while keeping the same round. Your ball position and stroke count stay with you, so changing screens does not mean starting over.
 
-Finish courses to earn seeds, then arrange daisies, tulips, and bluebells in your nine-plot garden. Discover short reactions from your golf buddy, or choose a quieter mood.
+YOUR VIEW. YOUR CONTROL.
+Prefer a handheld setup? Choose Handheld mode to separate the course and pull control. The interface adjusts to the space available and keeps important controls clear of display interruptions. No special folding pose is needed to unlock a course.
 
-Play on iPhone and iPad, and enjoy a roomier course on iPhone Duo. A manual separated-control option is also available; no special folding pose is required.
+TWO WAYS TO TAKE A LITTLE BREAK
+Classic mode brings natural grass and gentle arcs over obstacles, without rebounds. Cozy mode adds a hand-drawn lawn, expressive golf buddies and playful bounces. Explore three practice courses and six bank-shot challenges, all available from the start.
 
-No account is required. Core gameplay works offline. Progress and collections are stored on your device. No ads or in-app purchases.
+LET YOUR LITTLE WINS BLOOM
+Finish a hole to earn a seed, plant daisies, tulips or bluebells in your nine-plot garden, and collect your golf buddy’s short reactions. Earned stars also accumulate as points saved on your device. No lives to buy, no waiting to unlock a course.
 
-In-app languages: Simplified Chinese, Turkish, Arabic, Portuguese, French and Spanish. English UI is not included.
-For help, use the App Support link on this page.
+A QUIETER KIND OF GAME
+Play offline without an account. No ads or in-app purchases. Sound effects and haptics have independent switches, and the game respects Reduce Motion.
+
+Made to feel at home on Duo, and fully playable on standard iPhone and iPad too. Seven in-app languages: English, Simplified Chinese, Turkish, Arabic, Portuguese, French and Spanish. Change language in the app without losing the current round.
+
+Progress and collections are stored locally; points and collections use the device Keychain. The developer does not provide account-based cloud recovery. For help, use the App Support link on this page.

@@ -1,0 +1,134 @@
+[
+  {
+    "file": "release/app-store/screenshots/iphone-large/01-classic-course.jpg",
+    "original": "docs/screenshots/release-20261022/iphone-large/store-02-classic-course.png",
+    "layout": "docs/screenshots/release-20261022/iphone-large/store-02-classic-course-layout.txt",
+    "pixels": [
+      1320,
+      2868
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "FoldPutt Store Large 20261022",
+    "device_id": "EB6AEC52-6137-403D-BD62-4C5BB31D9281",
+    "timestamp": 1792678521.589,
+    "source_sha256": "b3e2386f0ae4bbd92358f5ffb66cda726764e534180825238754c554dbe2d635",
+    "sha256": "07d8a7a81a73948f3357630260d9a5fe85dccdfffd60035d52327b95a87298f8",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/iphone-large/02-chibi-course.jpg",
+    "original": "docs/screenshots/release-20261022/iphone-large/store-03-chibi-course.png",
+    "layout": "docs/screenshots/release-20261022/iphone-large/store-03-chibi-course-layout.txt",
+    "pixels": [
+      1320,
+      2868
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "FoldPutt Store Large 20261022",
+    "device_id": "EB6AEC52-6137-403D-BD62-4C5BB31D9281",
+    "timestamp": 1792678544.115,
+    "source_sha256": "a1d7bd6cc5c578c2d12df83b77b1f45d81dc8ac99de253d9cafc1841a8ef96a2",
+    "sha256": "6deb9a972dd9e5ba8e334d86fa40446aca7d35916cecf5db3a6b624358de2177",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/iphone-large/03-puzzles.jpg",
+    "original": "docs/screenshots/release-20261022/iphone-large/store-04-puzzles.png",
+    "layout": "docs/screenshots/release-20261022/iphone-large/store-04-puzzles-layout.txt",
+    "pixels": [
+      1320,
+      2868
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "FoldPutt Store Large 20261022",
+    "device_id": "EB6AEC52-6137-403D-BD62-4C5BB31D9281",
+    "timestamp": 1792678555.661,
+    "source_sha256": "55553b5b929c53b7d81640f2fe66b0c0d8676558f20a9a6e81ad6221dc013760",
+    "sha256": "1f5fbc245990d358e74b4b79722f47ba89a6d635d15c8177c0c069888d129339",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/iphone-large/04-garden.jpg",
+    "original": "docs/screenshots/release-20261022/iphone-large/store-05-garden.png",
+    "layout": "docs/screenshots/release-20261022/iphone-large/store-05-garden-layout.txt",
+    "pixels": [
+      1320,
+      2868
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "FoldPutt Store Large 20261022",
+    "device_id": "EB6AEC52-6137-403D-BD62-4C5BB31D9281",
+    "timestamp": 1792678562.429,
+    "source_sha256": "f34db095b14139742063534b8a7316416787950e4d222a1fe84ff3b6acfc2ec7",
+    "sha256": "a28ac1ae671cb80711ea6d9597ad527ac4d1a0ad394160c2872c5f84cd20ba80",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/iphone-large/05-quotes.jpg",
+    "original": "docs/screenshots/release-20261022/iphone-large/store-06-quotes.png",
+    "layout": "docs/screenshots/release-20261022/iphone-large/store-06-quotes-layout.txt",
+    "pixels": [
+      1320,
+      2868
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "FoldPutt Store Large 20261022",
+    "device_id": "EB6AEC52-6137-403D-BD62-4C5BB31D9281",
+    "timestamp": 1792678568.948,
+    "source_sha256": "bf609fb196c3673fa4a25dded305fb14114bb76293e98bb681eb4835aed47573",
+    "sha256": "4b2ab8617fef3567833302bf66ebe6b45816a41189894a478153083801f19691",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/iphone-large/06-real-win.jpg",
+    "original": "docs/screenshots/release-20261022/iphone-large/store-07-real-win.png",
+    "layout": "docs/screenshots/release-20261022/iphone-large/store-07-real-win-layout.txt",
+    "pixels": [
+      1320,
+      2868
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testStoreScreenshotsFromRealNavigation()",
+    "device_name": "FoldPutt Store Large 20261022",
+    "device_id": "EB6AEC52-6137-403D-BD62-4C5BB31D9281",
+    "timestamp": 1792678532.501,
+    "source_sha256": "c9cb008dbe52deec8e20a0ccd0e6fe190663cd458b0e2907371f60cf556c0221",
+    "sha256": "165110d1500f4509e2c6ea93730f3e5bb7c488018e8f0908990e9a27106814d3",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  }
+]

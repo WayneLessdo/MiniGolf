@@ -1,0 +1,140 @@
+[
+  {
+    "file": "release/app-store/screenshots/en/iphone-large/01-classic-course.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/iphone-large/store-02-classic-course.png",
+    "layout": "docs/screenshots/player-update-20261024/en/iphone-large/store-02-classic-course-layout.txt",
+    "pixels": [
+      1320,
+      2868
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "FoldPutt Store Large 20261022",
+    "device_id": "EB6AEC52-6137-403D-BD62-4C5BB31D9281",
+    "timestamp": 1792812122.006,
+    "source_sha256": "a6d8ade1554c95e055d2db626494ccfbeec80f2e520db226ed0c84e1a30f4381",
+    "sha256": "1776d7ac446d35b728297c52ffa4511c737b26e5463c68a0b970521eae100e15",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/en/iphone-large/02-chibi-course.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/iphone-large/store-03-chibi-course.png",
+    "layout": "docs/screenshots/player-update-20261024/en/iphone-large/store-03-chibi-course-layout.txt",
+    "pixels": [
+      1320,
+      2868
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "FoldPutt Store Large 20261022",
+    "device_id": "EB6AEC52-6137-403D-BD62-4C5BB31D9281",
+    "timestamp": 1792812138.129,
+    "source_sha256": "f61713cb9225c519b6b2cc9b0952aff743ad760405760f3ee2606c42402e6c6e",
+    "sha256": "1ca6ea36db7c79951adb74a2e8bc38a68b2ee0dccb18c7e735ecffef7db55d4a",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/en/iphone-large/03-puzzles.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/iphone-large/store-04-puzzles.png",
+    "layout": "docs/screenshots/player-update-20261024/en/iphone-large/store-04-puzzles-layout.txt",
+    "pixels": [
+      1320,
+      2868
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "FoldPutt Store Large 20261022",
+    "device_id": "EB6AEC52-6137-403D-BD62-4C5BB31D9281",
+    "timestamp": 1792812140.414,
+    "source_sha256": "1b54546bef56e7664d7b2371e53faf0b09bfb31bb8c8002c0fe2580292ff6dfe",
+    "sha256": "bb856aa675df683153184e6920034f103b33b99f172474e787385c9d6160c49b",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/en/iphone-large/04-garden.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/iphone-large/store-05-garden.png",
+    "layout": "docs/screenshots/player-update-20261024/en/iphone-large/store-05-garden-layout.txt",
+    "pixels": [
+      1320,
+      2868
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "FoldPutt Store Large 20261022",
+    "device_id": "EB6AEC52-6137-403D-BD62-4C5BB31D9281",
+    "timestamp": 1792812141.699,
+    "source_sha256": "a82848f0281fcde116b2460cd33f730ee071db79b5bf44c5d3af85ba3940e2b9",
+    "sha256": "e3681799fe02aa8fd38f191cbd40358c79db75723032d2093774d67a11c272ec",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/en/iphone-large/05-quotes.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/iphone-large/store-06-quotes.png",
+    "layout": "docs/screenshots/player-update-20261024/en/iphone-large/store-06-quotes-layout.txt",
+    "pixels": [
+      1320,
+      2868
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "FoldPutt Store Large 20261022",
+    "device_id": "EB6AEC52-6137-403D-BD62-4C5BB31D9281",
+    "timestamp": 1792812142.716,
+    "source_sha256": "81d01bff75a084b16f6a6cb63e2c1ac478510c8ab68cfb252d96520ce25cb9ac",
+    "sha256": "bed0ebebd7195b906746de2fe0d76e6b7bfa6c92e82bf828e66d15b471f4af31",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  },
+  {
+    "file": "release/app-store/screenshots/en/iphone-large/06-real-win.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/iphone-large/store-07-real-win.png",
+    "layout": "docs/screenshots/player-update-20261024/en/iphone-large/store-07-real-win-layout.txt",
+    "pixels": [
+      1320,
+      2868
+    ],
+    "system": "iOS 18.5",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "FoldPutt Store Large 20261022",
+    "device_id": "EB6AEC52-6137-403D-BD62-4C5BB31D9281",
+    "timestamp": 1792812128.616,
+    "source_sha256": "f896ec7dfc9ad9158bf892d556db35269193898051a55c1c56025c08256af4fe",
+    "sha256": "1a6ae8044a925b4f38fb374130c7500a4c8057fb725501a6b8573021cf2fcb22",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state"
+  }
+]

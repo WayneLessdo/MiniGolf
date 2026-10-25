@@ -1,0 +1,26 @@
+[
+  {
+    "file": "release/app-store/screenshots/en/duo-outer/01-classic-course.jpg",
+    "original": "docs/screenshots/player-update-20261024/en/duo-outer/store-02-classic-course.png",
+    "layout": "docs/screenshots/player-update-20261024/en/duo-outer/store-02-classic-course-layout.txt",
+    "pixels": [
+      1398,
+      2034
+    ],
+    "system": "iOS 27.1 (24A94401)",
+    "sdk": "iOS Simulator 27.1",
+    "language": "en",
+    "configuration": "Debug",
+    "toolchain_build": "27A9269",
+    "fixture": false,
+    "capture_source": "XCUIApplication.screenshot",
+    "test": "FPReleaseUITests/testEnglishStoreScreenshotsFromRealNavigation()",
+    "device_name": "iPhone Duo",
+    "device_id": "2B7D0712-AB02-4854-86C5-7FC76DD406F5",
+    "timestamp": 1792812897.832,
+    "source_sha256": "9f5bdfe86f1200d95959ff8ead9798622f06152ca46554791ef9961448827d51",
+    "sha256": "f80e907c3d545c9d5490a3aa53fca4b6eca220d285f09a904875414b289f2d57",
+    "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state",
+    "test_outcome": "Capture succeeded before test failure: the later drag did not register; 0 strokes. Not a passed Duo gameplay regression."
+  }
+]

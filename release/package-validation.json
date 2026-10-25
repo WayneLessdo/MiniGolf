@@ -2,239 +2,97 @@
   "metadata": [
     {
       "locale": "zh-Hans",
+      "field": "name",
+      "count": 22,
+      "unit": "characters",
+      "limit": 30
+    },
+    {
+      "locale": "zh-Hans",
       "field": "subtitle",
-      "count": 10,
-      "limit": 30,
-      "unit": "characters"
+      "count": 20,
+      "unit": "characters",
+      "limit": 30
+    },
+    {
+      "locale": "zh-Hans",
+      "field": "promotional_text",
+      "count": 75,
+      "unit": "characters",
+      "limit": 170
+    },
+    {
+      "locale": "zh-Hans",
+      "field": "description",
+      "count": 695,
+      "unit": "characters",
+      "limit": 4000
     },
     {
       "locale": "zh-Hans",
       "field": "keywords",
       "count": 65,
-      "limit": 100,
-      "unit": "UTF-8 bytes"
+      "unit": "UTF-8 bytes",
+      "limit": 100
     },
     {
-      "locale": "zh-Hans",
-      "field": "promotional_text",
-      "count": 66,
-      "limit": 170,
-      "unit": "characters"
-    },
-    {
-      "locale": "zh-Hans",
+      "locale": "en-US",
       "field": "name",
-      "count": 8,
-      "limit": 30,
-      "unit": "characters"
-    },
-    {
-      "locale": "zh-Hans",
-      "field": "description",
-      "count": 490,
-      "limit": 4000,
-      "unit": "characters"
+      "count": 22,
+      "unit": "characters",
+      "limit": 30
     },
     {
       "locale": "en-US",
       "field": "subtitle",
       "count": 30,
-      "limit": 30,
-      "unit": "characters"
+      "unit": "characters",
+      "limit": 30
+    },
+    {
+      "locale": "en-US",
+      "field": "promotional_text",
+      "count": 160,
+      "unit": "characters",
+      "limit": 170
+    },
+    {
+      "locale": "en-US",
+      "field": "description",
+      "count": 1959,
+      "unit": "characters",
+      "limit": 4000
     },
     {
       "locale": "en-US",
       "field": "keywords",
       "count": 59,
-      "limit": 100,
-      "unit": "UTF-8 bytes"
-    },
-    {
-      "locale": "en-US",
-      "field": "promotional_text",
-      "count": 170,
-      "limit": 170,
-      "unit": "characters"
-    },
-    {
-      "locale": "en-US",
-      "field": "name",
-      "count": 8,
-      "limit": 30,
-      "unit": "characters"
-    },
-    {
-      "locale": "en-US",
-      "field": "description",
-      "count": 917,
-      "limit": 4000,
-      "unit": "characters"
+      "unit": "UTF-8 bytes",
+      "limit": 100
     }
   ],
-  "review_notes_bytes": 1752,
-  "screenshots": [
-    {
-      "file": "release/app-store/screenshots/duo-inner/01-classic-course.jpg",
-      "pixels": [
-        2007,
-        2853
-      ],
-      "alpha": false
+  "review_notes_bytes": 3922,
+  "screenshots": {
+    "current_english_store": {
+      "iphone_medium": 6,
+      "iphone_large": 6,
+      "ipad": 6,
+      "duo": 6,
+      "total": 24
     },
-    {
-      "file": "release/app-store/screenshots/duo-inner/02-chibi-course.jpg",
-      "pixels": [
-        2007,
-        2853
-      ],
-      "alpha": false
-    },
-    {
-      "file": "release/app-store/screenshots/duo-inner/03-puzzles.jpg",
-      "pixels": [
-        2007,
-        2853
-      ],
-      "alpha": false
-    },
-    {
-      "file": "release/app-store/screenshots/duo-inner/04-garden.jpg",
-      "pixels": [
-        2007,
-        2853
-      ],
-      "alpha": false
-    },
-    {
-      "file": "release/app-store/screenshots/duo-inner/05-quotes.jpg",
-      "pixels": [
-        2007,
-        2853
-      ],
-      "alpha": false
-    },
-    {
-      "file": "release/app-store/screenshots/duo-inner/06-real-win.jpg",
-      "pixels": [
-        2007,
-        2853
-      ],
-      "alpha": false
-    },
-    {
-      "file": "release/app-store/screenshots/duo-outer/01-chibi-course.jpg",
-      "pixels": [
-        1398,
-        2034
-      ],
-      "alpha": false
-    },
-    {
-      "file": "release/app-store/screenshots/ipad/01-classic-course.jpg",
-      "pixels": [
-        2064,
-        2752
-      ],
-      "alpha": false
-    },
-    {
-      "file": "release/app-store/screenshots/ipad/02-chibi-course.jpg",
-      "pixels": [
-        2064,
-        2752
-      ],
-      "alpha": false
-    },
-    {
-      "file": "release/app-store/screenshots/ipad/03-puzzles.jpg",
-      "pixels": [
-        2064,
-        2752
-      ],
-      "alpha": false
-    },
-    {
-      "file": "release/app-store/screenshots/ipad/04-garden.jpg",
-      "pixels": [
-        2064,
-        2752
-      ],
-      "alpha": false
-    },
-    {
-      "file": "release/app-store/screenshots/ipad/05-quotes.jpg",
-      "pixels": [
-        2064,
-        2752
-      ],
-      "alpha": false
-    },
-    {
-      "file": "release/app-store/screenshots/ipad/06-real-win.jpg",
-      "pixels": [
-        2064,
-        2752
-      ],
-      "alpha": false
-    },
-    {
-      "file": "release/app-store/screenshots/iphone/01-classic-course.jpg",
-      "pixels": [
-        1206,
-        2622
-      ],
-      "alpha": false
-    },
-    {
-      "file": "release/app-store/screenshots/iphone/02-chibi-course.jpg",
-      "pixels": [
-        1206,
-        2622
-      ],
-      "alpha": false
-    },
-    {
-      "file": "release/app-store/screenshots/iphone/03-puzzles.jpg",
-      "pixels": [
-        1206,
-        2622
-      ],
-      "alpha": false
-    },
-    {
-      "file": "release/app-store/screenshots/iphone/04-garden.jpg",
-      "pixels": [
-        1206,
-        2622
-      ],
-      "alpha": false
-    },
-    {
-      "file": "release/app-store/screenshots/iphone/05-quotes.jpg",
-      "pixels": [
-        1206,
-        2622
-      ],
-      "alpha": false
-    },
-    {
-      "file": "release/app-store/screenshots/iphone/06-real-win.jpg",
-      "pixels": [
-        1206,
-        2622
-      ],
-      "alpha": false
-    }
-  ],
+    "duo_manifest": "release/app-store/screenshots/duo-campaign/manifest.json",
+    "note": "English Duo six images have captions; other dimensions preserve prior real English captures. Chinese store localization retained."
+  },
   "icon": "1024x1024, no alpha",
-  "web": "5 public HTTPS 200 pages, no sign-in/cookies/auth headers. Visible content matches source; canonical redirects and hosting-added Cloudflare security script recorded in web/public-url-check.json. Public browser preview timed out; local mobile preview and navigation verified.",
-  "archive": "Earlier unsigned archive is historical. Current localization candidate has a verified unsigned Release device build; formal distribution archive remains pending.",
+  "web": "四个必需URL及四个HTML导航目标均HTTP200，main正文与v3源一致；初次TLS握手失败重试恢复",
+  "archive": "1.0.0 (11), formal Xcode27.1 27A9275 / iphoneos27.1, signature verified; uploaded, processed and linked.",
   "asset_inventory": "All recorded file hashes match; no claim of legal clearance.",
   "limits": [
-    "Current App languages: zh-Hans,tr,ar,pt,fr,es; English App UI is not implemented.",
-    "Duo continuous-pose tests were not repeated for this localization build.",
-    "Beta unsigned Release build; no upload or TestFlight.",
-    "Mother-tongue human review and physical-device/complete VoiceOver checks not performed."
+    "Prior synthetic XCTest drag failure retained; actual Device Hub input provides distinct manual evidence.",
+    "No final review submission or public release; November23 $0.99 price not scheduled.",
+    "User approved current phone experience; not a physical Duo test.",
+    "Duo synthetic scroll failure retained; actual Device Hub home/privacy/language/scroll path manually checked.",
+    "Legal-name change approval and synchronization remain unverified."
   ],
   "public_urls": {
     "privacy_policy_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/privacy",
@@ -243,17 +101,10 @@
     "support_zh_Hans_url": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/support-zh-Hans"
   },
   "focused_test_after_email_change": 1,
-  "reused_results": "Prior 80/80 iPhone and scoped iPad/Duo results retained for unchanged game code; the whole suite was not rerun for this contact-only change.",
+  "reused_results": "67 base unit tests passed after canal fix; 6 localization retests after count labels; final HUD regression and English UI test passed. 68 distinct unit cases with relevant valid evidence, not 74 distinct tests.",
   "app_localization": {
-    "configuration": "Release",
-    "signed": false,
-    "xcode_build": "27A9269",
-    "sdk": "iphoneos27.1",
-    "device_families": [
-      1,
-      2
-    ],
-    "localizations": [
+    "languages": [
+      "en",
       "zh-Hans",
       "tr",
       "ar",
@@ -261,25 +112,832 @@
       "fr",
       "es"
     ],
-    "compiled_keys_per_language": {
-      "zh-Hans": 195,
-      "tr": 195,
-      "ar": 195,
-      "pt": 195,
-      "fr": 195,
-      "es": 195
+    "keys_per_language": 198,
+    "source": "Resources/Localization",
+    "fallback": "English",
+    "configuration": "Release",
+    "signed": true,
+    "xcode_build": "27A9275"
+  },
+  "submission_preflight_20261022": {
+    "backend_observed": {
+      "app_record": "No apps in current account",
+      "bundle_id": "com.mavericklab.foldputt not in New App picker",
+      "team_id": "62FH5J6694",
+      "membership": "Individual; renewal 2027-09-10",
+      "agreement": "Updated agreement outstanding; account page deadline 2026-10-29",
+      "dsa": "Status outstanding banner"
     },
-    "limits": "Beta unsigned build, not an App Store submission validation.",
-    "resource_format": "Localizable.strings",
-    "source_sha256": {
-      "zh-Hans": "2dcdcb901f692fe3dbb063c1ca1b7aed16e9c53e94639533094d2199b78ba17b",
-      "tr": "00ebdf73a8a5b996fea6a804b762d01694f2b57d33f816ab64bbd12f8c57a2d5",
-      "ar": "a090492769e007261de51df29f69aac3ce1426df45e46ceae1238337daf067ee",
-      "pt": "a883f7390e0c3e0792022d161b7200098b5ad785a75afc359cb158983c90ed4f",
-      "fr": "6474c6818bfa4b7f85a9ba520acf855f7d6d1693298b0ed149f78dd8ac660730",
-      "es": "c2353fdd63da56411b6774ec1b9ffd14a04ca92c1ae647679a44d2940afdef91"
+    "toolchain": "Only /Applications/Xcode.app, Xcode 27.1 beta 27A9269 installed; accepted distribution toolchain still required",
+    "local_distribution_identity": "No Apple Distribution identity in current keychain; does not rule out cloud-managed signing",
+    "public_https": {
+      "privacy": 200,
+      "support": 200
     },
-    "in_app_language_switch": true,
-    "current_build_log": "work/language-switch-20261022/release.log"
+    "large_screen_test": "work/release-20261022/LargePhoneSubmission.xcresult; one UI test passed",
+    "capture_note": "Native framebuffer helper timed out at 4 seconds; XCTest completed successfully; all six delivered images use original XCUIApplication.screenshot attachments at 1320x2868 without resizing",
+    "archive_uploaded": false,
+    "submitted_for_review": false,
+    "zip_updated": false,
+    "static_checks": {
+      "all_25_screenshot_dimensions_and_hashes": "passed",
+      "source_and_layout_paths": "passed",
+      "asset_inventory_hashes": "passed",
+      "metadata_10_fields": "passed",
+      "local_markdown_links": "passed",
+      "six_localizations_195_keys_each": "passed",
+      "plist_parse": "passed",
+      "icon_1024_no_alpha": "passed",
+      "public_web_body_and_contact": "passed",
+      "git_diff_check": "passed"
+    }
+  },
+  "connect_progress_20261023": {
+    "agreement": {
+      "issued": "2026-10-14",
+      "accepted": "2026-10-23",
+      "connect_warning_cleared": true
+    },
+    "team_id": "62FH5J6694",
+    "bundle_id": "com.mavericklab.foldputt",
+    "bundle_id_registered": true,
+    "app_record_created": true,
+    "apple_id": "6826044808",
+    "sku": "foldputt-ios-202610",
+    "primary_locale": "en-US",
+    "platform": "iOS",
+    "version_form": "0.2.0, English metadata, authorized review contact, notes and manual release saved",
+    "build_uploaded": false,
+    "submitted": false,
+    "toolchain_rechecked": "27.1 beta / 27A9269",
+    "store_name": "MiniGolf: Putt & Bloom",
+    "desktop_name": "MiniGolf",
+    "name_MiniGolf": "Rejected as already used",
+    "category": "Games / Sports / Puzzle saved",
+    "mac_and_vision_pro": "Opted out and saved",
+    "pricing": "0 USD initial price saved; no future price schedule",
+    "territories": "Planned TUR,ARE,BRA,PRT,FRA,ESP,MEX; not yet saved",
+    "dsa": "Pending self-assessment; hobby project with potential later paid price",
+    "website": "Version2 deployed at existing public URL",
+    "release_inspection": {
+      "name": "MiniGolf",
+      "bundle_id": "com.mavericklab.foldputt",
+      "version": "0.2.0",
+      "build": "1",
+      "languages": {
+        "ar.lproj": 195,
+        "zh-Hans.lproj": 195,
+        "es.lproj": 195,
+        "tr.lproj": 195,
+        "fr.lproj": 195,
+        "pt.lproj": 195
+      },
+      "source_hashes": {
+        "Resources/Localization/ar.lproj/Localizable.strings": "ff5416e5922595ef758ff29e2ba32c33532f1b8ca6fcb49d9003adff9f3a93b6",
+        "Resources/Localization/zh-Hans.lproj/Localizable.strings": "4212394bf47865c5c306db1dd481d716ab158b145785d5752c00b755f80cc8e5",
+        "Resources/Localization/es.lproj/Localizable.strings": "9b2b773e66c6bbac54a086f7610a6ce0bd0ffc0656fc989bad2d3603c3ab29d8",
+        "Resources/Localization/tr.lproj/Localizable.strings": "b1e7026107a2ae15bf1dbe4c67ae0a3e938a4e77e3e81c6e7b6659db71ef83cd",
+        "Resources/Localization/fr.lproj/Localizable.strings": "35911c211a329a0c196d428a05a5f848f62618df9b0cda7320c26fa4dde5eb6a",
+        "Resources/Localization/pt.lproj/Localizable.strings": "5220e58f640988a34a5e36a1f60af8579b5c9f865105e489e1e8f0aa28682f4f"
+      },
+      "signed": false,
+      "xcode_build": "27A9269",
+      "release_build": "passed",
+      "limits": "当前beta工具链未签名构建，不能代替正式分发验证。"
+    },
+    "ui_verification": {
+      "initial": "Failed at immediate post-rotation hittability check; transition image retained",
+      "final": "RenamePrivacyFinal.xcresult: 1 UI test passed after bounded readiness wait",
+      "screenshot_limit": "Portrait reviewed; landscape XCTest capture cropped during transition, not full visual acceptance"
+    },
+    "public_urls": "privacy/support HTTPS200 with new brand"
+  },
+  "execution_continued_20261023": {
+    "territories_saved": [
+      "ARE",
+      "BRA",
+      "MEX",
+      "TUR"
+    ],
+    "availability_state": "App发布时供应; four countries verified in UI; EU launch deferred by explicit user choice",
+    "requested_future_price": {
+      "usd": 0.99,
+      "effective_date": "2026-11-23",
+      "scheduled": false,
+      "reason": "Paid Apps Agreement and submitted app review prerequisite; not yet fulfilled"
+    },
+    "disk_free_gib_observed": 16,
+    "xcode": "27.1 release 27A9275 installed alongside beta",
+    "age_rating": "4+; saved; no Kids category",
+    "privacy_url": "saved",
+    "privacy_label": "Data Not Collected; published after explicit confirmation",
+    "zh_Hans_version_metadata": "saved; Chinese subtitle saved; privacy URL verified",
+    "legal_entity_address": "prior split/save unconfirmed; agreement opened without address blocker; no address changed in continuation",
+    "screenshots_upload_authorized": true,
+    "xcode_release": {
+      "path": "/Users/cws/Applications/Xcode-27.1-Release/Xcode.app",
+      "build": "27A9275",
+      "codesign_verify": "passed",
+      "spctl": "accepted; existing system security disabled override reported; agent did not change security settings",
+      "first_launch": "completed"
+    },
+    "archive": "Release27A9275.xcarchive; ARCHIVE SUCCEEDED; bundle/version/display name/privacy verified",
+    "app_store_export": "SUCCEEDED after Xcode login; Cloud Managed Apple Distribution",
+    "build_upload": {
+      "version": "0.2.0",
+      "build": "1",
+      "completed_at": "2026-10-23T13:02:01+08:00",
+      "log": "work/submission-20261023/upload-27A9275.log",
+      "server_processing": "complete; TestFlight Ready to Submit",
+      "linked_to_version_draft": true
+    },
+    "formal_toolchain_tests": {
+      "result": "passed",
+      "test_count": 6,
+      "bundle": "work/submission-20261023/ReleaseToolchainSmoke.xcresult",
+      "reused_not_rerun": true
+    },
+    "screenshots_uploaded": {
+      "locale": "en-US",
+      "iphone_medium": 6,
+      "iphone_large": 6,
+      "duo": 7,
+      "ipad": 6,
+      "total": 25
+    },
+    "content_rights": "saved; necessary rights confirmed explicitly by user",
+    "paid_agreement": "accepted; Waiting for User Info; bank, US tax questionnaire and State Council Decree No. 810 information incomplete; not effective",
+    "dsa": "Active; selected combined statement includes no plans to distribute in EU; four-country non-EU launch; no private public contacts submitted; Trader verification required before future EU expansion",
+    "financial_setup": "User corrected bank to China Merchants Bank Guangzhou Science Park branch. China mainland, authorized existing Apple address entered as two lines; user-provided Latin-script name passed validation; personal account selected. Account number entered into Apple draft with authorization, not recorded in files. CNAPS 308581002329 selected from Apple directory, branch-name mapping cross-checked on public directory. User confirmed details, CNY and electronic-payment/correction terms; agent checked agreement and clicked Add. Apple displayed Two-Factor Authentication Required; user later reported authentication complete but independent recheck still showed no saved bank account. Non-US tax resident and no US business activities questionnaire saved; Certificate of Foreign Status and W-8BEN incomplete and unsigned. Decree No. 810 ID form left blank.",
+    "testflight_install_validation": "Pending user installation and acceptance. TestFlight shows one invited tester; no user-reported test result yet. Agent did not install or run apps on physical devices.",
+    "submitted_for_review": false,
+    "released": false,
+    "bank_auth_followup": "User reported authentication complete. Independent business page still showed no bank account. Retry after dismissing stale auth and a fresh reload/rebuilt identical authorized form both returned Two-Factor Authentication Required with loading indicator. Stopped repeat submissions; bank save not confirmed.",
+    "tax_name_check": "User confirmed Wayne Chen is only an everyday English name, not suitable for formal tax declaration. Both locked tax forms remain unsigned pending legal-name correction.",
+    "legal_name_correction": {
+      "requested_at_local_date": "2026-10-23",
+      "destination": "https://developer.apple.com/contact/request/update-individual-information/",
+      "scope": "Name only; correct existing personal membership record and request legal-entity/tax-form synchronization",
+      "user_authorized_send": true,
+      "submitted": true,
+      "apple_confirmation": "Thanks for contacting us. We’ll review your request and get back to you as soon as possible.",
+      "case_number_displayed": false,
+      "approved_or_applied": false,
+      "evidence": "docs/screenshots/submission-20261023/connect/legal-name-correction-submitted.png",
+      "bank_account_or_id_number_included": false
+    },
+    "testflight_group": {
+      "id": "a20fa9e5-8acc-4f39-9781-bc93ef7a972f",
+      "name": "MiniGolf 0.2.0 首发验收",
+      "automatic_distribution": false,
+      "build": "0.2.0 (1)",
+      "state": "Ready to Test",
+      "testers_added": 1,
+      "invite_sent": true,
+      "tester_state": "Invited",
+      "invitation_date": "2026-10-23",
+      "evidence": "docs/screenshots/submission-20261023/connect/testflight-invite-sent.png",
+      "recipient": "Explicitly authorized existing account holder",
+      "acceptance_method": "User will install and test on their own phone"
+    },
+    "review_draft": {
+      "created": true,
+      "local_time": "2026-10-23T17:01:00+08:00",
+      "version_state": "Ready for Review",
+      "items": [
+        "iOS 0.2.0 (1)"
+      ],
+      "submitted": false,
+      "evidence": "docs/screenshots/submission-20261023/connect/review-draft-ready.png"
+    },
+    "financial_privacy_recheck_20261023": {
+      "report": "release/收款税务与地址隐私核查-2026-10-23.md",
+      "free_agreement": "Active; free release can proceed independently of paid-app banking setup",
+      "paid_agreement": "Waiting for User Info",
+      "bank_saved": false,
+      "bank_eligibility": "Apple directory contains selected branch; CMB official page supports individual cross-border remittances in general. Specific account and Apple CNY receipt eligibility not verified; authentication failure is not evidence of bank incompatibility.",
+      "bank_details_already_provided": true,
+      "processing_dependency": "Apple requires all paid-contract tax forms before processing bank information; await legal-name correction before signing tax forms",
+      "legal_name_applied": false,
+      "decree_810": "Missing information; independent reporting requirement for Chinese developers, not solely a paid-app requirement; blank ID form retained for user",
+      "public_address": "Current four storefronts non-EU; no DSA public private contacts submitted; live English support/privacy pages contain no home address/private phone",
+      "public_website_copy_followup": "Existing English support/privacy pages still describe Chinese-only UI; six-language wording needs subsequent hosted-site update",
+      "seller_name": "Legal entity name is displayed on App Store; no anonymity promise",
+      "testflight_state": "Invited; no installation/use data or user acceptance result",
+      "review_state": "Ready for Review; draft only; final submission not performed",
+      "review_evidence": "docs/screenshots/submission-20261023/connect/review-draft-rechecked.png",
+      "price_scheduled": false,
+      "future_price_date": "2026-11-23",
+      "validation": "Documentation and JSON checks only; unchanged game tests reused"
+    }
+  },
+  "current_status_record": "review_audit_20261024",
+  "review_audit_20261024": {
+    "report": "release/审核风险排查-2026-10-24.md",
+    "progress": "release/上架进度-2026-10-24.md",
+    "duo_report": "release/Duo兼容性核查-2026-10-24.md",
+    "candidate": {
+      "version": "1.0.0",
+      "build": "3",
+      "supersedes": [
+        "0.2.0 (1)",
+        "1.0.0 (2)"
+      ],
+      "archive": "work/review-audit-20261024/MiniGolf-1.0.0-3.xcarchive",
+      "inspection": "work/review-audit-20261024/archive-final-inspection.json",
+      "signed_archive_passed": true,
+      "upload_succeeded_at": "2026-10-24T09:46:35+08:00",
+      "upload_log": "work/review-audit-20261024/upload-final.log",
+      "server_processing_complete_verified": true,
+      "linked_to_version_draft": true,
+      "distributed_to_testflight_group": true,
+      "review_submitted": false,
+      "released": false,
+      "build_id": "fc006b97-3fb6-42c5-b5a7-66e775dd0803"
+    },
+    "backend": {
+      "state": "login_restored_and_candidate_updated",
+      "verified_at": "2026-10-24T10:20:00+08:00",
+      "review_draft": "1.0.0 (3), Ready for Review, not submitted",
+      "old_draft_item_removed": true,
+      "new_review_notes_saved": true,
+      "evidence": "docs/screenshots/review-audit-20261024/connect-review-1.0.0-3-ready.png"
+    },
+    "website": {
+      "local_copy_corrected": true,
+      "deployed": false,
+      "published_version": "2026-10-23 v2",
+      "reason": "Sites deployment capability unavailable in this session",
+      "package": "release/MiniGolf-网站更新-20261024.zip"
+    },
+    "changes": [
+      "Public policy HTTPS link in app",
+      "Keep privacy/language/collection navigation bar visible on iOS27+",
+      "Remove Chinese/Portuguese demo wording",
+      "Isolate Chinese UI test language and tighten Arabic card visibility",
+      "Preserve review contact metadata when regenerating website"
+    ],
+    "research": {
+      "guideline_page_updated": "2026-10-16",
+      "window": [
+        "2026-09-24",
+        "2026-10-24"
+      ],
+      "verified_sources": [
+        "Apple Review Guidelines",
+        "Apple iPhone Duo preparation",
+        "Expo 2026-09-29",
+        "Apple forum850505, visible timeline10/12",
+        "Capgo page2026-10-14"
+      ],
+      "limits": "Publication date does not establish incident date; forum omitted exact rejection clause; CAPTCHA-blocked Reddit detail excluded"
+    },
+    "tests": {
+      "PhoneAudit": {
+        "unit_passed": 60,
+        "ui_passed": 5,
+        "ui_failed_cases": 1,
+        "cause": "Chinese UI assertions saw persisted French language; isolation fixed"
+      },
+      "PhoneFix": {
+        "ui_passed": 3,
+        "ui_failed_cases": 0
+      },
+      "DuoAudit": {
+        "ui_passed": 2,
+        "ui_failed_cases": 3,
+        "cause": "Navigation minimization and test setup/partial card visibility; retained failure evidence"
+      },
+      "DuoFix": {
+        "ui_passed": 3,
+        "ui_failed_cases": 1,
+        "remaining_failure": "Privacy landscape frame readiness assertion"
+      },
+      "PhoneFinal": {
+        "ui_passed": 2,
+        "ui_failed_cases": 0
+      },
+      "DuoPrivacyLandscape": {
+        "ui_passed": 0,
+        "ui_failed_cases": 1,
+        "remaining_failure": "FPReleaseUITests.swift:89 landscape width>height and close button readiness; later close/continuity assertions passed; actual Device Hub poses verified separately",
+        "result_bundle_finalized": true,
+        "diagnostics_limit": "After test execution completed, optional simctl diagnose collection was stalled and terminated; xcodebuild then finalized xcresult and returned65. Test failure preserved."
+      },
+      "iPadFinal": {
+        "ui_passed": 2,
+        "ui_failed_cases": 0,
+        "scope": "Privacy largest text, public URL, actual rotation, closing and round continuity",
+        "bundle": "work/review-audit-20261024/iPadFinal.xcresult"
+      },
+      "release_simulator_manual": "Final3 startup, policy open/close and course entry inspected; attempted scroll did not expose URL visually",
+      "no_false_aggregate": "Repeated test executions are not counted as unique passed tests"
+    },
+    "duo_manual": {
+      "runtime": "27.1 (24A94401)",
+      "xcode": "27.1 (27A9275)",
+      "candidate_build": "3",
+      "states": [
+        "inner portrait",
+        "horizontal fold",
+        "vertical fold",
+        "inner landscape",
+        "outer landscape",
+        "outer portrait",
+        "reopened inner"
+      ],
+      "actual_putt_result": "one stroke win",
+      "round_id": "BF7FD3E6-5B6F-49F7-B716-223F7D3F0519",
+      "launch_id": "61C0B366-3D8A-4BD5-A7CB-C67C5EBFC880",
+      "same_round_and_stroke_across_states": true,
+      "button_region_violations": 0,
+      "evidence": "docs/screenshots/review-audit-20261024/duo-matrix.jpg",
+      "limits": "Completed-shot continuity; manual matrix does not establish ball-in-motion continuity"
+    },
+    "unverified": [
+      "Physical phone acceptance",
+      "Duo physical haptics/thermals/optics",
+      "Actual iOS18.0 runtime (18.5 tested)",
+      "Actual split-view left/right and PiP overlay",
+      "Full VoiceOver flow",
+      "Live Reduce Motion/transparency transition",
+      "Instruments energy measurement"
+    ],
+    "git_commit_or_push": false,
+    "financial": "No changes; prior name correction, bank/tax/810 and unscheduled 2026-11-23 USD0.99 price remain pending; no private address/phone newly published",
+    "document_validation": "JSON parsing, local report links, website ZIP/source equality and git diff --check passed",
+    "testflight": {
+      "group_id": "a20fa9e5-8acc-4f39-9781-bc93ef7a972f",
+      "group_name": "MiniGolf 1.0.0 首发验收",
+      "build": "1.0.0 (3)",
+      "state": "Testing",
+      "automatic_distribution": false,
+      "testers": 1,
+      "tester_state": "Invited",
+      "repeat_invitation_sent": false,
+      "physical_acceptance": "pending user",
+      "old_build_retained": "0.2.0 (1)",
+      "evidence": "docs/screenshots/review-audit-20261024/connect-testflight-1.0.0-3-testing.png"
+    }
+  },
+  "historical_baseline_before_duo_launch": {
+    "metadata": [
+      {
+        "locale": "en-US",
+        "field": "name",
+        "count": 22,
+        "unit": "characters",
+        "limit": 30
+      },
+      {
+        "locale": "en-US",
+        "field": "subtitle",
+        "count": 30,
+        "unit": "characters",
+        "limit": 30
+      },
+      {
+        "locale": "en-US",
+        "field": "promotional_text",
+        "count": 170,
+        "unit": "characters",
+        "limit": 170
+      },
+      {
+        "locale": "en-US",
+        "field": "description",
+        "count": 991,
+        "unit": "characters",
+        "limit": 4000
+      },
+      {
+        "locale": "en-US",
+        "field": "keywords",
+        "count": 59,
+        "unit": "UTF-8 bytes",
+        "limit": 100
+      },
+      {
+        "locale": "zh-Hans",
+        "field": "name",
+        "count": 22,
+        "unit": "characters",
+        "limit": 30
+      },
+      {
+        "locale": "zh-Hans",
+        "field": "subtitle",
+        "count": 10,
+        "unit": "characters",
+        "limit": 30
+      },
+      {
+        "locale": "zh-Hans",
+        "field": "promotional_text",
+        "count": 66,
+        "unit": "characters",
+        "limit": 170
+      },
+      {
+        "locale": "zh-Hans",
+        "field": "description",
+        "count": 552,
+        "unit": "characters",
+        "limit": 4000
+      },
+      {
+        "locale": "zh-Hans",
+        "field": "keywords",
+        "count": 65,
+        "unit": "UTF-8 bytes",
+        "limit": 100
+      }
+    ],
+    "review_notes_bytes": 2180,
+    "screenshots": [
+      {
+        "file": "release/app-store/screenshots/duo-inner/01-classic-course.jpg",
+        "pixels": [
+          2007,
+          2853
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/duo-inner/02-chibi-course.jpg",
+        "pixels": [
+          2007,
+          2853
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/duo-inner/03-puzzles.jpg",
+        "pixels": [
+          2007,
+          2853
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/duo-inner/04-garden.jpg",
+        "pixels": [
+          2007,
+          2853
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/duo-inner/05-quotes.jpg",
+        "pixels": [
+          2007,
+          2853
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/duo-inner/06-real-win.jpg",
+        "pixels": [
+          2007,
+          2853
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/duo-outer/01-chibi-course.jpg",
+        "pixels": [
+          1398,
+          2034
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/ipad/01-classic-course.jpg",
+        "pixels": [
+          2064,
+          2752
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/ipad/02-chibi-course.jpg",
+        "pixels": [
+          2064,
+          2752
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/ipad/03-puzzles.jpg",
+        "pixels": [
+          2064,
+          2752
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/ipad/04-garden.jpg",
+        "pixels": [
+          2064,
+          2752
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/ipad/05-quotes.jpg",
+        "pixels": [
+          2064,
+          2752
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/ipad/06-real-win.jpg",
+        "pixels": [
+          2064,
+          2752
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/iphone/01-classic-course.jpg",
+        "pixels": [
+          1206,
+          2622
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/iphone/02-chibi-course.jpg",
+        "pixels": [
+          1206,
+          2622
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/iphone/03-puzzles.jpg",
+        "pixels": [
+          1206,
+          2622
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/iphone/04-garden.jpg",
+        "pixels": [
+          1206,
+          2622
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/iphone/05-quotes.jpg",
+        "pixels": [
+          1206,
+          2622
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/iphone/06-real-win.jpg",
+        "pixels": [
+          1206,
+          2622
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/iphone-large/01-classic-course.jpg",
+        "pixels": [
+          1320,
+          2868
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/iphone-large/02-chibi-course.jpg",
+        "pixels": [
+          1320,
+          2868
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/iphone-large/03-puzzles.jpg",
+        "pixels": [
+          1320,
+          2868
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/iphone-large/04-garden.jpg",
+        "pixels": [
+          1320,
+          2868
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/iphone-large/05-quotes.jpg",
+        "pixels": [
+          1320,
+          2868
+        ],
+        "alpha": false
+      },
+      {
+        "file": "release/app-store/screenshots/iphone-large/06-real-win.jpg",
+        "pixels": [
+          1320,
+          2868
+        ],
+        "alpha": false
+      }
+    ],
+    "web": "5 public HTTPS 200 pages, no sign-in/cookies/auth headers. Visible content matches source; canonical redirects and hosting-added Cloudflare security script recorded in web/public-url-check.json. Public browser preview timed out; local mobile preview and navigation verified.",
+    "archive": "Earlier unsigned archive is historical. Current localization candidate has a verified unsigned Release device build; formal distribution archive remains pending.",
+    "limits": [
+      "Current App languages: zh-Hans,tr,ar,pt,fr,es; English App UI is not implemented.",
+      "Duo continuous-pose tests were not repeated for this localization build.",
+      "Beta unsigned Release build; no upload or TestFlight.",
+      "Mother-tongue human review and physical-device/complete VoiceOver checks not performed."
+    ],
+    "reused_results": "Prior 80/80 iPhone and scoped iPad/Duo results retained for unchanged game code; the whole suite was not rerun for this contact-only change.",
+    "app_localization": {
+      "configuration": "Release",
+      "signed": false,
+      "xcode_build": "27A9269",
+      "sdk": "iphoneos27.1",
+      "device_families": [
+        1,
+        2
+      ],
+      "localizations": [
+        "zh-Hans",
+        "tr",
+        "ar",
+        "pt",
+        "fr",
+        "es"
+      ],
+      "compiled_keys_per_language": {
+        "zh-Hans": 195,
+        "tr": 195,
+        "ar": 195,
+        "pt": 195,
+        "fr": 195,
+        "es": 195
+      },
+      "limits": "Beta unsigned build, not an App Store submission validation.",
+      "resource_format": "Localizable.strings",
+      "source_sha256": {
+        "zh-Hans": "2dcdcb901f692fe3dbb063c1ca1b7aed16e9c53e94639533094d2199b78ba17b",
+        "tr": "00ebdf73a8a5b996fea6a804b762d01694f2b57d33f816ab64bbd12f8c57a2d5",
+        "ar": "a090492769e007261de51df29f69aac3ce1426df45e46ceae1238337daf067ee",
+        "pt": "a883f7390e0c3e0792022d161b7200098b5ad785a75afc359cb158983c90ed4f",
+        "fr": "6474c6818bfa4b7f85a9ba520acf855f7d6d1693298b0ed149f78dd8ac660730",
+        "es": "c2353fdd63da56411b6774ec1b9ffd14a04ca92c1ae647679a44d2940afdef91"
+      },
+      "in_app_language_switch": true,
+      "current_build_log": "work/language-switch-20261022/release.log"
+    }
+  },
+  "duo_launch_20261024": {
+    "version": "1.0.0",
+    "build": "7",
+    "apple_build_id": "ed35789a-a29e-489e-85c4-c64c93f8f1dd",
+    "ready_for_review": true,
+    "review_draft_started": "2026-10-24 14:17 Asia/Shanghai",
+    "submitted": false,
+    "testflight_status": "正在测试",
+    "group_id": "a20fa9e5-8acc-4f39-9781-bc93ef7a972f",
+    "added_testers": false,
+    "new_invites_sent": false,
+    "report": "docs/duo-launch-20261024.md",
+    "marketing_zip": "release/MiniGolf-Duo商店图-20261024.zip",
+    "archive_inspection": "work/duo-launch-20261024/archive-build7-inspection.json",
+    "business_status": "work/duo-launch-20261024/business-status.json",
+    "app_git_committed_or_pushed": false
+  },
+  "latest_candidate": {
+    "checked_at": "2026-10-24T15:02:59.074402+08:00",
+    "version": "1.0.0",
+    "build": "11",
+    "apple_build_id": "e0f48f4f-cbbb-4dbb-9c10-a8d9f83b750b",
+    "review_status": "可供审核",
+    "draft_started": "2026-10-24 15:00 Asia/Shanghai",
+    "testflight_status": "正在测试",
+    "group": "MiniGolf 1.0.0 首发验收",
+    "group_id": "a20fa9e5-8acc-4f39-9781-bc93ef7a972f",
+    "submitted": false,
+    "publicly_released": false,
+    "new_testers_or_invites": false,
+    "upload_succeeded": "2026-10-24 14:58:16 Asia/Shanghai",
+    "intermediate_builds_not_added": [
+      8,
+      9,
+      10
+    ],
+    "duo11": "Initial same-row, no-overlap, hittability checks and screenshot passed; synthetic scroll entered Classic and full test failed at missing modeBrand. Retained as failure; not full workflow/pose acceptance."
+  },
+  "phone_feedback_20261024": {
+    "report": "docs/phone-feedback-20261024.md",
+    "full_unit_passed": 69,
+    "final_layout_test": "Header11.xcresult passed 20.242s",
+    "reused_scoped_results": [
+      "Phone.xcresult:69 unit",
+      "Phone17Final.xcresult:actual pull and RTL",
+      "Phone17SettingsFinal.xcresult:settings",
+      "Header9Final.xcresult:row/RTL"
+    ],
+    "limits": [
+      "Physical haptic feedback pending on build11",
+      "Duo11 initial header checks have evidence; synthetic scrolling failed, full workflow and poses not accepted; build7 matrix is historical",
+      "Public website reachability remains unverified"
+    ]
+  },
+  "submission_preflight_20261024": {
+    "checkedAt": "2026-10-24 16:04 Asia/Shanghai",
+    "version": "1.0.0",
+    "build": "11",
+    "reviewStatus": "可供审核",
+    "submitted": false,
+    "manualRelease": true,
+    "freePrice": "USD0.00",
+    "territories": [
+      "ARE",
+      "BRA",
+      "MEX",
+      "TUR"
+    ],
+    "freeAgreement": "有效",
+    "paidAgreement": "等待用户信息",
+    "decree810": "有效",
+    "userAcceptance": "用户确认新版体验完美，作为当前手机使用验收通过；不扩大为物理Duo测试",
+    "policyFix": {
+      "locale": "zh-Hans",
+      "old": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/privacy",
+      "new": "https://foldputt-help-wayne.humble-mite-6617.chatgpt.site/privacy-zh-Hans",
+      "saved": true
+    },
+    "website": "四个必需URL及四个HTML导航目标均HTTP200，main正文与v3源一致；初次TLS握手失败重试恢复",
+    "appInfo": {
+      "ageRating": "4+",
+      "contentRights": "是，此App拥有对其第三方内容的必要权利",
+      "dataNotCollectedLabel": "已发布"
+    },
+    "legalName": {
+      "currentDisplay": "Wayne Chen",
+      "priorRequest": "2026-10-23 已提交",
+      "approvalReply": "用户目前尚未收到Apple回复；不是通过邮箱搜索推断的无回复",
+      "userHandoff": "用户本人确认已发出跟进，本轮代理不重复代提交",
+      "userFollowup": {
+        "reportedAt": "2026-10-24 18:15 Asia/Shanghai",
+        "reportedBy": "user",
+        "status": "用户本人确认已发出姓名更正跟进，目前尚未收到Apple回复",
+        "agentRepeatedSubmission": false,
+        "priorRequest": "2026-10-23已提交；旧受理记录保留",
+        "approvedOrSynced": null,
+        "approvalEvidence": "尚无批准或同步完成的确认；用户表示未收到回复"
+      }
+    },
+    "duoManual": {
+      "passed": [
+        "隐私入口打开/完成返回",
+        "语言入口与English选项可见/返回",
+        "真实拖拽后仍在首页，品牌与工具固定，内容已滚到下方"
+      ],
+      "evidence": "docs/screenshots/submission-preflight-20261024/duo-01-privacy.png, duo-02-language.png, duo-03-home-scrolled.png",
+      "limits": "人工补验不将旧XCTest滑动失败改绿；本轮未重跑全姿势矩阵或物理Duo"
+    },
+    "codeChanged": false,
+    "newArchiveOrUpload": false,
+    "gitCommitOrPush": false,
+    "duoGamePoseSupplement": {
+      "report": "docs/duo-final11-20261024.md",
+      "manifest": "docs/screenshots/duo-final11-20261024/manifest.json",
+      "passedSamples": 4,
+      "sameRoundBallStrokeLaunch": true,
+      "buttonRegionViolations": 0,
+      "remaining": "第4份半折记录后设备Shutdown，未完成其余旋转/合拢/重展开；不标全矩阵通过"
+    }
+  },
+  "name_followup_20261024": {
+    "reportedAt": "2026-10-24 18:15 Asia/Shanghai",
+    "reportedBy": "user",
+    "status": "用户本人确认已发出姓名更正跟进，目前尚未收到Apple回复",
+    "agentRepeatedSubmission": false,
+    "priorRequest": "2026-10-23已提交；旧受理记录保留",
+    "approvedOrSynced": null,
+    "approvalEvidence": "尚无批准或同步完成的确认；用户表示未收到回复"
+  },
+  "duo_final11_supplement": {
+    "samples": 4,
+    "same_round_ball_strokes_launch": true,
+    "controls_visible_and_region_violations_empty": true,
+    "report": "docs/duo-final11-20261024.md",
+    "incomplete": "device Shutdown after fourth sample; not full matrix"
   }
 }

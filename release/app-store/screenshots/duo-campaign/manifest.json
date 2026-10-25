@@ -1,0 +1,87 @@
+{
+  "version": "1.0.0",
+  "build": "7",
+  "language": "en",
+  "device": "iPhone Duo simulator",
+  "toolchain": "Xcode 27.1 (27A9275), iOS 27.1 (24A94401)",
+  "method": "真实运行画面，HTML/CSS排版加英文玩法标题，经浏览器按Apple允许尺寸导出JPEG；无注入球位、奖品或结算状态。",
+  "limitations": "非物理真机；不能证明真实触感、握持、温升、能耗。",
+  "same_round_evidence": {
+    "outer": "37-build7-outer-carry.json",
+    "inner": "38-build7-inner-carry.json",
+    "round_id": "CBF2C287-B2ED-4B1C-AE53-E3E019C0F855",
+    "launch_id": "E065F93A-B129-4F3F-AA6F-7FC3AB8BF235",
+    "strokes": 1
+  },
+  "images": [
+    {
+      "file": "release/app-store/screenshots/duo-campaign/en/01-unfold.jpg",
+      "sha256": "b8cbcecb7abfcbb4fd8becc71269150fc42766af9d64e4dd5c5060c05e9cba76",
+      "width": 2007,
+      "height": 2853,
+      "hasAlpha": false,
+      "native_capture": "docs/screenshots/duo-launch-20261024/38-build7-inner-carry.png",
+      "capture_sha256": "8823b4808597724541aba0e671276a5ccb9160d0cb36f0d0ceb253e77fc236b2",
+      "diagnostics": "docs/screenshots/duo-launch-20261024/38-build7-inner-carry.json"
+    },
+    {
+      "file": "release/app-store/screenshots/duo-campaign/en/02-keep-your-round.jpg",
+      "sha256": "350ed6fcec3cc86e0f26e910e0eb3650d7e7384c9e8dd3cbb9b1979025d9d85f",
+      "width": 1398,
+      "height": 2034,
+      "hasAlpha": false,
+      "native_capture": "docs/screenshots/duo-launch-20261024/37-build7-outer-carry.png",
+      "capture_sha256": "5dd99d0e0fa898c1465fb6ee9e21d93aed93cdc85522a9417935203218805e2c",
+      "diagnostics": "docs/screenshots/duo-launch-20261024/37-build7-outer-carry.json"
+    },
+    {
+      "file": "release/app-store/screenshots/duo-campaign/en/03-handheld.jpg",
+      "sha256": "5a8a38cc9af25cf29a1f786b47a0544257bee0f5a4fd7d6fdde2d827592fe7b3",
+      "width": 2007,
+      "height": 2853,
+      "hasAlpha": false,
+      "native_capture": "docs/screenshots/duo-launch-20261024/40-build7-handheld-cozy-clean.png",
+      "capture_sha256": "f5106d71bff535eab3bf5daaef0862a7337ad97e2f702086178780776a5a171c",
+      "diagnostics": "docs/screenshots/duo-launch-20261024/40-build7-handheld-cozy-clean.json",
+      "render_source": "work/duo-launch-20261024/marketing/raw/handheld-device-clean.jpg",
+      "render_source_sha256": "2cb06691a4791fbc3421df97e3568b17757142e978a30c76750eaf4893146670",
+      "crop": {
+        "x": 940,
+        "y": 330,
+        "width": 960,
+        "height": 1245
+      },
+      "note": "Device Hub真实设备渲染的局部，实际半折/Cozy/Handheld状态；未重绘应用界面。原生无设备框截图与诊断一起保留。"
+    },
+    {
+      "file": "release/app-store/screenshots/duo-campaign/en/04-pull-release.jpg",
+      "sha256": "d1a3fb6ee9c83715fdf660edd57935aebfbf93881841679a457a9b384dfb5605",
+      "width": 2853,
+      "height": 2007,
+      "hasAlpha": false,
+      "native_capture": "docs/screenshots/duo-launch-20261024/31-build7-real-win.png",
+      "capture_sha256": "ba8eb4dbce2d29df6d218352e9e071145ca540683a4394f0be2be82e5e4f8561",
+      "diagnostics": "docs/screenshots/duo-launch-20261024/31-build7-real-win.json"
+    },
+    {
+      "file": "release/app-store/screenshots/duo-campaign/en/05-two-moods.jpg",
+      "sha256": "4cdf3f005b3732ebbad59285395d0226c6a988e185443442324d6d849f3f2c7e",
+      "width": 2007,
+      "height": 2853,
+      "hasAlpha": false,
+      "native_capture": "docs/screenshots/duo-launch-20261024/39-build7-cozy.png",
+      "capture_sha256": "f6c41ae65d705039ac0c931c23a2032028030a0865380624065dfaace751e8c9",
+      "diagnostics": "docs/screenshots/duo-launch-20261024/39-build7-cozy.json"
+    },
+    {
+      "file": "release/app-store/screenshots/duo-campaign/en/06-grow-your-garden.jpg",
+      "sha256": "8f9ff2680307095d0653067f6af47d8cdcea4ff470a404ca4e52b74fc78a02d4",
+      "width": 2007,
+      "height": 2853,
+      "hasAlpha": false,
+      "native_capture": "docs/screenshots/duo-launch-20261024/35-build7-garden.png",
+      "capture_sha256": "c5bcc1ce759f3457b3051d297b0a13fb75e458ebe24b8e169d12275c3a9e2192",
+      "diagnostics": "docs/screenshots/duo-launch-20261024/35-build7-garden.json"
+    }
+  ]
+}
