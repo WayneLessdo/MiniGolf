@@ -1,4 +1,5 @@
 import Foundation
+import Security
 
 enum FPClubVoice: String, Codable, CaseIterable {
     case silly, cozy, quiet
@@ -46,6 +47,8 @@ struct FPClubReward: Codable, Equatable {
 struct FPClubProgress: Codable {
     var version = 1
     var seeds = 0
+    var savedPoints: Int?
+    var points: Int { savedPoints ?? best.count }
     var garden: [FPFlower?] = Array(repeating:nil,count:FPClubRules.gardenSlots)
     var voice: FPClubVoice = .cozy
     var quotes = Set<FPClubQuote>()
@@ -56,43 +59,107 @@ struct FPClubProgress: Codable {
     var plantedCount: Int { garden.compactMap { $0 }.count }
 }
 
+/// 可替换存储用于验证迁移、锁定和写入失败；正式环境使用系统 Keychain。
+@MainActor protocol FPProgressVault {
+    func read() throws -> Data?
+    func write(_ data: Data) throws
+}
+
+@MainActor struct FPKeychainProgressVault: FPProgressVault {
+    let account: String
+    init(account: String = "club.progress.v1") { self.account = account }
+    private var query: [String: Any] {
+        [kSecClass as String: kSecClassGenericPassword,
+         kSecAttrService as String: "com.mavericklab.foldputt.progress",
+         kSecAttrAccount as String: account]
+    }
+    func read() throws -> Data? {
+        var request = query
+        request[kSecReturnData as String] = true; request[kSecMatchLimit as String] = kSecMatchLimitOne
+        var result: CFTypeRef?
+        let status = SecItemCopyMatching(request as CFDictionary, &result)
+        if status == errSecItemNotFound { return nil }
+        guard status == errSecSuccess, let data = result as? Data else { throw NSError(domain: NSOSStatusErrorDomain, code: Int(status)) }
+        return data
+    }
+    func write(_ data: Data) throws {
+        let attributes: [String: Any] = [kSecValueData as String: data,
+            kSecAttrAccessible as String: kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly]
+        var status = SecItemUpdate(query as CFDictionary, attributes as CFDictionary)
+        if status == errSecItemNotFound {
+            status = SecItemAdd(query.merging(attributes) { _, new in new } as CFDictionary, nil)
+        }
+        guard status == errSecSuccess else { throw NSError(domain: NSOSStatusErrorDomain, code: Int(status)) }
+    }
+}
+
 /// App-wide collection; live ball/shot state remains scoped to its UISceneSession.
 /// All mutations run on the main actor and reload first, so two scenes do not overwrite each other.
 @MainActor final class FPClubProgressStore {
     static let key = "FoldPutt.club.progress.v1"
     static let didChange = Notification.Name("FoldPutt.club.didChange")
     private let defaults: UserDefaults?
+    private let vault: (any FPProgressVault)?
+    private var committed = FPClubProgress()
+    private(set) var persistenceError: Error?
     private(set) var state = FPClubProgress()
-    init(defaults: UserDefaults?) { self.defaults=defaults;reload() }
-    func reload() {
-        guard let data=defaults?.data(forKey:Self.key),let value=try? JSONDecoder().decode(FPClubProgress.self,from:data),
-              value.version == 1,value.seeds>=0,value.garden.count==FPClubRules.gardenSlots,
-              value.best.values.allSatisfy({$0>0}) else { return }
-        state=value
+    init(defaults: UserDefaults?, vault: (any FPProgressVault)? = nil) {
+        self.defaults = defaults
+        self.vault = vault ?? (defaults === UserDefaults.standard ? FPKeychainProgressVault() : nil)
+        reload()
     }
-    private func save() {
-        if let data=try? JSONEncoder().encode(state) { defaults?.set(data,forKey:Self.key) }
-        NotificationCenter.default.post(name:Self.didChange,object:self)
+    func reload() {
+        do {
+            let secure = try vault?.read()
+            guard let data = secure ?? defaults?.data(forKey: Self.key) else { persistenceError = nil; return }
+            let value = try JSONDecoder().decode(FPClubProgress.self, from: data)
+            guard value.version == 1, value.seeds >= 0, value.points >= 0,
+                  value.garden.count == FPClubRules.gardenSlots, value.best.values.allSatisfy({ $0 > 0 }) else {
+                throw NSError(domain: "FoldPutt.Progress", code: 1)
+            }
+            // 只有成功读取“无记录”才迁移，钥匙串锁定/损坏时不能用旧缓存覆盖它。
+            if vault != nil && secure == nil { try vault?.write(data) }
+            state = value; committed = value; persistenceError = nil
+        } catch { persistenceError = error; NSLog("FoldPutt progress read failed: %@", error.localizedDescription) }
+    }
+    @discardableResult private func save() -> Bool {
+        do {
+            let data = try JSONEncoder().encode(state)
+            try vault?.write(data)
+            defaults?.set(data, forKey: Self.key)
+            committed = state; persistenceError = nil
+            NotificationCenter.default.post(name: Self.didChange, object: self)
+            return true
+        } catch {
+            state = committed; persistenceError = error
+            NSLog("FoldPutt progress save failed: %@", error.localizedDescription)
+            NotificationCenter.default.post(name: Self.didChange, object: self)
+            return false
+        }
     }
     @discardableResult func complete(round:UUID,level:FPLevel,strokes:Int,collisions:Int) -> FPClubReward {
         reload()
-        guard strokes>0,state.completedRounds.insert(round).inserted else { return FPClubReward(seedGranted:false,newMastery:false) }
+        guard persistenceError == nil, strokes>0,state.completedRounds.insert(round).inserted else { return FPClubReward(seedGranted:false,newMastery:false) }
+        let earned = strokes < level.par ? 3 : strokes == level.par ? 2 : 1
+        guard state.points <= Int.max-earned, state.seeds < Int.max else { state = committed; return FPClubReward(seedGranted:false,newMastery:false) }
+        state.savedPoints = state.points + earned
         state.seeds += FPClubRules.seedsPerWin
         state.best[level.id]=min(state.best[level.id] ?? Int.max,strokes)
         let mastered=level.isPuzzle && strokes<=level.par && collisions>0
         let newMastery=mastered && state.mastery.insert(level.id).inserted
-        save();return FPClubReward(seedGranted:true,newMastery:newMastery)
+        guard save() else { return FPClubReward(seedGranted:false,newMastery:false) }
+        return FPClubReward(seedGranted:true,newMastery:newMastery)
     }
     func discover(_ quote:FPClubQuote) {
-        reload();guard state.quotes.insert(quote).inserted else { return };save()
+        reload();guard persistenceError == nil, state.quotes.insert(quote).inserted else { return };save()
     }
-    func setVoice(_ voice:FPClubVoice) { reload();state.voice=voice;save() }
+    func setVoice(_ voice:FPClubVoice) { reload();guard persistenceError == nil else { return };state.voice=voice;save() }
     @discardableResult func plant(_ flower:FPFlower,at index:Int)->Bool {
-        reload();guard state.garden.indices.contains(index),state.garden[index]==nil,state.seeds>0 else { return false }
-        state.garden[index]=flower;state.seeds-=1;save();return true
+        reload();guard persistenceError == nil, state.garden.indices.contains(index),state.garden[index]==nil,state.seeds>0 else { return false }
+        state.garden[index]=flower;state.seeds-=1;return save()
     }
     @discardableResult func uproot(at index:Int)->Bool {
-        reload();guard state.garden.indices.contains(index),state.garden[index] != nil else { return false }
-        state.garden[index]=nil;state.seeds+=1;save();return true
+        reload();guard persistenceError == nil, state.garden.indices.contains(index),state.garden[index] != nil else { return false }
+        state.garden[index]=nil;state.seeds+=1;return save()
     }
 }

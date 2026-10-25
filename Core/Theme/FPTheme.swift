@@ -19,6 +19,10 @@ import UIKit
     static let scoreCardWidth:CGFloat = 136
     static let statusWidth:CGFloat = 180
     static let corner: CGFloat = 26
+    static let footerGap: CGFloat = 12
+    static let utilityIconSize: CGFloat = 11
+    static let utilityTarget: CGFloat = 44
+    static let utilityVisualSize: CGFloat = 24
     static let spacing: CGFloat = 16
     static let target: CGFloat = 48
     static let shadowOpacity: Float = 0.1
@@ -55,6 +59,8 @@ import UIKit
     static let holeNudge: TimeInterval = 0.18
     static let holeNudgeDistance: CGFloat = 2
     static let holeHapticIntensity: CGFloat = 0.35
+    static let shotHapticIntensity: CGFloat = 0.6
+    static let obstacleHopHeight: CGFloat = 0.065
     static let controlFade: TimeInterval = 0.15
     static let aimingPullAlpha: CGFloat = 0.14
     static let disabledPullAlpha: CGFloat = 0.35

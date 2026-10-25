@@ -41,7 +41,10 @@ final class FPClubController: UIViewController {
     init(session:FPDemoSession,section:FPClubSection) { self.session=session;self.section=section;super.init(nibName:nil,bundle:nil) }
     required init?(coder:NSCoder) { fatalError() }
     override func viewDidLoad() {
-        super.viewDidLoad();overrideUserInterfaceStyle = .light
+        super.viewDidLoad()
+        // 全屏辅助页始终保留返回入口，避免 iOS 27 滚动收栏后难以退出。
+        if #available(iOS 27.0, *) { navigationItem.navigationBarMinimization.minimizationBehavior = .never }
+        overrideUserInterfaceStyle = .light
         // 收藏页固定使用浅色纸张，导航栏也须采用同一外观，避免深色系统下标题变白。
         navigationController?.overrideUserInterfaceStyle = .light
         title=FPL10n.text("club");view.backgroundColor=FPChibiPalette.paper
@@ -128,6 +131,9 @@ final class FPClubController: UIViewController {
         heading(FPL10n.text("shot_flower"), FPL10n.text("garden_rules"))
         let balance=text(FPL10n.format("garden_balance",FPL10n.number(state.seeds),FPL10n.number(state.plantedCount),FPL10n.number(FPClubRules.gardenSlots)),style:.headline)
         balance.accessibilityIdentifier="gardenBalance";content.addArrangedSubview(balance)
+        let points = text(FPL10n.format("points_balance", FPL10n.number(state.points)), style: .headline)
+        points.accessibilityIdentifier = "pointsBalance"; content.addArrangedSubview(points)
+        content.addArrangedSubview(text(FPL10n.text(session.club.persistenceError == nil ? "points_saved" : "progress_save_error"), style: .footnote))
         let choices=UIStackView();choices.axis=traitCollection.preferredContentSizeCategory.isAccessibilityCategory ? .vertical:.horizontal
         choices.distribution = .fillEqually;choices.spacing=8
         for kind in FPFlower.allCases {
