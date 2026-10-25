@@ -5,6 +5,7 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     private var session: FPDemoSession?
     private var restored = false
     private let sound=FPSound()
+    private var haptics: FPHaptics?
     private var allowsRestoration: Bool {
         let args=ProcessInfo.processInfo.arguments
         return !args.contains("--capture") && (!args.contains("--ui-testing") || args.contains("--restore-scene"))
@@ -19,7 +20,8 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         do {
             let testRun=ProcessInfo.processInfo.arguments.contains("--ui-testing") || ProcessInfo.processInfo.arguments.contains("--capture")
             session = try FPDemoSession(metricsStore:testRun ? nil:.standard); self.session = session
-            session.eventObserved = { [weak self] event in self?.sound.play(event); FPHaptics.play(event) }
+            session.eventObserved = { [weak self] event in self?.sound.play(event); self?.haptics?.play(event) }
+            session.aimingBegan = { [weak self] in self?.haptics?.prepareShot() }
         }
         catch {
             let failure = UIViewController(); failure.view.backgroundColor = .systemBackground
@@ -42,6 +44,7 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         #endif
         let root=FPGameRootController(session:session,showPicker:showPicker)
         window.rootViewController=root
+        haptics = FPHaptics(view: root.view)
         #if DEBUG
         if let flag=launchArgs.firstIndex(of:"--half-window"),launchArgs.count>flag+1 {
             window.rootViewController=FPTuningWindowFixture(child:root,side:launchArgs[flag+1])
@@ -74,7 +77,7 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneDidBecomeActive(_ scene: UIScene) { session?.startClock();session?.resume() }
     func sceneDidDisconnect(_ scene: UIScene) {
         session?.suspend();save(scene);session?.stopClock()
-        window=nil;session=nil;restored=false
+        haptics=nil;window=nil;session=nil;restored=false
     }
     func stateRestorationActivity(for scene: UIScene) -> NSUserActivity? { save(scene);return scene.session.stateRestorationActivity }
     func scene(_ scene:UIScene,restoreInteractionStateWith activity:NSUserActivity) { restore(activity,scene:scene) }

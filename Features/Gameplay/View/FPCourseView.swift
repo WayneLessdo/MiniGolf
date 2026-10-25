@@ -76,7 +76,7 @@ final class FPCourseView: UIView, UIGestureRecognizerDelegate {
     }
     func refresh() {
         let feedback=session.chibiFeedback
-        let animated=session.isChibi && !FPMotion.reduced && (feedback.isSwinging || flagGrowth<1 || (session.phase == .success && feedback.age<FPMotion.success))
+        let animated = !FPMotion.reduced && (feedback.isSwinging || (session.isChibi && (flagGrowth<1 || (session.phase == .success && feedback.age<FPMotion.success))))
         let chibi="\(session.ballTalkText)|\(session.gameMode)|\(session.chibiMood)|\(session.ballSkin)|\(String(describing:feedback.visibleCue))|\(feedback.age<FPChibiTuning.collisionDuration)|\(animated ? feedback.age:0)"
         let signature="\(bounds)|\(session.world.position)|\(String(describing:session.preview))|\(session.phase)|\(session.world.canal)|\(String(describing:session.world.divisionBanks))|\(session.penaltyActive)|\(session.speedLineReward)|\(session.eventAge<0.5)|\(immersive)|\(across)|\(session.teeID)|\(chibi)"
         if signature != displaySignature { displaySignature=signature;setNeedsDisplay() }
@@ -209,12 +209,26 @@ final class FPCourseView: UIView, UIGestureRecognizerDelegate {
             let a=atan2(end.y-b.y,end.x-b.x)
             c.move(to:CGPoint(x:end.x-cos(a-0.5)*10,y:end.y-sin(a-0.5)*10));c.addLine(to:end);c.addLine(to:CGPoint(x:end.x-cos(a+0.5)*10,y:end.y-sin(a+0.5)*10));c.strokePath();c.restoreGState()
         }
+        if !miniature {
+            if let shot = session.preview {
+                FPChibiArt.club(in: c, at: b, direction: projection.vector(shot.direction), radius: radius, pull: shot.power, follow: 0, classic: true)
+            } else if session.chibiFeedback.isSwinging, !FPMotion.reduced {
+                let feedback = session.chibiFeedback
+                let progress = CGFloat(feedback.swingAge / FPChibiTuning.swing)
+                FPChibiArt.club(in: c, at: worldPoint(feedback.shotOrigin), direction: projection.vector(feedback.shotDirection), radius: radius, pull: 0, follow: sin(progress * .pi), classic: true)
+            }
+        }
         if session.phase != .success && session.phase != .sinking {
             // PDF ball's visible circle is 70% of its canvas. Match visual radius to collider.
             let underFold=immersive && divisionRects.contains { $0.contains(b) }
             let size=radius*2/0.70*(underFold && !FPMotion.reduced ? 0.82:1)
             c.saveGState();c.setAlpha(underFold ? 0.60:1)
-            Self.images["GolfBall"]?.draw(in:CGRect(x:b.x-size*0.5,y:b.y-size*0.46,width:size,height:size))
+            let lift = FPMotion.reduced ? 0 : session.world.hopProgress.map { 4 * $0 * (1-$0) * FPMotion.obstacleHopHeight * projection.scale } ?? 0
+            if lift > 0 {
+                FPTheme.grassDeep.withAlphaComponent(0.22).setFill()
+                c.fillEllipse(in: CGRect(x: b.x-radius, y: b.y-radius/3, width: radius*2, height: radius*0.7))
+            }
+            Self.images["GolfBall"]?.draw(in:CGRect(x:b.x-size*0.5,y:b.y-size*0.46-lift,width:size,height:size))
             c.restoreGState()
         }
         if (session.lastEvent == "canal-collision" && session.eventAge<0.5) || ripple>0 {

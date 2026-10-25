@@ -127,7 +127,8 @@ final class FPGameRootController: UIViewController {
 final class FPModeSelectionController: UIViewController {
     let session: FPDemoSession
     var selected: ((FPGameMode) -> Void)?
-    private let scroll=UIScrollView(),content=UIStackView(),cards=UIStackView()
+    private let scroll=UIScrollView(),content=UIStackView(),cards=UIStackView(),utilities=UIStackView()
+    private let brand=FPTheme.label(FPL10n.text("brand"),style:.caption1)
     init(session: FPDemoSession) { self.session=session;super.init(nibName:nil,bundle:nil) }
     required init?(coder: NSCoder) { fatalError() }
     override func viewDidLoad() {
@@ -139,16 +140,17 @@ final class FPModeSelectionController: UIViewController {
         NSLayoutConstraint.activate([
             content.leadingAnchor.constraint(equalTo:scroll.contentLayoutGuide.leadingAnchor,constant:20),
             content.trailingAnchor.constraint(equalTo:scroll.contentLayoutGuide.trailingAnchor,constant:-20),
-            content.topAnchor.constraint(equalTo:scroll.contentLayoutGuide.topAnchor,constant:24),
+            content.topAnchor.constraint(equalTo:scroll.contentLayoutGuide.topAnchor,constant:12),
             content.bottomAnchor.constraint(equalTo:scroll.contentLayoutGuide.bottomAnchor,constant:-24),
             content.widthAnchor.constraint(equalTo:scroll.frameLayoutGuide.widthAnchor,constant:-40)
         ])
-        let brand=label(FPL10n.text("brand"),style:.caption1)
         brand.textColor=FPChibiPalette.secondary
+        brand.accessibilityIdentifier="modeBrand"
+        view.addSubview(brand)
         let title=label(FPL10n.text("choose_mood"),style:.largeTitle,weight:.bold)
         let subtitle=label(FPL10n.text("choose_mood_description"),style:.subheadline)
         subtitle.textColor=FPChibiPalette.secondary
-        [brand,title,subtitle].forEach { content.addArrangedSubview($0) }
+        [title,subtitle].forEach { content.addArrangedSubview($0) }
         cards.spacing=16;cards.axis = .vertical;cards.distribution = .fillEqually
         for mode in FPGameMode.allCases {
             let card=FPModeCard(mode:mode)
@@ -161,23 +163,50 @@ final class FPModeSelectionController: UIViewController {
             : FPL10n.text("mode_details")
         let footnote=label(detail,style:.footnote);footnote.textColor=FPChibiPalette.secondary
         content.addArrangedSubview(footnote)
-        let privacy = UIButton(type: .system)
-        privacy.setTitle(FPL10n.text("privacy"), for: .normal)
-        privacy.titleLabel?.font = FPTheme.font(.body)
-        privacy.titleLabel?.adjustsFontForContentSizeCategory = true
-        privacy.accessibilityIdentifier = "openPrivacy"
-        privacy.heightAnchor.constraint(greaterThanOrEqualToConstant: FPTheme.target).isActive = true
-        privacy.addAction(UIAction { [weak self] _ in self?.session.requestPrivacy?() }, for: .touchUpInside)
-        content.addArrangedSubview(privacy)
-        let language = UIButton(type: .system)
-        language.setTitle(FPL10n.text("settings_language"), for: .normal)
-        language.titleLabel?.font = FPTheme.font(.body)
-        language.titleLabel?.adjustsFontForContentSizeCategory = true
-        language.accessibilityIdentifier = "openLanguage"
-        language.heightAnchor.constraint(greaterThanOrEqualToConstant: FPTheme.target).isActive = true
-        language.addAction(UIAction { [weak self] _ in self?.session.requestLanguage?() }, for: .touchUpInside)
-        content.addArrangedSubview(language)
+        utilities.spacing = 0
+        utilities.distribution = .fillEqually
+        utilities.semanticContentAttribute = .forceLeftToRight
+        utilities.addArrangedSubview(utilityButton("privacy", symbol: "hand.raised", id: "openPrivacy") { [weak self] in self?.session.requestPrivacy?() })
+        utilities.addArrangedSubview(utilityButton("settings_language", symbol: "globe", id: "openLanguage") { [weak self] in self?.session.requestLanguage?() })
+        view.addSubview(utilities)
         registerForTraitChanges([UITraitHorizontalSizeClass.self,UITraitVerticalSizeClass.self,UITraitPreferredContentSizeCategory.self]) { (controller:FPModeSelectionController,_:UITraitCollection) in controller.view.setNeedsLayout() }
+    }
+    private func utilityButton(_ key: String, symbol: String, id: String, action: @escaping () -> Void) -> UIButton {
+        var config = UIButton.Configuration.filled()
+        config.image = UIImage(systemName: symbol)
+        config.preferredSymbolConfigurationForImage = UIImage.SymbolConfiguration(pointSize: FPTheme.utilityIconSize, weight: .medium)
+        config.cornerStyle = .fixed
+        config.background.cornerRadius = FPTheme.spacing / 2
+        let visualInset = (FPTheme.utilityTarget-FPTheme.utilityVisualSize)/2
+        config.background.backgroundInsets = NSDirectionalEdgeInsets(top: visualInset, leading: visualInset, bottom: visualInset, trailing: visualInset)
+        config.background.strokeColor = FPChibiPalette.edge.withAlphaComponent(0.35)
+        config.background.strokeWidth = 1
+        config.baseForegroundColor = FPChibiPalette.ink
+        config.baseBackgroundColor = FPChibiPalette.meadow
+        config.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10)
+        let button = UIButton(configuration: config, primaryAction: UIAction { _ in action() })
+        button.titleLabel?.font = FPTheme.font(.callout, weight: .semibold)
+        button.titleLabel?.numberOfLines = 0; button.titleLabel?.adjustsFontForContentSizeCategory = true
+        button.accessibilityIdentifier = id
+        button.accessibilityLabel = FPL10n.text(key)
+        button.largeContentTitle = FPL10n.text(key)
+        button.showsLargeContentViewer = true
+        button.addInteraction(UILargeContentViewerInteraction())
+        button.isPointerInteractionEnabled = true
+        button.heightAnchor.constraint(equalToConstant: FPTheme.utilityTarget).isActive = true
+        button.widthAnchor.constraint(equalToConstant: FPTheme.utilityTarget).isActive = true
+        button.layer.cornerRadius = FPTheme.spacing
+        button.layer.cornerCurve = .continuous
+        button.layer.shadowColor = FPChibiPalette.ink.cgColor
+        button.layer.shadowOpacity = FPTheme.shadowOpacity
+        button.layer.shadowOffset = CGSize(width: 0, height: 1.5); button.layer.shadowRadius = 0
+        button.configurationUpdateHandler = { button in
+            button.layer.shadowOffset = CGSize(width: 0, height: button.isHighlighted ? 0.5 : 1.5)
+            var current = button.configuration
+            current?.background.strokeWidth = button.isFocused ? 2 : 1
+            button.configuration = current
+        }
+        return button
     }
     override func viewSafeAreaInsetsDidChange() {
         super.viewSafeAreaInsetsDidChange();view.setNeedsLayout()
@@ -190,11 +219,25 @@ final class FPModeSelectionController: UIViewController {
         let regions=FPRegionSnapshot.read(in:view)
         let safe=FPRegionSnapshot.usable(view.safeAreaLayoutGuide.layoutFrame,excluding:regions.exclusions)
         let width=min(860,safe.width)
-        scroll.frame=CGRect(x:safe.midX-width/2,y:safe.minY,width:width,height:safe.height)
+        // 品牌和工具同属固定顶栏，垂直居中；品牌大字号可换行，图标始终保留可点空间。
+        let headerLeft = safe.midX-width/2+20
+        let headerRight = safe.midX+width/2-20
+        let utilitiesWidth = FPTheme.utilityTarget * 2
+        // 背景边缘对齐模式卡片；透明热区可向右多出半个内缩量。
+        let visualInset = (FPTheme.utilityTarget-FPTheme.utilityVisualSize)/2
+        let utilitiesRight = headerRight+visualInset
+        let brandWidth = max(0, utilitiesRight-utilitiesWidth-FPTheme.footerGap-headerLeft)
+        let brandHeight = ceil(brand.sizeThatFits(CGSize(width: brandWidth, height: .greatestFiniteMagnitude)).height)
+        let headerHeight = max(FPTheme.target, brandHeight)
+        let headerTop = safe.minY+8
+        brand.frame = CGRect(x: headerLeft, y: headerTop+(headerHeight-brandHeight)/2, width: brandWidth, height: brandHeight)
+        utilities.frame = CGRect(x: utilitiesRight-utilitiesWidth, y: headerTop+(headerHeight-FPTheme.utilityTarget)/2, width: utilitiesWidth, height: FPTheme.utilityTarget)
+        let contentTop = headerTop+headerHeight+8
+        scroll.frame=CGRect(x:safe.midX-width/2,y:contentTop,width:width,height:max(0,safe.maxY-contentTop))
         cards.axis=traitCollection.horizontalSizeClass == .regular && traitCollection.verticalSizeClass == .regular && width>=700 && !traitCollection.preferredContentSizeCategory.isAccessibilityCategory ? .horizontal:.vertical
         #if DEBUG
         let inset=view.safeAreaInsets
-        view.accessibilityValue="language=\(FPL10n.language);direction=\(view.effectiveUserInterfaceLayoutDirection == .rightToLeft ? "rtl":"ltr");bounds=\(view.bounds);traits=\(traitCollection.horizontalSizeClass.rawValue),\(traitCollection.verticalSizeClass.rawValue);safeArea=\(inset);division=\(regions.divisions);occlusion=\(regions.occlusions)"
+        view.accessibilityValue="language=\(FPL10n.language);direction=\(view.effectiveUserInterfaceLayoutDirection == .rightToLeft ? "rtl":"ltr");bounds=\(view.bounds);traits=\(traitCollection.horizontalSizeClass.rawValue),\(traitCollection.verticalSizeClass.rawValue);safeArea=\(inset);division=\(regions.divisions);occlusion=\(regions.occlusions);brandFrame=\(brand.frame);utilitiesFrame=\(utilities.frame)"
         #endif
     }
 }

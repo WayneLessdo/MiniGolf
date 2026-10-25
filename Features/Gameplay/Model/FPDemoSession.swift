@@ -70,6 +70,7 @@ import UIKit
     var isChibi: Bool { gameMode == .chibi }
     func setPresentation(mode: FPGameMode, mood: FPChibiMood? = nil, skin: FPBallSkin? = nil) {
         cancel();gameMode=mode
+        world.naturalFlight = mode == .classic && !level.isPuzzle
         if let mood { chibiMood=mood;club.setVoice(mood == .cozy ? .cozy:.silly) };if let skin { ballSkin=skin }
         changed?()
     }
@@ -133,7 +134,7 @@ import UIKit
         let settings=try tuning ?? FPTuning.load()
         self.tuning=settings;self.metricsStore=metricsStore;self.club=FPClubProgressStore(defaults:metricsStore)
         boostCounts=metricsStore?.dictionary(forKey:"FoldPutt.tuning."+settings.variant) as? [String:Int] ?? [:]
-        self.levels=loaded;world=FPPhysicsWorld(level:loaded[0],tuning:settings.physics);recorder=physics
+        self.levels=loaded;world=FPPhysicsWorld(level:loaded[0],tuning:settings.physics);world.naturalFlight = !loaded[0].isPuzzle;recorder=physics
     }
     func normalized(_ p: CGPoint) -> CGPoint { CGPoint(x:p.x,y:p.y/FPLevel.world.height) }
     var canAim: Bool { !isChoosingMode && !isBrowsingClub && !isReadingPrivacy && !isChoosingLanguage && (phase == .ready || phase == .aiming || phase == .charging || phase == .penalty) }
@@ -163,8 +164,10 @@ import UIKit
         while accumulator >= 1.0/120 { advance(1.0/120);accumulator -= 1.0/120 }
         changed?()
     }
+    var aimingBegan: (() -> Void)?
     func aim(_ shot: FPShot?) {
         guard canAim else { return }
+        if phase != .aiming && phase != .charging { aimingBegan?() }
         restorationNotice=nil
         preview=shot;phase=shot == nil ? .aiming:.charging;updatePrediction();changed?()
     }
@@ -317,7 +320,7 @@ import UIKit
         #if DEBUG
         captureScenario=nil;capturedFixture=false
         #endif
-        levelIndex=index;world=FPPhysicsWorld(level:level,tuning:tuning.physics);strokes=0;stars=0;boostSeconds=0;prediction=[]
+        levelIndex=index;world=FPPhysicsWorld(level:level,tuning:tuning.physics);world.naturalFlight = gameMode == .classic && !level.isPuzzle;strokes=0;stars=0;boostSeconds=0;prediction=[]
         preview=nil;phase = .ready;penaltyActive=false;pendingPenalty=false;collisions=0;elapsed=0;stageRemaining=0
         pendingCanal=nil;pendingReservedBanks=nil;lastLaunch=nil;trail=[];shotReplay=[];shotTime=0;replayElapsed=nil;replayStatic=false;accumulator=0;cueIdentifier=UUID().uuidString
         if let (division,field)=observedDivision { updateDivision(division,field:field) }

@@ -27,7 +27,7 @@ final class FPSound: @unchecked Sendable {
     }
 }
 
-@MainActor enum FPHaptics {
+@MainActor final class FPHaptics {
     private static let key = "FoldPutt.hapticsEnabled"
     static var enabled: Bool {
         get { UserDefaults.standard.object(forKey:key) == nil || UserDefaults.standard.bool(forKey:key) }
@@ -36,8 +36,24 @@ final class FPSound: @unchecked Sendable {
     static var settingAction: UIAction {
         UIAction(title:FPL10n.text("haptics"),image:UIImage(systemName:"hand.tap"),state:enabled ? .on:.off) { _ in enabled.toggle() }
     }
-    static func play(_ event: String) {
-        guard event == "hole-capture",enabled,!FPMotion.reduced else { return }
-        UIImpactFeedbackGenerator(style:.light).impactOccurred(intensity:FPMotion.holeHapticIntensity)
+    private let shot: UIImpactFeedbackGenerator
+    private let capture: UIImpactFeedbackGenerator
+    init(view: UIView, shotGenerator: UIImpactFeedbackGenerator? = nil, captureGenerator: UIImpactFeedbackGenerator? = nil) {
+        // 持有与当前场景关联的反馈器，避免每次松手才创建一个未预热的临时对象。
+        shot = shotGenerator ?? UIImpactFeedbackGenerator(style: .light, view: view)
+        capture = captureGenerator ?? UIImpactFeedbackGenerator(style: .light, view: view)
+    }
+    func prepareShot() {
+        guard Self.enabled else { return }
+        shot.prepare()
+    }
+    func play(_ event: String) {
+        // 触感与视觉动态分别控制；减少动态效果不应使已打开的触感开关失效。
+        guard Self.enabled else { return }
+        switch event {
+        case "shot": shot.impactOccurred(intensity: FPMotion.shotHapticIntensity)
+        case "hole-capture": capture.impactOccurred(intensity: FPMotion.holeHapticIntensity)
+        default: break
+        }
     }
 }

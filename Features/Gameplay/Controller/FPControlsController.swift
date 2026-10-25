@@ -112,7 +112,8 @@ final class FPControlsController: UIViewController, UIGestureRecognizerDelegate 
         pull.reaction=cue == .nearMiss ? .curious:cue == .collision && session.chibiFeedback.age<FPChibiTuning.collisionDuration ? .dizzy:.happy
         pull.visualRoll=session.isChibi && session.phase == .rolling && !FPMotion.reduced ? sin((session.world.position.x+session.world.position.y)*30)*0.3:0
         let oldText=score.accessibilityLabel,oldStatus=status.text
-        score.text=FPL10n.format("strokes",FPL10n.number(session.strokes));par.text=FPL10n.format("par",FPL10n.number(session.level.par))
+        // 窄控区以数字呈现杆数，完整单位保留在辅助阅读标签中，避免长译文被拆字。
+        score.text=FPL10n.number(session.strokes);par.text=FPL10n.format("par",FPL10n.number(session.level.par))
         score.accessibilityLabel=FPL10n.format("strokes_par",FPL10n.number(session.strokes),FPL10n.number(session.level.par));score.accessibilityValue=FPL10n.format("stars",FPL10n.number(session.stars))
         status.text=session.status + (!session.isChibi && !session.ballTalkText.isEmpty ? "\n"+session.ballTalkText:"");status.textColor=session.isChibi ? FPChibiPalette.ink:FPTheme.fieldInk
         pull.enabled=session.canAim;pull.accessibilityHint=session.status

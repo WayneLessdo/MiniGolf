@@ -79,15 +79,15 @@ import UIKit
         c.restoreGState()
     }
 
-    static func club(in c: CGContext, at origin: CGPoint, direction: CGVector, radius: CGFloat, pull: CGFloat, follow: CGFloat) {
+    static func club(in c: CGContext, at origin: CGPoint, direction: CGVector, radius: CGFloat, pull: CGFloat, follow: CGFloat, classic: Bool = false) {
         c.saveGState();c.translateBy(x:origin.x,y:origin.y)
         c.rotate(by:atan2(direction.dy,direction.dx) + .pi/2)
         let distance=radius*1.9+pull*24-follow*24
         c.translateBy(x:0,y:distance);c.rotate(by:-pull*0.28+follow*0.35)
-        line([CGPoint(x:4,y:0),CGPoint(x:24,y:44)],color:FPChibiPalette.ink,width:3)
-        line([CGPoint(x:20,y:34),CGPoint(x:25,y:45)],color:FPChibiPalette.blush,width:6)
+        line([CGPoint(x:4,y:0),CGPoint(x:24,y:44)],color:classic ? FPTheme.fieldInk : FPChibiPalette.ink,width:3)
+        line([CGPoint(x:20,y:34),CGPoint(x:25,y:45)],color:classic ? FPTheme.gold : FPChibiPalette.blush,width:6)
         let head=UIBezierPath(roundedRect:CGRect(x:-radius*1.2,y:-3,width:radius*2.5,height:7),cornerRadius:3)
-        FPChibiPalette.card.setFill();head.fill();FPChibiPalette.ink.setStroke();head.lineWidth=1.7;head.stroke()
+        (classic ? FPTheme.surface : FPChibiPalette.card).setFill();head.fill();(classic ? FPTheme.fieldInk : FPChibiPalette.ink).setStroke();head.lineWidth=1.7;head.stroke()
         c.restoreGState()
     }
 

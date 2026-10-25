@@ -2,6 +2,10 @@ import Foundation
 import CoreGraphics
 
 /// ponytail: one circular ball and static axis-aligned rectangles; add other shapes only when a level needs them.
+enum FPClassicPhysics {
+    static let hopMargin: CGFloat = 0.08
+}
+
 struct FPPhysicsWorld: Codable {
     enum Event: Equatable { case collision(String), outOfBounds, stopped, captured }
     var level: FPLevel
@@ -13,6 +17,15 @@ struct FPPhysicsWorld: Codable {
     private(set) var captured = false
     var canal: CGRect
     var extraObstacle: CGRect?
+    var naturalFlight: Bool? {
+        didSet { if naturalFlight != true { hopOrigin = nil; hopLength = nil } }
+    }
+    private var hopOrigin: CGPoint?
+    private var hopLength: CGFloat?
+    var hopProgress: CGFloat? {
+        guard naturalFlight == true, moving, let origin = hopOrigin, let length = hopLength, length > 0 else { return nil }
+        return min(1, hypot(position.x-origin.x, position.y-origin.y)/length)
+    }
     var divisionBanks: [CGRect]?
     private var contacts = Set<String>()
     private var recentLaunches = Set<UUID>()
@@ -36,8 +49,9 @@ struct FPPhysicsWorld: Codable {
         let limit = min(magnitude, CGFloat(tuning.maximumSpeed)) / magnitude
         velocity = CGVector(dx: command.velocity.dx * limit, dy: -command.velocity.dy * limit)
         contacts.removeAll(); settledFor=0
+        hopOrigin = nil; hopLength = nil
     }
-    mutating func restoreSafe() { position = safePosition; velocity = .zero; contacts.removeAll() }
+    mutating func restoreSafe() { position = safePosition; velocity = .zero; contacts.removeAll(); hopOrigin = nil; hopLength = nil }
     func legalRest(_ point: CGPoint) -> Bool {
         let r = FPLevel.ballRadius
         return FPLevel.world.insetBy(dx:r,dy:r).contains(point)
@@ -77,23 +91,27 @@ struct FPPhysicsWorld: Codable {
         let h = CGFloat(interval) / CGFloat(count)
         for _ in 0..<count {
             let previous = position
+            if naturalFlight == true { updateHop() }
             position.x += velocity.dx*h; position.y += velocity.dy*h
-            if level.hazards.contains(where: { $0.cg.contains(position) }) {
+            let bounds = FPLevel.world.insetBy(dx: FPLevel.ballRadius, dy: FPLevel.ballRadius)
+            if naturalFlight == true && !bounds.contains(position) {
+                restoreSafe(); events.append(.outOfBounds); return events
+            }
+            if hopProgress == nil && level.hazards.contains(where: { $0.cg.contains(position) }) {
                 restoreSafe(); events.append(.outOfBounds); return events
             }
             let hole = level.hole.cg
             let distance = hypot(position.x-hole.x,position.y-hole.y)
-            if distance <= tuning.captureRadius && speed <= tuning.captureLimit(distance:distance) {
+            if hopProgress == nil && distance <= tuning.captureRadius && speed <= tuning.captureLimit(distance:distance) {
                 position = hole; velocity = .zero; captured = true; events.append(.captured); return events
             }
             var touching = Set<String>()
             let radius = FPLevel.ballRadius
-            let bounds = FPLevel.world.insetBy(dx:radius,dy:radius)
             if position.x < bounds.minX { position.x=bounds.minX; velocity=Self.reflected(velocity,normal:CGVector(dx:1,dy:0),restitution:restitution(at:position,wall:true)); touching.insert("left") }
             if position.x > bounds.maxX { position.x=bounds.maxX; velocity=Self.reflected(velocity,normal:CGVector(dx:-1,dy:0),restitution:restitution(at:position,wall:true)); touching.insert("right") }
             if position.y < bounds.minY { position.y=bounds.minY; velocity=Self.reflected(velocity,normal:CGVector(dx:0,dy:1),restitution:restitution(at:position,wall:true)); touching.insert("top") }
             if position.y > bounds.maxY { position.y=bounds.maxY; velocity=Self.reflected(velocity,normal:CGVector(dx:0,dy:-1),restitution:restitution(at:position,wall:true)); touching.insert("bottom") }
-            for (id,rect) in solids {
+            for (id,rect) in solids where naturalFlight != true {
                 let nearest = CGPoint(x:min(rect.maxX,max(rect.minX,position.x)),y:min(rect.maxY,max(rect.minY,position.y)))
                 var dx=position.x-nearest.x, dy=position.y-nearest.y
                 let length=hypot(dx,dy)
@@ -124,18 +142,50 @@ struct FPPhysicsWorld: Codable {
                 default:return position.y > bounds.maxY-0.005
                 }
             }.union(touching)
-            let drag=material(at:position).drag
+            let drag = hopProgress == nil ? material(at:position).drag : 0
             let oldSpeed=speed, nextSpeed=oldSpeed*exp(-CGFloat(drag)*h)
             settledFor = nextSpeed < tuning.stopSpeed ? settledFor+Double(h):0
             if settledFor >= tuning.settleDuration || oldSpeed == 0 {
                 settledFor=min(settledFor,tuning.settleDuration)
                 velocity = .zero
                 if legalRest(position) { safePosition=position }
+                else if naturalFlight == true { restoreSafe(); events.append(.outOfBounds); return events }
                 events.append(.stopped);return events
             }
             velocity.dx *= nextSpeed/oldSpeed;velocity.dy *= nextSpeed/oldSpeed
         }
         return events
+    }
+
+    /// 沿实际球路求障碍的进出位置；跳跃只影响普通模式，不改变方向或引入第二种操作。
+    private mutating func updateHop() {
+        if let progress = hopProgress {
+            if progress < 1 { return }
+            hopOrigin = nil; hopLength = nil
+        }
+        guard speed > 0 else { return }
+        let direction = CGVector(dx: velocity.dx/speed, dy: velocity.dy/speed)
+        var intervals: [(CGFloat, CGFloat)] = []
+        let margin = FPClassicPhysics.hopMargin
+        for rect in solids.map(\.1) + level.hazards.map({ $0.cg }) {
+            let box = rect.insetBy(dx: -FPLevel.ballRadius-margin, dy: -FPLevel.ballRadius-margin)
+            var near: CGFloat = -.infinity, far: CGFloat = .infinity
+            for (origin, delta, low, high) in [(position.x, direction.dx, box.minX, box.maxX), (position.y, direction.dy, box.minY, box.maxY)] {
+                if abs(delta) < 0.000001 {
+                    if origin < low || origin > high { far = -.infinity; break }
+                } else {
+                    let a = (low-origin)/delta, b = (high-origin)/delta
+                    near = max(near, min(a,b)); far = min(far, max(a,b))
+                }
+            }
+            if far >= max(0,near) { intervals.append((max(0,near),far)) }
+        }
+        intervals.sort { $0.0 < $1.0 }
+        guard let first = intervals.first, first.0 <= FPLevel.ballRadius else { return }
+        var end = first.1
+        for interval in intervals.dropFirst() where interval.0 <= end { end = max(end,interval.1) }
+        guard end.isFinite, end > 0 else { return }
+        hopOrigin = position; hopLength = end
     }
 
     func material(at point: CGPoint) -> FPTuning.Material {
@@ -159,7 +209,8 @@ struct FPPhysicsWorld: Codable {
     func validateRestoration() throws {
         let allowed=Set(["left","right","top","bottom"]+solids.map(\.0))
         let values=[position.x,position.y,safePosition.x,safePosition.y,velocity.dx,velocity.dy,canal.origin.x,canal.origin.y,canal.width,canal.height]
-        guard values.allSatisfy(\.isFinite),FPLevel.world.contains(position),legalRest(safePosition),
+        let hopValid = hopOrigin == nil && hopLength == nil || (hopOrigin.map { FPLevel.world.contains($0) } == true && hopLength.map { $0.isFinite && $0 > 0 && $0 <= 4 } == true && naturalFlight == true)
+        guard hopValid, values.allSatisfy(\.isFinite),FPLevel.world.contains(position),legalRest(safePosition),
               canal.width>0,canal.height>0,FPLevel.world.contains(canal),
               extraObstacle == nil || extraObstacle == level.penaltyObstacle.cg,
               speed<=tuning.maximumSpeed+0.000001,settledFor.isFinite,settledFor>=0,settledFor<=tuning.settleDuration+1.0/30+0.000001,

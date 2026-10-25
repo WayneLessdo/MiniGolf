@@ -69,10 +69,11 @@ final class FPAdaptiveController: UIViewController {
             controls.pull.cancelTracking();session.cancel()
             previousSize=view.bounds.size;previousSafeArea=view.safeAreaInsets;previousRegions=snapshot
         }
-        if mode != "immersive",let region=snapshot.divisions.first {
-            // Decorative thickness is a visual token, not a fabricated hardware width.
-            canal.frame=region.width<region.height ? CGRect(x:region.midX-max(8,region.width)/2,y:region.minY,width:max(8,region.width),height:region.height):CGRect(x:region.minX,y:region.midY-max(8,region.height)/2,width:region.width,height:max(8,region.height))
-            canal.isHidden=false
+        if mode != "immersive", let region = snapshot.activeDivisions.first {
+            // 只在真实活跃区域与球场的交集绘制装饰，不能跨过结果卡和操控区。
+            let decoration = region.intersection(course.course.convert(course.course.bounds, to: view))
+            canal.frame = decoration.isNull ? .zero : decoration
+            canal.isHidden = decoration.isNull || decoration.isEmpty
         } else { canal.isHidden=true }
         let path=UIBezierPath();snapshot.exclusions.forEach { path.append(UIBezierPath(rect:$0)) };regionLayer.path=path.cgPath;regionLayer.isHidden = !session.showRegions
         writeDiagnostics(snapshot)
