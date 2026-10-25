@@ -7,9 +7,13 @@ final class FPLanguageController: UIViewController, UITableViewDataSource, UITab
     private let done = UIButton(type: .system)
     override func viewDidLoad() {
         super.viewDidLoad()
+        // 全屏辅助页始终保留返回入口，避免 iOS 27 滚动收栏后难以退出。
+        if #available(iOS 27.0, *) { navigationItem.navigationBarMinimization.minimizationBehavior = .never }
+
         view.backgroundColor = .systemGroupedBackground
         view.accessibilityIdentifier = "languageSelection"
         table.dataSource = self; table.delegate = self
+        table.tintColor = FPTheme.grassDeep
         table.rowHeight = UITableView.automaticDimension; table.estimatedRowHeight = 56
         table.contentInsetAdjustmentBehavior = .never
         view.addSubview(table)

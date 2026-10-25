@@ -7,6 +7,9 @@ final class FPPrivacyController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // 全屏辅助页始终保留返回入口，避免 iOS 27 滚动收栏后难以退出。
+        if #available(iOS 27.0, *) { navigationItem.navigationBarMinimization.minimizationBehavior = .never }
+
         title = FPL10n.text("privacy")
         view.backgroundColor = .systemBackground
         view.accessibilityIdentifier = "privacyPolicy"
@@ -39,6 +42,9 @@ final class FPPrivacyController: UIViewController {
         } else {
             text.text = FPL10n.text("privacy_unavailable")
         }
+        // 保留离线正文，并提供可直接打开的公开政策链接。
+        let policyPath = FPL10n.language == "zh-Hans" ? "privacy-zh-Hans" : "privacy"
+        text.text += "\n\n\(FPL10n.text("privacy")):\nhttps://foldputt-help-wayne.humble-mite-6617.chatgpt.site/\(policyPath)"
         view.addSubview(text)
         registerForTraitChanges([UITraitPreferredContentSizeCategory.self]) { (controller: FPPrivacyController, _: UITraitCollection) in
             controller.text.font = FPTheme.font(.body)

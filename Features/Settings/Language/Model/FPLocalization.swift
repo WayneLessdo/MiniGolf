@@ -2,9 +2,10 @@ import Foundation
 import os
 
 enum FPLanguage: String, CaseIterable {
-    case simplifiedChinese = "zh-Hans", turkish = "tr", arabic = "ar", portuguese = "pt", french = "fr", spanish = "es"
+    case english = "en", simplifiedChinese = "zh-Hans", turkish = "tr", arabic = "ar", portuguese = "pt", french = "fr", spanish = "es"
     var nativeName: String {
         switch self {
+        case .english: return "English"
         case .simplifiedChinese: return "简体中文"
         case .turkish: return "Türkçe"
         case .arabic: return "العربية"
@@ -38,8 +39,12 @@ final class FPLanguageManager: Sendable {
     }
     var language: FPLanguage {
         if let selection { return selection }
-        let resolved = Bundle.preferredLocalizations(from: FPLanguage.allCases.map(\.rawValue), forPreferences: systemPreferences()).first
-        return resolved.flatMap(FPLanguage.init(rawValue:)) ?? .simplifiedChinese
+        let preferences = systemPreferences()
+        let supported = FPLanguage.allCases.map(\.rawValue)
+        let hasMatch = preferences.contains { preference in supported.contains { preference == $0 || preference.hasPrefix($0 + "-") } }
+        guard hasMatch else { return .english }
+        let resolved = Bundle.preferredLocalizations(from: supported, forPreferences: preferences).first
+        return resolved.flatMap(FPLanguage.init(rawValue:)) ?? .english
     }
     var locale: Locale { Locale(identifier: language.rawValue) }
     var isRightToLeft: Bool { language == .arabic }
