@@ -19,9 +19,15 @@ final class FPLocalizationUITests: XCTestCase {
     }
     @MainActor private func reveal(_ button:XCUIElement,in app:XCUIApplication,up:Bool) {
         for _ in 0..<12 {
-            if button.exists && button.isHittable { return }
+            if button.exists && button.isHittable {
+                let visible = button.frame.intersection(app.scrollViews.firstMatch.frame.insetBy(dx: 4, dy: 4))
+                // 不把只露出一条边的巨型卡片当作可点击目标。
+                if visible.height >= 44 && visible.contains(CGPoint(x: button.frame.midX, y: button.frame.midY)) { return }
+            }
             let scroll=app.scrollViews.firstMatch
-            if up { scroll.swipeUp() } else { scroll.swipeDown() }
+            // 旋转或切换语言后以当前目标位置判断方向，不能沿用上个页面的滚动方向。
+            let targetAbove = button.exists ? button.frame.midY < scroll.frame.midY : !up
+            if targetAbove { scroll.swipeDown() } else { scroll.swipeUp() }
         }
         XCTAssertTrue(button.isHittable,app.debugDescription)
     }

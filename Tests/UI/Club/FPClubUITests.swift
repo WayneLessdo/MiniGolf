@@ -2,7 +2,7 @@ import XCTest
 
 final class FPClubUITests:XCTestCase {
     @MainActor private func app(_ extra:[String]=[])->XCUIApplication {
-        let app=XCUIApplication();app.launchArguments=["--ui-testing","--q-mode","-UIPreferredContentSizeCategoryName","UICTContentSizeCategoryL"]+extra;app.launch()
+        let app=XCUIApplication();app.launchArguments=["--ui-testing","--q-mode","--reset-language","-AppleLanguages","(zh-Hans)","-UIPreferredContentSizeCategoryName","UICTContentSizeCategoryL"]+extra;app.launch()
         XCTAssertTrue(app.buttons["玩法与收藏"].waitForExistence(timeout:10));return app
     }
     @MainActor private func capture(_ app:XCUIApplication,_ name:String) {

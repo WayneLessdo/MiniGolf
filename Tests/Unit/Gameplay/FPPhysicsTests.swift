@@ -57,6 +57,44 @@ final class FPPhysicsTests: XCTestCase {
         for _ in 0..<12 { _ = sand.step(1.0/120);_ = grass.step(1.0/120) }
         XCTAssertLessThan(sand.speed,grass.speed)
     }
+    func testNaturalCourseCrossesObstacleAndReturnsAtBoundaryWithoutRebound() throws {
+        let level = try levels()[1]
+        var world = FPPhysicsWorld(level: level, tuning: try FPTuning.load().physics)
+        world.naturalFlight = true
+        let canal = level.obstacles[0].cg
+        world.stage(at: CGPoint(x: canal.maxX+0.14, y: canal.midY))
+        world.launch(shot(-1,0,0.5))
+        var hopped = false, bounced = false, returned = false, crossed = false
+        for _ in 0..<1500 {
+            let events = world.step(1.0/120)
+            hopped = hopped || (world.hopProgress.map { $0 > 0 && $0 < 1 } ?? false)
+            crossed = crossed || world.position.x < canal.minX-FPLevel.ballRadius
+            bounced = bounced || events.contains { if case .collision = $0 { return true }; return false }
+            returned = returned || events.contains(.outOfBounds)
+            if !world.moving { break }
+            XCTAssertLessThanOrEqual(world.velocity.dx, 0)
+        }
+        XCTAssertTrue(hopped); XCTAssertTrue(crossed); XCTAssertFalse(bounced)
+        XCTAssertTrue(returned); XCTAssertEqual(world.position, world.safePosition)
+    }
+    @MainActor func testNaturalFlightRestoreAndPuzzleModeIsolation() throws {
+        let session = try FPDemoSession(metricsStore: nil)
+        XCTAssertEqual(session.world.naturalFlight, true)
+        session.loadLevel(1)
+        let shot = FPShot(direction: CGVector(dx: -1,dy: 0), power: 0.6)
+        session.aim(shot); session.release(shot)
+        for _ in 0..<120 { session.advance(1.0/120); if session.world.hopProgress != nil { break } }
+        let saved = try session.restorationActivity()
+        let restored = try FPDemoSession(metricsStore: nil)
+        try restored.restore(saved)
+        XCTAssertEqual(restored.world.position, session.world.position)
+        XCTAssertEqual(restored.world.hopProgress, session.world.hopProgress)
+        XCTAssertEqual(restored.world.naturalFlight, true)
+        session.loadLevel(3); XCTAssertEqual(session.world.naturalFlight, false)
+        session.loadLevel(0); session.setPresentation(mode: .chibi)
+        XCTAssertEqual(session.world.naturalFlight, false)
+    }
+
     func testDivisionProjectionAndFallback() {
         let fallback=CGRect(x:0.04,y:0.46,width:0.055,height:0.62)
         let field=CGRect(x:120,y:30,width:300,height:420)
@@ -109,6 +147,7 @@ final class FPPhysicsTests: XCTestCase {
         json["collisionLimit"]=1;json["timeLimit"]=600
         let level=try JSONDecoder().decode(FPLevel.self,from:JSONSerialization.data(withJSONObject:json))
         let session=try FPDemoSession(levels:[level],metricsStore:nil)
+        session.setPresentation(mode: .chibi)
         session.suspend();session.advance(10);XCTAssertEqual(session.elapsed,0)
         session.resume();session.aim(FPShot(direction:CGVector(dx:-1,dy:0),power:0.7));session.release(session.preview)
         for _ in 0..<900 { session.advance(1.0/120) }

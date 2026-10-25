@@ -7,55 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F0C010000000000000000001 /* FPGamePresentation in Sources */ = {isa = PBXBuildFile; fileRef = F0C010000000000000000011; };
-		F0C010000000000000000002 /* FPModeSelectionController in Sources */ = {isa = PBXBuildFile; fileRef = F0C010000000000000000012; };
-		F0C010000000000000000003 /* FPChibiArt in Sources */ = {isa = PBXBuildFile; fileRef = F0C010000000000000000013; };
 		02D82F740A79321B9C7848A0 /* Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DABAE7B9269B285D97D343 /* Resources/Assets.xcassets */; };
-		06F199D80D88CDC278A3ABBC /* Tests/FPPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DFD2FD5D3308457E0861C0 /* FPPrototypeTests.swift */; };
+		06F199D80D88CDC278A3ABBC /* Tests/Unit/Gameplay/FPPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DFD2FD5D3308457E0861C0 /* Tests/Unit/Gameplay/FPPrototypeTests.swift */; };
 		185272EACEDFF87A7D94FAC4 /* Resources/Levels/02-canal.json in Resources */ = {isa = PBXBuildFile; fileRef = B4AE30D0E612108D5FFC2F08 /* Resources/Levels/02-canal.json */; };
-		249773E177F14D8E5049D765 /* Models/FPTuning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2253B33893C2550A3A2F8 /* FPTuning.swift */; };
-		2A203551C29A50B6BA011F4B /* Views/FPPullControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6272CFD2A56E91DD83F9422C /* FPPullControl.swift */; };
-		2F9F93B0EED44084BCA2F6DD /* Systems/Input/FPPullMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BBAC8FA92F9D21B1CE8506 /* FPPullMath.swift */; };
-		372C2B5D327247BE41E8D347 /* Models/FPDemoSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D0E4CE07AF7D401ED16F57 /* FPDemoSession.swift */; };
-		6C22A55275DC3A4F809A781F /* Systems/Physics/FPPhysicsPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6E96DA358D84AA8C0FD12 /* FPPhysicsPort.swift */; };
+		22460324F9D42DC3875952A8 /* Features/Club/Model/FPClubProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8210E8AA51B2C88654018F1 /* Features/Club/Model/FPClubProgress.swift */; };
+		249773E177F14D8E5049D765 /* Features/Gameplay/Model/FPTuning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2253B33893C2550A3A2F8 /* Features/Gameplay/Model/FPTuning.swift */; };
+		2A203551C29A50B6BA011F4B /* Features/Gameplay/View/FPPullControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6272CFD2A56E91DD83F9422C /* Features/Gameplay/View/FPPullControl.swift */; };
+		2F9F93B0EED44084BCA2F6DD /* Core/Input/FPPullMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BBAC8FA92F9D21B1CE8506 /* Core/Input/FPPullMath.swift */; };
+		372C2B5D327247BE41E8D347 /* Features/Gameplay/Model/FPDemoSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D0E4CE07AF7D401ED16F57 /* Features/Gameplay/Model/FPDemoSession.swift */; };
+		42D43F9DD4BBD7CFB17A9409 /* Tests/Unit/Club/FPClubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5598ADB014052951DC4710 /* Tests/Unit/Club/FPClubTests.swift */; };
+		46723290A6AEA36558F46AC1 /* Core/Feedback/FPSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E8023DF635CB57CDD78E0D /* Core/Feedback/FPSound.swift */; };
+		4994364944D4825873901D5E /* Resources/Levels/puzzle-01.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A7692F5969114E6FFF6FC3D /* Resources/Levels/puzzle-01.json */; };
+		4A543358CED5C247668DC1E9 /* Resources/Levels/puzzle-04.json in Resources */ = {isa = PBXBuildFile; fileRef = 206039CEA7AA2EBFCFFE82F3 /* Resources/Levels/puzzle-04.json */; };
+		53B4A37E8FA498D3D99D20F2 /* Resources/Sounds/putt.wav in Resources */ = {isa = PBXBuildFile; fileRef = C67F016340CD1393270E6ECC /* Resources/Sounds/putt.wav */; };
+		54AC3A60D1A87F500E5A36DE /* Resources/Sounds/hole.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73F76FB12B2C6C6E48ABD14B /* Resources/Sounds/hole.wav */; };
+		5560589A0D8F34FDFB06EA7A /* Tests/UI/Release/FPReleaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F758A17AE6910CE000D236 /* Tests/UI/Release/FPReleaseUITests.swift */; };
+		668680901CBBC048CC7E90DF /* Resources/Levels/puzzle-03.json in Resources */ = {isa = PBXBuildFile; fileRef = 688E8CC1F23802D394974E43 /* Resources/Levels/puzzle-03.json */; };
+		6C22A55275DC3A4F809A781F /* Features/Gameplay/Physics/FPPhysicsPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6E96DA358D84AA8C0FD12 /* Features/Gameplay/Physics/FPPhysicsPort.swift */; };
 		6FD57CD2A8FE81A60DA31EB2 /* App/AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769D5E90C932D0E09039BE4C /* App/AppDelegate.swift */; };
-		702D8CE50BB30A96D1A68361 /* Tests/FPTuningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBED78D2E732F703C2F1E2 /* FPTuningTests.swift */; };
-		78CE73FD2D546532DFCAF502 /* Views/FPControlsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAED7F4FEC031B4E198E99E3 /* FPControlsController.swift */; };
+		702D8CE50BB30A96D1A68361 /* Tests/Unit/Gameplay/FPTuningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBED78D2E732F703C2F1E2 /* Tests/Unit/Gameplay/FPTuningTests.swift */; };
+		732E4DBD9EAFD334A1014CC2 /* Resources/Levels/puzzle-06.json in Resources */ = {isa = PBXBuildFile; fileRef = A73AD3C2C112EC17985D7C1B /* Resources/Levels/puzzle-06.json */; };
+		755710DD4CA10B9BE0D137E4 /* Features/Settings/Privacy/Controller/FPPrivacyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC13486C0696165B73A473EC /* Features/Settings/Privacy/Controller/FPPrivacyController.swift */; };
+		78CE73FD2D546532DFCAF502 /* Features/Gameplay/Controller/FPControlsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAED7F4FEC031B4E198E99E3 /* Features/Gameplay/Controller/FPControlsController.swift */; };
+		7F151A160D49D3A0C8DB1254 /* Resources/Levels/puzzle-05.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BCD4C184AEC76056B647ECE /* Resources/Levels/puzzle-05.json */; };
 		8D19102AF5A6D5F27C1F7EC7 /* App/SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF3E52DE8553E94315880B /* App/SceneDelegate.swift */; };
-		8DD9179FEFB4FF3B9AADED4E /* Views/FPArrangementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98337423B836464903903ED1 /* FPArrangementController.swift */; };
+		8DD9179FEFB4FF3B9AADED4E /* Features/Gameplay/Controller/FPArrangementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98337423B836464903903ED1 /* Features/Gameplay/Controller/FPArrangementController.swift */; };
 		9210B4C3EEBDB2F799FBDC43 /* Resources/tuning.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C7410FF9339057A752616B6 /* Resources/tuning.json */; };
-		9DC29A9C143B0D41D6E67B76 /* UITests/FPPrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8907B974BB1C97AE9D25D6BF /* FPPrototypeUITests.swift */; };
+		9A958E333FD7BC8A5300B3D4 /* Resources/PrivacyPolicy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5BDC14FE2C2C8A63E5D216DB /* Resources/PrivacyPolicy.txt */; };
+		9DC29A9C143B0D41D6E67B76 /* Tests/UI/Gameplay/FPPrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8907B974BB1C97AE9D25D6BF /* Tests/UI/Gameplay/FPPrototypeUITests.swift */; };
 		A1A4423CA09A00E6AA780406 /* Resources/Levels/01-meadow.json in Resources */ = {isa = PBXBuildFile; fileRef = AD3EEAC21FB1D5C86DDE8D30 /* Resources/Levels/01-meadow.json */; };
 		A676B105CD63D34AF7EBBA52 /* Resources/Levels/03-sand.json in Resources */ = {isa = PBXBuildFile; fileRef = 77E42BD45014D43A3085923D /* Resources/Levels/03-sand.json */; };
-		A86F30A93938D75D6C69F690 /* Views/FPAdaptiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0083DE8578962D6DD37C904 /* FPAdaptiveController.swift */; };
-		AEDB91961D6FA2034E3147AB /* Tests/FPPhysicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962F3A2BFE4E2DD9FD81CED3 /* FPPhysicsTests.swift */; };
-		D49B061DBAC27033FD0CCC53 /* Systems/Physics/FPPhysicsWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24163AB13C3DB815EBA28B67 /* FPPhysicsWorld.swift */; };
-		DC076E85C5D88DD0667887F1 /* Views/FPCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D3C87AC965C02AA772905B /* FPCourseView.swift */; };
-		ED834F4F92E352DED5733CB3 /* Systems/FoldAdaptation/FPRegions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C76A35BDAE05968FB2EC79 /* FPRegions.swift */; };
-		F046FB8CC47BE9122DD1973D /* Resources/Motion/FPTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B915D33675AE604410A237D8 /* FPTheme.swift */; };
-		F348314D9BDEBB682E9C5551 /* Models/FPLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259DFA43F125170145B4F21 /* FPLevel.swift */; };
-		46723290A6AEA36558F46AC1 /* FPSound.swift */ = {isa = PBXBuildFile; fileRef = 60E8023DF635CB57CDD78E0D; };
-		53B4A37E8FA498D3D99D20F2 /* Resources/Sounds/putt.wav */ = {isa = PBXBuildFile; fileRef = C67F016340CD1393270E6ECC; };
-		54AC3A60D1A87F500E5A36DE /* Resources/Sounds/hole.wav */ = {isa = PBXBuildFile; fileRef = 73F76FB12B2C6C6E48ABD14B; };
-		22460324F9D42DC3875952A8 /* FPClubProgress.swift */ = {isa = PBXBuildFile; fileRef = D8210E8AA51B2C88654018F1; };
-		CF7B67FC6D46D989743A3143 /* FPClubController.swift */ = {isa = PBXBuildFile; fileRef = 86F6B7354DFF4C5B284606DC; };
-		4994364944D4825873901D5E /* Resources/Levels/puzzle-01.json */ = {isa = PBXBuildFile; fileRef = 1A7692F5969114E6FFF6FC3D; };
-		B1C0AD60FB5996FDAA56F97A /* Resources/Levels/puzzle-02.json */ = {isa = PBXBuildFile; fileRef = 8535BE62379A1787ABE2A86E; };
-		668680901CBBC048CC7E90DF /* Resources/Levels/puzzle-03.json */ = {isa = PBXBuildFile; fileRef = 688E8CC1F23802D394974E43; };
-		4A543358CED5C247668DC1E9 /* Resources/Levels/puzzle-04.json */ = {isa = PBXBuildFile; fileRef = 206039CEA7AA2EBFCFFE82F3; };
-		7F151A160D49D3A0C8DB1254 /* Resources/Levels/puzzle-05.json */ = {isa = PBXBuildFile; fileRef = 0BCD4C184AEC76056B647ECE; };
-		732E4DBD9EAFD334A1014CC2 /* Resources/Levels/puzzle-06.json */ = {isa = PBXBuildFile; fileRef = A73AD3C2C112EC17985D7C1B; };
-		42D43F9DD4BBD7CFB17A9409 /* FPClubTests.swift */ = {isa = PBXBuildFile; fileRef = 0A5598ADB014052951DC4710; };
-		FF01C439594B02C52E2506FD /* FPClubUITests.swift */ = {isa = PBXBuildFile; fileRef = E5D2C5DB6803F41501BE0F77; };
-		755710DD4CA10B9BE0D137E4 /* Views/FPPrivacyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC13486C0696165B73A473EC; };
-		CECA45FA9B242D858935C870 /* Resources/PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 04F4C45258CCCB196018DA85; };
-		9A958E333FD7BC8A5300B3D4 /* Resources/PrivacyPolicy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5BDC14FE2C2C8A63E5D216DB; };
-		5560589A0D8F34FDFB06EA7A = {isa = PBXBuildFile; fileRef = A1F758A17AE6910CE000D236; };
-		EE5272961B3F18FEE058DF2B /* FPLocalization.swift */ = {isa = PBXBuildFile; fileRef = F424D6551B430AD30C871732; };
-		D46D8991B5E99977F91A3678 /* Localizable.strings */ = {isa = PBXBuildFile; fileRef = 2A86B8C5A73B79941117EF71; };
-		F5360B2A639EB219CF37D357 /* FPLocalizationTests.swift */ = {isa = PBXBuildFile; fileRef = 1E2A918FC28CC8D761304542; };
-		D02B5E248C6703092F9EE16B /* FPLocalizationUITests.swift */ = {isa = PBXBuildFile; fileRef = 860CB46E03E39D0A70638C42; };
-		F0CC00000000000000000001 = {isa = PBXBuildFile; fileRef = F0CC00000000000000000002; };
+		A86F30A93938D75D6C69F690 /* Features/Gameplay/Controller/FPAdaptiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0083DE8578962D6DD37C904 /* Features/Gameplay/Controller/FPAdaptiveController.swift */; };
+		AEDB91961D6FA2034E3147AB /* Tests/Unit/Gameplay/FPPhysicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962F3A2BFE4E2DD9FD81CED3 /* Tests/Unit/Gameplay/FPPhysicsTests.swift */; };
+		B1C0AD60FB5996FDAA56F97A /* Resources/Levels/puzzle-02.json in Resources */ = {isa = PBXBuildFile; fileRef = 8535BE62379A1787ABE2A86E /* Resources/Levels/puzzle-02.json */; };
+		CECA45FA9B242D858935C870 /* Resources/PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 04F4C45258CCCB196018DA85 /* Resources/PrivacyInfo.xcprivacy */; };
+		CF7B67FC6D46D989743A3143 /* Features/Club/Controller/FPClubController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6B7354DFF4C5B284606DC /* Features/Club/Controller/FPClubController.swift */; };
+		D02B5E248C6703092F9EE16B /* Tests/UI/Localization/FPLocalizationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CB46E03E39D0A70638C42 /* Tests/UI/Localization/FPLocalizationUITests.swift */; };
+		D46D8991B5E99977F91A3678 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A86B8C5A73B79941117EF71 /* Localizable.strings */; };
+		D49B061DBAC27033FD0CCC53 /* Features/Gameplay/Physics/FPPhysicsWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24163AB13C3DB815EBA28B67 /* Features/Gameplay/Physics/FPPhysicsWorld.swift */; };
+		DC076E85C5D88DD0667887F1 /* Features/Gameplay/View/FPCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D3C87AC965C02AA772905B /* Features/Gameplay/View/FPCourseView.swift */; };
+		ED834F4F92E352DED5733CB3 /* Core/DeviceAdaptation/FPRegions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C76A35BDAE05968FB2EC79 /* Core/DeviceAdaptation/FPRegions.swift */; };
+		EE5272961B3F18FEE058DF2B /* Features/Settings/Language/Model/FPLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F424D6551B430AD30C871732 /* Features/Settings/Language/Model/FPLocalization.swift */; };
+		F046FB8CC47BE9122DD1973D /* Core/Theme/FPTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B915D33675AE604410A237D8 /* Core/Theme/FPTheme.swift */; };
+		F0C010000000000000000001 /* Features/Gameplay/Model/FPGamePresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C010000000000000000011 /* Features/Gameplay/Model/FPGamePresentation.swift */; };
+		F0C010000000000000000002 /* Features/Gameplay/Controller/FPModeSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C010000000000000000012 /* Features/Gameplay/Controller/FPModeSelectionController.swift */; };
+		F0C010000000000000000003 /* Features/Gameplay/View/FPChibiArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C010000000000000000013 /* Features/Gameplay/View/FPChibiArt.swift */; };
+		F0CC00000000000000000001 /* Features/Settings/Language/Controller/FPLanguageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CC00000000000000000002 /* Features/Settings/Language/Controller/FPLanguageController.swift */; };
+		F348314D9BDEBB682E9C5551 /* Features/Gameplay/Model/FPLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259DFA43F125170145B4F21 /* Features/Gameplay/Model/FPLevel.swift */; };
+		F5360B2A639EB219CF37D357 /* Tests/Unit/Localization/FPLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A918FC28CC8D761304542 /* Tests/Unit/Localization/FPLocalizationTests.swift */; };
+		FF01C439594B02C52E2506FD /* Tests/UI/Club/FPClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D2C5DB6803F41501BE0F77 /* Tests/UI/Club/FPClubUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,64 +76,64 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F0C010000000000000000011 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features/Gameplay/Model/FPGamePresentation.swift"; sourceTree = "<group>"; };
-		F0C010000000000000000012 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features/Gameplay/Controller/FPModeSelectionController.swift"; sourceTree = "<group>"; };
-		F0C010000000000000000013 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features/Gameplay/View/FPChibiArt.swift"; sourceTree = "<group>"; };
-		14D3C87AC965C02AA772905B /* FPCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features/Gameplay/View/FPCourseView.swift"; sourceTree = "<group>"; };
-		24163AB13C3DB815EBA28B67 /* FPPhysicsWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features/Gameplay/Physics/FPPhysicsWorld.swift"; sourceTree = "<group>"; };
-		24C2253B33893C2550A3A2F8 /* FPTuning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features/Gameplay/Model/FPTuning.swift"; sourceTree = "<group>"; };
+		A10CA11E2026102400000001 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/Localization/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		04F4C45258CCCB196018DA85 /* Resources/PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		0A5598ADB014052951DC4710 /* Tests/Unit/Club/FPClubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/Unit/Club/FPClubTests.swift; sourceTree = "<group>"; };
+		0BCD4C184AEC76056B647ECE /* Resources/Levels/puzzle-05.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/puzzle-05.json"; sourceTree = "<group>"; };
+		14D3C87AC965C02AA772905B /* Features/Gameplay/View/FPCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Gameplay/View/FPCourseView.swift; sourceTree = "<group>"; };
+		1A7692F5969114E6FFF6FC3D /* Resources/Levels/puzzle-01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/puzzle-01.json"; sourceTree = "<group>"; };
+		1E2A918FC28CC8D761304542 /* Tests/Unit/Localization/FPLocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/Unit/Localization/FPLocalizationTests.swift; sourceTree = "<group>"; };
+		206039CEA7AA2EBFCFFE82F3 /* Resources/Levels/puzzle-04.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/puzzle-04.json"; sourceTree = "<group>"; };
+		24163AB13C3DB815EBA28B67 /* Features/Gameplay/Physics/FPPhysicsWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Gameplay/Physics/FPPhysicsWorld.swift; sourceTree = "<group>"; };
+		24C2253B33893C2550A3A2F8 /* Features/Gameplay/Model/FPTuning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Gameplay/Model/FPTuning.swift; sourceTree = "<group>"; };
 		2AADEEF9B9FB90ADFE511EFD /* FoldPuttTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = FoldPuttTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBF3E52DE8553E94315880B /* App/SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/SceneDelegate.swift; sourceTree = "<group>"; };
 		41DABAE7B9269B285D97D343 /* Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
-		47D0E4CE07AF7D401ED16F57 /* FPDemoSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features/Gameplay/Model/FPDemoSession.swift"; sourceTree = "<group>"; };
-		6259DFA43F125170145B4F21 /* FPLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features/Gameplay/Model/FPLevel.swift"; sourceTree = "<group>"; };
-		6272CFD2A56E91DD83F9422C /* FPPullControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features/Gameplay/View/FPPullControl.swift"; sourceTree = "<group>"; };
+		47D0E4CE07AF7D401ED16F57 /* Features/Gameplay/Model/FPDemoSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Gameplay/Model/FPDemoSession.swift; sourceTree = "<group>"; };
+		5BDC14FE2C2C8A63E5D216DB /* Resources/PrivacyPolicy.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resources/PrivacyPolicy.txt; sourceTree = "<group>"; };
+		60E8023DF635CB57CDD78E0D /* Core/Feedback/FPSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Feedback/FPSound.swift; sourceTree = "<group>"; };
+		6259DFA43F125170145B4F21 /* Features/Gameplay/Model/FPLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Gameplay/Model/FPLevel.swift; sourceTree = "<group>"; };
+		6272CFD2A56E91DD83F9422C /* Features/Gameplay/View/FPPullControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Gameplay/View/FPPullControl.swift; sourceTree = "<group>"; };
+		688E8CC1F23802D394974E43 /* Resources/Levels/puzzle-03.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/puzzle-03.json"; sourceTree = "<group>"; };
 		6C7410FF9339057A752616B6 /* Resources/tuning.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Resources/tuning.json; sourceTree = "<group>"; };
+		73F76FB12B2C6C6E48ABD14B /* Resources/Sounds/hole.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Resources/Sounds/hole.wav; sourceTree = "<group>"; };
 		769D5E90C932D0E09039BE4C /* App/AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppDelegate.swift; sourceTree = "<group>"; };
 		77E42BD45014D43A3085923D /* Resources/Levels/03-sand.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/03-sand.json"; sourceTree = "<group>"; };
-		7DC6E96DA358D84AA8C0FD12 /* FPPhysicsPort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features/Gameplay/Physics/FPPhysicsPort.swift"; sourceTree = "<group>"; };
-		8907B974BB1C97AE9D25D6BF /* FPPrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tests/UI/Gameplay/FPPrototypeUITests.swift"; sourceTree = "<group>"; };
-		8BCD5BC4CDFDF0918087C782 /* FoldPutt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = FoldPutt.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		962F3A2BFE4E2DD9FD81CED3 /* FPPhysicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tests/Unit/Gameplay/FPPhysicsTests.swift"; sourceTree = "<group>"; };
-		98337423B836464903903ED1 /* FPArrangementController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features/Gameplay/Controller/FPArrangementController.swift"; sourceTree = "<group>"; };
-		AD3EEAC21FB1D5C86DDE8D30 /* Resources/Levels/01-meadow.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/01-meadow.json"; sourceTree = "<group>"; };
-		B0083DE8578962D6DD37C904 /* FPAdaptiveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features/Gameplay/Controller/FPAdaptiveController.swift"; sourceTree = "<group>"; };
-		B1C76A35BDAE05968FB2EC79 /* FPRegions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core/DeviceAdaptation/FPRegions.swift"; sourceTree = "<group>"; };
-		B4AE30D0E612108D5FFC2F08 /* Resources/Levels/02-canal.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/02-canal.json"; sourceTree = "<group>"; };
-		B915D33675AE604410A237D8 /* FPTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core/Theme/FPTheme.swift"; sourceTree = "<group>"; };
-		BDBBED78D2E732F703C2F1E2 /* FPTuningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tests/Unit/Gameplay/FPTuningTests.swift"; sourceTree = "<group>"; };
-		C39BF4DC748076F3EE90A399 /* FoldPuttUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = FoldPuttUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAED7F4FEC031B4E198E99E3 /* FPControlsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features/Gameplay/Controller/FPControlsController.swift"; sourceTree = "<group>"; };
-		E6DFD2FD5D3308457E0861C0 /* FPPrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tests/Unit/Gameplay/FPPrototypeTests.swift"; sourceTree = "<group>"; };
-		E9BBAC8FA92F9D21B1CE8506 /* FPPullMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core/Input/FPPullMath.swift"; sourceTree = "<group>"; };
-		60E8023DF635CB57CDD78E0D /* FPSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core/Feedback/FPSound.swift"; sourceTree = "<group>"; };
-		C67F016340CD1393270E6ECC /* Resources/Sounds/putt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Resources/Sounds/putt.wav; sourceTree = "<group>"; };
-		73F76FB12B2C6C6E48ABD14B /* Resources/Sounds/hole.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Resources/Sounds/hole.wav; sourceTree = "<group>"; };
-		D8210E8AA51B2C88654018F1 /* FPClubProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features/Club/Model/FPClubProgress.swift"; sourceTree = "<group>"; };
-		86F6B7354DFF4C5B284606DC /* FPClubController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features/Club/Controller/FPClubController.swift"; sourceTree = "<group>"; };
-		1A7692F5969114E6FFF6FC3D /* Resources/Levels/puzzle-01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/puzzle-01.json"; sourceTree = "<group>"; };
+		7DC6E96DA358D84AA8C0FD12 /* Features/Gameplay/Physics/FPPhysicsPort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Gameplay/Physics/FPPhysicsPort.swift; sourceTree = "<group>"; };
 		8535BE62379A1787ABE2A86E /* Resources/Levels/puzzle-02.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/puzzle-02.json"; sourceTree = "<group>"; };
-		688E8CC1F23802D394974E43 /* Resources/Levels/puzzle-03.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/puzzle-03.json"; sourceTree = "<group>"; };
-		206039CEA7AA2EBFCFFE82F3 /* Resources/Levels/puzzle-04.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/puzzle-04.json"; sourceTree = "<group>"; };
-		0BCD4C184AEC76056B647ECE /* Resources/Levels/puzzle-05.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/puzzle-05.json"; sourceTree = "<group>"; };
+		860CB46E03E39D0A70638C42 /* Tests/UI/Localization/FPLocalizationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/UI/Localization/FPLocalizationUITests.swift; sourceTree = "<group>"; };
+		86F6B7354DFF4C5B284606DC /* Features/Club/Controller/FPClubController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Club/Controller/FPClubController.swift; sourceTree = "<group>"; };
+		8907B974BB1C97AE9D25D6BF /* Tests/UI/Gameplay/FPPrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/UI/Gameplay/FPPrototypeUITests.swift; sourceTree = "<group>"; };
+		8BCD5BC4CDFDF0918087C782 /* FoldPutt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = FoldPutt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		962F3A2BFE4E2DD9FD81CED3 /* Tests/Unit/Gameplay/FPPhysicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/Unit/Gameplay/FPPhysicsTests.swift; sourceTree = "<group>"; };
+		98337423B836464903903ED1 /* Features/Gameplay/Controller/FPArrangementController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Gameplay/Controller/FPArrangementController.swift; sourceTree = "<group>"; };
+		A085167A08DFACD32089ED0C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Resources/Localization/fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1F758A17AE6910CE000D236 /* Tests/UI/Release/FPReleaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/UI/Release/FPReleaseUITests.swift; sourceTree = "<group>"; };
 		A73AD3C2C112EC17985D7C1B /* Resources/Levels/puzzle-06.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/puzzle-06.json"; sourceTree = "<group>"; };
-		0A5598ADB014052951DC4710 /* FPClubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tests/Unit/Club/FPClubTests.swift"; sourceTree = "<group>"; };
-		E5D2C5DB6803F41501BE0F77 /* FPClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tests/UI/Club/FPClubUITests.swift"; sourceTree = "<group>"; };
-		EC13486C0696165B73A473EC /* FPPrivacyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features/Settings/Privacy/Controller/FPPrivacyController.swift"; sourceTree = "<group>"; };
-		04F4C45258CCCB196018DA85 /* Resources/PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Resources/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
-		5BDC14FE2C2C8A63E5D216DB /* Resources/PrivacyPolicy.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Resources/PrivacyPolicy.txt"; sourceTree = "<group>"; };
-		A1F758A17AE6910CE000D236 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tests/UI/Release/FPReleaseUITests.swift"; sourceTree = "<group>"; };
-		F424D6551B430AD30C871732 /* FPLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features/Settings/Language/Model/FPLocalization.swift"; sourceTree = "<group>"; };
-
-		1E2A918FC28CC8D761304542 /* FPLocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tests/Unit/Localization/FPLocalizationTests.swift"; sourceTree = "<group>"; };
-		860CB46E03E39D0A70638C42 /* FPLocalizationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tests/UI/Localization/FPLocalizationUITests.swift"; sourceTree = "<group>"; };
-		FA5AC5BC66B2DD395147184B = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Resources/Localization/zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		BF89DD975169C168BCD28E2E = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "tr"; path = "Resources/Localization/tr.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		CE1223CD8DD7712232EA23E7 = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar"; path = "Resources/Localization/ar.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		F17ECAADE9F7DD603E4868A1 = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt"; path = "Resources/Localization/pt.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		A085167A08DFACD32089ED0C = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr"; path = "Resources/Localization/fr.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		DD0C7512FD0B30E98D97A593 = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es"; path = "Resources/Localization/es.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		F0CC00000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features/Settings/Language/Controller/FPLanguageController.swift"; sourceTree = "<group>"; };
+		AD3EEAC21FB1D5C86DDE8D30 /* Resources/Levels/01-meadow.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/01-meadow.json"; sourceTree = "<group>"; };
+		B0083DE8578962D6DD37C904 /* Features/Gameplay/Controller/FPAdaptiveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Gameplay/Controller/FPAdaptiveController.swift; sourceTree = "<group>"; };
+		B1C76A35BDAE05968FB2EC79 /* Core/DeviceAdaptation/FPRegions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/DeviceAdaptation/FPRegions.swift; sourceTree = "<group>"; };
+		B4AE30D0E612108D5FFC2F08 /* Resources/Levels/02-canal.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Levels/02-canal.json"; sourceTree = "<group>"; };
+		B915D33675AE604410A237D8 /* Core/Theme/FPTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Theme/FPTheme.swift; sourceTree = "<group>"; };
+		BDBBED78D2E732F703C2F1E2 /* Tests/Unit/Gameplay/FPTuningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/Unit/Gameplay/FPTuningTests.swift; sourceTree = "<group>"; };
+		BF89DD975169C168BCD28E2E /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = Resources/Localization/tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C39BF4DC748076F3EE90A399 /* FoldPuttUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = FoldPuttUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67F016340CD1393270E6ECC /* Resources/Sounds/putt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Resources/Sounds/putt.wav; sourceTree = "<group>"; };
+		CE1223CD8DD7712232EA23E7 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = Resources/Localization/ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D8210E8AA51B2C88654018F1 /* Features/Club/Model/FPClubProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Club/Model/FPClubProgress.swift; sourceTree = "<group>"; };
+		DAED7F4FEC031B4E198E99E3 /* Features/Gameplay/Controller/FPControlsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Gameplay/Controller/FPControlsController.swift; sourceTree = "<group>"; };
+		DD0C7512FD0B30E98D97A593 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/Localization/es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E5D2C5DB6803F41501BE0F77 /* Tests/UI/Club/FPClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/UI/Club/FPClubUITests.swift; sourceTree = "<group>"; };
+		E6DFD2FD5D3308457E0861C0 /* Tests/Unit/Gameplay/FPPrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/Unit/Gameplay/FPPrototypeTests.swift; sourceTree = "<group>"; };
+		E9BBAC8FA92F9D21B1CE8506 /* Core/Input/FPPullMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Input/FPPullMath.swift; sourceTree = "<group>"; };
+		EC13486C0696165B73A473EC /* Features/Settings/Privacy/Controller/FPPrivacyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Settings/Privacy/Controller/FPPrivacyController.swift; sourceTree = "<group>"; };
+		F0C010000000000000000011 /* Features/Gameplay/Model/FPGamePresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Gameplay/Model/FPGamePresentation.swift; sourceTree = "<group>"; };
+		F0C010000000000000000012 /* Features/Gameplay/Controller/FPModeSelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Gameplay/Controller/FPModeSelectionController.swift; sourceTree = "<group>"; };
+		F0C010000000000000000013 /* Features/Gameplay/View/FPChibiArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Gameplay/View/FPChibiArt.swift; sourceTree = "<group>"; };
+		F0CC00000000000000000002 /* Features/Settings/Language/Controller/FPLanguageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Settings/Language/Controller/FPLanguageController.swift; sourceTree = "<group>"; };
+		F17ECAADE9F7DD603E4868A1 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = Resources/Localization/pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F424D6551B430AD30C871732 /* Features/Settings/Language/Model/FPLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Settings/Language/Model/FPLocalization.swift; sourceTree = "<group>"; };
+		FA5AC5BC66B2DD395147184B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Resources/Localization/zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,58 +146,357 @@
 		};
 /* End PBXFrameworksBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		2A86B8C5A73B79941117EF71 = {isa = PBXVariantGroup; children = (FA5AC5BC66B2DD395147184B, BF89DD975169C168BCD28E2E, CE1223CD8DD7712232EA23E7, F17ECAADE9F7DD603E4868A1, A085167A08DFACD32089ED0C, DD0C7512FD0B30E98D97A593); name = Localizable.strings; sourceTree = "<group>"; };
-/* End PBXVariantGroup section */
-
 /* Begin PBXGroup section */
-		5BB8A344C7EA7109E8B4E4BD /* App */ = {isa = PBXGroup; children = (769D5E90C932D0E09039BE4C, 3BBF3E52DE8553E94315880B,); name = App; sourceTree = "<group>"; };
-		053A7449B4C641C34582E937 /* Model */ = {isa = PBXGroup; children = (D8210E8AA51B2C88654018F1,); name = Model; sourceTree = "<group>"; };
-		9405796BD09A71B50C1253EB /* Controller */ = {isa = PBXGroup; children = (86F6B7354DFF4C5B284606DC,); name = Controller; sourceTree = "<group>"; };
-		B3AAE0B7D0E6678F7585D955 /* Club */ = {isa = PBXGroup; children = (053A7449B4C641C34582E937, 9405796BD09A71B50C1253EB,); name = Club; sourceTree = "<group>"; };
-		BBDDB76F321846FC5B1DA9DD /* Model */ = {isa = PBXGroup; children = (47D0E4CE07AF7D401ED16F57, F0C010000000000000000011, 6259DFA43F125170145B4F21, 24C2253B33893C2550A3A2F8,); name = Model; sourceTree = "<group>"; };
-		91EAC156A9B0761B3273A54C /* View */ = {isa = PBXGroup; children = (F0C010000000000000000013, 14D3C87AC965C02AA772905B, 6272CFD2A56E91DD83F9422C,); name = View; sourceTree = "<group>"; };
-		8F57866719F360AB85547DFA /* Controller */ = {isa = PBXGroup; children = (B0083DE8578962D6DD37C904, 98337423B836464903903ED1, DAED7F4FEC031B4E198E99E3, F0C010000000000000000012,); name = Controller; sourceTree = "<group>"; };
-		2057E55F0742A4F8484C04A8 /* Physics */ = {isa = PBXGroup; children = (7DC6E96DA358D84AA8C0FD12, 24163AB13C3DB815EBA28B67,); name = Physics; sourceTree = "<group>"; };
-		122CE8C1B326B89F38BB2099 /* Gameplay */ = {isa = PBXGroup; children = (BBDDB76F321846FC5B1DA9DD, 91EAC156A9B0761B3273A54C, 8F57866719F360AB85547DFA, 2057E55F0742A4F8484C04A8,); name = Gameplay; sourceTree = "<group>"; };
-		B4E2C7AD9AD488652DBD050E /* Model */ = {isa = PBXGroup; children = (F424D6551B430AD30C871732,); name = Model; sourceTree = "<group>"; };
-		D85BD55B3168EDBA261D2036 /* Controller */ = {isa = PBXGroup; children = (F0CC00000000000000000002,); name = Controller; sourceTree = "<group>"; };
-		B7E29E47981CBDD90E12670E /* Language */ = {isa = PBXGroup; children = (B4E2C7AD9AD488652DBD050E, D85BD55B3168EDBA261D2036,); name = Language; sourceTree = "<group>"; };
-		4A2C1FDAF9A570267637E7C4 /* Controller */ = {isa = PBXGroup; children = (EC13486C0696165B73A473EC,); name = Controller; sourceTree = "<group>"; };
-		AEEAE23D20F765B243A8AB77 /* Privacy */ = {isa = PBXGroup; children = (4A2C1FDAF9A570267637E7C4,); name = Privacy; sourceTree = "<group>"; };
-		44CC8AF90BC2038D51E17C34 /* Settings */ = {isa = PBXGroup; children = (B7E29E47981CBDD90E12670E, AEEAE23D20F765B243A8AB77,); name = Settings; sourceTree = "<group>"; };
-		9008E37A9C2AE534B5A28582 /* Features */ = {isa = PBXGroup; children = (122CE8C1B326B89F38BB2099, B3AAE0B7D0E6678F7585D955, 44CC8AF90BC2038D51E17C34,); name = Features; sourceTree = "<group>"; };
-		892A49F4874E4D9B647BA1D4 /* DeviceAdaptation */ = {isa = PBXGroup; children = (B1C76A35BDAE05968FB2EC79,); name = DeviceAdaptation; sourceTree = "<group>"; };
-		D2F2D4A58B0F4B4351A53719 /* Input */ = {isa = PBXGroup; children = (E9BBAC8FA92F9D21B1CE8506,); name = Input; sourceTree = "<group>"; };
-		5DD749885DAF5AC40CEC2E54 /* Feedback */ = {isa = PBXGroup; children = (60E8023DF635CB57CDD78E0D,); name = Feedback; sourceTree = "<group>"; };
-		5E4DE1EBFB3C40A0226B0F05 /* Theme */ = {isa = PBXGroup; children = (B915D33675AE604410A237D8,); name = Theme; sourceTree = "<group>"; };
-		3D0D0AB59B7472F09F6C4DCB /* Core */ = {isa = PBXGroup; children = (892A49F4874E4D9B647BA1D4, D2F2D4A58B0F4B4351A53719, 5DD749885DAF5AC40CEC2E54, 5E4DE1EBFB3C40A0226B0F05,); name = Core; sourceTree = "<group>"; };
-		950353CA4863D0F4618A2835 /* Localization */ = {isa = PBXGroup; children = (2A86B8C5A73B79941117EF71,); name = Localization; sourceTree = "<group>"; };
-		547F334DB73575B86FA5DAF0 /* Levels */ = {isa = PBXGroup; children = (AD3EEAC21FB1D5C86DDE8D30, B4AE30D0E612108D5FFC2F08, 77E42BD45014D43A3085923D, 1A7692F5969114E6FFF6FC3D, 8535BE62379A1787ABE2A86E, 688E8CC1F23802D394974E43, 206039CEA7AA2EBFCFFE82F3, 0BCD4C184AEC76056B647ECE, A73AD3C2C112EC17985D7C1B,); name = Levels; sourceTree = "<group>"; };
-		17CA7E43C0173B0B2830F2A9 /* Sounds */ = {isa = PBXGroup; children = (73F76FB12B2C6C6E48ABD14B, C67F016340CD1393270E6ECC,); name = Sounds; sourceTree = "<group>"; };
-		AFCDF8E0A9B825D7F553BCE3 /* Configuration */ = {isa = PBXGroup; children = (6C7410FF9339057A752616B6,); name = Configuration; sourceTree = "<group>"; };
-		CE05D48824930ABC059A897B /* Privacy */ = {isa = PBXGroup; children = (04F4C45258CCCB196018DA85, 5BDC14FE2C2C8A63E5D216DB,); name = Privacy; sourceTree = "<group>"; };
-		72F8F5529C0BA7EF055C0BA2 /* Resources */ = {isa = PBXGroup; children = (950353CA4863D0F4618A2835, 547F334DB73575B86FA5DAF0, 17CA7E43C0173B0B2830F2A9, AFCDF8E0A9B825D7F553BCE3, CE05D48824930ABC059A897B, 41DABAE7B9269B285D97D343,); name = Resources; sourceTree = "<group>"; };
-		94ED0C02604EB569D4FD4B12 /* Club */ = {isa = PBXGroup; children = (0A5598ADB014052951DC4710,); name = Club; sourceTree = "<group>"; };
-		128527EB24C10BA5BBD7FB45 /* Gameplay */ = {isa = PBXGroup; children = (962F3A2BFE4E2DD9FD81CED3, E6DFD2FD5D3308457E0861C0, BDBBED78D2E732F703C2F1E2,); name = Gameplay; sourceTree = "<group>"; };
-		9E044B3A184C1FC56D9D41DC /* Localization */ = {isa = PBXGroup; children = (1E2A918FC28CC8D761304542,); name = Localization; sourceTree = "<group>"; };
-		9462C2109C07146BD47F0DB2 /* Unit */ = {isa = PBXGroup; children = (94ED0C02604EB569D4FD4B12, 128527EB24C10BA5BBD7FB45, 9E044B3A184C1FC56D9D41DC,); name = Unit; sourceTree = "<group>"; };
-		C1C653579B5D261E6345C0BB /* Club */ = {isa = PBXGroup; children = (E5D2C5DB6803F41501BE0F77,); name = Club; sourceTree = "<group>"; };
-		963B0E176BF696FD1FAE4DD0 /* Gameplay */ = {isa = PBXGroup; children = (8907B974BB1C97AE9D25D6BF,); name = Gameplay; sourceTree = "<group>"; };
-		78BB57E5092F0466ADD979CE /* Localization */ = {isa = PBXGroup; children = (860CB46E03E39D0A70638C42,); name = Localization; sourceTree = "<group>"; };
-		A7216A23C6F3122B1E378B23 /* Release */ = {isa = PBXGroup; children = (A1F758A17AE6910CE000D236,); name = Release; sourceTree = "<group>"; };
-		B156DF85133A0CB8993950A8 /* UI */ = {isa = PBXGroup; children = (C1C653579B5D261E6345C0BB, 963B0E176BF696FD1FAE4DD0, 78BB57E5092F0466ADD979CE, A7216A23C6F3122B1E378B23,); name = UI; sourceTree = "<group>"; };
-		F9DCA045F65CB82802FBCE9B /* Tests */ = {isa = PBXGroup; children = (9462C2109C07146BD47F0DB2, B156DF85133A0CB8993950A8,); name = Tests; sourceTree = "<group>"; };
-
+		053A7449B4C641C34582E937 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8210E8AA51B2C88654018F1 /* Features/Club/Model/FPClubProgress.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		122CE8C1B326B89F38BB2099 /* Gameplay */ = {
+			isa = PBXGroup;
+			children = (
+				BBDDB76F321846FC5B1DA9DD /* Model */,
+				91EAC156A9B0761B3273A54C /* View */,
+				8F57866719F360AB85547DFA /* Controller */,
+				2057E55F0742A4F8484C04A8 /* Physics */,
+			);
+			name = Gameplay;
+			sourceTree = "<group>";
+		};
+		128527EB24C10BA5BBD7FB45 /* Gameplay */ = {
+			isa = PBXGroup;
+			children = (
+				962F3A2BFE4E2DD9FD81CED3 /* Tests/Unit/Gameplay/FPPhysicsTests.swift */,
+				E6DFD2FD5D3308457E0861C0 /* Tests/Unit/Gameplay/FPPrototypeTests.swift */,
+				BDBBED78D2E732F703C2F1E2 /* Tests/Unit/Gameplay/FPTuningTests.swift */,
+			);
+			name = Gameplay;
+			sourceTree = "<group>";
+		};
+		17CA7E43C0173B0B2830F2A9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				73F76FB12B2C6C6E48ABD14B /* Resources/Sounds/hole.wav */,
+				C67F016340CD1393270E6ECC /* Resources/Sounds/putt.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		2057E55F0742A4F8484C04A8 /* Physics */ = {
+			isa = PBXGroup;
+			children = (
+				7DC6E96DA358D84AA8C0FD12 /* Features/Gameplay/Physics/FPPhysicsPort.swift */,
+				24163AB13C3DB815EBA28B67 /* Features/Gameplay/Physics/FPPhysicsWorld.swift */,
+			);
+			name = Physics;
+			sourceTree = "<group>";
+		};
+		3D0D0AB59B7472F09F6C4DCB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				892A49F4874E4D9B647BA1D4 /* DeviceAdaptation */,
+				D2F2D4A58B0F4B4351A53719 /* Input */,
+				5DD749885DAF5AC40CEC2E54 /* Feedback */,
+				5E4DE1EBFB3C40A0226B0F05 /* Theme */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		44CC8AF90BC2038D51E17C34 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B7E29E47981CBDD90E12670E /* Language */,
+				AEEAE23D20F765B243A8AB77 /* Privacy */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		4A2C1FDAF9A570267637E7C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC13486C0696165B73A473EC /* Features/Settings/Privacy/Controller/FPPrivacyController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		547F334DB73575B86FA5DAF0 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				AD3EEAC21FB1D5C86DDE8D30 /* Resources/Levels/01-meadow.json */,
+				B4AE30D0E612108D5FFC2F08 /* Resources/Levels/02-canal.json */,
+				77E42BD45014D43A3085923D /* Resources/Levels/03-sand.json */,
+				1A7692F5969114E6FFF6FC3D /* Resources/Levels/puzzle-01.json */,
+				8535BE62379A1787ABE2A86E /* Resources/Levels/puzzle-02.json */,
+				688E8CC1F23802D394974E43 /* Resources/Levels/puzzle-03.json */,
+				206039CEA7AA2EBFCFFE82F3 /* Resources/Levels/puzzle-04.json */,
+				0BCD4C184AEC76056B647ECE /* Resources/Levels/puzzle-05.json */,
+				A73AD3C2C112EC17985D7C1B /* Resources/Levels/puzzle-06.json */,
+			);
+			name = Levels;
+			sourceTree = "<group>";
+		};
+		5BB8A344C7EA7109E8B4E4BD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				769D5E90C932D0E09039BE4C /* App/AppDelegate.swift */,
+				3BBF3E52DE8553E94315880B /* App/SceneDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		5DD749885DAF5AC40CEC2E54 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				60E8023DF635CB57CDD78E0D /* Core/Feedback/FPSound.swift */,
+			);
+			name = Feedback;
+			sourceTree = "<group>";
+		};
+		5E4DE1EBFB3C40A0226B0F05 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				B915D33675AE604410A237D8 /* Core/Theme/FPTheme.swift */,
+			);
+			name = Theme;
+			sourceTree = "<group>";
+		};
+		72F8F5529C0BA7EF055C0BA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				950353CA4863D0F4618A2835 /* Localization */,
+				547F334DB73575B86FA5DAF0 /* Levels */,
+				17CA7E43C0173B0B2830F2A9 /* Sounds */,
+				AFCDF8E0A9B825D7F553BCE3 /* Configuration */,
+				CE05D48824930ABC059A897B /* Privacy */,
+				41DABAE7B9269B285D97D343 /* Resources/Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		78BB57E5092F0466ADD979CE /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				860CB46E03E39D0A70638C42 /* Tests/UI/Localization/FPLocalizationUITests.swift */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		892A49F4874E4D9B647BA1D4 /* DeviceAdaptation */ = {
+			isa = PBXGroup;
+			children = (
+				B1C76A35BDAE05968FB2EC79 /* Core/DeviceAdaptation/FPRegions.swift */,
+			);
+			name = DeviceAdaptation;
+			sourceTree = "<group>";
+		};
+		8F57866719F360AB85547DFA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B0083DE8578962D6DD37C904 /* Features/Gameplay/Controller/FPAdaptiveController.swift */,
+				98337423B836464903903ED1 /* Features/Gameplay/Controller/FPArrangementController.swift */,
+				DAED7F4FEC031B4E198E99E3 /* Features/Gameplay/Controller/FPControlsController.swift */,
+				F0C010000000000000000012 /* Features/Gameplay/Controller/FPModeSelectionController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9008E37A9C2AE534B5A28582 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				122CE8C1B326B89F38BB2099 /* Gameplay */,
+				B3AAE0B7D0E6678F7585D955 /* Club */,
+				44CC8AF90BC2038D51E17C34 /* Settings */,
+			);
+			name = Features;
+			sourceTree = "<group>";
+		};
+		91EAC156A9B0761B3273A54C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0C010000000000000000013 /* Features/Gameplay/View/FPChibiArt.swift */,
+				14D3C87AC965C02AA772905B /* Features/Gameplay/View/FPCourseView.swift */,
+				6272CFD2A56E91DD83F9422C /* Features/Gameplay/View/FPPullControl.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9405796BD09A71B50C1253EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				86F6B7354DFF4C5B284606DC /* Features/Club/Controller/FPClubController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9462C2109C07146BD47F0DB2 /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+				94ED0C02604EB569D4FD4B12 /* Club */,
+				128527EB24C10BA5BBD7FB45 /* Gameplay */,
+				9E044B3A184C1FC56D9D41DC /* Localization */,
+			);
+			name = Unit;
+			sourceTree = "<group>";
+		};
+		94ED0C02604EB569D4FD4B12 /* Club */ = {
+			isa = PBXGroup;
+			children = (
+				0A5598ADB014052951DC4710 /* Tests/Unit/Club/FPClubTests.swift */,
+			);
+			name = Club;
+			sourceTree = "<group>";
+		};
+		950353CA4863D0F4618A2835 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				2A86B8C5A73B79941117EF71 /* Localizable.strings */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		963B0E176BF696FD1FAE4DD0 /* Gameplay */ = {
+			isa = PBXGroup;
+			children = (
+				8907B974BB1C97AE9D25D6BF /* Tests/UI/Gameplay/FPPrototypeUITests.swift */,
+			);
+			name = Gameplay;
+			sourceTree = "<group>";
+		};
+		9E044B3A184C1FC56D9D41DC /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				1E2A918FC28CC8D761304542 /* Tests/Unit/Localization/FPLocalizationTests.swift */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		A7216A23C6F3122B1E378B23 /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				A1F758A17AE6910CE000D236 /* Tests/UI/Release/FPReleaseUITests.swift */,
+			);
+			name = Release;
+			sourceTree = "<group>";
+		};
+		AEEAE23D20F765B243A8AB77 /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				4A2C1FDAF9A570267637E7C4 /* Controller */,
+			);
+			name = Privacy;
+			sourceTree = "<group>";
+		};
+		AFCDF8E0A9B825D7F553BCE3 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				6C7410FF9339057A752616B6 /* Resources/tuning.json */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		B156DF85133A0CB8993950A8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C1C653579B5D261E6345C0BB /* Club */,
+				963B0E176BF696FD1FAE4DD0 /* Gameplay */,
+				78BB57E5092F0466ADD979CE /* Localization */,
+				A7216A23C6F3122B1E378B23 /* Release */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		B3AAE0B7D0E6678F7585D955 /* Club */ = {
+			isa = PBXGroup;
+			children = (
+				053A7449B4C641C34582E937 /* Model */,
+				9405796BD09A71B50C1253EB /* Controller */,
+			);
+			name = Club;
+			sourceTree = "<group>";
+		};
+		B4E2C7AD9AD488652DBD050E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F424D6551B430AD30C871732 /* Features/Settings/Language/Model/FPLocalization.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B7E29E47981CBDD90E12670E /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				B4E2C7AD9AD488652DBD050E /* Model */,
+				D85BD55B3168EDBA261D2036 /* Controller */,
+			);
+			name = Language;
+			sourceTree = "<group>";
+		};
+		BBDDB76F321846FC5B1DA9DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47D0E4CE07AF7D401ED16F57 /* Features/Gameplay/Model/FPDemoSession.swift */,
+				F0C010000000000000000011 /* Features/Gameplay/Model/FPGamePresentation.swift */,
+				6259DFA43F125170145B4F21 /* Features/Gameplay/Model/FPLevel.swift */,
+				24C2253B33893C2550A3A2F8 /* Features/Gameplay/Model/FPTuning.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C1C653579B5D261E6345C0BB /* Club */ = {
+			isa = PBXGroup;
+			children = (
+				E5D2C5DB6803F41501BE0F77 /* Tests/UI/Club/FPClubUITests.swift */,
+			);
+			name = Club;
+			sourceTree = "<group>";
+		};
+		CE05D48824930ABC059A897B /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				04F4C45258CCCB196018DA85 /* Resources/PrivacyInfo.xcprivacy */,
+				5BDC14FE2C2C8A63E5D216DB /* Resources/PrivacyPolicy.txt */,
+			);
+			name = Privacy;
+			sourceTree = "<group>";
+		};
+		D2F2D4A58B0F4B4351A53719 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				E9BBAC8FA92F9D21B1CE8506 /* Core/Input/FPPullMath.swift */,
+			);
+			name = Input;
+			sourceTree = "<group>";
+		};
+		D85BD55B3168EDBA261D2036 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F0CC00000000000000000002 /* Features/Settings/Language/Controller/FPLanguageController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		E50290A24C49A459B43487C5 = {
 			isa = PBXGroup;
-			children = (				5BB8A344C7EA7109E8B4E4BD,
-				9008E37A9C2AE534B5A28582,
-				3D0D0AB59B7472F09F6C4DCB,
-				72F8F5529C0BA7EF055C0BA2,
-				F9DCA045F65CB82802FBCE9B,
-				FBDC4F23F93125BBEEAE800C,
+			children = (
+				5BB8A344C7EA7109E8B4E4BD /* App */,
+				9008E37A9C2AE534B5A28582 /* Features */,
+				3D0D0AB59B7472F09F6C4DCB /* Core */,
+				72F8F5529C0BA7EF055C0BA2 /* Resources */,
+				F9DCA045F65CB82802FBCE9B /* Tests */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		F9DCA045F65CB82802FBCE9B /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9462C2109C07146BD47F0DB2 /* Unit */,
+				B156DF85133A0CB8993950A8 /* UI */,
+			);
+			name = Tests;
 			sourceTree = "<group>";
 		};
 		FBDC4F23F93125BBEEAE800C /* Products */ = {
@@ -272,9 +571,18 @@
 			};
 			buildConfigurationList = 862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "FoldPutt" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = "zh-Hans";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
-			knownRegions = ("zh-Hans", tr, ar, pt, fr, es, Base);
+			knownRegions = (
+				en,
+				"zh-Hans",
+				tr,
+				ar,
+				pt,
+				fr,
+				es,
+				Base,
+			);
 			mainGroup = E50290A24C49A459B43487C5;
 			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
 			projectDirPath = "";
@@ -292,17 +600,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D46D8991B5E99977F91A3678 /* Localizable.strings */,
+				D46D8991B5E99977F91A3678 /* Localizable.strings in Resources */,
 				9A958E333FD7BC8A5300B3D4 /* Resources/PrivacyPolicy.txt in Resources */,
 				CECA45FA9B242D858935C870 /* Resources/PrivacyInfo.xcprivacy in Resources */,
-				732E4DBD9EAFD334A1014CC2,
-				7F151A160D49D3A0C8DB1254,
-				4A543358CED5C247668DC1E9,
-				668680901CBBC048CC7E90DF,
-				B1C0AD60FB5996FDAA56F97A,
-				4994364944D4825873901D5E,
-				54AC3A60D1A87F500E5A36DE /* Resources/Sounds/hole.wav */,
-				53B4A37E8FA498D3D99D20F2 /* Resources/Sounds/putt.wav */,
+				732E4DBD9EAFD334A1014CC2 /* Resources/Levels/puzzle-06.json in Resources */,
+				7F151A160D49D3A0C8DB1254 /* Resources/Levels/puzzle-05.json in Resources */,
+				4A543358CED5C247668DC1E9 /* Resources/Levels/puzzle-04.json in Resources */,
+				668680901CBBC048CC7E90DF /* Resources/Levels/puzzle-03.json in Resources */,
+				B1C0AD60FB5996FDAA56F97A /* Resources/Levels/puzzle-02.json in Resources */,
+				4994364944D4825873901D5E /* Resources/Levels/puzzle-01.json in Resources */,
+				54AC3A60D1A87F500E5A36DE /* Resources/Sounds/hole.wav in Resources */,
+				53B4A37E8FA498D3D99D20F2 /* Resources/Sounds/putt.wav in Resources */,
 				02D82F740A79321B9C7848A0 /* Resources/Assets.xcassets in Resources */,
 				185272EACEDFF87A7D94FAC4 /* Resources/Levels/02-canal.json in Resources */,
 				A1A4423CA09A00E6AA780406 /* Resources/Levels/01-meadow.json in Resources */,
@@ -318,30 +626,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE5272961B3F18FEE058DF2B /* FPLocalization.swift */,
-                F0CC00000000000000000001,
-				755710DD4CA10B9BE0D137E4 /* Views/FPPrivacyController.swift in Sources */,
-				CF7B67FC6D46D989743A3143,
-				22460324F9D42DC3875952A8,
-				F0C010000000000000000001,
-				F0C010000000000000000002,
-				F0C010000000000000000003,
-				46723290A6AEA36558F46AC1 /* FPSound.swift */,
+				EE5272961B3F18FEE058DF2B /* Features/Settings/Language/Model/FPLocalization.swift in Sources */,
+				F0CC00000000000000000001 /* Features/Settings/Language/Controller/FPLanguageController.swift in Sources */,
+				755710DD4CA10B9BE0D137E4 /* Features/Settings/Privacy/Controller/FPPrivacyController.swift in Sources */,
+				CF7B67FC6D46D989743A3143 /* Features/Club/Controller/FPClubController.swift in Sources */,
+				22460324F9D42DC3875952A8 /* Features/Club/Model/FPClubProgress.swift in Sources */,
+				F0C010000000000000000001 /* Features/Gameplay/Model/FPGamePresentation.swift in Sources */,
+				F0C010000000000000000002 /* Features/Gameplay/Controller/FPModeSelectionController.swift in Sources */,
+				F0C010000000000000000003 /* Features/Gameplay/View/FPChibiArt.swift in Sources */,
+				46723290A6AEA36558F46AC1 /* Core/Feedback/FPSound.swift in Sources */,
 				6FD57CD2A8FE81A60DA31EB2 /* App/AppDelegate.swift in Sources */,
 				8D19102AF5A6D5F27C1F7EC7 /* App/SceneDelegate.swift in Sources */,
-				372C2B5D327247BE41E8D347 /* Models/FPDemoSession.swift in Sources */,
-				A86F30A93938D75D6C69F690 /* Views/FPAdaptiveController.swift in Sources */,
-				78CE73FD2D546532DFCAF502 /* Views/FPControlsController.swift in Sources */,
-				DC076E85C5D88DD0667887F1 /* Views/FPCourseView.swift in Sources */,
-				2A203551C29A50B6BA011F4B /* Views/FPPullControl.swift in Sources */,
-				ED834F4F92E352DED5733CB3 /* Systems/FoldAdaptation/FPRegions.swift in Sources */,
-				2F9F93B0EED44084BCA2F6DD /* Systems/Input/FPPullMath.swift in Sources */,
-				F046FB8CC47BE9122DD1973D /* Resources/Motion/FPTheme.swift in Sources */,
-				8DD9179FEFB4FF3B9AADED4E /* Views/FPArrangementController.swift in Sources */,
-				6C22A55275DC3A4F809A781F /* Systems/Physics/FPPhysicsPort.swift in Sources */,
-				F348314D9BDEBB682E9C5551 /* Models/FPLevel.swift in Sources */,
-				D49B061DBAC27033FD0CCC53 /* Systems/Physics/FPPhysicsWorld.swift in Sources */,
-				249773E177F14D8E5049D765 /* Models/FPTuning.swift in Sources */,
+				372C2B5D327247BE41E8D347 /* Features/Gameplay/Model/FPDemoSession.swift in Sources */,
+				A86F30A93938D75D6C69F690 /* Features/Gameplay/Controller/FPAdaptiveController.swift in Sources */,
+				78CE73FD2D546532DFCAF502 /* Features/Gameplay/Controller/FPControlsController.swift in Sources */,
+				DC076E85C5D88DD0667887F1 /* Features/Gameplay/View/FPCourseView.swift in Sources */,
+				2A203551C29A50B6BA011F4B /* Features/Gameplay/View/FPPullControl.swift in Sources */,
+				ED834F4F92E352DED5733CB3 /* Core/DeviceAdaptation/FPRegions.swift in Sources */,
+				2F9F93B0EED44084BCA2F6DD /* Core/Input/FPPullMath.swift in Sources */,
+				F046FB8CC47BE9122DD1973D /* Core/Theme/FPTheme.swift in Sources */,
+				8DD9179FEFB4FF3B9AADED4E /* Features/Gameplay/Controller/FPArrangementController.swift in Sources */,
+				6C22A55275DC3A4F809A781F /* Features/Gameplay/Physics/FPPhysicsPort.swift in Sources */,
+				F348314D9BDEBB682E9C5551 /* Features/Gameplay/Model/FPLevel.swift in Sources */,
+				D49B061DBAC27033FD0CCC53 /* Features/Gameplay/Physics/FPPhysicsWorld.swift in Sources */,
+				249773E177F14D8E5049D765 /* Features/Gameplay/Model/FPTuning.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,10 +657,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D02B5E248C6703092F9EE16B /* FPLocalizationUITests.swift */,
-				5560589A0D8F34FDFB06EA7A /* UITests/FPReleaseUITests.swift in Sources */,
-				FF01C439594B02C52E2506FD,
-				9DC29A9C143B0D41D6E67B76 /* UITests/FPPrototypeUITests.swift in Sources */,
+				D02B5E248C6703092F9EE16B /* Tests/UI/Localization/FPLocalizationUITests.swift in Sources */,
+				5560589A0D8F34FDFB06EA7A /* Tests/UI/Release/FPReleaseUITests.swift in Sources */,
+				FF01C439594B02C52E2506FD /* Tests/UI/Club/FPClubUITests.swift in Sources */,
+				9DC29A9C143B0D41D6E67B76 /* Tests/UI/Gameplay/FPPrototypeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,11 +668,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5360B2A639EB219CF37D357 /* FPLocalizationTests.swift */,
-				42D43F9DD4BBD7CFB17A9409,
-				06F199D80D88CDC278A3ABBC /* Tests/FPPrototypeTests.swift in Sources */,
-				AEDB91961D6FA2034E3147AB /* Tests/FPPhysicsTests.swift in Sources */,
-				702D8CE50BB30A96D1A68361 /* Tests/FPTuningTests.swift in Sources */,
+				F5360B2A639EB219CF37D357 /* Tests/Unit/Localization/FPLocalizationTests.swift in Sources */,
+				42D43F9DD4BBD7CFB17A9409 /* Tests/Unit/Club/FPClubTests.swift in Sources */,
+				06F199D80D88CDC278A3ABBC /* Tests/Unit/Gameplay/FPPrototypeTests.swift in Sources */,
+				AEDB91961D6FA2034E3147AB /* Tests/Unit/Gameplay/FPPhysicsTests.swift in Sources */,
+				702D8CE50BB30A96D1A68361 /* Tests/Unit/Gameplay/FPTuningTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +690,23 @@
 			targetProxy = D68D9F4FDF18FEA3ABEACD2A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A86B8C5A73B79941117EF71 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A10CA11E2026102400000001 /* en */,
+				FA5AC5BC66B2DD395147184B /* zh-Hans */,
+				BF89DD975169C168BCD28E2E /* tr */,
+				CE1223CD8DD7712232EA23E7 /* ar */,
+				F17ECAADE9F7DD603E4868A1 /* pt */,
+				A085167A08DFACD32089ED0C /* fr */,
+				DD0C7512FD0B30E98D97A593 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		37000B0978DAE1EDBB3D28CF /* Release */ = {

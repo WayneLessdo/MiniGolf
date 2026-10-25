@@ -70,7 +70,7 @@ final class FPPrototypeUITests:XCTestCase {
             XCTAssertTrue(root.waitForExistence(timeout:10))
             expectation(for:NSPredicate(format:"value CONTAINS %@ AND value CONTAINS %@","immersive=true","level=03"),evaluatedWith:root);waitForExpectations(timeout:8)
             XCTAssertTrue(app.descendants(matching:.any)["pullControl"].isHittable)
-            XCTAssertTrue(app.buttons["设置与演示"].isHittable)
+            XCTAssertTrue(app.buttons["courseOptions"].isHittable)
             capture(app,name:chibi ? "fullscreen-chibi-review":"fullscreen-classic-review")
             app.terminate()
         }
@@ -95,7 +95,7 @@ final class FPPrototypeUITests:XCTestCase {
         let root=app.descendants(matching:.any)["gameArrangement"]
         XCTAssertTrue(root.waitForExistence(timeout:5));XCTAssertTrue(String(describing:root.value ?? "").contains("gameMode=classic"))
         capture(app,name:"ordinary-mode-preserved")
-        app.buttons["设置与演示"].tap();tapOption("切换游戏模式",in:app)
+        app.buttons["courseOptions"].tap();tapOption("切换游戏模式",in:app)
         XCTAssertTrue(chibi.waitForExistence(timeout:5))
         if !chibi.isHittable { app.scrollViews.firstMatch.swipeUp() }
         chibi.tap()
@@ -121,16 +121,16 @@ final class FPPrototypeUITests:XCTestCase {
         let root=app.descendants(matching:.any)["gameArrangement"]
         expectation(for:NSPredicate(format:"value CONTAINS %@","phase=ready"),evaluatedWith:root);waitForExpectations(timeout:10)
         let launch=String(describing:root.value ?? "").split(separator:";").first { $0.hasPrefix("launch=") }
-        app.buttons["设置与演示"].tap()
+        app.buttons["courseOptions"].tap()
         option("小球心情 · 软乎乎",in:app).tap();tapOption("有点皮",in:app)
         expectation(for:NSPredicate(format:"value CONTAINS %@","chibiMood=silly"),evaluatedWith:root);waitForExpectations(timeout:3)
-        app.buttons["设置与演示"].tap()
+        app.buttons["courseOptions"].tap()
         option("小球外观 · 糯米团子",in:app).tap();tapOption("桃桃丸子",in:app)
         expectation(for:NSPredicate(format:"value CONTAINS %@","ballSkin=peach"),evaluatedWith:root);waitForExpectations(timeout:3)
         XCTAssertEqual(String(describing:root.value ?? "").split(separator:";").first { $0.hasPrefix("launch=") },launch)
         XCTAssertTrue(app.staticTexts["1 杆  /  PAR 3"].exists)
         capture(app,name:"q-mode-peach-silly")
-        app.buttons["设置与演示"].tap();tapOption("切换游戏模式",in:app)
+        app.buttons["courseOptions"].tap();tapOption("切换游戏模式",in:app)
         let classic=app.buttons["chooseMode-classic"];XCTAssertTrue(classic.waitForExistence(timeout:5));classic.tap()
         XCTAssertTrue(pull.waitForExistence(timeout:5));XCTAssertTrue(pull.isHittable)
         XCTAssertEqual(String(describing:root.value ?? "").split(separator:";").first { $0.hasPrefix("launch=") },launch)
@@ -144,7 +144,7 @@ final class FPPrototypeUITests:XCTestCase {
         XCTAssertTrue(chibi.isHittable);capture(app,name:"q-mode-large-text-picker");chibi.tap()
         let pull=app.descendants(matching:.any)["pullControl"]
         XCTAssertTrue(pull.waitForExistence(timeout:5));XCTAssertTrue(pull.isHittable)
-        XCTAssertTrue(app.buttons["设置与演示"].isHittable)
+        XCTAssertTrue(app.buttons["courseOptions"].isHittable)
         capture(app,name:"q-mode-large-text")
     }
     @MainActor private func qDrag(_ app:XCUIApplication,power:Double) {
@@ -177,7 +177,7 @@ final class FPPrototypeUITests:XCTestCase {
         start.press(forDuration:0.3,thenDragTo:start.withOffset(backswing(app,23)))
         XCTAssertTrue(app.staticTexts["1 杆  /  PAR 3"].waitForExistence(timeout:5))
         XCTAssertTrue(String(describing:root.value ?? "").contains("courseVisible=true"))
-        app.buttons["设置与演示"].tap();tapOption("掌机模式",in:app)
+        app.buttons["courseOptions"].tap();tapOption("掌机模式",in:app)
         XCTAssertTrue(app.staticTexts["1 杆  /  PAR 3"].exists)
         let capture=XCTAttachment(screenshot:app.screenshot());capture.name="immersive-return-same-shot";capture.lifetime = .keepAlways;add(capture)
     }
@@ -283,7 +283,7 @@ final class FPPrototypeUITests:XCTestCase {
         next.press(forDuration:0.3,thenDragTo:next.withOffset(backswing(app,23)))
         XCTAssertTrue(String(describing:root.value ?? "").contains("level=01"),String(describing:root.value))
         XCTAssertTrue(String(describing:root.value ?? "").contains("strokes=1"),String(describing:root.value))
-        app.buttons["设置与演示"].tap()
+        app.buttons["courseOptions"].tap()
         XCTAssertTrue(option("音效",in:app).exists)
         dismissPopup(app)
         let menuClosed=XCTNSPredicateExpectation(predicate:NSPredicate(format:"exists == false"),object:option("音效",in:app))
@@ -336,7 +336,7 @@ final class FPPrototypeUITests:XCTestCase {
     }
     @MainActor func testOptionsScrollOutsideDismissAndHapticsToggle() {
         let app=XCUIApplication();app.launchArguments=["--ui-testing"];app.launch()
-        let menu=app.buttons["设置与演示"]
+        let menu=app.buttons["courseOptions"]
         XCTAssertTrue(menu.waitForExistence(timeout:10))
         let pull=app.descendants(matching:.any)["pullControl"]
         let initial=pull.frame
@@ -376,7 +376,7 @@ final class FPPrototypeUITests:XCTestCase {
         XCTAssertTrue(pull.isHittable)
         qDrag(app,power:0.2)
         XCTAssertTrue(app.staticTexts["1 杆  /  PAR 3"].waitForExistence(timeout:5), app.debugDescription)
-        let menu=app.buttons["设置与演示"]
+        let menu=app.buttons["courseOptions"]
         XCTAssertTrue(menu.exists)
         let root=app.descendants(matching:.any)["gameArrangement"]
         // 先等这次真实轻推停球，避免在一杆进洞回放隐藏 HUD 时点选项。

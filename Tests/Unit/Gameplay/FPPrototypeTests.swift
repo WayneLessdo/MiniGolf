@@ -257,3 +257,76 @@ extension FPPrototypeTests {
         XCTAssertTrue(area.contains(safe));XCTAssertFalse(two.exclusions.contains{$0.intersects(safe)})
     }
 }
+
+extension FPPrototypeTests {
+    @MainActor func testFeedbackDefaultsEnabledAndPreferencesIndependent() {
+        let defaults = UserDefaults.standard
+        let keys = ["FoldPutt.soundEnabled", "FoldPutt.hapticsEnabled"]
+        let previous = keys.map { defaults.object(forKey: $0) }
+        defer {
+            for (key, value) in zip(keys, previous) {
+                if let value { defaults.set(value, forKey: key) } else { defaults.removeObject(forKey: key) }
+            }
+        }
+        keys.forEach { defaults.removeObject(forKey: $0) }
+        XCTAssertTrue(FPSound.enabled); XCTAssertTrue(FPHaptics.enabled)
+        FPSound.enabled = false
+        XCTAssertFalse(FPSound.enabled); XCTAssertTrue(FPHaptics.enabled)
+        FPHaptics.enabled = false; FPSound.enabled = true
+        XCTAssertTrue(FPSound.enabled); XCTAssertFalse(FPHaptics.enabled)
+    }
+}
+
+extension FPPrototypeTests {
+    @MainActor func testNarrowControlScoreRemainsReadableWithFullAccessibilityLabel() throws {
+        let session = try FPDemoSession(metricsStore: nil)
+        let shot = FPShot(direction: CGVector(dx: 0, dy: -1), power: 0.2)
+        session.aim(shot); session.release(shot)
+        let controller = FPControlsController(session: session)
+        let window = UIWindow(frame: CGRect(x: 0, y: 0, width: 669, height: 421.5))
+        window.rootViewController = controller; window.makeKeyAndVisible()
+        defer { window.isHidden = true; window.rootViewController = nil }
+        controller.refresh(); controller.view.setNeedsLayout(); controller.view.layoutIfNeeded()
+        XCTAssertEqual(controller.score.text, FPL10n.number(1))
+        XCTAssertEqual(controller.score.accessibilityLabel, FPL10n.format("strokes_par", FPL10n.number(1), FPL10n.number(session.level.par)))
+        XCTAssertGreaterThanOrEqual(controller.score.bounds.height, controller.score.font.lineHeight-1)
+        XCTAssertGreaterThanOrEqual(controller.score.bounds.width, (controller.score.text! as NSString).size(withAttributes: [.font: controller.score.font!]).width-1)
+    }
+}
+
+@MainActor private final class FPHapticSpy: UIImpactFeedbackGenerator {
+    var preparations = 0
+    var intensities: [CGFloat] = []
+    override func prepare() { preparations += 1 }
+    override func impactOccurred(intensity: CGFloat) { intensities.append(intensity) }
+}
+
+extension FPPrototypeTests {
+    @MainActor func testHapticWarmupAndAcceptedShotRespectIndependentSwitch() throws {
+        let old = UserDefaults.standard.object(forKey: "FoldPutt.hapticsEnabled")
+        defer {
+            if let old { UserDefaults.standard.set(old, forKey: "FoldPutt.hapticsEnabled") }
+            else { UserDefaults.standard.removeObject(forKey: "FoldPutt.hapticsEnabled") }
+        }
+        FPHaptics.enabled = true
+        let shot = FPHapticSpy(style: .light), capture = FPHapticSpy(style: .light)
+        let feedback = FPHaptics(view: UIView(), shotGenerator: shot, captureGenerator: capture)
+        let session = try FPDemoSession(metricsStore: nil)
+        session.aimingBegan = { feedback.prepareShot() }
+        session.eventObserved = { feedback.play($0) }
+        let intent = FPShot(direction: CGVector(dx: 0, dy: -1), power: 0.2)
+        session.aim(nil); session.aim(intent)
+        XCTAssertEqual(shot.preparations, 1)
+        session.cancel(); session.release(intent)
+        XCTAssertTrue(shot.intensities.isEmpty)
+        session.aim(intent); session.release(intent); session.release(intent)
+        XCTAssertEqual(shot.preparations, 2)
+        XCTAssertEqual(shot.intensities, [FPMotion.shotHapticIntensity])
+        FPHaptics.enabled = false
+        feedback.prepareShot(); feedback.play("shot"); feedback.play("hole-capture")
+        XCTAssertEqual(shot.preparations, 2)
+        XCTAssertEqual(shot.intensities.count, 1); XCTAssertTrue(capture.intensities.isEmpty)
+        FPHaptics.enabled = true; feedback.play("hole-capture")
+        XCTAssertEqual(capture.intensities, [FPMotion.holeHapticIntensity])
+    }
+}

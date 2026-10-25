@@ -18,6 +18,7 @@ ORDER = {
 }
 SIZES = {
     "iphone": {(1206, 2622), (2622, 1206)},
+    "iphone-large": {(1320, 2868), (2868, 1320), (1290, 2796), (2796, 1290)},
     "ipad": {(2064, 2752), (2752, 2064), (2048, 2732), (2732, 2048)},
     "duo-outer": {(1398, 2034), (2034, 1398)},
     "duo-inner": {(2007, 2853), (2853, 2007)},
@@ -30,9 +31,14 @@ def main() -> None:
     parser.add_argument("device", choices=SIZES)
     parser.add_argument("--system", required=True)
     parser.add_argument("--capture-source", default="XCUIApplication.screenshot")
+    parser.add_argument("--expected-count", type=int, default=6)
+    parser.add_argument("--locale", help="筛选对应语言截图并保存至独立目录，保留旧版证据")
     args = parser.parse_args()
     evidence = ROOT / "docs/screenshots/release-20261022" / args.device
     public = ROOT / "release/app-store/screenshots" / args.device
+    if args.locale:
+        evidence = ROOT / "docs/screenshots/player-update-20261024" / args.locale / args.device
+        public = ROOT / "release/app-store/screenshots" / args.locale / args.device
     evidence.mkdir(parents=True, exist_ok=True)
     public.mkdir(parents=True, exist_ok=True)
     manifest = json.loads((args.attachments / "manifest.json").read_text())
@@ -46,6 +52,11 @@ def main() -> None:
             if not match or item.get("isAssociatedWithFailure"):
                 continue
             stem = match.group(1)
+            if args.locale:
+                prefix = "store-" + args.locale + "-"
+                if not stem.startswith(prefix):
+                    continue
+                stem = "store-" + stem.removeprefix(prefix)
             source = args.attachments / item["exportedFileName"]
             if source.suffix not in {".png", ".txt"}:
                 continue
@@ -65,7 +76,7 @@ def main() -> None:
             items.append({
                 "file": str(destination.relative_to(ROOT)), "original": str(original.relative_to(ROOT)),
                 "layout": str((evidence / (stem + "-layout.txt")).relative_to(ROOT)),
-                "pixels": [width, height], "system": args.system, "sdk": "iOS Simulator 27.1",
+                "pixels": [width, height], "system": args.system, "sdk": "iOS Simulator 27.1", "language": args.locale or "zh-Hans",
                 "configuration": "Debug", "toolchain_build": "27A9269", "fixture": False,
                 "capture_source": args.capture_source,
                 "test": test["testIdentifier"], "device_name": item["deviceName"],
@@ -74,7 +85,7 @@ def main() -> None:
                 "sha256": hashlib.sha256(destination.read_bytes()).hexdigest(),
                 "processing": "PNG to opaque JPEG only; no crop, scaling, overlays, or fabricated game state",
             })
-    assert len(items) == 6, f"Expected six real gameplay screenshots, got {len(items)}"
+    assert len(items) == args.expected_count, f"Expected {args.expected_count} real gameplay screenshots, got {len(items)}"
     assert all((ROOT / item["layout"]).exists() for item in items), "Missing layout evidence"
     items.sort(key=lambda x: x["file"])
     (public / "manifest.json").write_text(json.dumps(items, ensure_ascii=False, indent=2) + "\n")

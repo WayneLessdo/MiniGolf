@@ -3,13 +3,13 @@ import XCTest
 
 final class FPLocalizationTests: XCTestCase {
     func testRegionalPreferencesResolveToRequestedBaseLanguages() {
-        let languages=["zh-Hans","tr","ar","pt","fr","es"]
+        let languages=["zh-Hans","en","tr","ar","pt","fr","es"]
         for (preference,base) in [("tr-TR","tr"),("ar-SA","ar"),("pt-BR","pt"),("pt-PT","pt"),("fr-CA","fr"),("es-MX","es")] {
             XCTAssertEqual(Bundle.preferredLocalizations(from:languages,forPreferences:[preference]).first,base)
         }
     }
     func testAllCompiledLanguagesHaveCompleteFormatSafeResources() throws {
-        let languages=["zh-Hans","tr","ar","pt","fr","es"]
+        let languages=["zh-Hans","en","tr","ar","pt","fr","es"]
         var source:[String:String]=[:]
         let expression=try NSRegularExpression(pattern:"%(?:(\\d+)\\$)?@")
         func slots(_ value:String)->[Int] {
@@ -61,6 +61,20 @@ final class FPLocalizationTests: XCTestCase {
         XCTAssertEqual(relaunched.language, .turkish); XCTAssertFalse(relaunched.isRightToLeft)
         XCTAssertNil(FPLanguageManager(defaults: defaults).selection)
     }
+    @MainActor func testEnglishSelectionAndUnsupportedSystemFallback() throws {
+        let name = "FoldPutt.English." + UUID().uuidString
+        let defaults = try XCTUnwrap(UserDefaults(suiteName: name))
+        defer { defaults.removePersistentDomain(forName: name) }
+        let manager = FPLanguageManager(defaults: defaults, systemPreferences: { ["en-US"] })
+        XCTAssertEqual(manager.language, .english)
+        XCTAssertEqual(manager.text("settings_language"), "Language")
+        manager.select(.english)
+        XCTAssertEqual(FPLanguageManager(defaults: defaults, systemPreferences: { ["ar-SA"] }).language, .english)
+        manager.select(nil)
+        XCTAssertEqual(FPLanguageManager(defaults: defaults, systemPreferences: { ["ja-JP"] }).language, .english)
+        XCTAssertEqual(FPLanguageManager(defaults: defaults, systemPreferences: { ["de-DE", "pt-BR"] }).language, .portuguese)
+    }
+
     @MainActor func testLanguagePickerPausesPhysicsAndKeepsRoundAndLaunch() throws {
         let session = try FPDemoSession(metricsStore: nil)
         session.aim(FPShot(direction: CGVector(dx: 0, dy: -1), power: 0.2))

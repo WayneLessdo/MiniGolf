@@ -32,7 +32,7 @@ def render(source: str, language: str, page: str) -> str:
         f'<a href="support{suffix}.html">{support}</a><a href="privacy{suffix}.html">{privacy}</a>'
         f'<a href="mailto:waynelessdo@gmail.com">{contact}</a>'
         f'<a href="{switch}" lang="' + ("zh-Hans" if english else "en") + '">' + ("简体中文" if english else "English") + '</a></nav>'
-        "<main>" + body + "</main><footer>FoldPutt · Wayne · "
+        "<main>" + body + "</main><footer>MiniGolf: Putt &amp; Bloom · Wayne · "
         '<a href="mailto:waynelessdo@gmail.com">waynelessdo@gmail.com</a></footer></body></html>\n'
     )
 
@@ -50,14 +50,17 @@ def main() -> None:
     (metadata / "copyright.txt").write_text("2026 Wayne\n", encoding="utf-8")
     hosting_path = OUT / "hosting.json"
     hosting = json.loads(hosting_path.read_text(encoding="utf-8")) if hosting_path.exists() else {}
-    contact = {
+    contact_path = metadata / "contact.json"
+    # 重新生成网页时保留已核实的审核联系资料及说明，避免清空已有填写结果。
+    contact = json.loads(contact_path.read_text(encoding="utf-8")) if contact_path.exists() else {}
+    contact.update({
         "public_name": "Wayne", "support_email": "waynelessdo@gmail.com",
         "privacy_policy_url": hosting.get("privacy_policy_url"), "support_url": hosting.get("support_url"),
-        "review_contact_first_name": None, "review_contact_last_name": None,
-        "review_contact_phone": None,
-        "note": "公开名称由用户提供；审核姓名与电话须使用真实联系资料。网址以hosting.json的实际部署记录为准。",
-    }
-    (metadata / "contact.json").write_text(json.dumps(contact, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    })
+    for key in ["review_contact_first_name", "review_contact_last_name", "review_contact_phone"]:
+        contact.setdefault(key, None)
+    contact.setdefault("note", "公开名称由用户提供；审核姓名与电话须使用真实联系资料。网址以hosting.json的实际部署记录为准。")
+    contact_path.write_text(json.dumps(contact, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("Generated privacy/support pages and public contact metadata.")
 
 

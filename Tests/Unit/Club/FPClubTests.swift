@@ -1,5 +1,6 @@
 import XCTest
 import UIKit
+import Security
 @testable import FoldPutt
 
 final class FPClubTests:XCTestCase {
@@ -167,5 +168,70 @@ extension FPClubTests {
         XCTAssertTrue(resized.convert(resized.bounds,to:scroll).intersects(scroll.bounds),"Keep the same puzzle in view when text and window size change")
         XCTAssertGreaterThan(scroll.contentOffset.y,0)
         XCTAssertEqual(session.strokes,0);XCTAssertEqual(session.level.id,"01")
+    }
+}
+
+@MainActor private final class FPTestProgressVault: FPProgressVault {
+    var data: Data?
+    var failRead = false, failWrite = false
+    func read() throws -> Data? { if failRead { throw NSError(domain: "Test.Locked", code: 1) }; return data }
+    func write(_ data: Data) throws { if failWrite { throw NSError(domain: "Test.Full", code: 2) }; self.data = data }
+}
+
+extension FPClubTests {
+    @MainActor func testVaultMigrationKeepsPointsReceiptsAndSurvivesDefaultsRemoval() throws {
+        let name = "FoldPutt.Vault." + UUID().uuidString
+        let defaults = try XCTUnwrap(UserDefaults(suiteName: name))
+        defer { defaults.removePersistentDomain(forName: name) }
+        let level = try FPLevel.loadAll()[0], round = UUID()
+        let old = FPClubProgressStore(defaults: defaults)
+        _ = old.complete(round: round, level: level, strokes: 1, collisions: 0)
+        let vault = FPTestProgressVault()
+        let migrated = FPClubProgressStore(defaults: defaults, vault: vault)
+        XCTAssertEqual(migrated.state.points, 3); XCTAssertNotNil(vault.data)
+        defaults.removePersistentDomain(forName: name)
+        let reinstalled = FPClubProgressStore(defaults: defaults, vault: vault)
+        XCTAssertEqual(reinstalled.state.points, 3)
+        XCTAssertFalse(reinstalled.complete(round: round, level: level, strokes: 1, collisions: 0).seedGranted)
+        XCTAssertEqual(reinstalled.state.points, 3)
+        XCTAssertTrue(reinstalled.plant(.daisy, at: 0))
+        XCTAssertEqual(FPClubProgressStore(defaults: defaults, vault: vault).state.garden[0], .daisy)
+        XCTAssertEqual(reinstalled.state.points, 3)
+    }
+    @MainActor func testVaultFailuresNeverOverwriteOrAwardUnsavedPoints() throws {
+        let vault = FPTestProgressVault(), level = try FPLevel.loadAll()[0], round = UUID()
+        let store = FPClubProgressStore(defaults: nil, vault: vault)
+        vault.failWrite = true
+        XCTAssertFalse(store.complete(round: round, level: level, strokes: 1, collisions: 0).seedGranted)
+        XCTAssertEqual(store.state.points, 0); XCTAssertFalse(store.state.completedRounds.contains(round))
+        XCTAssertNotNil(store.persistenceError)
+        vault.failWrite = false
+        XCTAssertTrue(store.complete(round: round, level: level, strokes: 1, collisions: 0).seedGranted)
+        let saved = vault.data
+        vault.failRead = true
+        XCTAssertFalse(store.complete(round: UUID(), level: level, strokes: 1, collisions: 0).seedGranted)
+        XCTAssertEqual(vault.data, saved); XCTAssertEqual(store.state.points, 3)
+    }
+}
+
+extension FPClubTests {
+    @MainActor func testSystemKeychainRoundTripInSeparateStoreInstances() throws {
+        let account = "test." + UUID().uuidString
+        let vault = FPKeychainProgressVault(account: account)
+        defer {
+            SecItemDelete([kSecClass as String: kSecClassGenericPassword,
+                kSecAttrService as String: "com.mavericklab.foldputt.progress",
+                kSecAttrAccount as String: account] as CFDictionary)
+        }
+        XCTAssertNil(try vault.read())
+        let first = FPClubProgressStore(defaults: nil, vault: vault)
+        let id = UUID(), level = try FPLevel.loadAll()[0]
+        XCTAssertTrue(first.complete(round: id, level: level, strokes: 1, collisions: 0).seedGranted)
+        XCTAssertNil(first.persistenceError)
+        let second = FPClubProgressStore(defaults: nil, vault: FPKeychainProgressVault(account: account))
+        XCTAssertEqual(second.state.points, 3)
+        XCTAssertFalse(second.complete(round: id, level: level, strokes: 1, collisions: 0).seedGranted)
+        XCTAssertTrue(second.plant(.tulip, at: 1))
+        XCTAssertEqual(FPClubProgressStore(defaults: nil, vault: vault).state.garden[1], .tulip)
     }
 }
